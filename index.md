@@ -8,7 +8,7 @@ layout: page
 
 Here is **Wenrui Xu (Eric, 徐文睿)**.
 
-I'm a 1st-year master student from Tsinghua University. My research intersts include city modeling, land economy, urban planning and design. I'm actively looking for PhD opportunities to explore more in above fields.
+I'm a 1st-year master student from Tsinghua University. My research interests include city modeling, land economy, urban planning and design. I'm actively looking for PhD opportunities to explore more in above fields.
 
 If you are interested in any aspect of me, you can find my **[CV](https://wenruixu.work/file/CV.pdf)**, or email me at [wenruixu@outlook.com](mailto:wenruixu@outlook.com)
 
