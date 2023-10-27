@@ -5,22 +5,15 @@ title: Blogs
 ---
 
 ## Reading Notes
-
 <br>
 
 ### Technology
-#### City Analytics
-
-#### City Informatics
-[Book]Yuan LAI. （智慧城市系统）
-
+[[Book]Yuan LAI. （智慧城市系统）](blogs/reading_notes/智慧城市系统)<br>
+[Book]空间句法简明教程<br>
 ### Society
-#### Land Economy
-[Book]城市经济学
-
-#### Urban Governance
-[Book]Li TIAN. Urban Renewal and Space Governance（城市更新与空间治理）
-[Book]Xiaohuan LAN. （置身事内）
+[Book]城市经济学<br>
+[Book]Li TIAN. Urban Renewal and Space Governance（城市更新与空间治理）<br>
+[Book]Xiaohuan LAN. （置身事内）<br>
 
 
 
