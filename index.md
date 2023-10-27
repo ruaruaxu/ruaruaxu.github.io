@@ -10,7 +10,9 @@ layout: page
 Here is **Wenrui Xu (Eric, 徐文睿)**.
 
 I'm a 1st-year master student from Tsinghua University. My research interests include city modeling, land economy, urban planning and design. I'm actively looking for PhD opportunities to explore more in above fields.
+<br>
 
+<br>
 If you are interested in any aspect of me, you can find my **[CV](https://wenruixu.work/file/CV.pdf)**, or email me at [wenruixu@outlook.com](mailto:wenruixu@outlook.com)
 
 <br>
@@ -35,9 +37,9 @@ My current research focuses on City Modeling and Land Economy.
 
 
 
-## Project Experience
+## Projects
 
-- **2023.9- Now**  Design Honglian Primary School
+- **2023.9 - Now**  Design Honglian Primary School
 
 ## Publications
 <br>
@@ -45,6 +47,16 @@ None.
 
 <br>
 
+## Awards
+
+<br>
+
+## Services
+
+<br>
+
+- **2022 - Now**  Student Member of Architectural Society of China (中国建筑学会)
+- **2022 - 2024**  Member of the Students' Affair Committee of Architectural Society of China（学生执委会）
 
 
 ## News & Updates
