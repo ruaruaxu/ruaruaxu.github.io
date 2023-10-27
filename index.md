@@ -24,8 +24,6 @@ If you are interested in any aspect of me, you can find my **[CV](https://wenrui
 
 <br>
 
-
-
 ## Research Interests
 
 - City Modeling
@@ -34,6 +32,16 @@ If you are interested in any aspect of me, you can find my **[CV](https://wenrui
 - Urban Planning and Design
 
 My current research focuses on City Modeling and Land Economy.
+
+
+
+## Project Experience
+
+- **2023.9- Now**  Design Honglian Primary School
+
+## Publications
+<br>
+None.
 
 <br>
 
