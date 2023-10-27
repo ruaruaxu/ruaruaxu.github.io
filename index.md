@@ -4,23 +4,22 @@ layout: page
 
 # About Me
 
-<img src="https://wenruixu.work/profile.png" class="floatpic" width="360" height="480">
+<img src="images/wenruixu.png" class="floatpic" width="360" height="480">
 
 Here is **Wenrui Xu (Eric, 徐文睿)**.
 
 I'm a 1st-year master student from Tsinghua University. My research intersts include city modeling, land economy, urban planning and design. I'm actively looking for PhD opportunities to explore more in above fields.
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *wenruixu[at]outlook[dot]com*
+If you are interested in any aspect of me, I would love to chat and collaborate, please email me at [wenruixu@outlook.com](mailto:wenruixu@outlook.com)
 
 <br>
 
 ## Education Background
 
-**<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025/2026 Fall. Contact me if you have any leads!**
+**<font color='red'>I am actively looking for PhD opportunities to start in 2025/2026 Fall. Contact me if you have any leads!</font>**
 
-- **Sep 2020 - June 2024:** Fuzhou University (BEng)
-- **Sep 2020 - June 2024:** Maynooth University (BSc)
-- **June 2022 - Nov 2022:** Cambridge University (Exchange)
+- **2023.9 - 2025.6 (Expected):** Tsinghua University (Master of Architecture)
+- **2019.9 - 2023.7:** Tongji University (Bachelor of Engineering)
 - Expect to apply for a one-year Mphil program and graduate in Sep 2025. Looking for PhD position after that.
 
 <br>
