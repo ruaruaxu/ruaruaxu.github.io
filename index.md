@@ -5,6 +5,7 @@ layout: page
 # About Me
 
 <img src="images/wenruixu.png" class="floatpic" width="1800" height="2400">
+<br>
 
 Here is **Wenrui Xu (Eric, 徐文睿)**.
 
