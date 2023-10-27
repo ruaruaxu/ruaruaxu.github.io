@@ -7,7 +7,7 @@ url: https://wenruixu.work
 # Owner/author information
 owner:
   name: Wenrui XU
-  avatar: images/wenruixu.png
+  avatar: https://wenruixu.work/images/wenruixu.png
  # bio:
   email: wenruixu@outlook.com
   cv: https://wenruixu.work/file/CV.pdf
@@ -16,12 +16,6 @@ owner:
   linkedin: xuwenrui
 
 
-  # facebook: caihanlin2002
-  # instagram: lancecai2002
-  # lastfm:
-  # tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:
 
 # Analytics and webmaster tools stuff goes here
 # https://search.google.com/search-console/ownership
