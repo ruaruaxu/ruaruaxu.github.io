@@ -23,44 +23,39 @@ If you are interested in any aspect of me, you can find my **[CV](https://wenrui
 
 - **2023.9 - 2025.6 (Expected):** Tsinghua University (Master of Architecture)
 - **2019.9 - 2023.7:** Tongji University (Bachelor of Engineering)
-
 <br>
 
 ## Research Interests
-
+To be updated.
 - City Modeling
 - Land Economy
 - Public Policy
 - Urban Planning and Design
 
 My current research focuses on City Modeling and Land Economy.
-
-
+<br>
 
 ## Projects
-
+To be updated.
 - **2023.9 - Now**  Design Honglian Primary School
+<br>
 
 ## Publications
-<br>
-None.
-
+To be updated.
 <br>
 
 ## Awards
-
+To be updated.
 <br>
 
 ## Services
-
-<br>
-
+To be updated.
 - **2022 - Now**  Student Member of Architectural Society of China (中国建筑学会)
 - **2022 - 2024**  Member of the Students' Affair Committee of Architectural Society of China（学生执委会）
 
 
 ## News & Updates
-
+To be updated.
 - **2023.10.27** Start my personal website!
 - **2023.10.27** Congratulations on obtaining my Bachelor of Engineering degree from Tongji University!
 
