@@ -4,13 +4,13 @@ layout: page
 
 # About Me
 
-<img src="images/wenruixu.png" class="floatpic" width="360" height="480">
+<img src="images/wenruixu.png" class="floatpic" width="1800" height="2400">
 
 Here is **Wenrui Xu (Eric, 徐文睿)**.
 
 I'm a 1st-year master student from Tsinghua University. My research intersts include city modeling, land economy, urban planning and design. I'm actively looking for PhD opportunities to explore more in above fields.
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at [wenruixu@outlook.com](mailto:wenruixu@outlook.com)
+If you are interested in any aspect of me, you can find my **[CV](https://wenruixu.work/file/CV.pdf)**, or email me at [wenruixu@outlook.com](mailto:wenruixu@outlook.com)
 
 <br>
 
