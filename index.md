@@ -7,9 +7,9 @@ layout: page
 <img src="images/wenruixu.png" class="floatpic" width="1800" height="2400">
 <br>
 
-Here is **Wenrui Xu (Eric, 徐文睿)**.
+Hi! Here is **Wenrui Xu (Eric Xu, 徐文睿)**. You can also call me "ruarua" as my nick name.
 
-I'm a 1st-year master student from Tsinghua University. My research interests include city modeling, land economy, urban planning and design. I'm actively looking for PhD opportunities to explore more in above fields.
+I'm a 1st-year master student from School of Architecture, Tsinghua University. My research interests include city modeling, land economy, urban planning and design. I'm actively looking for PhD opportunities to explore more in above fields.
 <br>
 
 <br>
@@ -37,7 +37,8 @@ My current research focuses on City Modeling and Land Economy.
 
 ## Projects
 To be updated.
-- **2023.9 - Now**  Design Honglian Primary School
+- **2023.9 - Now**  Honglian Primary School Architecture Design[Practical Project]
+- **2023.9 - Now**  北京市专精特新企业空间分布特征与影响因素分析[Curriculum Work]
 <br>
 
 ## Publications
