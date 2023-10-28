@@ -8,7 +8,7 @@ title: Blogs
 <br>
 
 ### Technology
-[[Book]Yuan LAI. （城市信息与数据科学导论）](blogs/reading_notes/智慧城市系统.md)<br>
+[[Book]Yuan LAI. （城市信息与数据科学导论）](blogs/reading_notes/1_智慧城市的演进.md)<br>
 [Book]空间句法简明教程<br>
 ### Society
 [Book]城市经济学<br>
