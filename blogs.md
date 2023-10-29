@@ -14,12 +14,15 @@ title: Blogs
 [Book]城市经济学<br>
 [Book]Li TIAN. Urban Renewal and Space Governance（城市更新与空间治理）<br>
 [Book]Xiaohuan LAN. （置身事内）<br>
+### Scholars
+[[Author]Li WAN](blogs/reading_notes/Li WAN.md)
 
 <br>
 
 ## Others
 
-[Course]Linear Algebra by MIT
+<br>
+[Course]Linear Algebra by MIT<br>
 
 ## Leave a Message
 
