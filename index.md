@@ -37,8 +37,14 @@ My current research focuses on City Modeling and Land Economy.
 
 ## Projects
 To be updated.
-- **2023.9 - Now**  Honglian Primary School Architecture Design[Practical Project]
-- **2023.9 - Now**  北京市专精特新企业空间分布特征与影响因素分析[Curriculum Work]
+
+- **2023.9 - Now**  Honglian Primary School Architecture Design[Architectural Project]
+- **2023.9 - Now**  专精特新企业[Curriculum Work]
+- **2023.8 - Now**  城市设计工作坊
+- **2023.8 - Now**  菜市场
+'''- 田莉老师论文
+- 来源老师论文'''
+
 <br>
 
 ## Publications
@@ -46,7 +52,11 @@ To be updated.
 <br>
 
 ## Awards
-To be updated.
+
+- **2023.7**  Graduated with Distinction: "College Graduate Excellence Award of Shanghai"（上海市优秀毕业生）, Shanghai Municipal Education Commission
+- **2020.10**  National Scholarship（国家奖学金）, Ministry of Education of the PRC
+
+
 <br>
 
 ## Services
