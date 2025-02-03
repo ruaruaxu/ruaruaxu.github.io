@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /misc/
+title: Misc
+description: Memories of my life.
 nav: true
 nav_order: 7
 
