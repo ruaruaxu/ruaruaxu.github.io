@@ -4,7 +4,7 @@ permalink: /misc/
 title: Misc
 description: Memories of my life.
 nav: true
-nav_order: 7
+nav_order: 4
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
