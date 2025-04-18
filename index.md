@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 
-# About Me👋🦁
+# About Me 👋🦁
 
 Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from Tsinghua University in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
@@ -16,7 +16,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 - **LLM and Urban Sensing:** Spatial Intelligence, Embodied Agent, Computer Vision
 
 
-## 🔊News
+## 🔊 News
 
 - **[2025.05]** ***[Publication]*** Wenrui's first authored paper *[Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics](https://arxiv.org/abs/2502.11859)* is accepted to XXX!
 - **[Feb 2025]** Wenrui gets a Ph.D. offer from the University of Cambridge.
@@ -24,12 +24,12 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 <!-- 做成滚动式 -->
 
 
-## 📖Selected Publications
+## 📖 Selected Publications
 {% include_relative _includes/publications.md %}
 
 <!-- publication和其他about me做成单独页面 -->
 
-## 🏙️Affiliation
+## 🏙️ Affiliation
 
 2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　　 *Research Assistant*<br>
@@ -37,7 +37,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 　　　　　　　　 *Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
 
 
-## 🎓Education
+## 🎓 Education
 
 2024 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
 　　　　　　　*Doctor of Philosophy in Environmental Studies*<br>
@@ -55,7 +55,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
 
 
-## 🎉Activities & Services
+## 🎉 Activities & Services
 
 ### Conference Presentation
 - **[2025]** *[Accepted for Oral Presentation]* [The 32nd International Conference on Geoinformatics (CPGIS)](), Jiaozuo, China.
@@ -79,5 +79,5 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 - Head TA, ***Undergraduate Dissertation Design Studio***, Tsinghua University, 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
 - TA, ***Urban Design Elements***, Tsinghua University, 2023 Fall.
 
-## 🏆Honors
+## 🏆 Honors
 
