@@ -14,41 +14,46 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 - **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation
 - **LLM and Urban Sensing:** Spatial Intelligence, Embodied Agent, Computer Vision
 
+# 🔊News
+
+- **[Feb. 2025]** ***[Publication]*** Wenrui's first authored paper is accepted to XXX!
+
+
+- **[Feb. 2025]** ***[Presentation]*** Wenrui's first authored paper is accepted to XXX!
+- **[Feb. 2025]** Wenrui gets a Ph.D. offer from the University of Cambridge.
+
 
 ## 🏙️Affiliation
 
-Aug. 2024-Present　**<font color=Green>Tsinghua University</font>**<br>
-　　　　　　　　　　Research Assistant<br>
-　　　　　　　　　　FIB Lab, Department of Electronic Engineering<br>
-　　　　　　　　　　Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)
+2024.09 - Present　**<font color=#002676 font size=3>Tsinghua University</font>**<br>
+　　　　　　　　　*Research Assistant*<br>
+　　　　　　　　　*FIB Lab, Department of Electronic Engineering*<br>
+　　　　　　　　　*Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
 
 
 ## 🎓Education
 
-### [2025-Present] University of California, Berkeley<br>
-Doctor of Philosophy in Environmental Studies<br>
-Department of Landscape Architecture and Environmental Planning<br>
-Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)
+2024 - Present　**<font color=#002676 font size=3>University of California, Berkeley</font>**<br>
+　　　　　　　　*Doctor of Philosophy in Environmental Studies*<br>
+　　　　　　　　*Department of Landscape Architecture and Environmental Planning*<br>
+　　　　　　　　*Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)*
 
-### [2023-2025] Tsinghua University<br>
-Master of Architecture (Concurrent Programs in Urban Informatics & Urban Renewal)<br>
-Comprehensive Excellence Scholarship<br>
-Advisor: Dr. Jinxi Chen
+2023 - 2025　　 **<font color=#002676 font size=3>Tsinghua University</font>**<br>
+　　　　　　　　*Master of Architecture (Concurrent Programs in Urban Informatics & Urban Renewal)*<br>
+　　　　　　　　*Advisor: [Dr. Jinxi Chen](https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864)*
 
-### [2019-2023] Tongji University<br>
-Bachelor of Engineering <br>
-Major in Architecture; Minor in Finance **@ Fudan University**<br>
-Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship
-
-
-# 🔊News
-
-- **[Feb. 2025]** **[Publication]** Wenrui's first authored paper is accepted to XXX!
+2019 - 2023　　 **<font color=#002676 font size=3>Tongji University</font>**<br>
+　　　　　　　　*Bachelor of Engineering (Architecture and Urban Design)*<br>
+　　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
+　　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
 
 
-- **[Feb. 2025]** **[Presentation]** Wenrui's first authored paper is accepted to XXX!
-- **[Feb. 2025]** Wenrui gets a Ph.D. offer from the University of Cambridge.
 
+## 🏆Honors
+
+### Scholarships
+- **[2025]** Comprehensive Excellence Scholarship @ Tsinghua University
+- **[2025]** Comprehensive Excellence Scholarship @ Tsinghua University
 
 
 # 📖Selected Publications
