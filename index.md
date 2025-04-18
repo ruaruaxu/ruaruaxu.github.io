@@ -115,12 +115,12 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2021]** Second Prize, ***National Computer Design Competition for College Students***.
 - **[2020]** Top Prize, ***National English Competition for College Students***.
 
-## Certificates & Skills
+## 🪪 Certificates & Skills
 - **Language:** English (GRE 336, TOEFL 107, CET-6 684); Japanese (Beginner); Chinese (Native)
 - To be updated
 <!-- 考日语N1，考CFA I -->
 
-## Miscs
+## 🎾 Miscs
 - I love Britpop and Citypop. I am a big fan of Blur and Oasis! I love piano and guitar, I learnt to play a few favorite songs by teaching myself.
 - I enjoy watching movies & TV series. I watch nearly 300+ movies each year. My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson...
 - My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
