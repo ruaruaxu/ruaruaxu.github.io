@@ -28,7 +28,9 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.
 
-{% include_relative _includes/publications.md %}
+- To be updated~
+
+<!-- {% include_relative _includes/publications.md %} -->
 
 <!-- publication和其他about me; project做成单独页面 -->
 
@@ -100,7 +102,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🏆 Honors
 
-- 
+- To be updated~
 
 
 ## Certificates & Skills
