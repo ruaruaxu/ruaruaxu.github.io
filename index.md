@@ -7,13 +7,13 @@ layout: homepage
 
 Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from Tsinghua University in 2025 and B.Eng (Architecture) from Tongji University with the highest distinction in 2023.
 
-I mainly use **GIS, Remote Sensing, and GeoAI** approaches to understand the **human-environment interaction** from global (e.g. climate change) to urban or building scales (e.g. visual perception), to support planning and design for **safe, healthy, livable, and sustainable cities**. To study this topic, I play with a wide range of large and high-resolution datasets such as satellite (e.g. Landsat), street imagery, GPS, and social media...
+I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand the **human-environment interaction** from global (e.g. climate change) to urban or building scales (e.g. visual perception), to support planning and design for **well-being and sustainable cities**. To study this topic, I play with a wide range of large and high-resolution datasets such as satellite (e.g. Landsat), street imagery, GPS, and social media...
 
-### 🔬Research Interests
+### Research Interests:
 
-- **Urban Sensing:** meta-learning, incremental learning, transfer learning
-- **Resilience:** image recognition, image generation, video captioning
-- **LLM and Machine Learning:** image recognition, image generation, video captioning
+- **Environmental Sustainability:** Extreme Heat, Flooding, Air Pollution, Goundwater, Subsidence
+- **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation
+- **LLM and Urban Sensing:** Spatial Intelligence, Embodied Agent, Computer Vision
 
 
 ## 🏙️Affiliation
@@ -32,7 +32,7 @@ I mainly use **GIS, Remote Sensing, and GeoAI** approaches to understand the **h
 \                   Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)
 
 ### [2023-2025] Tsinghua University<br>
-\                Master of Architecture<br>
+Master of Architecture<br>
 \                Concurrent Programs in Urban Informatics & Urban Renewal<br>
 \                Comprehensive Excellence Scholarship<br>
 Advisor: Dr. Jinxi Chen
