@@ -28,7 +28,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 ## 📖 Selected Publications
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.<br>
-<font size="2">*Equal Contribution, ✉Corresponding Author</font>
+*Equal Contribution, ✉Corresponding Author
 
 {% include_relative _includes/publications.md %}
 
