@@ -2,7 +2,7 @@ main:
 
   - title: Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics
     authors: <strong>Wenrui Xu*</strong>, Dalin Lyu*, Weihang Wang*, Jie Feng, Chen Gao, Yong Li✉
-    conference_short: Preprint
+    conference_short: 2025 Preprint
     conference: arXiv Preprint, 2025.
     pdf: https://arxiv.org/pdf/2502.11859
     bibtex: ./assets/biblex/xuDefiningEvaluatingVisual2025.txt
@@ -10,11 +10,8 @@ main:
 
   - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    conference_short: 2024 Preprint
+    conference: arXiv Preprint, 2024.
+    pdf: https://arxiv.org/pdf/2408.10088
     bibtex: ./assets/biblex/wangRecentSurgePublic2024.txt
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/publication/wangRecentSurgePublic2024.png
