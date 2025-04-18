@@ -4,12 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am an incoming Ph.D. student at UC Berkeley (Geospatial Science & Environmenal Studies).
 
 ## Research Interests
 
 - **Computer Vision:** image recognition, image generation, video captioning
 - **Machine Learning:** meta-learning, incremental learning, transfer learning
+
+## Education Background
+
+- 2023-2025  **Tsinghua University**  Master of Architecture (Concurrent Programs in Urban Informatics & Urban Renewal)
+- 2019-2023  **Tongji University**  Bachelor of Engineering (Major: Architecture)
+
 
 ## News
 
