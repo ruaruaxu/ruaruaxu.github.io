@@ -17,7 +17,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 ## 🏙️Affiliation
 
-2024.09 - Present　**<font color=#002676 size=3>Tsinghua University</font>**<br>
+2024.09 - Present　**<font color="#002676" size="3">Tsinghua University</font>**<br>
 　　　　　　　　　*Research Assistant*<br>
 　　　　　　　　　*FIB Lab, Department of Electronic Engineering*<br>
 　　　　　　　　　*Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
@@ -31,7 +31,8 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 　　　　　　　　*Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)*
 
 2023 - 2025　　 **<font color=#002676 font size=3>Tsinghua University</font>**<br>
-　　　　　　　　*Master of Architecture (Concurrent Programs in Urban Informatics & Urban Renewal)*<br>
+　　　　　　　　*Master of Architecture (Urban Informatics and Urban Renewal)*<br>
+　　　　　　　　*Comprehensive Excellence Scholarship*<br>
 　　　　　　　　*Advisor: [Dr. Jinxi Chen](https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864)*
 
 2019 - 2023　　 **<font color=#002676 font size=3>Tongji University</font>**<br>
