@@ -9,7 +9,7 @@ main:
     image: ./assets/img/publication/xuDefiningEvaluatingVisual2025.png
 
   - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+    authors: Shiqi Wang, Zhouye Zhao, Yuhang Xie, Mingchuan Ma, Zirui Chen, Zeyu Wang, Bohao Su, <strong>Wenrui Xu</strong>, Tianyi Li
     conference_short: 2024 Preprint
     conference: arXiv Preprint, 2024.
     pdf: https://arxiv.org/pdf/2408.10088
