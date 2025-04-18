@@ -100,3 +100,18 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🏆 Honors
 
+- 
+
+
+## Certificates & Skills
+
+- **Language:** English (GRE 336, TOEFL 107, CET-6 684); Japanese (Beginner); Chinese (Native)
+
+<!-- 考日语N1，考CFA I -->
+
+## Miscs
+- I love Britpop and Citypop. I am a big fan of Blur and Oasis! I love piano and guitar, I learnt to play a few favorite songs by teaching myself.
+- I love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
+- I love 
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8"></script>
