@@ -66,9 +66,17 @@
         </a>  
         {% endif %}
 
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        {% if site.researchgate %}
+        <a style="margin: 0 0 0 0" href="{{ site.researchgate }}">
+          <i class="fa-brands fa-researchgate"></i>
+        </a>
+        {% endif %}
+        </div>
+        <br>
+
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
+          <i class="fa-brands fa-orcid"></i>
         </a>
         {% endif %}
 
@@ -84,13 +92,14 @@
         </a>
         {% endif %}
 
-        {% if site.researchgate %}
-        <a style="margin: 0 0 0 0" href="{{ site.researchgate }}">
-          <i class="fa-brands fa-researchgate"></i>
+        {% if site.cv_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         {% endif %}
-        </div>
-        <br>
+
+
+
 
       </header>
       <section>
