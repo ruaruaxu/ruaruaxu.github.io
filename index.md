@@ -111,7 +111,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## Miscs
 - I love Britpop and Citypop. I am a big fan of Blur and Oasis! I love piano and guitar, I learnt to play a few favorite songs by teaching myself.
-- I love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
-- I love 
+- I enjoy watching movies & TV series. I watch nearly 300+ movies each year. My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson...
+- My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
+- I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
