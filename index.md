@@ -17,11 +17,11 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 ## 🏙️Affiliation
 
-2024.09 - Present　**<font color=#002676><font size=3>Tsinghua University</font>**<br>
+2024.09 - Present　**<font color=#002676; size=3>Tsinghua University</font>**<br>
 　　　　　　　　　*Research Assistant*<br>
 　　　　　　　　　*FIB Lab, Department of Electronic Engineering*<br>
 　　　　　　　　　*Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
-
+6
 
 ## 🎓Education
 
