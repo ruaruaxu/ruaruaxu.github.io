@@ -5,7 +5,7 @@ layout: homepage
 
 # About Me 👋🦁
 
-Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from Tsinghua University in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
 I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand the **human-environment interaction** from global (e.g. climate change) to urban or building scales (e.g. visual perception), to support planning and design for **well-being and sustainable cities**. To study this topic, I play with a wide range of large and high-resolution datasets such as satellite (e.g. Landsat), street imagery, GPS, and social media...
 
@@ -25,16 +25,12 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 
 ## 📖 Selected Publications
+
+Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.
+
 {% include_relative _includes/publications.md %}
 
-<!-- publication和其他about me做成单独页面 -->
-
-## 🏙️ Affiliation
-
-2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
-　　　　　　　　 *Research Assistant*<br>
-　　　　　　　　 *FIB Lab, Department of Electronic Engineering*<br>
-　　　　　　　　 *Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
+<!-- publication和其他about me; project做成单独页面 -->
 
 
 ## 🎓 Education
@@ -53,6 +49,29 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 　　　　　　　*Bachelor of Engineering (Architecture and Urban Design)*<br>
 　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
 　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
+
+<!-- 可以加校徽 https://ldzhangyx.github.io/ -->
+
+
+## 🏙️ Affiliation
+
+2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
+　　　　　　　　 *Research Assistant*<br>
+　　　　　　　　 *FIB Lab, Department of Electronic Engineering*<br>
+　　　　　　　　 *Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
+
+2024.10 - 2025.03　**<font color="#002676" size="4">Tsinghua Architectural Design & Research Institute</font>**<br>
+　　　　　　　　 *Intern Planner & Architect*<br>
+　　　　　　　　 *Zhejiang Wanli University Yuyao Campus Project*<br>
+<!-- 引用到项目页面 详情可以notion做 -->
+
+2024.10 - 2025.03　**<font color="#002676" size="4">Tsinghua Tongheng Urban Planning Institute</font>**<br>
+　　　　　　　　 *Intern Architect*<br>
+　　　　　　　　 *Beijing 1st Experimental Primary School Honglian Branch Renewal Project*<br>
+
+2021.12 - 2025.02　**<font color="#002676" size="4">Kaiyuan Securities Research Institute</font>**<br>
+　　　　　　　　 *Intern Equity Researcher*<br>
+　　　　　　　　 *In-depth Report on the cosmetics industry and BeiTaiNi (300957)*<br>
 
 
 ## 🎉 Activities & Services
