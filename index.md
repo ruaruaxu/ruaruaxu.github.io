@@ -6,6 +6,7 @@ layout: homepage
 # About Me👋🦁
 
 I am an incoming Ph.D. student at UC Berkeley (Geospatial Science & Environmenal Studies).
+
 I use **GIS, Data Science, and GeoAI** approaches to study human-centered urban environments to support planning and design for safe, healthy, livable, and sustainable cities. Current research keywords include: **LLM, air pollution, urban sensing, heat, flooding...**
 
 
@@ -17,16 +18,23 @@ I use **GIS, Data Science, and GeoAI** approaches to study human-centered urban 
 
 ## Education Background
 
-2023-2025  **[Tsinghua University]**  Master of Architecture
+### Tsinghua University
 
-           Concurrent Programs in Urban Informatics & Urban Renewal
+2023-2025  Master of Architecture
 
-           Comprehensive Excellencee Scholarship
-2019-2023  **[Tongji University]**  Bachelor of Engineering (<font color=DeepPink>Highest Distinction</font>)
+Concurrent Programs in Urban Informatics & Urban Renewal
 
-           Major in Architecture
+Comprehensive Excellence Scholarship
 
-           Distinct Graduate of Shanghai; National Scholarship
+### Tongji University
+
+2019-2023  Bachelor of Engineering (<font color=DeepPink>Highest Distinction</font>)
+
+Major in Architecture
+
+Minor in Finance **@Fudan University**
+
+Distinct Graduate of Shanghai; National Scholarship
 
 
 ## News
