@@ -2,18 +2,18 @@ main:
 
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
     authors: <strong>Wenrui Xu*</strong>, Dalin Lyu*, Weihang Wang*, Jie Feng, Chen Gao, Yong Li✉
-    conference_short: 2025 Preprint
-    conference: arXiv Preprint, 2025.
-    url: https://arxiv.org/abs/2502.11859
+    journal_short: 2025 Preprint
+    journal: arXiv Preprint, 2025.
+    doi: https://doi.org/10.48550/arXiv.2502.11859
     pdf: https://arxiv.org/pdf/2502.11859
     bibtex: ./assets/biblex/xuDefiningEvaluatingVisual2025.txt
     image: ./assets/img/publication/xuDefiningEvaluatingVisual2025.png
 
   - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
     authors: Shiqi Wang, Zhouye Zhao, Yuhang Xie, Mingchuan Ma, Zirui Chen, Zeyu Wang, Bohao Su, <strong>Wenrui Xu</strong>, Tianyi Li
-    conference_short: 2024 Preprint
-    url: https://arxiv.org/abs/2408.10088
-    conference: arXiv Preprint, 2024.
+    journal_short: 2024 Preprint
+    doi: https://doi.org/10.48550/arXiv.2408.10088
+    journal: arXiv Preprint, 2024.
     pdf: https://arxiv.org/pdf/2408.10088
     bibtex: ./assets/biblex/wangRecentSurgePublic2024.txt
     image: ./assets/img/publication/wangRecentSurgePublic2024.png
