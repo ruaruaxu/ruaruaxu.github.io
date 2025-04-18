@@ -15,6 +15,6 @@ main:
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: ./assets/biblex/wangRecentSurgePublic2024.txt
     notes: Oral Presentation
     image: ./assets/img/teaser_example.png
