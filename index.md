@@ -14,18 +14,10 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 - **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation
 - **LLM and Urban Sensing:** Spatial Intelligence, Embodied Agent, Computer Vision
 
-# 🔊News
-
-- **[Feb. 2025]** ***[Publication]*** Wenrui's first authored paper is accepted to XXX!
-
-
-- **[Feb. 2025]** ***[Presentation]*** Wenrui's first authored paper is accepted to XXX!
-- **[Feb. 2025]** Wenrui gets a Ph.D. offer from the University of Cambridge.
-
 
 ## 🏙️Affiliation
 
-2024.09 - Present　**<font color=#002676 font size=3>Tsinghua University</font>**<br>
+2024.09 - Present　**<font color=#002676><font size=3>Tsinghua University</font>**<br>
 　　　　　　　　　*Research Assistant*<br>
 　　　　　　　　　*FIB Lab, Department of Electronic Engineering*<br>
 　　　　　　　　　*Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
@@ -48,12 +40,13 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 　　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
 
 
+# 🔊News
 
-## 🏆Honors
+- **[Feb. 2025]** ***[Publication]*** Wenrui's first authored paper is accepted to XXX!
 
-### Scholarships
-- **[2025]** Comprehensive Excellence Scholarship @ Tsinghua University
-- **[2025]** Comprehensive Excellence Scholarship @ Tsinghua University
+
+- **[Feb. 2025]** ***[Presentation]*** Wenrui's first authored paper is accepted to XXX!
+- **[Feb. 2025]** Wenrui gets a Ph.D. offer from the University of Cambridge.
 
 
 # 📖Selected Publications
