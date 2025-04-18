@@ -5,24 +5,27 @@ layout: homepage
 ## About Me
 
 I am an incoming Ph.D. student at UC Berkeley (Geospatial Science & Environmenal Studies).
+I use **GIS, Data Science, and GeoAI** approaches to study human-centered urban environments to support planning and design for safe, healthy, livable, and sustainable cities. Current research keywords include: **LLM, air pollution, urban sensing, heat, flooding...**
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Climate Change:** meta-learning, incremental learning, transfer learning
+- **Urban Planning and Design:** image recognition, image generation, video captioning
 
 ## Education Background
 
-- 2023-2025  **Tsinghua University**  Master of Architecture (Concurrent Programs in Urban Informatics & Urban Renewal)
-- 2019-2023  **Tongji University**  Bachelor of Engineering (Major: Architecture)
-
+2023-2025  **[Tsinghua University]**  Master of Architecture
+           Concurrent Programs in Urban Informatics & Urban Renewal
+           Comprehensive Excellencee Scholarship
+2019-2023  **[Tongji University]**  Bachelor of Engineering (<font color=DeepPink>Highest Distinction</font>)
+           Major in Architecture
+           Distinct Graduate of Shanghai; National Scholarship
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Feb. 2020]** Wenrui's first authored paper is accepted to XXX!
+
+
 
 {% include_relative _includes/publications.md %}
 
