@@ -18,15 +18,15 @@ I use **GIS, Data Science, and GeoAI** approaches to study human-centered urban 
 
 ## Education Background
 
-### Tsinghua University
+### 2023-2025  Tsinghua University
 
-- 2023-2025  Master of Architecture
+- Master of Architecture
 - Concurrent Programs in Urban Informatics & Urban Renewal
 - Comprehensive Excellence Scholarship
 
-### Tongji University
+### 2019-2023  Tongji University
 
-- 2019-2023  Bachelor of Engineering (<font color=DeepPink>Highest Distinction</font>)
+- Bachelor of Engineering (<font color=DeepPink>Highest Distinction</font>)
 - Major in Architecture
 - Minor in Finance **@Fudan University**
 - Distinct Graduate of Shanghai; National Scholarship
