@@ -18,13 +18,19 @@ I use **GIS, Data Science, and GeoAI** approaches to study human-centered urban 
 
 ## Education Background
 
-### 2023-2025  Tsinghua University
+### [2025-Present] University of California, Berkeley
+
+- Doctor of Philosophy in Environmental Studies
+- Department of Landscape Architecture and Environmental Planning
+- Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)
+
+### [2023-2025] Tsinghua University
 
 - Master of Architecture
 - Concurrent Programs in Urban Informatics & Urban Renewal
 - Comprehensive Excellence Scholarship
 
-### 2019-2023  Tongji University
+### [2019-2023] Tongji University
 
 - Bachelor of Engineering (<font color=DeepPink>Highest Distinction</font>)
 - Major in Architecture
