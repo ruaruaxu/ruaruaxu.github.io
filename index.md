@@ -100,14 +100,25 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - Head TA, ***Undergraduate Dissertation Design Studio***, Tsinghua University, 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
 - TA, ***Urban Design Elements***, Tsinghua University, 2023 Fall.
 
-## 🏆 Honors
+## 🏆 Selected Awards
 
-- To be updated~
+### Scholarships
+- **[2024]** ***Comprehensive Excellence Scholarship***, issued by Tsinghua University.
+- **[2023]** ***Distinct Graduate of Shanghai***, Graduation with the highest distinction.
+- **[2022]** ***The First Prize Undergraduate Scholarship***, issued by Tongji University.
+- **[2021]** ***The First Prize Undergraduate Scholarship***, issued by Tongji University.
+- **[2021]** ***Outstanding Student Model***, top 7 of 4300+ undergraduates at Tongji University.
+- **[2020]** ***National Scholarship***, top 1% of all undergraduates at Tongji University, issued by the Ministry of Education.
 
+### Competitions
+- **[2022]** Bronze Award, ***Exhibition of Architectural Design in Developing Countries***.
+- **[2021]** Top Prize, ***National Real Estate Innovation & Entrepreneurship Competition***.
+- **[2021]** Second Prize, ***National Computer Design Competition for College Students***.
+- **[2020]** Top Prize, ***National English Competition for College Students***.
 
 ## Certificates & Skills
 - **Language:** English (GRE 336, TOEFL 107, CET-6 684); Japanese (Beginner); Chinese (Native)
-
+- To be updated
 <!-- 考日语N1，考CFA I -->
 
 ## Miscs
@@ -115,5 +126,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - I enjoy watching movies & TV series. I watch nearly 300+ movies each year. My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson...
 - My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
+
+
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
