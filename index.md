@@ -19,7 +19,6 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 ## 🔊 News
 
 - **[2025.05]** ***[Publication]*** Wenrui's first authored paper *[Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics](https://arxiv.org/abs/2502.11859)* is accepted to XXX!
-- **[Feb 2025]** Wenrui gets a Ph.D. offer from the University of Cambridge.
 - To be updated
 
 <!-- 做成滚动式 -->
