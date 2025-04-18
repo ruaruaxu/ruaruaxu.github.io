@@ -28,9 +28,9 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.
 
-- To be updated~
+<font size="2">*Equal Contribution, ✉Corresponding Author</font>
 
-<!-- {% include_relative _includes/publications.md %} -->
+{% include_relative _includes/publications.md %}
 
 <!-- publication和其他about me; project做成单独页面 -->
 
@@ -106,7 +106,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 
 ## Certificates & Skills
-
 - **Language:** English (GRE 336, TOEFL 107, CET-6 684); Japanese (Beginner); Chinese (Native)
 
 <!-- 考日语N1，考CFA I -->
