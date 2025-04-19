@@ -36,7 +36,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🎓 Education
 
-2024 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
+2025 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
 　　　　　　　*Doctor of Philosophy in Environmental Studies*<br>
 　　　　　　　*Department of Landscape Architecture and Environmental Planning*<br>
 　　　　　　　*Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)*
