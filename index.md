@@ -11,9 +11,9 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 ### Research Interests:
 
-- **Environmental Sustainability:** Extreme Heat, Flooding, Air Pollution, Goundwater, Subsidence
-- **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation
-- **LLM and Urban Sensing:** Spatial Intelligence, Embodied Agent, Computer Vision
+- **Environmental Sustainability:** Heat, Flooding, Air Pollution, Goundwater, Wildfire...
+- **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation...
+- **LLM and Urban Sensing:** Spatial Intelligence, Embodied Agent, Computer Vision...
 
 
 ## 🔊 News
