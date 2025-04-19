@@ -18,7 +18,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 ## 🔊 News
 
-- **[2025.05]** ***[Publication]*** Wenrui's first authored paper *[Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics](https://arxiv.org/abs/2502.11859)* is accepted to XXX!
+- **[2025.05]** ***[Publication]*** Wenrui's first-authored paper *[Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics](https://arxiv.org/abs/2502.11859)* is accepted to XXX!
 - To be updated
 
 <!-- 做成滚动式 -->
@@ -70,7 +70,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 　　　　　　　　 *Intern Architect*<br>
 　　　　　　　　 *Beijing 1st Experimental Primary School Honglian Branch Renewal Project*<br>
 
-2021.12 - 2025.02　**<font color="#002676" size="4">Kaiyuan Securities Research Institute</font>**<br>
+2021.12 - 2022.02　**<font color="#002676" size="4">Kaiyuan Securities Research Institute</font>**<br>
 　　　　　　　　 *Intern Equity Researcher*<br>
 　　　　　　　　 *In-depth Report on the cosmetics industry and BeiTaiNi (300957)*<br>
 
