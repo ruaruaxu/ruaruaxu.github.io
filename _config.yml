@@ -7,11 +7,12 @@ email: wenruixu@outlook.com
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Wenrui Xu
-description: Academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+description: Wenrui's academic personal homepage.
+canonical: https://wenruixu.com/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
+affiliation_link: https://www.berkeley.edu/
 google_scholar: https://scholar.google.com/citations?user=wrPOVnkAAAAJ
 researchgate: https://www.researchgate.net/profile/Wenrui-Xu-6
 orcid: https://orcid.org/0009-0006-2504-970X
@@ -40,7 +41,7 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: 
+google_analytics: G-GFMY41LBGX
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
