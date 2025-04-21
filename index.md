@@ -43,11 +43,13 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 2023 - 2025　　 **<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　*Master of Architecture (Urban Informatics and Urban Renewal)*<br>
+　　　　　　　*GPA: 3.92 / 4*<br>
 　　　　　　　*Comprehensive Excellence Scholarship*<br>
 　　　　　　　*Advisor: [Dr. Jinxi Chen](https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864)*
 
 2019 - 2023　　 **<font color="#002676" size="4">Tongji University</font>**<br>
 　　　　　　　*Bachelor of Engineering (Architecture and Urban Design)*<br>
+　　　　　　　*GPA: 4.89 / 5 (Top 1%)*<br>
 　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
 　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
 
