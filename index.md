@@ -87,8 +87,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2024]** *[Poster Presentation]* [Nature Conference on Air Pollution and Climate Change](https://web.cvent.com/event/06e7aeed-3b2e-4a19-982f-ce28d2a97924/summary), Beijing, China.
 
 ### Peer Review
-- ***[Journal]*** GIScience & Remote Sensing
-- ***[Conference]*** ICLR 2025 EmbodiedAI Workshop
+- ***[Journal]*** GIScience & Remote Sensing (1)
+- ***[Conference]*** ICLR 2025 EmbodiedAI Workshop (1)
 
 ### Professional Organization
 - **[2022.01-Present]** Student member of the **Architectural Society of China**.
