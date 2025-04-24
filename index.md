@@ -3,7 +3,8 @@ layout: homepage
 ---
 
 
-<!-- 导航栏，回到顶部栏，project和publication做成单独页面,主页award什么的大标题下面做成show more -->
+<!-- 导航栏狮子头像，publication，projects，blog做成单独页面，contact跳转底部 -->
+<!-- 主页award什么的大标题下面做成show more -->
 <!-- education排版分栏，加校徽 https://ldzhangyx.github.io/ -->
 <!-- 字体，正文太灰 -->
 
@@ -128,6 +129,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
+## 📫 Contact
 
+I am always excited to meet fellow researchers with shared interests!
+Please feel free to contact me via Email or WeChat.
+**Email: wenruixu(at)outlook(dot)com
+**WeChat: ruaruaxu
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
