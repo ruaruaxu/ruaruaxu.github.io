@@ -1,4 +1,5 @@
 <div style="height: 140px; overflow-y: scroll; margin-bottom: 20px">
+    You can scroll for full content.
     <ul>
         <li><b><font color="DeepPink">[2025.08]</font></b> 🥰I will start my PhD journey at Berkeley under the guidance of <a href="https://sites.google.com/site/liang3mlab/people/prof-lu-liang">Prof. Lu Liang</a>.</li>
         <li><b><font color="DeepPink">[2025.05]</font></b> ✨My first-authored paper <i><a href="https://arxiv.org/abs/2502.11859">Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics</a></i> is under review for a top CS conference.</li>
