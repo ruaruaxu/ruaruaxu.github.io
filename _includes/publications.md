@@ -14,7 +14,7 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.doi }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.doi }}"><font color="#002676">{{ link.title }}</font></a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.journal }}</em>
       </div>
