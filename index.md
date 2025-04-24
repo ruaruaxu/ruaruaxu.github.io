@@ -21,7 +21,10 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 ## 🔊 News
 
-{% include_relative _includes/news.md %}
+<div style="height: 140px; overflow-y: scroll">
+    {% include_relative _includes/news.md %}
+</div>
+
 
 ## 📖 Selected Publications
 
