@@ -1,7 +1,19 @@
 main:
 
+  - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
+    authors: <strong>Wenrui Xu</strong>, Xinyue Gu✉︎
+    journal_short: 2025 SCS
+    journal: Working Paper, 2025.
+    image: ./assets/img/publication/wangRecentSurgePublic2024.png
+
+  - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
+    authors: Shiqi Wang, Zhouye Zhao, Yuhang Xie, Mingchuan Ma, Zirui Chen, Zeyu Wang, Bohao Su, <strong>Wenrui Xu</strong>, Tianyi Li
+    journal_short: 2025 Cities
+    journal: arXiv Preprint, 2025.
+    image: ./assets/img/publication/wangRecentSurgePublic2024.png
+
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
-    authors: <strong>Wenrui Xu*</strong>, Dalin Lyu*, Weihang Wang*, Jie Feng, Chen Gao, Yong Li✉
+    authors: <strong>Wenrui Xu†</strong>, Dalin Lyu†, Weihang Wang†, Jie Feng, Chen Gao, Yong Li*
     journal_short: 2025 Preprint
     journal: arXiv Preprint, 2025.
     doi: https://doi.org/10.48550/arXiv.2502.11859
