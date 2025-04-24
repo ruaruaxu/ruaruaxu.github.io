@@ -2,6 +2,9 @@
 layout: homepage
 ---
 
+<!-- education排版修改，加校徽 https://ldzhangyx.github.io/ -->
+<!-- news做成滚动 -->
+<!-- project和publication一样做成单独页面,具体大标题下面做成show more -->
 
 # About Me 👋🦁
 
@@ -18,11 +21,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 ## 🔊 News
 
-- **[2025.05]** ***[Publication]*** Wenrui's first-authored paper *[Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics](https://arxiv.org/abs/2502.11859)* is under review for a top CS conference.
-- To be updated
-
-<!-- 做成滚动式 -->
-
+{% include_relative _includes/news.md %}
 
 ## 📖 Selected Publications
 
@@ -30,8 +29,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 †Equal Contribution, *Corresponding Author
 
 {% include_relative _includes/publications.md %}
-
-<!-- publication和其他about me; project做成单独页面 -->
 
 
 ## 🎓 Education
@@ -53,7 +50,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
 　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
 
-<!-- 可以加校徽 https://ldzhangyx.github.io/ -->
 
 
 ## 🏙️ Affiliation
