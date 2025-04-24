@@ -102,8 +102,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ### Teaching
 
-**<font color="#002676" size="4">Tsinghua University</font>**
-
+**<font color="#002676">Tsinghua University</font>**<br>
 - **Undergraduate Dissertation Design Studio**: [Head TA] 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
 - **Urban Design Elements**: [TA] Tsinghua University, 2023 Fall.
 

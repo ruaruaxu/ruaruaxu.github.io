@@ -92,16 +92,16 @@
   margin:-1.8rem}
 
 .researchgate span{
-  background-color:#4099ff}
+  background-color:#002676}
 
 .facebook span{
-  background-color:#4286f4}
+  background-color:#002676}
 
 .linkedin span{
-  background-color:#0077B5}
+  background-color:#002676}
 
 .github span{
-  background-color:#000}
+  background-color:#002676}
 
 email {
     font-size: 14px;
@@ -124,21 +124,21 @@ email {
   z-index:10}
 
 .icon-button .icon-researchgate{
-  color:#4099ff}
+  color:#002676}
 
 .icon-button .icon-facebook{
-  color:#4286f4}
+  color:#002676}
 
 .icon-button .icon-github{
-  color:#000;}
+  color:#002676;}
 
 .icon-button .icon-linkedin{
-  color:#0077B5}
+  color:#002676}
 
 .icon-button:hover .icon-researchgate,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
-  color:#595959;
+  color:#002676;
 }
 
 lightonly {
@@ -286,13 +286,13 @@ a:hover {
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#000;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#000;
 }
 
 .wrapper {
@@ -394,7 +394,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#000;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -402,7 +402,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#000;
 }
 
 header ul a:active {
@@ -416,7 +416,7 @@ strong {
 
 @media (prefers-color-scheme: dark) {
   strong {
-    color:#eeeff0;
+    color:#000;
   }
 }
 
