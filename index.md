@@ -24,13 +24,11 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 
 
 ## 🔥 News
----
 
 {% include_relative _includes/news.md %}
 
 
 ## 📖 Selected Publications
----
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.<br>
 †Equal Contribution, *Corresponding Author
@@ -39,7 +37,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 
 ## 🎓 Education
----
 
 2025 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
 　　　　　　　*Doctor of Philosophy in Environmental Studies*<br>
@@ -60,7 +57,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 
 ## 🏙️ Affiliation
----
 
 2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　　 *Research Assistant*<br>
@@ -82,7 +78,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 
 ## 🎉 Activities & Services
----
 
 ### Conference Presentation
 - **[2025]** *[Accepted for Oral Presentation]* [The 32nd International Conference on Geoinformatics (CPGIS)](), Jiaozuo, China.
@@ -108,7 +103,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 
 ## 🏆 Selected Awards
----
 
 ### Scholarships
 - **[2024]** ***Comprehensive Excellence Scholarship***, issued by Tsinghua University.
@@ -126,14 +120,14 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 
 ## 🪪 Certificates & Skills
----
+
 - **Language:** English (GRE 336, TOEFL 107, CET-6 684); Japanese (Beginner); Chinese (Native)
 - To be updated
 <!-- 考日语N1，考CFA I -->
 
 
 ## 🎾 Miscs
----
+
 - I love Britpop and Citypop. I am a big fan of Blur and Oasis! I love piano and guitar, I learnt to play a few favorite songs by teaching myself.
 - I enjoy watching movies & TV series. I watch nearly 300+ movies each year. My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson...
 - My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
@@ -141,7 +135,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 
 ## 📫 Contact
----
 
 I am always excited to meet fellow researchers with shared interests!<br>
 Please feel free to contact me via Email or WeChat.
