@@ -147,7 +147,7 @@ I am always excited to meet fellow researchers with shared interests!<br>
 Please feel free to contact me via Email or WeChat.
 
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
-- **WeChat:** <font color=DeepPink>ruaruaxu<font>
+- **WeChat:** <font color=DeepPink>ruaruaxu</font>
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
