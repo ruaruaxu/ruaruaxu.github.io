@@ -36,8 +36,7 @@
 
 /* Change the color of links on hover */
 .topnav a.normal:hover {
-  background-color: #fff;
-  color: DeepPink;
+  color: DeepPink
 }
 
 /* Add a color to the active/current link */
