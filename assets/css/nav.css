@@ -26,9 +26,14 @@
     margin-left: 10px;
   }
   
+
+  .topnav logo {
+    float: left;
+  }
+
   /* Style the links inside the navigation bar */
   .topnav a.normal {
-    float: center;
+    float: right;
     color: #000; 
     text-align: center;
     padding: 10px 20px;
