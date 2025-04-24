@@ -23,7 +23,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 ## 🔊 News
 
 {% include_relative _includes/news.md %}
-Scroll for complete content.
+
 
 ## 📖 Selected Publications
 
