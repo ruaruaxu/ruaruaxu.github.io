@@ -1,4 +1,4 @@
-<div style="height: 140px; overflow-y: scroll; margin-bottom: 20px">
+<div style="height: 140px; overflow-y: scroll">
     You can scroll for full content.
     <ul>
         <li><b><font color="DeepPink">[2025.08]</font></b> 🥰I will start my PhD journey at Berkeley under the guidance of <a href="https://sites.google.com/site/liang3mlab/people/prof-lu-liang">Prof. Lu Liang</a>.</li>
