@@ -1,4 +1,4 @@
-<div style="height: 140px; overflow-y: scroll; margin-bottom: 10px">
+<div style="height: 140px; overflow-y: scroll; padding: 0 0 10px 0">
     <ul>
         <li><b><font color="DeepPink">[2025.08]</font></b> I will start my PhD journey at Berkeley under the guidance of Prof. Lu Liang.🥰</li>
         <li><b><font color="DeepPink">[2025.05]</font></b> My first-authored paper <i><a href="https://arxiv.org/abs/2502.11859">Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics</a></i> is under review for a top CS conference.✨</li>
