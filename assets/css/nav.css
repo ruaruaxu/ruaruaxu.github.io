@@ -16,15 +16,19 @@
     display: none;
   }
   
+  .topnav #logo {
+    display: none;
+  }
+
   .topnav img {
-    margin-bottom:-10pt;
-    margin-top:-10pt;
-    margin-left:10px;
+    margin-bottom: 10pt;
+    margin-top: 10pt;
+    margin-left: 10px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a.normal {
-    float: right;
+    float: center;
     color: #000; 
     text-align: center;
     padding: 10px 20px;
