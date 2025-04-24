@@ -80,6 +80,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🎉 Activities & Services
 
 ### Conference Presentation
+
 - **[2025]** [Accepted for Oral Presentation] [The 32nd International Conference on Geoinformatics (CPGIS)](), Jiaozuo, China.
 - **[2025]** [Accepted for Oral Presentation] [The 19th International Association for China Planning (IACP) Annual Conference](https://www.china-planning.org/alpha/2025-iacp-annual-conference-call-for-abstracts/), Xiamen, China.
 - **[2025]** [Accepted for Oral Presentation] [Publication in Proceedings] Extending Knowledge-based View in Generative AI Era. [The 85th Annual Meeting of the Academy of Management (AOM)](https://aom.org/events/annual-meeting/2025-copenhagen-denmark), Copenhagen, Denmark.
@@ -87,10 +88,12 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2024]** [Poster Presentation] [Nature Conference on Air Pollution and Climate Change](https://web.cvent.com/event/06e7aeed-3b2e-4a19-982f-ce28d2a97924/summary), Beijing, China.
 
 ### Peer Review
+
 - **[Journal]** GIScience & Remote Sensing (1)
 - **[Conference]** ICLR 2025 EmbodiedAI Workshop (1)
 
 ### Professional Organization
+
 - **[2022.01-Present]** Student member of the **Architectural Society of China**.
 - **[2023.12-Present]** Volunteer in **Citipedia** (the #1 volunteer group in promoting sustainable city and transportation in China.
 - **[2022.09-2024.08]** Committee member of the **Student Branch, Architectural Society of China**.
@@ -98,7 +101,9 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2021.07-2022.08]** Leader of the "Dream Classroom" voluntary teaching & design & construction project (Tibet Lhatse Middle School and Xinjiang Huocheng Middle School), Tongji University.
 
 ### Teaching
-#### Tsinghua University
+
+**<font color="#002676" size="4">Tsinghua University</font>**
+
 - **Undergraduate Dissertation Design Studio**: [Head TA] 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
 - **Urban Design Elements**: [TA] Tsinghua University, 2023 Fall.
 
@@ -106,6 +111,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🏆 Selected Awards
 
 ### Scholarships
+
 - **[2024]** **Comprehensive Excellence Scholarship**: Awarded by Tsinghua University.
 - **[2023]** **Distinct Graduate of Shanghai**: Graduation with the highest distinction.
 - **[2022]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
@@ -114,6 +120,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2020]** **National Scholarship**: Top 1% of all undergraduates at Tongji University, awarded by the Ministry of Education.
 
 ### Competitions
+
 - **[2022]** **Exhibition of Architectural Design in Developing Countries**: Bronze Award.
 - **[2021]** **National Real Estate Innovation & Entrepreneurship Competition**: Top Prize.
 - **[2021]** **National Computer Design Competition for College Students**: Second Prize.
