@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #ddd;
+    background-color: #fff;
     overflow: hidden;
     position:fixed;
     z-index:999;
@@ -27,7 +27,7 @@
     float: right;
     color: #000; 
     text-align: center;
-    padding: 10px 1px;
+    padding: 10px 20px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -37,11 +37,10 @@
     color: DeepPink;
   }
   
-  /* Add a color to the active/current link 
+  /* Add a color to the active/current link */
   .topnav a.right {
     margin-right:30%;
   }
-  */
   
   @media print, screen and (max-width: 1000px) { 
   
