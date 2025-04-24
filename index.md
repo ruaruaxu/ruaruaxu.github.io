@@ -22,6 +22,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 
 
 ## 🔊 News
+You can scroll for full content.
 
 {% include_relative _includes/news.md %}
 
