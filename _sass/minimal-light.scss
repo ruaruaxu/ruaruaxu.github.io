@@ -573,7 +573,7 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#000;
   }
 }
 
@@ -609,7 +609,7 @@ a {
 }
 
 a:hover {
-  color: #00eaff;
+  color: #DeepPink;
 }
 
 header {
@@ -654,7 +654,7 @@ header {
 }
 
 .highlight {
-  background-color: #0ef;
+  background-color: DeepPink;
   color: #fff;
   padding: 0.5rem 1rem;
   border: none;
@@ -715,7 +715,7 @@ header {
 .container {
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: right;
 justify-content: center;
 text-align: center;
 height: 100vh;
