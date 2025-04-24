@@ -4,12 +4,14 @@ layout: homepage
 
 
 <!-- 导航栏狮子头像，publication，projects，blog做成单独页面，contact跳转底部 -->
+<!-- 左边正文目录 -->
 <!-- 主页award什么的大标题下面做成show more -->
 <!-- education排版分栏，加校徽 https://ldzhangyx.github.io/ -->
 <!-- 字体，正文太灰 -->
 
 
 # About Me 👋🦁
+---
 
 Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
@@ -21,24 +23,24 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 - **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation...
 - **LLM and Urban Computing:** Spatial Intelligence, Embodied Agent, Deep Learning...
 
----
 
 ## 🔥 News
+---
 
 {% include_relative _includes/news.md %}
 
----
 
 ## 📖 Selected Publications
+---
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.<br>
 †Equal Contribution, *Corresponding Author
 
 {% include_relative _includes/publications.md %}
 
----
 
 ## 🎓 Education
+---
 
 2025 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
 　　　　　　　*Doctor of Philosophy in Environmental Studies*<br>
@@ -57,9 +59,9 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
 　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
 
----
 
 ## 🏙️ Affiliation
+---
 
 2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　　 *Research Assistant*<br>
@@ -79,9 +81,9 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 　　　　　　　　 *Intern Equity Researcher*<br>
 　　　　　　　　 *In-depth Report on the cosmetics industry and BeiTaiNi (300957)*<br>
 
----
 
 ## 🎉 Activities & Services
+---
 
 ### Conference Presentation
 - **[2025]** *[Accepted for Oral Presentation]* [The 32nd International Conference on Geoinformatics (CPGIS)](), Jiaozuo, China.
@@ -105,9 +107,9 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - Head TA, ***Undergraduate Dissertation Design Studio***, Tsinghua University, 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
 - TA, ***Urban Design Elements***, Tsinghua University, 2023 Fall.
 
----
 
 ## 🏆 Selected Awards
+---
 
 ### Scholarships
 - **[2024]** ***Comprehensive Excellence Scholarship***, issued by Tsinghua University.
@@ -123,22 +125,24 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2021]** Second Prize, ***National Computer Design Competition for College Students***.
 - **[2020]** Top Prize, ***National English Competition for College Students***.
 
+
 ## 🪪 Certificates & Skills
+---
 - **Language:** English (GRE 336, TOEFL 107, CET-6 684); Japanese (Beginner); Chinese (Native)
 - To be updated
 <!-- 考日语N1，考CFA I -->
 
----
 
 ## 🎾 Miscs
+---
 - I love Britpop and Citypop. I am a big fan of Blur and Oasis! I love piano and guitar, I learnt to play a few favorite songs by teaching myself.
 - I enjoy watching movies & TV series. I watch nearly 300+ movies each year. My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson...
 - My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
----
 
 ## 📫 Contact
+---
 
 I am always excited to meet fellow researchers with shared interests!<br>
 Please feel free to contact me via Email or WeChat.
