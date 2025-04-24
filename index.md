@@ -4,6 +4,7 @@ layout: homepage
 
 <!-- education排版修改，加校徽 https://ldzhangyx.github.io/ -->
 <!-- news做成滚动 -->
+<!-- 字体，颜色 -->
 <!-- project和publication一样做成单独页面,具体大标题下面做成show more -->
 
 # About Me 👋🦁
@@ -21,9 +22,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** approaches to understand
 
 ## 🔊 News
 
-<div style="height: 140px; overflow-y: scroll">
-    {% include_relative _includes/news.md %}
-</div>
+{% include_relative _includes/news.md %}
 
 
 ## 📖 Selected Publications
