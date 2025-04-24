@@ -80,15 +80,15 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🎉 Activities & Services
 
 ### Conference Presentation
-- **[2025]** *[Accepted for Oral Presentation]* [The 32nd International Conference on Geoinformatics (CPGIS)](), Jiaozuo, China.
-- **[2025]** *[Accepted for Oral Presentation]* [The 19th International Association for China Planning (IACP) Annual Conference](https://www.china-planning.org/alpha/2025-iacp-annual-conference-call-for-abstracts/), Xiamen, China.
-- **[2025]** *[Accepted for Oral Presentation] [Publication in Proceedings]* Extending Knowledge-based View in Generative AI Era. [The 85th Annual Meeting of the Academy of Management (AOM)](https://aom.org/events/annual-meeting/2025-copenhagen-denmark), Copenhagen, Denmark.
-- **[2025]** *[Accepted for Oral Presentation]* [The 25th COTA International Conference of Transportation Professionals (CICTP)](https://cictp2025.scievent.com/), Guangzhou, China.
-- **[2024]** *[Poster Presentation]* [Nature Conference on Air Pollution and Climate Change](https://web.cvent.com/event/06e7aeed-3b2e-4a19-982f-ce28d2a97924/summary), Beijing, China.
+- **[2025]** [Accepted for Oral Presentation] [The 32nd International Conference on Geoinformatics (CPGIS)](), Jiaozuo, China.
+- **[2025]** [Accepted for Oral Presentation] [The 19th International Association for China Planning (IACP) Annual Conference](https://www.china-planning.org/alpha/2025-iacp-annual-conference-call-for-abstracts/), Xiamen, China.
+- **[2025]** [Accepted for Oral Presentation] [Publication in Proceedings] Extending Knowledge-based View in Generative AI Era. [The 85th Annual Meeting of the Academy of Management (AOM)](https://aom.org/events/annual-meeting/2025-copenhagen-denmark), Copenhagen, Denmark.
+- **[2025]** [Accepted for Oral Presentation] [The 25th COTA International Conference of Transportation Professionals (CICTP)](https://cictp2025.scievent.com/), Guangzhou, China.
+- **[2024]** [Poster Presentation] [Nature Conference on Air Pollution and Climate Change](https://web.cvent.com/event/06e7aeed-3b2e-4a19-982f-ce28d2a97924/summary), Beijing, China.
 
 ### Peer Review
-- ***[Journal]*** GIScience & Remote Sensing (1)
-- ***[Conference]*** ICLR 2025 EmbodiedAI Workshop (1)
+- **[Journal]** GIScience & Remote Sensing (1)
+- **[Conference]** ICLR 2025 EmbodiedAI Workshop (1)
 
 ### Professional Organization
 - **[2022.01-Present]** Student member of the **Architectural Society of China**.
@@ -98,25 +98,26 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2021.07-2022.08]** Leader of the "Dream Classroom" voluntary teaching & design & construction project (Tibet Lhatse Middle School and Xinjiang Huocheng Middle School), Tongji University.
 
 ### Teaching
-- Head TA, ***Undergraduate Dissertation Design Studio***, Tsinghua University, 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
-- TA, ***Urban Design Elements***, Tsinghua University, 2023 Fall.
+#### Tsinghua University
+- **Undergraduate Dissertation Design Studio**: [Head TA] 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
+- **Urban Design Elements**: [TA] Tsinghua University, 2023 Fall.
 
 
 ## 🏆 Selected Awards
 
 ### Scholarships
-- **[2024]** ***Comprehensive Excellence Scholarship***, issued by Tsinghua University.
-- **[2023]** ***Distinct Graduate of Shanghai***, Graduation with the highest distinction.
-- **[2022]** ***The First Prize Undergraduate Scholarship***, issued by Tongji University.
-- **[2021]** ***The First Prize Undergraduate Scholarship***, issued by Tongji University.
-- **[2021]** ***Outstanding Student Model***, top 7 of 4300+ undergraduates at Tongji University.
-- **[2020]** ***National Scholarship***, top 1% of all undergraduates at Tongji University, issued by the Ministry of Education.
+- **[2024]** **Comprehensive Excellence Scholarship**: Awarded by Tsinghua University.
+- **[2023]** **Distinct Graduate of Shanghai**: Graduation with the highest distinction.
+- **[2022]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
+- **[2021]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
+- **[2021]** **Outstanding Student Model**: Top 7 of 4300+ undergraduates at Tongji University.
+- **[2020]** **National Scholarship**: Top 1% of all undergraduates at Tongji University, awarded by the Ministry of Education.
 
 ### Competitions
-- **[2022]** Bronze Award, ***Exhibition of Architectural Design in Developing Countries***.
-- **[2021]** Top Prize, ***National Real Estate Innovation & Entrepreneurship Competition***.
-- **[2021]** Second Prize, ***National Computer Design Competition for College Students***.
-- **[2020]** Top Prize, ***National English Competition for College Students***.
+- **[2022]** **Exhibition of Architectural Design in Developing Countries**: Bronze Award.
+- **[2021]** **National Real Estate Innovation & Entrepreneurship Competition**: Top Prize.
+- **[2021]** **National Computer Design Competition for College Students**: Second Prize.
+- **[2020]** **National English Competition for College Students**: Top Prize.
 
 
 ## 🪪 Certificates & Skills
