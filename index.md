@@ -58,7 +58,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　　 *Research Assistant*<br>
-　　　　　　　　 *FIB Lab, Department of Electronic Engineering*<br>
+　　　　　　　　 *[FIB Lab](https://fi.ee.tsinghua.edu.cn/), Department of Electronic Engineering*<br>
 　　　　　　　　 *Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
 
 2024.10 - 2025.03　**<font color="#002676" size="4">Tsinghua Architectural Design & Research Institute</font>**<br>
