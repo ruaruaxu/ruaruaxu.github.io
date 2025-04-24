@@ -139,6 +139,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
+<div id='contact'>
 
 ## 📫 Contact
 
@@ -147,5 +148,8 @@ Please feel free to contact me via Email or WeChat.
 
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu<font>
+
+</div>
+
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
