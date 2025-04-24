@@ -115,7 +115,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2022]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
 - **[2021]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
 - **[2021]** **Outstanding Student Model**: Top 7 of 4300+ undergraduates at Tongji University.
-- **[2020]** **National Scholarship**: Top 1% of all undergraduates at Tongji University, awarded by the Ministry of Education.
+- **[2020]** **National Scholarship**: Highest honor for undergraduate, awarded by the Ministry of Education.
 
 ### Competitions
 
