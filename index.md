@@ -100,7 +100,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2021.10-2022.11]** Leader of the Students' Union of College of Architecture and Urban Planning, Tongji University.
 - **[2021.07-2022.08]** Leader of the "Dream Classroom" voluntary teaching & design & construction project (Tibet Lhatse Middle School and Xinjiang Huocheng Middle School), Tongji University.
 
-### Teaching
+### Teaching Assistant
 
 - **[Tsinghua University] Undergraduate Dissertation Design Studio:** 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring (Head TA).
 - **[Tsinghua University] Urban Design Elements:** 2023 Fall (TA).
