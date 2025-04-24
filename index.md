@@ -5,7 +5,7 @@ layout: homepage
 
 <!-- 导航栏，回到顶部栏，project和publication做成单独页面,主页award什么的大标题下面做成show more -->
 <!-- education排版分栏，加校徽 https://ldzhangyx.github.io/ -->
-<!-- 字体，颜色 -->
+<!-- 字体，正文太灰 -->
 
 
 # About Me 👋🦁
@@ -21,7 +21,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 - **LLM and Urban Computing:** Spatial Intelligence, Embodied Agent, Deep Learning...
 
 
-## 🔊 News
+## 🔥 News
 
 {% include_relative _includes/news.md %}
 
