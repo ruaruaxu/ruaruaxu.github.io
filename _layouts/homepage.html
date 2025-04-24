@@ -40,24 +40,12 @@
 
   <body>
 
-    <script src="./assets/js/back-to-top.js"></script>
+    <script src="/assets/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
-        backgroundColor: '#fff',
-        innerHTML: <i class="fa-solid fa-arrow-up"></i>,
-        textColor: '#002676'
-      })
-    </script>
-    <style>
-      #back-to-top {
-        border: 1px solid #ccc;
-        border-radius: 20px;
-        font-size: 40px;
-        width: 40px;
-        text-align: center;
-        line-height: 40px;
-        height: 40px;
-      }
-  </style>
+      backgroundColor: 'LightGray',
+      innerHTML: '<svg viewBox="0 0 24 24"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>',
+      textColor: '#002676'
+    })</script>
 
     <div class="wrapper">
       <header>
