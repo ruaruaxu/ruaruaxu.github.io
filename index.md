@@ -20,6 +20,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 - **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation...
 - **LLM and Urban Computing:** Spatial Intelligence, Embodied Agent, Deep Learning...
 
+---
 
 ## 🔥 News
 
