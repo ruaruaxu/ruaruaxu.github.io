@@ -35,6 +35,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 {% include_relative _includes/publications.md %}
 
+---
 
 ## 🎓 Education
 
@@ -55,7 +56,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
 　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
 
-
+---
 
 ## 🏙️ Affiliation
 
@@ -77,6 +78,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 　　　　　　　　 *Intern Equity Researcher*<br>
 　　　　　　　　 *In-depth Report on the cosmetics industry and BeiTaiNi (300957)*<br>
 
+---
 
 ## 🎉 Activities & Services
 
@@ -102,6 +104,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - Head TA, ***Undergraduate Dissertation Design Studio***, Tsinghua University, 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring.
 - TA, ***Urban Design Elements***, Tsinghua University, 2023 Fall.
 
+---
+
 ## 🏆 Selected Awards
 
 ### Scholarships
@@ -123,11 +127,15 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - To be updated
 <!-- 考日语N1，考CFA I -->
 
+---
+
 ## 🎾 Miscs
 - I love Britpop and Citypop. I am a big fan of Blur and Oasis! I love piano and guitar, I learnt to play a few favorite songs by teaching myself.
 - I enjoy watching movies & TV series. I watch nearly 300+ movies each year. My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson...
 - My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
+
+---
 
 ## 📫 Contact
 
