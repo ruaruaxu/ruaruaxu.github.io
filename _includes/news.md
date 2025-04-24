@@ -1,4 +1,4 @@
-<div style="height: 140px; overflow-y: scroll">
+<div style="height: 140px; overflow-y: scroll; margin-bottom: 10px">
     <ul>
         <font color="DeepPink">
             <li><b>[2025.05]</b> I will start my PhD journey at UC Berkeley, in the Geospatial 3M Lab, under the guidance of Prof. Lu Liang.🥰</li>
