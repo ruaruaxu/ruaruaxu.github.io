@@ -2,10 +2,11 @@
 layout: homepage
 ---
 
+
+<!-- project和publication一样做成单独页面,主页大标题下面做成show more -->
 <!-- education排版修改，加校徽 https://ldzhangyx.github.io/ -->
-<!-- news做成滚动 -->
 <!-- 字体，颜色 -->
-<!-- project和publication一样做成单独页面,具体大标题下面做成show more -->
+
 
 # About Me 👋🦁
 
