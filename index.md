@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 
-<!-- 导航栏狮子头像，publication，projects，blog做成单独页面，contact跳转底部 -->
+<!-- 导航栏狮子头像，publication，projects，blog做成单独页面 -->
 <!-- 左边正文目录 -->
 <!-- 主页award什么的大标题下面做成show more -->
 <!-- education排版分栏，加校徽 https://ldzhangyx.github.io/ -->
@@ -148,6 +148,8 @@ Please feel free to contact me via Email or WeChat.
 
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu</font>
+- **WeChat Public Account:** <font color=DeepPink>urbanxlab</font>
 
+<img width="120" src="./assets/img/wechat_qrcode.jpg">
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
