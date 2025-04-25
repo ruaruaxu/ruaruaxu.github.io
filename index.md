@@ -3,9 +3,8 @@ layout: homepage
 ---
 
 
-<!-- 导航栏手机适配，publication，projects，blog做成单独页面 -->
-<!-- 主页award什么的大标题下面做成show more -->
-<!-- education排版分栏，加校徽 https://ldzhangyx.github.io/ -->
+<!-- 导航栏手机适配，publication，projects做成单独页面 -->
+<!-- education、affiliation排版分栏，加校徽 https://ldzhangyx.github.io/，加show more按钮 -->
 <!-- 字体 -->
 
 
