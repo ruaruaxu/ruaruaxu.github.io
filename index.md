@@ -148,7 +148,7 @@ Please feel free to contact me via Email or WeChat.
 
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu</font>
-- **WeChat Public Account:** <font color=DeepPink>urbanxlab</font>
+- **Blog:** <font color=DeepPink>urbanxlab</font>(WeChat Public Account)
 
 <img width="120" src="./assets/img/wechat_qrcode.jpg">
 
