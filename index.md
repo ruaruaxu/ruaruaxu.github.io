@@ -57,7 +57,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🏙️ Affiliation
 
-<div id="affiliation">(/div)
+<div id="affiliation"></div>
 
 2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　　 *Research Assistant*<br>
