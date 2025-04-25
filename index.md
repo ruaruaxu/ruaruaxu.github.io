@@ -149,7 +149,6 @@ Please feel free to contact me via Email or WeChat.
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu</font>
 - **Blog:** <font color=DeepPink>urbanxlab</font>(WeChat Public Account)
-
-<img width="120" src="./assets/img/wechat_qrcode.jpg">
+<div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
