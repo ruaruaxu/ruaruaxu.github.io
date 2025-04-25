@@ -129,10 +129,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ### Conference Presentation
 
-- **[2025]** [Accepted for Oral Presentation] [The 32nd International Conference on Geoinformatics (CPGIS)](), Jiaozuo, China.
-- **[2025]** [Accepted for Oral Presentation] [The 19th International Association for China Planning (IACP) Annual Conference](https://www.china-planning.org/alpha/2025-iacp-annual-conference-call-for-abstracts/), Xiamen, China.
-- **[2025]** [Accepted for Oral Presentation] [Publication in Proceedings] Extending Knowledge-based View in Generative AI Era. [The 85th Annual Meeting of the Academy of Management (AOM)](https://aom.org/events/annual-meeting/2025-copenhagen-denmark), Copenhagen, Denmark.
-- **[2025]** [Accepted for Oral Presentation] [The 25th COTA International Conference of Transportation Professionals (CICTP)](https://cictp2025.scievent.com/), Guangzhou, China.
+- **[2025]** [Accepted for Oral Presentation] The 32nd International Conference on Geoinformatics ([CPGIS](https://www.cpgis.org/)), Jiaozuo, China.
+- **[2025]** [Accepted for Oral Presentation] The 19th International Association for China Planning Annual Conference ([IACP](https://www.china-planning.org/)), Xiamen, China.
+- **[2025]** [Accepted for Oral Presentation] [Publication in Proceedings] Extending Knowledge-based View in Generative AI Era. The 85th Annual Meeting of the Academy of Management ([AOM](https://aom.org/)), Copenhagen, Denmark.
+- **[2025]** [Accepted for Oral Presentation] Architecting Knowledge Ecosystems: How Generative AI Redraws the Boundaries of Competitive Advantage. Strategic Management Society 45th Annual Conference ([SMS](https://www.strategicmanagement.net/)), San Francisco, US.
+- **[2025]** [Accepted for Oral Presentation] The 25th COTA International Conference of Transportation Professionals ([CICTP](https://cictp2025.scievent.com/)), Guangzhou, China.
 - **[2024]** [Poster Presentation] [Nature Conference on Air Pollution and Climate Change](https://web.cvent.com/event/06e7aeed-3b2e-4a19-982f-ce28d2a97924/summary), Beijing, China.
 
 ### Peer Review
