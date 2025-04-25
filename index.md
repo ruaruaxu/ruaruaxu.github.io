@@ -3,11 +3,10 @@ layout: homepage
 ---
 
 
-<!-- 导航栏狮子头像，publication，projects，blog做成单独页面 -->
-<!-- 左边正文目录 -->
+<!-- 导航栏手机适配，publication，projects，blog做成单独页面 -->
 <!-- 主页award什么的大标题下面做成show more -->
 <!-- education排版分栏，加校徽 https://ldzhangyx.github.io/ -->
-<!-- 字体，正文太灰 -->
+<!-- 字体 -->
 
 
 # About Me 👋🦁
@@ -58,6 +57,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🏙️ Affiliation
 
+<div id="affiliation">(/div)
+
 2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　　 *Research Assistant*<br>
 　　　　　　　　 *[FIB Lab](https://fi.ee.tsinghua.edu.cn/), Department of Electronic Engineering*<br>
@@ -76,6 +77,54 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 　　　　　　　　 *Intern Equity Researcher*<br>
 　　　　　　　　 *In-depth Report on the cosmetics industry and BeiTaiNi (300957)*<br>
 
+<script>
+  function togglePublications() {
+    // Select all hidden items
+    const hiddenItems = document.querySelectorAll('.pub-item.hidden');
+    const visibleItems = document.querySelectorAll('.pub-item:not(.hidden)');
+    const showMoreBtn = document.getElementById('show-more-btn');
+
+    if (hiddenItems.length > 0) {
+      // Show all hidden items if there are any
+      hiddenItems.forEach(item => item.classList.remove('hidden'));
+      showMoreBtn.textContent = 'Show less';
+    } else {
+      // Hide all items after the third when "Show less" is clicked
+      visibleItems.forEach((item, index) => {
+        if (index >= 3) {
+          item.classList.add('hidden');
+        }
+      });
+      showMoreBtn.textContent = 'Show more';
+
+      // Scroll back to the top of the publications section for better user experience.
+      window.scrollTo({
+        top: document.getElementById('affiliation').offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  }
+</script>
+
+<style>
+  .hidden {
+    display: none;
+  }
+
+  .btn.z-depth-0 {
+    background-color: #ffffff; /* Adjust this to match your button color */
+    color: #cccccc;
+    border: #ffffff;
+    padding: 5px 5px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .btn.z-depth-0:hover {
+    color: "DeepPink"; /* Slightly darker shade for hover */
+  }
+</style>
 
 ## 🎉 Activities & Services
 
@@ -148,7 +197,7 @@ Please feel free to contact me via Email or WeChat.
 
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu</font>
-- **Blog:** <font color=DeepPink>urbanxlab</font>(WeChat Public Account)
+- **Blog:** <font color=DeepPink>urbanxlab</font> (WeChat Public Account)
 <div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
