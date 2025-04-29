@@ -3,7 +3,8 @@ main:
   - title: "Spatiotemporal Impacts of Purpose-Specific Human Mobility on Air Pollution: Evidence from Taxi Trajectories and Interpretable Machine Learning"
     authors: <strong>Wenrui Xu</strong>, Xinyue Gu*
     journal_short: 2025 SCS
-    journal: Sustainable Cities and Society, in Press, 2025.
+    journal: Sustainable Cities and Society, 2025.
+    doi: https://doi.org/10.1016/j.scs.2025.106411
     image: ./assets/img/publication/scs.png
 
   - title: "City Centers Really Lived Up to the Hype? Evidence from Human Perceptions of Over 4000 Communities in China"
