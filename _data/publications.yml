@@ -8,7 +8,7 @@ main:
     image: ./assets/img/publication/scs.png
 
   - title: "City Centers Really Lived Up to the Hype? Evidence from Human Perceptions of Over 4000 Communities in China"
-    authors: Xinyue Gu*, <strong>Wenrui Xu</strong>
+    authors: Xinyue Gu, <strong>Wenrui Xu</strong>, Chuanjia Gong, Xintao Liu*
     journal_short: 2025
     journal: In Revision (2nd), 2025.
     image: ./assets/img/publication/cities.png
