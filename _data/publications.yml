@@ -5,6 +5,7 @@ main:
     journal_short: 2025 SCS
     journal: Sustainable Cities and Society, 2025.
     doi: https://doi.org/10.1016/j.scs.2025.106411
+    pdf: ./assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf
     image: ./assets/img/publication/scs.png
 
   - title: "City Centers Really Lived Up to the Hype? Evidence from Human Perceptions of Over 4000 Communities in China"
@@ -19,7 +20,7 @@ main:
     journal: arXiv Preprint, 2025.
     doi: https://doi.org/10.48550/arXiv.2502.11859
     pdf: https://arxiv.org/pdf/2502.11859
-    bibtex: ./assets/biblex/xuDefiningEvaluatingVisual2025.txt
+    bibtex: ./assets/biblex/xuDefiningEvaluatingVisual2025.html
     image: ./assets/img/publication/xuDefiningEvaluatingVisual2025.png
 
   - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
@@ -28,5 +29,5 @@ main:
     doi: https://doi.org/10.48550/arXiv.2408.10088
     journal: arXiv Preprint, 2024.
     pdf: https://arxiv.org/pdf/2408.10088
-    bibtex: ./assets/biblex/wangRecentSurgePublic2024.txt
+    bibtex: ./assets/biblex/wangRecentSurgePublic2024.html
     image: ./assets/img/publication/wangRecentSurgePublic2024.png
