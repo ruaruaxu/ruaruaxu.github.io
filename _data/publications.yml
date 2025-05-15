@@ -16,8 +16,8 @@ main:
 
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
     authors: <strong>Wenrui Xu†</strong>, Dalin Lyu†, Weihang Wang†, Jie Feng, Chen Gao, Yong Li*
-    journal_short: 2025 Preprint
-    journal: arXiv Preprint, 2025.
+    journal_short: 2025 ACL Main
+    journal: Association of Computational Linguistics Main Conference, 2025.
     doi: https://doi.org/10.48550/arXiv.2502.11859
     pdf: https://arxiv.org/pdf/2502.11859
     bibtex: ./assets/biblex/xuDefiningEvaluatingVisual2025.html
