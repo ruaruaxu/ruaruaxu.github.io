@@ -183,9 +183,9 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🎾 Miscs
 
-- I love Britpop and Citypop. I am a big fan of Blur and Oasis! I love piano and guitar, I learnt to play a few favorite songs by teaching myself.
-- I enjoy watching movies & TV series. I watch nearly 300+ movies each year. You can follow me on [Douban](https://www.douban.com/people/xycf/)!
-- My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
+- I love Rock, Britpop and Citypop. I am a big fan of Blur, Oasis and Cheer Chen! I learnt to play a few favorite songs on piano and guitar by teaching myself.
+- I would say I have a pretty good taste for movies. I watch about 300+ movies each year. You can follow me on [Douban](https://www.douban.com/people/xycf/)!
+- My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson, Christoph Nolan... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
 <div id='contact'></div>
@@ -197,7 +197,7 @@ Please feel free to contact me via Email or WeChat.
 
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu</font>
-- **Blog:** <font color=DeepPink>urbanxlab</font> (WeChat Public Account)
+<!--- **Blog:** <font color=DeepPink>urbanxlab</font> (WeChat Public Account) -->
 <div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
