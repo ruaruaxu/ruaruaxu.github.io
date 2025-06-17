@@ -12,13 +12,13 @@ layout: homepage
 
 Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
-I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interactions** from global (e.g. climate change) to urban scales (e.g. visual perception), to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize a wide range of large and high-resolution data such as satellite (e.g. Landsat), street imagery, GPS, and social media...
+I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interaction** from urban to human scale to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize a wide range of large and high-resolution data such as LiDAR, streetview, GPS, and social media...
 
 ### Research Interests:
 
 - **Environmental Sustainability:** Heat, Flooding, Air Pollution, Goundwater, Wildfire...
-- **Human Well-being:** Visual Perception, Urban Regeneration, Social Segregation...
-- **LLM and Urban Computing:** Spatial Intelligence, Embodied Agent, Deep Learning...
+- **Human Well-being:** Visual Perception, Urban Regeneration, Public Health...
+- **LLM and Urban Computing:** Spatial Embodied Agent, Deep Learning...
  <br>
 
 ## 🔥 News
@@ -43,9 +43,9 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 2023 - 2025　　 **<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　*Master of Architecture (Urban Informatics and Urban Renewal)*<br>
-　　　　　　　*GPA: 3.92 / 4*<br>
+　　　　　　　*GPA: 3.93 / 4*<br>
 　　　　　　　*Comprehensive Excellence Scholarship*<br>
-　　　　　　　*Advisor: [Dr. Jinxi Chen](https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864)*
+<!-- 　　　　　　　*Advisor: [Dr. Jinxi Chen](https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864)* -->
 
 2019 - 2023　　 **<font color="#002676" size="4">Tongji University</font>**<br>
 　　　　　　　*Bachelor of Engineering (Architecture and Urban Design)*<br>
