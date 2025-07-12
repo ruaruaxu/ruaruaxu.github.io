@@ -110,16 +110,52 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 <div style="height: 20px;"></div>
 
+<div style="display: flex;">
+  <div style="flex: 2; padding-right: 10px;">
+  <strong>2024.10 - 2025.03</strong><br>
+  <br>
+  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
+  </div>
 
+  <div style="flex: 8; padding-left: 10px;">
+  <strong><font color="#002676" size="4">Tsinghua Architectural Design & Research Institute</font></strong><br>
+  Intern Planner & Architect<br>
+  <i>Zhejiang Wanli University Yuyao Campus Project</i><!-- 引用到项目页面 详情可以notion做 -->
+  </div>
+</div>
 
-2024.10 - 2025.03　**<font color="#002676" size="4">Tsinghua Architectural Design & Research Institute</font>**<br>
-　　　　　　　　 *Intern Planner & Architect*<br>
-　　　　　　　　 *Zhejiang Wanli University Yuyao Campus Project*<br>
-<!-- 引用到项目页面 详情可以notion做 -->
+<div style="height: 20px;"></div>
 
-2024.10 - 2025.03　**<font color="#002676" size="4">Tsinghua Tongheng Urban Planning Institute</font>**<br>
-　　　　　　　　 *Intern Architect*<br>
-　　　　　　　　 *Beijing 1st Experimental Primary School Honglian Branch Renewal Project*<br>
+<div style="display: flex;">
+  <div style="flex: 2; padding-right: 10px;">
+  <strong>2024.10 - 2025.03</strong><br>
+  <br>
+  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
+  </div>
+
+  <div style="flex: 8; padding-left: 10px;">
+  <strong><font color="#002676" size="4">Tsinghua Tongheng Urban Planning Institute</font></strong><br>
+  Intern Architect<br>
+  <i>Beijing 1st Experimental Primary School Honglian Branch Renewal Project</i><!-- 引用到项目页面 详情可以notion做 -->
+  </div>
+</div>
+
+<div style="height: 20px;"></div>
+
+<div style="display: flex;">
+  <div style="flex: 2; padding-right: 10px;">
+  <strong>2021.12 - 2022.02</strong><br>
+  <br>
+  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
+  </div>
+
+  <div style="flex: 8; padding-left: 10px;">
+  <strong><font color="#002676" size="4">Kaiyuan Securities Research Institute</font></strong><br>
+  Intern Equity Researcher<br>
+  <i>In-depth Report on the cosmetics industry and BeiTaiNi (SZ.300957)</i><!-- 引用到项目页面 详情可以notion做 -->
+  </div>
+</div>
+
 
 2021.12 - 2022.02　**<font color="#002676" size="4">Kaiyuan Securities Research Institute</font>**<br>
 　　　　　　　　 *Intern Equity Researcher*<br>
