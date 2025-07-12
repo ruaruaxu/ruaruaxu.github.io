@@ -112,7 +112,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2024.10 - 2025.03</strong><br>
-  <a href="https://www.thad.com.cn/"><img width="80" src="./assets/img/institution/thad.png"></a>
+  <a href="https://www.thad.com.cn/"><img width="120" src="./assets/img/institution/thad.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
