@@ -127,6 +127,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2023.08 - 2024.06</strong><br>
+  <div style="height: 5px;"></div>
   <a href="http://www.thupdi.com/"><img width="120" src="./assets/img/institution/thupdi.png"></a>
   </div>
 
@@ -142,6 +143,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2021.12 - 2022.02</strong><br>
+  <div style="height: 5px;"></div>
   <a href="https://www.kysec.cn/"><img width="120" src="./assets/img/institution/kaiyuan.png"></a>
   </div>
 
