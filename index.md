@@ -223,7 +223,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ### Academic Services
 
-**Peer Reviewer:**
+**Peer Reviewer:**<br>
 - **[Journal]** GIScience & Remote Sensing (1)
 - **[Journal]** Computational Urban Science (1)
 - **[Conference]** ICLR 2025 EmbodiedAI Workshop (1)
@@ -266,7 +266,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - To be updated
 <!-- 考日语N1，考CFA I -->
 
-## 🎾 Miscs
+## 🎾 Misc
 
 - I love Rock, Britpop and Citypop. I am a big fan of Blur, Oasis and Cheer Chen! I learnt to play a few favorite songs on piano and guitar by teaching myself.
 - I watch about 200+ movies each year. You can communicate with me on [Douban](https://www.douban.com/people/xycf/).
