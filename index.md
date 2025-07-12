@@ -85,7 +85,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
   GPA: 4.89 / 5 (Top 1%)<br>
   Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship<br>
-  Minor Degree in Finance @ <strong>Fudan University</strong>
+  Minor Degree in Finance @ <strong><a href="https://www.fudan.edu.cn/en/">Fudan University</a></strong>
   </div>
 </div>
 
