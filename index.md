@@ -185,7 +185,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🎾 Miscs
 
 - I love Rock, Britpop and Citypop. I am a big fan of Blur, Oasis and Cheer Chen! I learnt to play a few favorite songs on piano and guitar by teaching myself.
-- I would say I have a pretty good taste for movies. I watch about 200+ movies each year. You can follow me on [Douban](https://www.douban.com/people/xycf/)!
+- I watch about 200+ movies each year. You can communicate with me on [Douban](https://www.douban.com/people/xycf/)!
+- I enjoy "city walking" and photography. 
 - My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson, Christoph Nolan... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
