@@ -63,7 +63,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">Tsinghua University</font></strong><br>
+  <strong><font color="#002676" size="4"><a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a></font></strong><br>
   Master of Architecture (Urban Informatics and Urban Renewal)<br>
   School of Architecure (<a href="https://www.arch.tsinghua.edu.cn/column/Home">Link</a>)<br>
   GPA: 3.93 / 4<br>
@@ -82,7 +82,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">Tongji University</font></strong><br>
+  <strong><font color="#002676" size="4"><a href="https://www.tongji.edu.cn/eng/">Tongji University</a></font></strong><br>
   Bachelor of Engineering (Architecture and Urban Design)<br>
   College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
   GPA: 4.89 / 5 (Top 1%)<br>
