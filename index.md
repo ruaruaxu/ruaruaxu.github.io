@@ -51,8 +51,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 </div>
 
-<br>
-
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   2023 - 2025<br>
@@ -69,8 +67,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   Advisor: <a href="https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864">Dr. Jinxi Chen</a>
   </div>
 </div>
-
-<br>
 
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
