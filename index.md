@@ -16,9 +16,9 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 
 ### Research Interests:
 
-- **Environmental Sustainability:** Heat, Flooding, Air Pollution, Goundwater, Wildfire...
+- **Environmental Sustainability:** Heat, Air Pollution, Flooding...
 - **Human Well-being:** Visual Perception, Urban Regeneration, Public Health...
-- **LLM and Urban Computing:** Spatial Embodied Agent, Deep Learning...
+- **LLM and Urban Computing:** Spatial Intelligence, Deep Learning...
  <br>
 
 ## 🔥 News
@@ -200,4 +200,4 @@ Please feel free to contact me via Email or WeChat.
 <!--- **Blog:** <font color=DeepPink>urbanxlab</font> (WeChat Public Account) -->
 <div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=98acd7&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676'></script>
+<script type='text/javascript' id='clustrmaps' src='//clustrmaps.com/map_v2.js?&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8'></script>
