@@ -74,37 +74,26 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
-  2023 - 2025<br>
+  2019 - 2023<br>
   <br>
-  <a href="https://www.tsinghua.edu.cn/en/"><img width="120" src="./assets/img/tsinghua.png"></a>
+  <a href="https://www.tongji.edu.cn/eng/"><img width="120" src="./assets/img/tongji.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">Tsinghua University</font></strong><br>
-  Master of Architecture (Urban Informatics and Urban Renewal)<br>
-  GPA: 3.93 / 4<br>
-  Comprehensive Excellence Scholarship<br>
-  Advisor: <a href="https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864">Dr. Jinxi Chen</a>
+  <strong><font color="#002676" size="4">Tongji University</font></strong><br>
+  Bachelor of Engineering (Architecture and Urban Design)<br>
+  GPA: 4.89 / 5 (Top 1%)<br>
+  Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship<br>
+  Minor Degree in Finance @ <strong>Fudan University</strong>
   </div>
 </div>
 
-
-2025 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
-　　　　　　　*Doctor of Philosophy in Environmental Studies*<br>
-　　　　　　　*Department of Landscape Architecture and Environmental Planning*<br>
-　　　　　　　*Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)*
-
-2023 - 2025　　 **<font color="#002676" size="4">Tsinghua University</font>**<br>
-　　　　　　　*Master of Architecture (Urban Informatics and Urban Renewal)*<br>
-　　　　　　　*GPA: 3.93 / 4*<br>
-　　　　　　　*Comprehensive Excellence Scholarship*<br>
-<!-- 　　　　　　　*Advisor: [Dr. Jinxi Chen](https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864)* -->
 
 2019 - 2023　　 **<font color="#002676" size="4">Tongji University</font>**<br>
 　　　　　　　*Bachelor of Engineering (Architecture and Urban Design)*<br>
 　　　　　　　*GPA: 4.89 / 5 (Top 1%)*<br>
 　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
-　　　　　　　*Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship*
+　　　　　　　**
 
 
 ## 🏙️ Affiliation
