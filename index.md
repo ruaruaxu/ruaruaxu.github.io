@@ -113,11 +113,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   <div style="flex: 2; padding-right: 10px;">
   <strong>2024.10 - 2025.03</strong><br>
   <br>
-  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
+  <a href="https://www.thad.com.cn/"><img width="80" src="./assets/img/institution/thad.svg"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">Tsinghua Architectural Design & Research Institute</font></strong><br>
+  <strong><font size="4"><a href="https://www.thad.com.cn/" style="color: #002676">Tsinghua Architectural Design & Research Institute</a></font></strong><br>
   Intern Planner & Architect<br>
   <i>Zhejiang Wanli University Yuyao Campus Project</i><!-- 引用到项目页面 详情可以notion做 -->
   </div>
