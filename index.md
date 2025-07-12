@@ -96,12 +96,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2024.09 - Present</strong><br>
-  <br>
   <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">FIB Lab, Tsinghua University</font></strong><br>
+  <strong><font size="4"><a href="https://fi.ee.tsinghua.edu.cn/" style="color: #002676">Future Intelligence LaB (FIB-Lab), Tsinghua University</a></font></strong><br>
   Research Assistant<br>
   Department of Electronic Engineering (<a href="https://fi.ee.tsinghua.edu.cn/">Link</a>)<br>
   Advisor: <a href="https://fi.ee.tsinghua.edu.cn/~gaochen/">Dr. Chen Gao</a>, <a href="https://vonfeng.github.io/">Dr. Jie Feng</a>, <a href="https://fi.ee.tsinghua.edu.cn/~liyong/">Dr. Yong Li</a>
@@ -128,7 +127,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
-  <strong>2024.10 - 2025.03</strong><br>
+  <strong>2023.08 - 2024.06</strong><br>
   <br>
   <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
   </div>
@@ -156,11 +155,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 </div>
 
-
-2021.12 - 2022.02　**<font color="#002676" size="4">Kaiyuan Securities Research Institute</font>**<br>
-　　　　　　　　 *Intern Equity Researcher*<br>
-　　　　　　　　 *In-depth Report on the cosmetics industry and BeiTaiNi (300957)*<br>
-
+<!-- 更多按钮 begins -->
 <script>
   function togglePublications() {
     // Select all hidden items
@@ -189,6 +184,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
     }
   }
 </script>
+<!-- 更多按钮 ends -->
+
 
 <style>
   .hidden {
