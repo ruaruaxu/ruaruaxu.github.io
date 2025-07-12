@@ -4,7 +4,7 @@ layout: homepage
 
 
 <!-- 导航栏手机适配，publication，projects做成单独页面 -->
-<!-- education、affiliation排版分栏，加校徽 https://ldzhangyx.github.io/，加show more按钮 -->
+<!-- affiliation排版分栏加校徽，加show more按钮 -->
 <!-- 字体 -->
 
 <div id='aboutme'></div>

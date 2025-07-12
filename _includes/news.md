@@ -1,4 +1,4 @@
-<div style="height: 150px; overflow-y: scroll; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); border-radius: 8px; background-color: #fafafa">
+<div style="height: 150px; overflow-y: scroll; border: 1px solid #ccc; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); border-radius: 8px; background-color: #fafafa">
     <ul>
         <li><strong><font color="DeepPink">[2025.07]</font></strong> ✨Our research on human perception disparity between urban and suburban areas has been accepted by <i><strong>Cities (SSCI, IF=6.6)</strong></i>!</li>
         <li><strong><font color="DeepPink">[2025.05]</font></strong> 🥰My first-authored paper <i>Defining and Evaluating VLM's Basic Spatial Abilities: A Perspective from Psychometrics</i> (<a href="https://arxiv.org/abs/2502.11859">DOI</a>) has been accepted by <i><strong>ACL Main (CCF-A)</strong></i>!</li>
