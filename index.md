@@ -6,8 +6,7 @@ layout: homepage
 <!-- 导航栏手机适配，publication，projects做成单独页面 -->
 <!-- affiliation排版分栏加校徽，加show more按钮 -->
 <!-- 字体-->
-
-<div id='aboutme'></div>
+<!-- 摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面-->
 
 # 👋🦁 About Me
 
@@ -46,7 +45,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4"><a href="https://www.berkeley.edu/">University of California, Berkeley</a></font></strong><br>
+  <strong><font size="4"><a href="https://www.berkeley.edu/" color="#002676">University of California, Berkeley</a></font></strong><br>
   Doctor of Philosophy (Environmental Studies)<br>
   Department of Landscape Archi. & Environmental Planning (<a href="https://ced.berkeley.edu/land">Link</a>)<br>
   Advisor: <a href="https://sites.google.com/site/liang3mlab/people/prof-lu-liang">Dr. Lu Liang</a>
@@ -63,7 +62,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4"><a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a></font></strong><br>
+  <strong><font size="4"><a href="https://www.tsinghua.edu.cn/en/" color="#002676">Tsinghua University</a></font></strong><br>
   Master of Architecture (Urban Informatics and Urban Renewal)<br>
   School of Architecure (<a href="https://www.arch.tsinghua.edu.cn/column/Home">Link</a>)<br>
   GPA: 3.93 / 4<br>
@@ -82,7 +81,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4"><a href="https://www.tongji.edu.cn/eng/">Tongji University</a></font></strong><br>
+  <strong><font size="4"><a href="https://www.tongji.edu.cn/eng/" color="#002676">Tongji University</a></font></strong><br>
   Bachelor of Engineering (Architecture and Urban Design)<br>
   College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
   GPA: 4.89 / 5 (Top 1%)<br>
@@ -98,23 +97,19 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   <div style="flex: 2; padding-right: 10px;">
   <strong>2024.09 - Present</strong><br>
   <br>
-  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="120" src="./assets/img/institution/fiblab.svg"></a>
+  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="60" src="./assets/img/institution/fiblab.svg"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">Tongji University</font></strong><br>
-  Bachelor of Engineering (Architecture and Urban Design)<br>
-  College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
-  GPA: 4.89 / 5 (Top 1%)<br>
-  Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship<br>
-  Minor Degree in Finance @ <strong><a href="https://www.fudan.edu.cn/en/">Fudan University</a></strong>
+  <strong><font color="#002676" size="4">FIB Lab, Tsinghua University</font></strong><br>
+  Research Assistant<br>
+  Department of Electronic Engineering (<a href="https://fi.ee.tsinghua.edu.cn/">Link</a>)<br>
+  Advisor: <a href="https://fi.ee.tsinghua.edu.cn/~gaochen/">Dr. Chen Gao</a>, <a href="https://vonfeng.github.io/">Dr. Jie Feng</a>, <a href="https://fi.ee.tsinghua.edu.cn/~liyong/">Dr. Yong Li</a>
   </div>
 </div>
 
-2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
-　　　　　　　　 *Research Assistant*<br>
-　　　　　　　　 *[FIB Lab](https://fi.ee.tsinghua.edu.cn/), Department of Electronic Engineering*<br>
-　　　　　　　　 *Advisor: [Dr. Chen Gao](https://fi.ee.tsinghua.edu.cn/~gaochen/), [Dr. Jie Feng](https://vonfeng.github.io/), [Dr. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/)*
+
+
 
 2024.10 - 2025.03　**<font color="#002676" size="4">Tsinghua Architectural Design & Research Institute</font>**<br>
 　　　　　　　　 *Intern Planner & Architect*<br>
