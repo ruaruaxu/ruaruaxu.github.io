@@ -5,9 +5,10 @@ layout: homepage
 
 <!-- 导航栏手机适配，publication，projects做成单独页面 -->
 <!-- affiliation排版分栏加校徽，加show more按钮 -->
-<!-- 字体 -->
+<!-- 字体-->
 
 <div id='aboutme'></div>
+
 # 👋🦁 About Me
 
 Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
@@ -21,9 +22,11 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 - **LLM and Urban Computing:** Spatial Intelligence, Deep Learning...
  <br>
 
+
 ## 🔥 News
 
 {% include_relative _includes/news.md %}
+
 
 ## 📖 Selected Publications
 
@@ -32,17 +35,18 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 {% include_relative _includes/publications.md %}
 
+
 ## 🎓 Education
 
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2025 - Present</strong><br>
   <br>
-  <a href="https://www.berkeley.edu/"><img width="120" src="./assets/img/ucberkeley.png"></a>
+  <a href="https://www.berkeley.edu/"><img width="120" src="./assets/img/institution/ucberkeley.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">University of California, Berkeley</font></strong><br>
+  <strong><font color="#002676" size="4"><a href="https://www.berkeley.edu/">University of California, Berkeley</a></font></strong><br>
   Doctor of Philosophy (Environmental Studies)<br>
   Department of Landscape Archi. & Environmental Planning (<a href="https://ced.berkeley.edu/land">Link</a>)<br>
   Advisor: <a href="https://sites.google.com/site/liang3mlab/people/prof-lu-liang">Dr. Lu Liang</a>
@@ -55,7 +59,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   <div style="flex: 2; padding-right: 10px;">
   <strong>2023 - 2025</strong><br>
   <br>
-  <a href="https://www.tsinghua.edu.cn/en/"><img width="120" src="./assets/img/tsinghua.png"></a>
+  <a href="https://www.tsinghua.edu.cn/en/"><img width="120" src="./assets/img/institution/tsinghua.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
@@ -74,7 +78,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   <div style="flex: 2; padding-right: 10px;">
   <strong>2019 - 2023</strong><br>
   <br>
-  <a href="https://www.tongji.edu.cn/eng/"><img width="120" src="./assets/img/tongji.png"></a>
+  <a href="https://www.tongji.edu.cn/eng/"><img width="120" src="./assets/img/institution/tongji.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
@@ -87,9 +91,25 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 </div>
 
+
 ## 🏙️ Affiliation
 
-<div id="affiliation"></div>
+<div style="display: flex;">
+  <div style="flex: 2; padding-right: 10px;">
+  <strong>2024.09 - Present</strong><br>
+  <br>
+  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="120" src="./assets/img/institution/fiblab.svg"></a>
+  </div>
+
+  <div style="flex: 8; padding-left: 10px;">
+  <strong><font color="#002676" size="4">Tongji University</font></strong><br>
+  Bachelor of Engineering (Architecture and Urban Design)<br>
+  College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
+  GPA: 4.89 / 5 (Top 1%)<br>
+  Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship<br>
+  Minor Degree in Finance @ <strong><a href="https://www.fudan.edu.cn/en/">Fudan University</a></strong>
+  </div>
+</div>
 
 2024.09 - Present　**<font color="#002676" size="4">Tsinghua University</font>**<br>
 　　　　　　　　 *Research Assistant*<br>
