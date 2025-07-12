@@ -209,7 +209,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🎉 Activities & Services
 
-### Conference Presentation
+### Conference
 
 - **[2025]** [Oral Presentation] The 32nd International Conference on Geoinformatics ([CPGIS](https://www.cpgis.org/)), Jiaozuo, China.
 - **[2025]** [Oral Presentation] The 19th International Association for China Planning Annual Conference ([IACP](https://www.china-planning.org/)), Xiamen, China.
@@ -218,13 +218,14 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2025]** [Accepted] The 25th COTA International Conference of Transportation Professionals ([CICTP](https://cictp2025.scievent.com/)), Guangzhou, China.
 - **[2024]** [Poster Presentation] [Nature Conference on Air Pollution and Climate Change](https://web.cvent.com/event/06e7aeed-3b2e-4a19-982f-ce28d2a97924/summary), Beijing, China.
 
-### Peer Review
+### Academic Services
 
+**Peer Reviewer:**
 - **[Journal]** GIScience & Remote Sensing (1)
 - **[Journal]** Computational Urban Science (1)
 - **[Conference]** ICLR 2025 EmbodiedAI Workshop (1)
 
-### Professional Organization
+### Organization
 
 - **[2022.01-Present]** Student member of the **Architectural Society of China**.
 - **[2023.12-Present]** Volunteer in **Citipedia** (the #1 volunteer group in promoting sustainable city and transportation in China.
@@ -232,15 +233,15 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2021.10-2022.11]** Leader of the Students' Union of College of Architecture and Urban Planning, Tongji University.
 - **[2021.07-2022.08]** Leader of the "Dream Classroom" voluntary teaching & design & construction project (Tibet Lhatse Middle School and Xinjiang Huocheng Middle School), Tongji University.
 
-### Teaching Assistant
+### Teaching
 
-- **[Tsinghua University] Undergraduate Dissertation Design Studio:** 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring (Head TA).
+- **[Tsinghua University] Undergraduate Dissertation Design Studio:** 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring (TA).
 - **[Tsinghua University] Urban Design Elements:** 2023 Fall (TA).
 
 
 ## 🏆 Selected Awards
 
-### Scholarships
+### Honors & Scholarships
 
 - **[2024]** **Comprehensive Excellence Scholarship**: Awarded by Tsinghua University.
 - **[2023]** **Distinct Graduate of Shanghai**: Graduation with the highest distinction.
