@@ -12,6 +12,9 @@ main:
     authors: Xinyue Gu, <strong>Wenrui Xu</strong>, Chuanjia Gong, Xintao Liu*
     journal_short: 2025 Cities
     journal: Cities, 2025.
+    doi: https://doi.org/10.48550/arXiv.2502.11859
+    pdf: https://arxiv.org/pdf/2502.11859
+    bibtex: ./assets/biblex/xuDefiningEvaluatingVisual2025.html
     image: ./assets/img/publication/cities.png
 
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
