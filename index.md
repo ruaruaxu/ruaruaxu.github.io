@@ -5,7 +5,7 @@ layout: homepage
 
 <!-- 导航栏手机适配，publication，projects做成单独页面 -->
 <!-- affiliation排版分栏加校徽，加show more按钮 -->
-<!-- 字体-->
+<!-- 字体 标题突出-->
 <!-- 摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面-->
 
 # 👋🦁 About Me
@@ -113,7 +113,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   <div style="flex: 2; padding-right: 10px;">
   <strong>2024.10 - 2025.03</strong><br>
   <br>
-  <a href="https://www.thad.com.cn/"><img width="80" src="./assets/img/institution/thad.svg"></a>
+  <a href="https://www.thad.com.cn/"><img width="80" src="./assets/img/institution/thad.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
