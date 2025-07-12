@@ -177,7 +177,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🪪 Certificates & Skills
 
-- **Language:** English (GRE 336, TOEFL 107, CET-6 684); Japanese (Beginner); Chinese (Native)
+- **Language:** English (GRE 336, CET-6 684); Japanese (N5); Chinese (Native)
 - To be updated
 <!-- 考日语N1，考CFA I -->
 
@@ -185,8 +185,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🎾 Miscs
 
 - I love Rock, Britpop and Citypop. I am a big fan of Blur, Oasis and Cheer Chen! I learnt to play a few favorite songs on piano and guitar by teaching myself.
-- I watch about 200+ movies each year. You can communicate with me on [Douban](https://www.douban.com/people/xycf/)!
-- I enjoy "city walking" and photography. 
+- I watch about 200+ movies each year. You can communicate with me on [Douban](https://www.douban.com/people/xycf/).
+- I enjoy "city walking" and photography. You can find my portfolio on [500px](https://500px.com.cn/ruaruaxu).
 - My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson, Christoph Nolan... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
