@@ -38,7 +38,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
-  2025 - Present<br>
+  <strong>2025 - Present</strong><br>
   <br>
   <a href="https://www.berkeley.edu/"><img width="120" src="./assets/img/ucberkeley.png"></a>
   </div>
@@ -55,7 +55,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
-  2023 - 2025<br>
+  <strong>2023 - 2025</strong><br>
   <br>
   <a href="https://www.tsinghua.edu.cn/en/"><img width="120" src="./assets/img/tsinghua.png"></a>
   </div>
@@ -74,7 +74,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
-  2019 - 2023<br>
+  <strong>2019 - 2023</strong><br>
   <br>
   <a href="https://www.tongji.edu.cn/eng/"><img width="120" src="./assets/img/tongji.png"></a>
   </div>
