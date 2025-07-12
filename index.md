@@ -37,25 +37,45 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🎓 Education
 
 <div style="display: flex;">
-
   <div style="flex: 2; padding-right: 10px;">
   2025 - Present<br>
+  <br>
   <a href="https://www.berkeley.edu/"><img width="120" src="./assets/img/ucberkeley.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
   <strong><font color="#002676" size="4">University of California, Berkeley</font></strong><br>
   Doctor of Philosophy (Environmental Studies)<br>
-  Department of Landscape Architecture and Environmental Planning<br>
+  Department of Landscape Archi. & Environmental Planning (<a href="https://ced.berkeley.edu/land">Link</a>)<br>
   Advisor: <a href="https://sites.google.com/site/liang3mlab/people/prof-lu-liang">Dr. Lu Liang</a>
   </div>
-
 </div>
 
-<div style="display: flex;">
+<br>
 
+<div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   2023 - 2025<br>
+  <br>
+  <a href="https://www.tsinghua.edu.cn/en/"><img width="120" src="./assets/img/tsinghua.png"></a>
+  </div>
+
+  <div style="flex: 8; padding-left: 10px;">
+  <strong><font color="#002676" size="4">Tsinghua University</font></strong><br>
+  Master of Architecture (Urban Informatics and Urban Renewal)<br>
+  School of Architecure (<a href="https://www.arch.tsinghua.edu.cn/column/Home">Link</a>)
+  GPA: 3.93 / 4<br>
+  Comprehensive Excellence Scholarship<br>
+  Advisor: <a href="https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864">Dr. Jinxi Chen</a>
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex;">
+  <div style="flex: 2; padding-right: 10px;">
+  2023 - 2025<br>
+  <br>
   <a href="https://www.tsinghua.edu.cn/en/"><img width="120" src="./assets/img/tsinghua.png"></a>
   </div>
 
@@ -66,9 +86,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   Comprehensive Excellence Scholarship<br>
   Advisor: <a href="https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864">Dr. Jinxi Chen</a>
   </div>
-
 </div>
-
 
 
 2025 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
