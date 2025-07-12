@@ -211,8 +211,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ### Conference
 
-- **[2025]** [Oral Presentation] The 32nd International Conference on Geoinformatics ([CPGIS](https://www.cpgis.org/)), Jiaozuo, China.
+- **[2025]** [Accepted] The 65th Association of Collegiate Schools of Planning Annual Conference ([ACSP](https://www.acsp.org/)), Minneapolis, US.
+- **[2025]** [Accepted] The 4rd International Conference on Urban Informatics ([GSCS & ICUI](https://www.isocui.org/)), Hong Kong, China.
+- **[2025]** [Poster Presentation] The 19th International Conference on Computational Urban Planning and Urban Management ([CUPUM](https://cupum.co/)), London, UK.
 - **[2025]** [Oral Presentation] The 19th International Association for China Planning Annual Conference ([IACP](https://www.china-planning.org/)), Xiamen, China.
+- **[2025]** [Oral Presentation] The 32nd International Conference on Geoinformatics ([CPGIS](https://www.cpgis.org/)), Jiaozuo, China.
 - **[2025]** [Accepted] Extending Knowledge-based View in Generative AI Era. The 85th Annual Meeting of the Academy of Management ([AOM](https://aom.org/)), Copenhagen, Denmark.
 - **[2025]** [Accepted] Architecting Knowledge Ecosystems: How Generative AI Redraws the Boundaries of Competitive Advantage. Strategic Management Society 45th Annual Conference ([SMS](https://www.strategicmanagement.net/)), San Francisco, US.
 - **[2025]** [Accepted] The 25th COTA International Conference of Transportation Professionals ([CICTP](https://cictp2025.scievent.com/)), Guangzhou, China.
