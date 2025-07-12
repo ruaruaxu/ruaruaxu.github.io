@@ -112,7 +112,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2024.10 - 2025.03</strong><br>
-  <br>
   <a href="https://www.thad.com.cn/"><img width="80" src="./assets/img/institution/thad.png"></a>
   </div>
 
@@ -128,12 +127,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2023.08 - 2024.06</strong><br>
-  <br>
-  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
+  <a href="http://www.thupdi.com/"><img width="80" src="./assets/img/institution/thupdi.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">Tsinghua Tongheng Urban Planning Institute</font></strong><br>
+  <strong><font size="4"><a href="http://www.thupdi.com/" style="color: #002676">Tsinghua Tongheng Urban Planning Institute</a></font></strong><br>
   Intern Architect<br>
   <i>Beijing 1st Experimental Primary School Honglian Branch Renewal Project</i><!-- 引用到项目页面 详情可以notion做 -->
   </div>
@@ -144,16 +142,16 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 <div style="display: flex;">
   <div style="flex: 2; padding-right: 10px;">
   <strong>2021.12 - 2022.02</strong><br>
-  <br>
-  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
+  <a href="https://www.kysec.cn/"><img width="80" src="./assets/img/institution/kaiyuan.png"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font color="#002676" size="4">Kaiyuan Securities Research Institute</font></strong><br>
+  <strong><font size="4"><a href="https://www.kysec.cn/" style="color: #002676">Kaiyuan Securities Research Institute</a></font></strong><br>
   Intern Equity Researcher<br>
-  <i>In-depth Report on the cosmetics industry and BeiTaiNi (SZ.300957)</i><!-- 引用到项目页面 详情可以notion做 -->
+  <i>In-depth Report on the cosmetics industry and BeiTaiNi (SZ.300957) (<a href="https://www.fxbaogao.com/detail/3015179">Link</a>)</i><!-- 引用到项目页面 详情可以notion做 -->
   </div>
 </div>
+
 
 <!-- 更多按钮 begins -->
 <script>
