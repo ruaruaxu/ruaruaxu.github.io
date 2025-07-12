@@ -37,10 +37,18 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🎓 Education
 
 <a href="https://wenruixu.com/"><img height="50" src="./assets/img/ucberkeley.png"></a>
+<a href="https://wenruixu.com/"><img height="50" src="./assets/img/ucberkeley.png"></a>
+<a href="https://wenruixu.com/"><img height="50" src="./assets/img/ucberkeley.png"></a>
 
-<a href="https://wenruixu.com/"><img height="50" src="./assets/img/xuyuchenfeng.jpg"></a>
-
-<a href="https://wenruixu.com/"><img height="50" src="./assets/img/xuyuchenfeng.jpg"></a>
+<div style="display: flex;">
+  <div style="flex: 3; padding-right: 10px;">2025 - Present</div>
+  <div style="flex: 7; padding-left: 10px;">
+  <strong><font color="#002676" size="4">University of California, Berkeley</font></strong><br>
+  Doctor of Philosophy in Environmental Studies
+  Department of Landscape Architecture and Environmental Planning
+  Advisor: [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang)
+  </div>
+</div>
 
 2025 - Present　**<font color="#002676" size="4">University of California, Berkeley</font>**<br>
 　　　　　　　*Doctor of Philosophy in Environmental Studies*<br>
