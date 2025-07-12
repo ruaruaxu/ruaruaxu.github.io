@@ -139,6 +139,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ### Peer Review
 
 - **[Journal]** GIScience & Remote Sensing (1)
+- **[Journal]** Computational Urban Science (1)
 - **[Conference]** ICLR 2025 EmbodiedAI Workshop (1)
 
 ### Professional Organization
@@ -184,7 +185,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ## 🎾 Miscs
 
 - I love Rock, Britpop and Citypop. I am a big fan of Blur, Oasis and Cheer Chen! I learnt to play a few favorite songs on piano and guitar by teaching myself.
-- I would say I have a pretty good taste for movies. I watch about 300+ movies each year. You can follow me on [Douban](https://www.douban.com/people/xycf/)!
+- I would say I have a pretty good taste for movies. I watch about 200+ movies each year. You can follow me on [Douban](https://www.douban.com/people/xycf/)!
 - My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson, Christoph Nolan... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
 
@@ -198,6 +199,6 @@ Please feel free to contact me via Email or WeChat.
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu</font>
 <!--- **Blog:** <font color=DeepPink>urbanxlab</font> (WeChat Public Account) -->
-<div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>
+<!---<div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>-->
 
 <script type='text/javascript' id='clustrmaps' src='//clustrmaps.com/map_v2.js?&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8'></script>
