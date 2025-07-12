@@ -1,4 +1,3 @@
-<p>
 @misc{wangRecentSurgePublic2024,
   title = {Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data},
   shorttitle = {Recent Surge in Public Interest in Transportation},
@@ -16,4 +15,3 @@
   langid = {english},
   keywords = {Computer Science - Social and Information Networks,linter/error},
 }
-</p>
