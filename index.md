@@ -25,14 +25,12 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 
 {% include_relative _includes/news.md %}
 
-
 ## 📖 Selected Publications
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.<br>
 †Equal Contribution, *Corresponding Author
 
 {% include_relative _includes/publications.md %}
-
 
 ## 🎓 Education
 
@@ -88,7 +86,6 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   Minor Degree in Finance @ <strong><a href="https://www.fudan.edu.cn/en/">Fudan University</a></strong>
   </div>
 </div>
-
 
 ## 🏙️ Affiliation
 
@@ -210,13 +207,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 - **[2021]** **National Computer Design Competition for College Students**: Second Prize.
 - **[2020]** **National English Competition for College Students**: Top Prize.
 
-
 ## 🪪 Certificates & Skills
 
 - **Language:** English (GRE 336, CET-6 684); Japanese (N5); Chinese (Native)
 - To be updated
 <!-- 考日语N1，考CFA I -->
-
 
 ## 🎾 Miscs
 
