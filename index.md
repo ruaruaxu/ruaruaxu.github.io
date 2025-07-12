@@ -78,18 +78,12 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   <div style="flex: 8; padding-left: 10px;">
   <strong><font color="#002676" size="4">Tongji University</font></strong><br>
   Bachelor of Engineering (Architecture and Urban Design)<br>
+  College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)
   GPA: 4.89 / 5 (Top 1%)<br>
   Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship<br>
   Minor Degree in Finance @ <strong>Fudan University</strong>
   </div>
 </div>
-
-
-2019 - 2023　　 **<font color="#002676" size="4">Tongji University</font>**<br>
-　　　　　　　*Bachelor of Engineering (Architecture and Urban Design)*<br>
-　　　　　　　*GPA: 4.89 / 5 (Top 1%)*<br>
-　　　　　　　*Minor Degree in Finance **@ Fudan University***<br>
-　　　　　　　**
 
 
 ## 🏙️ Affiliation
