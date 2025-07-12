@@ -45,7 +45,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.berkeley.edu/" color="#002676">University of California, Berkeley</a></font></strong><br>
+  <strong><font size="4"><a href="https://www.berkeley.edu/" style="color: #002676">University of California, Berkeley</a></font></strong><br>
   Doctor of Philosophy (Environmental Studies)<br>
   Department of Landscape Archi. & Environmental Planning (<a href="https://ced.berkeley.edu/land">Link</a>)<br>
   Advisor: <a href="https://sites.google.com/site/liang3mlab/people/prof-lu-liang">Dr. Lu Liang</a>
@@ -62,7 +62,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.tsinghua.edu.cn/en/" color="#002676">Tsinghua University</a></font></strong><br>
+  <strong><font size="4"><a href="https://www.tsinghua.edu.cn/en/" style="color: #002676">Tsinghua University</a></font></strong><br>
   Master of Architecture (Urban Informatics and Urban Renewal)<br>
   School of Architecure (<a href="https://www.arch.tsinghua.edu.cn/column/Home">Link</a>)<br>
   GPA: 3.93 / 4<br>
@@ -81,7 +81,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.tongji.edu.cn/eng/" color="#002676">Tongji University</a></font></strong><br>
+  <strong><font size="4"><a href="https://www.tongji.edu.cn/eng/" style="color: #002676">Tongji University</a></font></strong><br>
   Bachelor of Engineering (Architecture and Urban Design)<br>
   College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
   GPA: 4.89 / 5 (Top 1%)<br>
@@ -97,7 +97,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   <div style="flex: 2; padding-right: 10px;">
   <strong>2024.09 - Present</strong><br>
   <br>
-  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="60" src="./assets/img/institution/fiblab.svg"></a>
+  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
   </div>
 
   <div style="flex: 8; padding-left: 10px;">
@@ -108,6 +108,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   </div>
 </div>
 
+<div style="height: 20px;"></div>
 
 
 
