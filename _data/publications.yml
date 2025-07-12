@@ -6,6 +6,7 @@ main:
     journal: Sustainable Cities and Society, 2025.
     doi: https://doi.org/10.1016/j.scs.2025.106411
     pdf: ./assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf
+    bibtex: ./assets/biblex/xuSpatiotemporalImpactsPurposespecific2025.html
     image: ./assets/img/publication/scs.png
 
   - title: "City Centers Really Lived Up to the Hype? Evidence from Human Perceptions of Over 4000 Communities in China"
