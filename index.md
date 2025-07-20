@@ -85,7 +85,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
   Bachelor of Engineering (Architecture and Urban Design)<br>
   College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
   GPA: 4.89 / 5 (Top 1%)<br>
-  Distinct Graduate of Shanghai (<font color=DeepPink>Highest Distinction</font>); National Scholarship<br>
+  Distinct Graduate of Shanghai (<font color=DeepPink>Top 0.1%, Highest Distinction</font>); National Scholarship<br>
   Minor Degree in Finance @ <strong><a href="https://www.fudan.edu.cn/en/">Fudan University</a></strong>
   </div>
 </div>
@@ -247,11 +247,11 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ### Honors & Scholarships
 
 - **[2024]** **Comprehensive Excellence Scholarship**: Awarded by Tsinghua University.
-- **[2023]** **Distinct Graduate of Shanghai**: Graduation with the highest distinction.
+- **[2023]** **Distinct Graduate of Shanghai**: Graduation with the highest distinction (Top 0.1%).
 - **[2022]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
 - **[2021]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
 - **[2021]** **Outstanding Student Model**: Top 7 of 4300+ undergraduates at Tongji University.
-- **[2020]** **National Scholarship**: Highest honor for undergraduate, awarded by the Ministry of Education.
+- **[2020]** **National Scholarship**: Highest honor for undergraduate (Top 1%).
 
 ### Competitions
 
