@@ -12,7 +12,7 @@ layout: homepage
 
 Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
-I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interaction** from urban to human scale to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize large-scale and high-resolution **urban sensing** data and techniques such as LiDAR, streetview, GPS, and social media...
+I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interaction** from global to urban scale to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize large-scale and high-resolution **urban sensing** data and techniques such as LiDAR, streetview, GPS, and social media...
 
 ### Research Interests:
 
