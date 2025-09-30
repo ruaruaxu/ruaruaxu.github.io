@@ -224,9 +224,8 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 ### Academic Services
 
 **Peer Reviewer:**<br>
-- **[Journal]** GIScience & Remote Sensing (1)
-- **[Journal]** Computational Urban Science (1)
-- **[Conference]** ICLR 2025 EmbodiedAI Workshop (1)
+- **[Journal]** GIScience & Remote Sensing; Building and Environment; Computational Urban Science; Architectural Engineering and Design Management
+- **[Conference]** ICLR 2025 EmbodiedAI Workshop
 
 ### Organization
 
@@ -288,4 +287,4 @@ Please feel free to contact me via Email or WeChat.
 <!--- **Blog:** <font color=DeepPink>urbanxlab</font> (WeChat Public Account) -->
 <!---<div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>-->
 
-<script type='text/javascript' id='clustrmaps' src='//clustrmaps.com/map_v2.js?&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d3d3d3&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676&cmo=002676&cmn=ff1796'></script>
