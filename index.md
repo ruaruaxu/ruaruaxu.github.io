@@ -267,13 +267,12 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAA
 
 ## 🎾 Misc
 
-- I love Rock, Britpop and Citypop. I am a big fan of Blur, Radiohead, Cheer Chen... (So hard to name everyone)! I learnt to play a few favorite songs on piano and guitar by teaching myself.
-- I watch about 200+ movies each year. You can communicate with me on [Douban](https://www.douban.com/people/xycf/).
+- I love the 90s Alternative Rock, Britpop, Citypop, and Classicals. My favorite contemporary artists include: Blur, Big Thief, Radiohead, 万能青年旅店, The Velvet Underground, Pink Floyd, My Little Airport, Cheer Chen...
+- I watch about 200+ movies each year. Sometimes I write something. We can talk on [Douban](https://www.douban.com/people/xycf/)! My favorite directors are Quentin Tarantino, Woody Allen, Alfred Hitchcock, David Fincher, Christoph Nolan... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
 - I enjoy "city walking" and photography. You can find my portfolio on [500px](https://500px.com.cn/ruaruaxu).
-- My favorite directors are Alfred Hitchcock, Quentin Tarantino, David Fincher, Wes Anderson, Christoph Nolan... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV is "ロングバケーション"(Long Vacation).
-- I also love tennis. I was a member of the Tsinghua School of Architecture Tennis Team.
-- I am a "No spicy, no joy" person, and my "spiritual hometown" is Sichuan.
-- My nickname is ruarua or rua.
+- I've been passionate about tennis since 20. I was a member of the Tsinghua School of Architecture Tennis Team. I've been learning piano since 22 (hope I can play La Fille aux Cheveux de Lin and Liebesträume one day!).🎾🎹
+- I am a "No spicy, no joy" person, and my "spiritual hometown" is Sichuan.😈
+- My nickname is ruarua or rua.😁
 
 <div id='contact'></div>
 
