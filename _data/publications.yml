@@ -13,9 +13,9 @@ main:
     authors: Xinyue Gu, <strong>Wenrui Xu</strong>, Chuanjia Gong, Xintao Liu*
     journal_short: 2025 Cities
     journal: Cities, 2025.
-    doi: https://doi.org/10.48550/arXiv.2502.11859
-    pdf: https://arxiv.org/pdf/2502.11859
-    bibtex: ./assets/bibtex/xuDefiningEvaluatingVisual2025.txt
+    doi: https://doi.org/10.1016/j.cities.2025.106278
+    pdf: ./assets/files/publication/j.cities.2025.106278.pdf
+    bibtex: 
     image: ./assets/img/publication/cities.png
 
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
@@ -25,8 +25,7 @@ main:
     doi: https://doi.org/10.18653/v1/2025.acl-long.567
     pdf: https://aclanthology.org/2025.acl-long.567.pdf
     bibtex: 
-    page: https://ruarua.notion.site/Defining-and-Evaluating-Visual-Language-Models-Basic-Spatial-Abilities-A-Perspective-from-Psychome-23f7d637ee448004aed1f3220739c004
-    code: https://github.com/ruaruaxu/
+    code: https://github.com/EmbodiedCity/BasicSpatialAbility.code
     image: ./assets/img/publication/xuDefiningEvaluatingVisual2025.png
 
   - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
