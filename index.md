@@ -10,21 +10,130 @@ layout: homepage
 
 # 👋🦁 About Me
 
-Hi there! I am an incoming 2025 Fall Ph.D. (Environmenal Studies) student at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+*This website is still under construction...*
+
+Hi there! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
 I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interaction** from global to urban scale to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize large-scale and high-resolution **urban sensing** data and techniques such as LiDAR, streetview, GPS, and social media...
 
-### Research Interests:
-
+Research Interests:
 - **Environmental Sustainability:** Heat, Air Pollution, Flooding...
-- **Human Well-being:** Micro-Mobility, Human Perception, Urban Renewal, Public Health...
-- **Geospatial AI:** LLM, Spatial Intelligence, Deep Learning...
+- **Human Well-being:** Public Health, Human Mobility, Human Perception ...
+- **Geospatial AI:** Vision Language Model, Agent, Spatial Reasoning, Machine Learning...
  <br>
 
 
 ## 🔥 News
 
 {% include_relative _includes/news.md %}
+
+
+<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 30px auto; position: relative;">
+    </div>
+
+<style>
+    /* 呼吸点动画样式 */
+    .map-pulse {
+        fill: #6c5ce7;       /* 扩散圈颜色 */
+        opacity: 0;
+        transform-origin: center;
+        animation: map-ripple 2s ease-out infinite;
+    }
+    .map-point {
+        fill: #6c5ce7;       /* 实心点颜色 */
+        stroke: #fff;
+        stroke-width: 1px;
+    }
+    .country-path {
+        fill: #e0e0e0;       /* 国家陆地颜色 */
+        stroke: #ffffff;     /* 国界线颜色 */
+        stroke-width: 0.5px;
+    }
+    .country-path:hover {
+        fill: #d6d6d6;       /* 鼠标悬停变色 */
+    }
+    
+    @keyframes map-ripple {
+        0% { transform: scale(1); opacity: 0.8; }
+        100% { transform: scale(4); opacity: 0; }
+    }
+</style>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/topojson-client@3"></script>
+
+<script>
+(function() {
+    // 1. 设置画布尺寸（支持响应式）
+    const width = 960;
+    const height = 500; // 墨卡托投影稍微扁一点
+    
+    const container = d3.select("#world-map-container");
+    
+    const svg = container.append("svg")
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("style", "width: 100%; height: auto; display: block;");
+
+    // 2. 定义投影：墨卡托 (Mercator)
+    // scale(150) 是缩放大小，translate 是平移到底图中心
+    const projection = d3.geoMercator()
+        .scale(150) 
+        .translate([width / 2, height / 1.5]);
+
+    const pathGenerator = d3.geoPath().projection(projection);
+
+    // 3. 定义你要标记的坐标点 [经度, 纬度]
+    // 你可以在 Google Maps 上查到坐标，然后加到这里
+    const myLocations = [
+        { name: "Berkeley", coords: [-122.2585, 37.8719] }, // 你的当前位置
+        { name: "China", coords: [116.4074, 39.9042] },     // 北京示例
+        { name: "Europe", coords: [2.3522, 48.8566] }       // 巴黎示例
+    ];
+
+    // 4. 加载并渲染地图
+    d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(data => {
+        const countries = topojson.feature(data, data.objects.countries);
+
+        // A. 画地图底图
+        svg.selectAll("path")
+            .data(countries.features)
+            .enter().append("path")
+            .attr("class", "country-path")
+            .attr("d", pathGenerator);
+
+        // B. 画点
+        const points = svg.selectAll(".location-group")
+            .data(myLocations)
+            .enter().append("g")
+            .attr("class", "location-group")
+            .attr("transform", d => {
+                const [x, y] = projection(d.coords);
+                // 处理可能在地图外的点（虽然世界地图一般不会出界）
+                return x ? `translate(${x}, ${y})` : "display:none"; 
+            });
+
+        // 添加扩散的圆圈 (下层)
+        points.append("circle")
+            .attr("r", 4)
+            .attr("class", "map-pulse");
+
+        // 添加实心的圆点 (上层)
+        points.append("circle")
+            .attr("r", 4)
+            .attr("class", "map-point");
+            
+        // (可选) 添加文字标签
+        points.append("text")
+            .text(d => d.name)
+            .attr("x", 8)
+            .attr("y", 4)
+            .style("font-size", "12px")
+            .style("font-family", "sans-serif")
+            .style("fill", "#333")
+            .style("text-shadow", "0 1px 2px white"); // 加白色描边防止看不清
+    });
+})();
+</script>
 
 
 ## 📖 Selected Publications
