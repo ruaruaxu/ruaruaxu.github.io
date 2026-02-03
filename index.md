@@ -7,63 +7,79 @@ layout: homepage
 <!-- 加show more按钮 -->
 <!-- 字体 标题突出-->
 <!-- 摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面-->
-<!-- 以后我的地图可以增加lived visited的所有点-->
-
-
-# 👋🦁 About Me
-
-*This website is still under construction...*
+<!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
 <div id="world-map-container" style="width: 100%; max-width: 900px; margin: 30px auto; position: relative;">
-    </div>
+</div>
+
+<div id="map-tooltip" style="position: absolute; opacity: 0; pointer-events: none; background: rgba(255, 255, 255, 0.98); padding: 10px 12px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-family: sans-serif; font-size: 12px; border: 1px solid #eee; z-index: 100; transition: opacity 0.2s; pointer-events: none; max-width: 200px; line-height: 1.5;">
+</div>
 
 <style>
-    /* 1. 呼吸点动画样式 (修正了飞走的问题) */
+    /* 1. 轨迹连线样式 */
+    .track-line {
+        fill: none;
+        stroke: #999;
+        stroke-width: 1.5px;
+        stroke-opacity: 0.3;
+        stroke-linecap: round;
+        stroke-dasharray: 4, 4;
+        pointer-events: none;
+    }
+
+    /* 2. 呼吸动画 */
     .map-pulse {
-        fill: DeepPink;       /* 呼吸圈颜色 */
+        fill: DeepPink;
         opacity: 0.5;
-        /* 关键：下面这两行确保动画是以圆点自身为中心，不会飞走 */
         transform-box: fill-box;
         transform-origin: center;
         animation: map-breathe 2s ease-in-out infinite;
+        pointer-events: none;
     }
-
     .map-point {
-        fill: DeepPink;       /* 实心点颜色 */
+        fill: DeepPink;
         stroke: #fff;
         stroke-width: 1px;
+        transition: r 0.3s;
+        cursor: pointer;
+    }
+    .location-group:hover .map-point {
+        r: 6px; /* 鼠标放上去点变大 */
     }
 
-    /* 地图样式 */
+    /* 地图底图 */
     .country-path {
-        fill: #cccccc;       /* 陆地颜色，浅灰 */
-        stroke: #cccccc;     /* 国界线 */
-        stroke-width: 0.5px;
+        fill: #e6e6e6;
+        stroke: #ffffff;
+        stroke-width: 0.8px;
+    }
+
+    @keyframes map-breathe {
+        0% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(2.5); opacity: 0.3; }
+        100% { transform: scale(1); opacity: 0.8; }
+    }
+
+    /* 3. 城市标签文字 (常驻显示) */
+    .location-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        pointer-events: none; /* 让鼠标可以穿透文字点到地图 */
     }
     
-    /* 2. 定义真正的呼吸动画 (变大再变小) */
-    @keyframes map-breathe {
-        0% {
-            transform: scale(1);
-            opacity: 0.8;
-        }
-        50% {
-            transform: scale(2.5); /* 放大到2.5倍 */
-            opacity: 0.3;          /* 变淡 */
-        }
-        100% {
-            transform: scale(1);   /* 缩回原状 */
-            opacity: 0.8;
-        }
+    /* 名字样式 */
+    .text-name {
+        font-size: 11px;
+        font-weight: 800;
+        fill: #222;
+        text-shadow: 0 1px 4px rgba(255, 255, 255, 1);
     }
-
-    /* 文字样式 */
-    .location-text {
-        font-family: sans-serif;
-        font-size: 12px;
-        fill: #333;
-        text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8); /* 白色描边，防背景干扰 */
-        pointer-events: none; /* 防止文字挡住鼠标交互 */
+    
+    /* 角色/基本信息样式 */
+    .text-role {
+        font-size: 9px;
+        font-weight: 400;
+        fill: #666;
+        text-shadow: 0 1px 4px rgba(255, 255, 255, 1);
     }
 </style>
 
@@ -76,10 +92,11 @@ layout: homepage
     const height = 500;
     
     const container = d3.select("#world-map-container");
+    const tooltip = d3.select("#map-tooltip");
     
     const svg = container.append("svg")
         .attr("viewBox", `0 0 ${width} ${height}`)
-        .attr("style", "width: 100%; height: auto; display: block;");
+        .attr("style", "width: 100%; height: auto; display: block; overflow: visible;`);
 
     const projection = d3.geoMercator()
         .scale(150) 
@@ -88,94 +105,171 @@ layout: homepage
     const pathGenerator = d3.geoPath().projection(projection);
 
     // ==========================================
-    // 3. 在这里修改你的数据 (增加 desc 字段)
+    // 1. 数据配置区域 (Update Here)
     // ==========================================
+    
     const myLocations = [
         { 
             name: "Berkeley", 
-            desc: "2025-Now / PhD Student",  // 你的说明文字
-            coords: [-122.2585, 37.8719] 
+            role: "PhD Student", // 常驻显示的第二行
+            coords: [-122.2585, 37.8719],
+            // 悬浮显示的详细信息 (支持 HTML)
+            desc: "<b>University of California, Berkeley</b><br><span style='color:#666'>2025 - Present</span><br>Environmental Planning & PhD Research." 
         },
         { 
             name: "Beijing", 
-            desc: "2023-2025 / Master", 
-            coords: [116.4074, 39.9042] 
+            role: "Research Intern",
+            coords: [116.4074, 39.9042],
+            desc: "<b>Tsinghua University</b><br><span style='color:#666'>2022 - 2023</span><br>Research Assistant on Urban Sensing." 
         },
         { 
             name: "Shanghai", 
-            desc: "2019-2023 / Bachelor", 
-            coords: [121.4737, 31.2304] 
+            role: "Master Degree",
+            coords: [121.4737, 31.2304],
+            desc: "<b>Tongji University</b><br><span style='color:#666'>2023 - 2025</span><br>Architecture & Urban Planning."
         },
         { 
             name: "Hefei", 
-            desc: "Hometown", 
-            coords: [121.4737, 31.2304] 
+            role: "Bachelor Degree",
+            coords: [117.2272, 31.8206],
+            desc: "<b>Hefei University of Tech</b><br><span style='color:#666'>2019 - 2023</span><br>Urban Planning Major.<br><i>Hometown.</i>"
         }
     ];
-  
+
+    // 轨迹连线 (From -> To)
+    const tracks = [
+        { from: "Hefei", to: "Shanghai" },
+        { from: "Shanghai", to: "Beijing" },
+        { from: "Beijing", to: "Berkeley" }
+    ];
+
+    // ==========================================
+    // 2. 渲染逻辑
+    // ==========================================
 
     d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(data => {
         const countries = topojson.feature(data, data.objects.countries);
 
-        // A. 画地图
+        // --- Step 1: 画地图底图 ---
         svg.selectAll("path")
             .data(countries.features)
             .enter().append("path")
             .attr("class", "country-path")
             .attr("d", pathGenerator);
 
-        // B. 创建每个点的分组
+
+        // --- Step 2: 预计算坐标 ---
+        const locationMap = {};
+        myLocations.forEach(d => {
+            const [x, y] = projection(d.coords);
+            d.x = x;
+            d.y = y;
+            locationMap[d.name] = d;
+        });
+
+
+        // --- Step 3: 画微曲连线 ---
+        const drawCurve = (d) => {
+            const start = locationMap[d.from];
+            const end = locationMap[d.to];
+            if (!start || !end) return "";
+            const mx = (start.x + end.x) / 2;
+            const my = (start.y + end.y) / 2;
+            const dist = Math.sqrt((end.x-start.x)**2 + (end.y-start.y)**2);
+            // 距离越远弯曲越大，Mercator投影通常向上弯曲(-offset)比较自然
+            const offset = dist * 0.15; 
+            return `M${start.x},${start.y} Q${mx},${my - offset} ${end.x},${end.y}`;
+        };
+
+        svg.selectAll(".track-line")
+            .data(tracks)
+            .enter().append("path")
+            .attr("class", "track-line")
+            .attr("d", drawCurve);
+
+
+        // --- Step 4: 画交互点 ---
         const points = svg.selectAll(".location-group")
             .data(myLocations)
             .enter().append("g")
             .attr("class", "location-group")
-            .attr("transform", d => {
-                const [x, y] = projection(d.coords);
-                return x ? `translate(${x}, ${y})` : "display:none"; 
+            // 交互事件
+            .on("mouseover", function(event, d) {
+                tooltip.html(d.desc);
+                tooltip.style("opacity", 1)
+                       .style("left", (event.pageX + 15) + "px")
+                       .style("top", (event.pageY - 15) + "px");
+            })
+            .on("mousemove", function(event) {
+                tooltip.style("left", (event.pageX + 15) + "px")
+                       .style("top", (event.pageY - 15) + "px");
+            })
+            .on("mouseout", function() {
+                tooltip.style("opacity", 0);
             });
 
-        // C. 画呼吸圈 (下层)
+        // 呼吸圈
         points.append("circle")
-            .attr("r", 4)
-            .attr("class", "map-pulse");
+            .attr("class", "map-pulse")
+            .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
 
-        // D. 画实心点 (上层)
+        // 实心点
         points.append("circle")
-            .attr("r", 4)
-            .attr("class", "map-point");
-            
-        // E. 画双行文字
-        const textLabel = points.append("text")
+            .attr("class", "map-point")
+            .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
+
+
+        // --- Step 5: 画常驻双行文字 ---
+        // 难点：tspan 需要手动指定 x 坐标才能正确对齐
+        
+        const textGroup = points.append("text")
             .attr("class", "location-text")
-            .attr("x", 12)  // 文字整体向右偏移 12px，避开圆点
-            .attr("y", 3);  // 微调垂直对齐
+            // 垂直定位：稍微往下偏一点，给上面的线留空间
+            // Beijing 特殊处理：往上挪
+            .attr("y", d => d.name === "Beijing" ? d.y - 12 : d.y + 4) 
+            .attr("text-anchor", d => {
+                // 水平对齐逻辑
+                if (d.name === "Hefei") return "end";   // 合肥：靠右对齐（文字在左）
+                return "start";                         // 其他：靠左对齐（文字在右）
+            });
 
-        // 第一行：地名 (加粗)
-        textLabel.append("tspan")
+        // 第一行：城市名
+        textGroup.append("tspan")
+            .attr("class", "text-name")
             .text(d => d.name)
-            .style("font-weight", "bold")
-            .attr("x", 12)      // 必须手动指定 x，否则换行后会乱
-            .attr("dy", "0em"); // 第一行位置
+            .attr("x", d => {
+                // 必须重新计算 x 位置，否则多行会错位
+                const offset = 8;
+                if (d.name === "Hefei") return d.x - offset;
+                return d.x + offset;
+            })
+            .attr("dy", "0em"); // 第一行基准
 
-        // 第二行：说明 (变小，变灰)
-        textLabel.append("tspan")
-            .text(d => d.desc)
-            .attr("x", 12)      // 对齐上一行
-            .attr("dy", "1.3em") // 向下偏移 1.3行高
-            .style("font-size", "10px")
-            .style("fill", "#666"); // 说明文字用灰色
+        // 第二行：身份 Role
+        textGroup.append("tspan")
+            .attr("class", "text-role")
+            .text(d => d.role)
+            .attr("x", d => {
+                // 与第一行保持完全一致的 x
+                const offset = 8;
+                if (d.name === "Hefei") return d.x - offset;
+                return d.x + offset;
+            })
+            .attr("dy", "1.2em"); // 换行：向下偏移 1.2 倍行高
     });
 })();
 </script>
 
-Hi there! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/)  with [Dr. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+# 👋🦁 About Me
+
+Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
 I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interaction** from global to urban scale to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize large-scale and high-resolution **urban sensing** data and techniques such as LiDAR, streetview, GPS, and social media...
 
-Research Interests:
 - **Environmental Sustainability:** Heat, Air Pollution, Flooding...
 - **Human Well-being:** Computational Social Science, Public Health, Human Mobility ...
 - **Geospatial AI:** Vision Language Model, Agent, Spatial Reasoning, Machine Learning...
+- ***This website is still under construction...***
  <br>
 
 
