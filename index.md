@@ -74,7 +74,7 @@ layout: homepage
     // 关键修改：更换数据源 + 错误捕捉
     // ==========================================
     // 尝试使用 unpkg，如果这个也不行，请看下方的“终极解决办法”
-    const geoJsonUrl = "/assets/json/countries-110m.json";
+    const geoJsonUrl = "/assets/img/countries-110m.json";
 
     d3.json(geoJsonUrl).then(data => {
         // 1. 数据加载成功，移除“Loading...”文字
