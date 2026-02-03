@@ -35,8 +35,7 @@ layout: homepage
 <script>
 (function() {
     const width = 960;
-    // 修改：高度改小到 380，切掉底部的空白
-    const height = 380; 
+    const height = 480; 
     
     const container = d3.select("#world-map-container");
     const tooltip = d3.select("#map-tooltip");
@@ -47,15 +46,13 @@ layout: homepage
     
     const svg = container.append("svg")
         .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
         .style("width", "100%")
         .style("height", "auto")
         .style("display", "block")
         .style("overflow", "hidden");
 
-    // 修改：将 height / 1.4 改为 1.6，把地图往上提，消除顶部空白
     const projection = d3.geoMercator()
-        .scale(150) 
-        .translate([width / 2, height / 1.6]);
     const pathGenerator = d3.geoPath(projection);
 
     const myLocations = [
@@ -154,10 +151,7 @@ layout: homepage
 })();
 </script>
 
-
-# 👋🦁 About Me
-
-Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
 I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interaction** from global to urban scale to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize large-scale and high-resolution **urban sensing** data and techniques such as LiDAR, streetview, GPS, and social media...
 
