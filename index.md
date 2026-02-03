@@ -9,78 +9,24 @@ layout: homepage
 <!-- 摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面-->
 <!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
-<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 30px auto; position: relative;">
+<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 30px auto; position: relative; min-height: 400px; background: #f9f9f9;">
+    <p id="loading-text" style="text-align:center; padding-top: 180px; color: #999;">Map Loading...</p>
 </div>
 
 <div id="map-tooltip" style="position: absolute; opacity: 0; pointer-events: none; background: rgba(255, 255, 255, 0.98); padding: 10px 12px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-family: sans-serif; font-size: 12px; border: 1px solid #eee; z-index: 100; transition: opacity 0.2s; pointer-events: none; max-width: 200px; line-height: 1.5;">
 </div>
 
 <style>
-    /* 1. 轨迹连线样式 */
-    .track-line {
-        fill: none;
-        stroke: #999;
-        stroke-width: 1.5px;
-        stroke-opacity: 0.3;
-        stroke-linecap: round;
-        stroke-dasharray: 4, 4;
-        pointer-events: none;
-    }
-
-    /* 2. 呼吸动画 */
-    .map-pulse {
-        fill: DeepPink;
-        opacity: 0.5;
-        transform-box: fill-box;
-        transform-origin: center;
-        animation: map-breathe 2s ease-in-out infinite;
-        pointer-events: none;
-    }
-    .map-point {
-        fill: DeepPink;
-        stroke: #fff;
-        stroke-width: 1px;
-        transition: r 0.3s;
-        cursor: pointer;
-    }
-    .location-group:hover .map-point {
-        r: 6px; /* 鼠标放上去点变大 */
-    }
-
-    /* 地图底图 */
-    .country-path {
-        fill: #e6e6e6;
-        stroke: #ffffff;
-        stroke-width: 0.8px;
-    }
-
-    @keyframes map-breathe {
-        0% { transform: scale(1); opacity: 0.8; }
-        50% { transform: scale(2.5); opacity: 0.3; }
-        100% { transform: scale(1); opacity: 0.8; }
-    }
-
-    /* 3. 城市标签文字 (常驻显示) */
-    .location-text {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        pointer-events: none; /* 让鼠标可以穿透文字点到地图 */
-    }
-    
-    /* 名字样式 */
-    .text-name {
-        font-size: 11px;
-        font-weight: 800;
-        fill: #222;
-        text-shadow: 0 1px 4px rgba(255, 255, 255, 1);
-    }
-    
-    /* 角色/基本信息样式 */
-    .text-role {
-        font-size: 9px;
-        font-weight: 400;
-        fill: #666;
-        text-shadow: 0 1px 4px rgba(255, 255, 255, 1);
-    }
+    /* 样式部分保持不变 */
+    .track-line { fill: none; stroke: #999; stroke-width: 1.5px; stroke-opacity: 0.3; stroke-linecap: round; stroke-dasharray: 4, 4; pointer-events: none; }
+    .map-pulse { fill: DeepPink; opacity: 0.5; transform-box: fill-box; transform-origin: center; animation: map-breathe 2s ease-in-out infinite; pointer-events: none; }
+    .map-point { fill: DeepPink; stroke: #fff; stroke-width: 1px; transition: r 0.3s; cursor: pointer; }
+    .location-group:hover .map-point { r: 6px; }
+    .country-path { fill: #e6e6e6; stroke: #ffffff; stroke-width: 0.8px; }
+    @keyframes map-breathe { 0% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(2.5); opacity: 0.3; } 100% { transform: scale(1); opacity: 0.8; } }
+    .location-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; pointer-events: none; }
+    .text-name { font-size: 11px; font-weight: 800; fill: #222; text-shadow: 0 1px 4px rgba(255, 255, 255, 1); }
+    .text-role { font-size: 9px; font-weight: 400; fill: #666; text-shadow: 0 1px 4px rgba(255, 255, 255, 1); }
 </style>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -93,10 +39,17 @@ layout: homepage
     
     const container = d3.select("#world-map-container");
     const tooltip = d3.select("#map-tooltip");
+    const loadingText = d3.select("#loading-text");
+    
+    // 清空容器（防止重复渲染）并添加 SVG
+    // 注意：这里删除了 container.append("svg") 之前的 text，但保留 svg
     
     const svg = container.append("svg")
         .attr("viewBox", `0 0 ${width} ${height}`)
-        .attr("style", "width: 100%; height: auto; display: block; overflow: visible;`);
+        .style("width", "100%")
+        .style("height", "auto")
+        .style("display", "block")
+        .style("overflow", "visible");
 
     const projection = d3.geoMercator()
         .scale(150) 
@@ -104,39 +57,13 @@ layout: homepage
 
     const pathGenerator = d3.geoPath().projection(projection);
 
-    // ==========================================
-    // 1. 数据配置区域 (Update Here)
-    // ==========================================
-    
     const myLocations = [
-        { 
-            name: "Berkeley", 
-            role: "PhD Student", // 常驻显示的第二行
-            coords: [-122.2585, 37.8719],
-            // 悬浮显示的详细信息 (支持 HTML)
-            desc: "<b>University of California, Berkeley</b><br><span style='color:#666'>2025 - Present</span><br>Environmental Planning & PhD Research." 
-        },
-        { 
-            name: "Beijing", 
-            role: "Research Intern",
-            coords: [116.4074, 39.9042],
-            desc: "<b>Tsinghua University</b><br><span style='color:#666'>2022 - 2023</span><br>Research Assistant on Urban Sensing." 
-        },
-        { 
-            name: "Shanghai", 
-            role: "Master Degree",
-            coords: [121.4737, 31.2304],
-            desc: "<b>Tongji University</b><br><span style='color:#666'>2023 - 2025</span><br>Architecture & Urban Planning."
-        },
-        { 
-            name: "Hefei", 
-            role: "Bachelor Degree",
-            coords: [117.2272, 31.8206],
-            desc: "<b>Hefei University of Tech</b><br><span style='color:#666'>2019 - 2023</span><br>Urban Planning Major.<br><i>Hometown.</i>"
-        }
+        { name: "Berkeley", role: "2025-Now|PhD Student", coords: [-122.2585, 37.8719], desc: "<b>UC Berkeley</b><br><span style='color:#666'>2025 - Present</span><br>Environmental Planning." },
+        { name: "Beijing", role: "2023-2025|Master at Tsinghua", coords: [116.4074, 39.9042], desc: "<b>Tsinghua University</b><br><span style='color:#666'>2023 - 2025</span><br>Urban Informatics." },
+        { name: "Shanghai", role: "2019-2023|Bachelor at Tongji", coords: [121.4737, 31.2304], desc: "<b>Tongji University</b><br><span style='color:#666'>2019 - 2023</span><br>Architecture & Urban Planning." },
+        { name: "Hefei", role: "Hometown", coords: [117.2272, 31.8206], desc: "Home sweet home." }
     ];
 
-    // 轨迹连线 (From -> To)
     const tracks = [
         { from: "Hefei", to: "Shanghai" },
         { from: "Shanghai", to: "Beijing" },
@@ -144,31 +71,33 @@ layout: homepage
     ];
 
     // ==========================================
-    // 2. 渲染逻辑
+    // 关键修改：更换数据源 + 错误捕捉
     // ==========================================
+    // 尝试使用 unpkg，如果这个也不行，请看下方的“终极解决办法”
+    const geoJsonUrl = "/assets/json/countries-110m.json";
 
-    d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(data => {
+    d3.json(geoJsonUrl).then(data => {
+        // 1. 数据加载成功，移除“Loading...”文字
+        loadingText.remove();
+        container.style("background", "transparent"); // 移除调试用的背景色
+
         const countries = topojson.feature(data, data.objects.countries);
 
-        // --- Step 1: 画地图底图 ---
+        // --- 绘图逻辑 ---
         svg.selectAll("path")
             .data(countries.features)
             .enter().append("path")
             .attr("class", "country-path")
             .attr("d", pathGenerator);
 
-
-        // --- Step 2: 预计算坐标 ---
         const locationMap = {};
         myLocations.forEach(d => {
             const [x, y] = projection(d.coords);
-            d.x = x;
-            d.y = y;
+            d.x = x; d.y = y;
             locationMap[d.name] = d;
         });
 
-
-        // --- Step 3: 画微曲连线 ---
+        // 连线
         const drawCurve = (d) => {
             const start = locationMap[d.from];
             const end = locationMap[d.to];
@@ -176,89 +105,53 @@ layout: homepage
             const mx = (start.x + end.x) / 2;
             const my = (start.y + end.y) / 2;
             const dist = Math.sqrt((end.x-start.x)**2 + (end.y-start.y)**2);
-            // 距离越远弯曲越大，Mercator投影通常向上弯曲(-offset)比较自然
             const offset = dist * 0.15; 
             return `M${start.x},${start.y} Q${mx},${my - offset} ${end.x},${end.y}`;
         };
 
         svg.selectAll(".track-line")
-            .data(tracks)
-            .enter().append("path")
-            .attr("class", "track-line")
-            .attr("d", drawCurve);
+            .data(tracks).enter().append("path")
+            .attr("class", "track-line").attr("d", drawCurve);
 
-
-        // --- Step 4: 画交互点 ---
+        // 点和组
         const points = svg.selectAll(".location-group")
-            .data(myLocations)
-            .enter().append("g")
+            .data(myLocations).enter().append("g")
             .attr("class", "location-group")
-            // 交互事件
             .on("mouseover", function(event, d) {
-                tooltip.html(d.desc);
-                tooltip.style("opacity", 1)
-                       .style("left", (event.pageX + 15) + "px")
-                       .style("top", (event.pageY - 15) + "px");
+                tooltip.html(d.desc).style("opacity", 1).style("left", (event.pageX + 15) + "px").style("top", (event.pageY - 15) + "px");
             })
             .on("mousemove", function(event) {
-                tooltip.style("left", (event.pageX + 15) + "px")
-                       .style("top", (event.pageY - 15) + "px");
+                tooltip.style("left", (event.pageX + 15) + "px").style("top", (event.pageY - 15) + "px");
             })
-            .on("mouseout", function() {
-                tooltip.style("opacity", 0);
-            });
+            .on("mouseout", function() { tooltip.style("opacity", 0); });
 
-        // 呼吸圈
-        points.append("circle")
-            .attr("class", "map-pulse")
-            .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
+        points.append("circle").attr("class", "map-pulse").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
+        points.append("circle").attr("class", "map-point").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
 
-        // 实心点
-        points.append("circle")
-            .attr("class", "map-point")
-            .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
-
-
-        // --- Step 5: 画常驻双行文字 ---
-        // 难点：tspan 需要手动指定 x 坐标才能正确对齐
-        
         const textGroup = points.append("text")
             .attr("class", "location-text")
-            // 垂直定位：稍微往下偏一点，给上面的线留空间
-            // Beijing 特殊处理：往上挪
             .attr("y", d => d.name === "Beijing" ? d.y - 12 : d.y + 4) 
-            .attr("text-anchor", d => {
-                // 水平对齐逻辑
-                if (d.name === "Hefei") return "end";   // 合肥：靠右对齐（文字在左）
-                return "start";                         // 其他：靠左对齐（文字在右）
-            });
+            .attr("text-anchor", d => d.name === "Hefei" ? "end" : "start");
 
-        // 第一行：城市名
         textGroup.append("tspan")
             .attr("class", "text-name")
             .text(d => d.name)
-            .attr("x", d => {
-                // 必须重新计算 x 位置，否则多行会错位
-                const offset = 8;
-                if (d.name === "Hefei") return d.x - offset;
-                return d.x + offset;
-            })
-            .attr("dy", "0em"); // 第一行基准
+            .attr("x", d => d.name === "Hefei" ? d.x - 8 : d.x + 8).attr("dy", "0em");
 
-        // 第二行：身份 Role
         textGroup.append("tspan")
             .attr("class", "text-role")
             .text(d => d.role)
-            .attr("x", d => {
-                // 与第一行保持完全一致的 x
-                const offset = 8;
-                if (d.name === "Hefei") return d.x - offset;
-                return d.x + offset;
-            })
-            .attr("dy", "1.2em"); // 换行：向下偏移 1.2 倍行高
+            .attr("x", d => d.name === "Hefei" ? d.x - 8 : d.x + 8).attr("dy", "1.2em");
+            
+    }).catch(error => {
+        // --- 错误处理 ---
+        console.error("地图加载失败:", error);
+        loadingText.html("⚠️ Map failed to load.<br>Check console (F12) or Network.");
+        loadingText.style("color", "red");
     });
 })();
 </script>
+
 
 # 👋🦁 About Me
 
