@@ -18,7 +18,7 @@ layout: homepage
 
 <style>
     /* 样式部分保持不变 */
-    .track-line { fill: none; stroke: #999; stroke-width: 1.5px; stroke-opacity: 0.3; stroke-linecap: round; stroke-dasharray: 4, 4; pointer-events: none; }
+    .track-line { fill: none; stroke: DeepPink; stroke-width: 1.5px; stroke-opacity: 0.3; stroke-linecap: round; stroke-dasharray: 4, 4; pointer-events: none; }
     .map-pulse { fill: DeepPink; opacity: 0.5; transform-box: fill-box; transform-origin: center; animation: map-breathe 2s ease-in-out infinite; pointer-events: none; }
     .map-point { fill: DeepPink; stroke: #fff; stroke-width: 1px; transition: r 0.3s; cursor: pointer; }
     .location-group:hover .map-point { r: 6px; }
@@ -35,13 +35,14 @@ layout: homepage
 <script>
 (function() {
     const width = 960;
-    const height = 500;
+    const height = 420;
     
     const container = d3.select("#world-map-container");
     const tooltip = d3.select("#map-tooltip");
     const loadingText = d3.select("#loading-text");
     
     // 清空容器（防止重复渲染）并添加 SVG
+    container.selectAll("svg").remove();
     // 注意：这里删除了 container.append("svg") 之前的 text，但保留 svg
     
     const svg = container.append("svg")
@@ -49,11 +50,11 @@ layout: homepage
         .style("width", "100%")
         .style("height", "auto")
         .style("display", "block")
-        .style("overflow", "visible");
+        .style("overflow", "hidden");
 
     const projection = d3.geoMercator()
         .scale(150) 
-        .translate([width / 2, height / 1.5]);
+        .translate([width / 2, height / 1.4]);
 
     const pathGenerator = d3.geoPath().projection(projection);
 
@@ -70,10 +71,6 @@ layout: homepage
         { from: "Beijing", to: "Berkeley" }
     ];
 
-    // ==========================================
-    // 关键修改：更换数据源 + 错误捕捉
-    // ==========================================
-    // 尝试使用 unpkg，如果这个也不行，请看下方的“终极解决办法”
     const geoJsonUrl = "/assets/img/countries-110m.json";
 
     d3.json(geoJsonUrl).then(data => {
@@ -82,6 +79,7 @@ layout: homepage
         container.style("background", "transparent"); // 移除调试用的背景色
 
         const countries = topojson.feature(data, data.objects.countries);
+        countries.features = countries.features.filter(d => d.id !== "010" && d.id !== 10);
 
         // --- 绘图逻辑 ---
         svg.selectAll("path")
