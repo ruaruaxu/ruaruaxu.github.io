@@ -9,8 +9,8 @@ layout: homepage
 <!-- 摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面-->
 <!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
-<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 30px auto; position: relative; min-height: 400px; background: #f9f9f9;">
-    <p id="loading-text" style="text-align:center; padding-top: 180px; color: #999;">Map Loading...</p>
+<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 0 auto; position: relative; min-height: 350px; background: transparent;">
+    <p id="loading-text" style="text-align:center; padding-top: 150px; color: #999;">Map Loading...</p>
 </div>
 
 <div id="map-tooltip" style="position: absolute; opacity: 0; pointer-events: none; background: rgba(255, 255, 255, 0.98); padding: 10px 12px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-family: sans-serif; font-size: 12px; border: 1px solid #eee; z-index: 100; transition: opacity 0.2s; pointer-events: none; max-width: 200px; line-height: 1.5;">
@@ -35,15 +35,15 @@ layout: homepage
 <script>
 (function() {
     const width = 960;
-    const height = 480;
+    // 修改：高度改小到 380，切掉底部的空白
+    const height = 380; 
     
     const container = d3.select("#world-map-container");
     const tooltip = d3.select("#map-tooltip");
     const loadingText = d3.select("#loading-text");
     
-    // 清空容器（防止重复渲染）并添加 SVG
+    // 清空容器
     container.selectAll("svg").remove();
-    // 注意：这里删除了 container.append("svg") 之前的 text，但保留 svg
     
     const svg = container.append("svg")
         .attr("viewBox", `0 0 ${width} ${height}`)
@@ -52,7 +52,10 @@ layout: homepage
         .style("display", "block")
         .style("overflow", "hidden");
 
-    const projection = d3.geoNaturalEarth1();
+    // 修改：将 height / 1.4 改为 1.6，把地图往上提，消除顶部空白
+    const projection = d3.geoMercator()
+        .scale(150) 
+        .translate([width / 2, height / 1.6]);
     const pathGenerator = d3.geoPath(projection);
 
     const myLocations = [
