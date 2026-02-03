@@ -35,7 +35,7 @@ layout: homepage
 <script>
 (function() {
     const width = 960;
-    const height = 420;
+    const height = 480;
     
     const container = d3.select("#world-map-container");
     const tooltip = d3.select("#map-tooltip");
@@ -52,11 +52,8 @@ layout: homepage
         .style("display", "block")
         .style("overflow", "hidden");
 
-    const projection = d3.geoMercator()
-        .scale(150) 
-        .translate([width / 2, height / 1.4]);
-
-    const pathGenerator = d3.geoPath().projection(projection);
+    const projection = d3.geoNaturalEarth1();
+    const pathGenerator = d3.geoPath(projection);
 
     const myLocations = [
         { name: "Berkeley", role: "2025-Now|PhD Student", coords: [-122.2585, 37.8719], desc: "<b>UC Berkeley</b><br><span style='color:#666'>2025 - Present</span><br>Environmental Planning." },
@@ -81,18 +78,22 @@ layout: homepage
         const countries = topojson.feature(data, data.objects.countries);
         countries.features = countries.features.filter(d => d.id !== "010" && d.id !== 10);
 
+        // ✅ 关键：自动适配到画布（留一点边距 16px）
+        projection.fitExtent([[16, 16], [width - 16, height - 16]], countries);
+
         // --- 绘图逻辑 ---
         svg.selectAll("path")
-            .data(countries.features)
-            .enter().append("path")
-            .attr("class", "country-path")
-            .attr("d", pathGenerator);
+          .data(countries.features)
+          .enter().append("path")
+          .attr("class", "country-path")
+          .attr("d", pathGenerator);
 
+        // ✅ fit 之后再算点坐标
         const locationMap = {};
         myLocations.forEach(d => {
-            const [x, y] = projection(d.coords);
-            d.x = x; d.y = y;
-            locationMap[d.name] = d;
+          const [x, y] = projection(d.coords);
+          d.x = x; d.y = y;
+          locationMap[d.name] = d;
         });
 
         // 连线
