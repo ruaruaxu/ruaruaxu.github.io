@@ -166,7 +166,7 @@ I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-en
 
 {% include_relative _includes/news.md %}
 
-
+<div id='publications'></div>
 ## 📖 Selected Publications
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.<br>
