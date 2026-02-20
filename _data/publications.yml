@@ -26,6 +26,7 @@ main:
     pdf: https://aclanthology.org/2025.acl-long.567.pdf
     bibtex: 
     code: https://github.com/EmbodiedCity/BasicSpatialAbility.code
+    data: https://huggingface.co/datasets/EmbodiedCity/BasicSpatialAbility
     image: ./assets/img/publication/xuDefiningEvaluatingVisual2025.png
 
   - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
