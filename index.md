@@ -31,7 +31,7 @@ layout: homepage
 <script>
 (function() {
     const width = 960;
-    const height = 400; 
+    const height = 320; 
     
     const container = d3.select("#world-map-container");
     const tooltip = d3.select("#map-tooltip");
