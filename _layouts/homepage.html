@@ -185,18 +185,26 @@
 
     <script>
     // 获取相关元素
-    const navBar = document.querySelector('.topnav');
-    const myLinks = document.getElementById('myLinks');
+    const navBar = document.querySelector(‘.topnav’);
+    const myLinks = document.getElementById(‘myLinks’);
+    const icon = document.querySelector(‘.icon’);
 
-    // 点击按钮：切换显示或隐藏
+    // 点击逻辑：点击汉堡菜单时切换状态
     function myFunction() {
-      myLinks.classList.toggle('mobile-active');
+      myLinks.classList.toggle(‘mobile-active’);
     }
 
-    // 智能逻辑：当鼠标离开整个导航栏区域（包括弹出的菜单）时，自动移除展开状态
-    navBar.addEventListener('mouseleave', function() {
-      if (myLinks.classList.contains('mobile-active')) {
-        myLinks.classList.remove('mobile-active');
+    // 悬停逻辑：鼠标移动到汉堡菜单上方就强制展开
+    if (icon) {
+      icon.addEventListener(‘mouseenter’, function() {
+        myLinks.classList.add(‘mobile-active’);
+      });
+    }
+
+    // 移出逻辑：当鼠标彻底离开整个导航区域（包括展开的菜单）时，自动收起
+    navBar.addEventListener(‘mouseleave’, function() {
+      if (myLinks.classList.contains(‘mobile-active’)) {
+        myLinks.classList.remove(‘mobile-active’);
       }
     });
     </script>
