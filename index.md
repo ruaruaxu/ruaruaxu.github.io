@@ -5,7 +5,7 @@ layout: homepage
 <!-- ⭐blogs（书影音评+摄影超链接）摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面 -->
 <!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
-<div id="world-map-container" style="width: 100%; max-width: 1280px; margin: 0 auto; position: relative; min-height: auto; background: transparent;">
+<div id="world-map-container" style="width: 100%; margin: 0 auto; position: relative; min-height: auto; background: transparent;">
     <p id="loading-text" style="text-align:center; color: #999;">⏳Fancy Map Loading...</p>
 </div>
 
