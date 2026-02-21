@@ -184,29 +184,29 @@
     {% endif %}
 
     <script>
-    // 获取相关元素
-    const navBar = document.querySelector(‘.topnav’);
-    const myLinks = document.getElementById(‘myLinks’);
-    const icon = document.querySelector(‘.icon’);
+    // 注意：以下代码必须使用直角引号才能运行
+    const navBar = document.querySelector('.topnav');
+    const myLinks = document.getElementById('myLinks');
+    const icon = document.querySelector('.icon');
 
-    // 点击逻辑：点击汉堡菜单时切换状态
+    // 1. 点击逻辑：手动切换
     function myFunction() {
-      myLinks.classList.toggle(‘mobile-active’);
+      myLinks.classList.toggle('mobile-active');
     }
 
-    // 悬停逻辑：鼠标移动到汉堡菜单上方就强制展开
+    // 2. 悬停逻辑：移入汉堡菜单即展开
     if (icon) {
-      icon.addEventListener(‘mouseenter’, function() {
-        myLinks.classList.add(‘mobile-active’);
+      icon.addEventListener('mouseenter', function() {
+        myLinks.classList.add('mobile-active');
       });
     }
 
-    // 移出逻辑：当鼠标彻底离开整个导航区域（包括展开的菜单）时，自动收起
-    navBar.addEventListener(‘mouseleave’, function() {
-      if (myLinks.classList.contains(‘mobile-active’)) {
-        myLinks.classList.remove(‘mobile-active’);
-      }
-    });
+    // 3. 移出逻辑：离开整个导航区域即收回
+    if (navBar) {
+      navBar.addEventListener('mouseleave', function() {
+        myLinks.classList.remove('mobile-active');
+      });
+    }
     </script>
 
   </body>
