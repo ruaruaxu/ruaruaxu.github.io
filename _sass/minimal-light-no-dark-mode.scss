@@ -379,6 +379,7 @@ footer {
   text-align:center;
 }
 
+/* 手机端显示 */
    @media screen and (max-width: 1280px) {
     body {
       word-wrap: break-word;
@@ -386,18 +387,18 @@ footer {
     }
   
     div.wrapper {
-      width: auto; /* 取消电脑端的固定宽度，让其自适应屏幕 */
+      width: auto; 
       margin: 0;
     }
   
     header, section, footer {
-      float: none; /* 取消左右分栏 */
+      float: none;
       position: static;
       width: auto;
     }
   
     header {
-      padding: 0; 
+      padding-top: 20px; 
     }
   
     section {
