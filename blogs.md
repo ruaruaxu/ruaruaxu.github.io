@@ -2,4 +2,4 @@
 layout: homepage
 ---
 
-<iframe src="https://ruarua.notion.site/ebd//30e7d637ee44809d90ddec68ca6f181d" width="100%" style="height: calc(100vh - 300px); border: none;display: block" allowfullscreen></iframe>
+<iframe src="https://ruarua.notion.site/ebd//30e7d637ee44809d90ddec68ca6f181d" width="100%" style="height: calc(100vh - 420px); border: none;display: block" allowfullscreen></iframe>
