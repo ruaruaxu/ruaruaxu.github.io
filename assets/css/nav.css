@@ -52,8 +52,20 @@
 
 
 @media print, screen and (max-width: 1280px) { 
-.topnav #myLinks {
-  display: none;
+.topnav #myLinks.mobile-active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  
+  /* 核心修改：使用 100% 替代 60px */
+  top: 100%; 
+  
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-top: 1px solid #eaeaea;
+  z-index: 10001; /* 确保比导航栏还要高一点点 */
 }
 
 .topnav a.normal {
