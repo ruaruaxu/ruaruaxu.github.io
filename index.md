@@ -401,10 +401,10 @@ I am passionate about using **GIS, Remote Sensing, and Machine Learning** to und
 
 ## 🎾 Misc
 
-- I love the 90s Alternative Rock, Britpop, Citypop, and Classicals. My favorite contemporary artists include: Blur, Big Thief, Radiohead, 万能青年旅店, The Velvet Underground, Pink Floyd, My Little Airport, Cheer Chen...
+- I love the 90s Alternative Rock, Britpop, Citypop, and Classicals (especially in Romanticism and Impressionism Eras). My favorite contemporary artists include: Blur, Big Thief, Radiohead, 万能青年旅店, Neutral Milk Hotel, The Velvet Underground, Pink Floyd, My Bloody Valentine, My Little Airport, Cheer Chen, Coldplay... So hard to name them all!
 - I watch about 200+ movies each year. Sometimes I write something. We can talk on [Letterboxd](https://letterboxd.com/ruaruaxu/) or [Douban](https://www.douban.com/people/xycf/)! My favorite directors are Quentin Tarantino, Woody Allen, David Fincher, Sofia Coppola... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV by now is "ロングバケーション"(Long Vacation).
 - I enjoy "city walking" and photography. You can find my photos in my blogs and on [500px](https://500px.com.cn/ruaruaxu).
-- I've been passionate about tennis since 20. I was a member of the Tsinghua School of Architecture Tennis Team. I've been learning piano since 22 (I can play Waltz in A Minor now! Hope I can play La Fille aux Cheveux de Lin and Liebesträume one day!).🎾🎹
+- I've been passionate about tennis since 20. I was a member of the Tsinghua School of Architecture Tennis Team. I've been learning piano since 22 (I can play Chopin's Waltz in A Minor now! Hope I can play Debussy's La Fille aux Cheveux de Lin and Liszt's Liebesträume one day!).🎾🎹
 - I am a "No spicy, no joy" person, and my "spiritual hometown" is Sichuan.😈
 - My nickname is ruarua or rua.😁
 
