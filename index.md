@@ -2,12 +2,11 @@
 layout: homepage
 ---
 
-<!-- ⭐导航栏手机适配 -->
 <!-- ⭐blogs（书影音评+摄影超链接）摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面 -->
 <!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
-<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 0 auto; position: relative; min-height: auto; background: transparent;">
-    <p id="loading-text" style="text-align:center; color: #999;">Map Loading...</p>
+<div id="world-map-container" style="width: 100%; max-width: 1280px; margin: 0 auto; position: relative; min-height: auto; background: transparent;">
+    <p id="loading-text" style="text-align:center; color: #999;">⏳Fancy Map Loading...</p>
 </div>
 
 <div id="map-tooltip" style="position: absolute; opacity: 0; pointer-events: none; background: rgba(255, 255, 255, 0.98); padding: 10px 12px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-family: sans-serif; font-size: 12px; border: 1px solid #eee; z-index: 100; transition: opacity 0.2s; pointer-events: none; max-width: 200px; line-height: 1.5;">
