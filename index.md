@@ -149,8 +149,8 @@ layout: homepage
 })();
 </script>
 
-👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
-
+👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home), advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang). I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+<!-- I also work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (Berkeley EECS) -->
 I am passionate about using **GIS, Remote Sensing, and Machine Learning** to understand human-environment interaction from global to urban scale to support planning and design for an **environmentally + socially well-being world**. Currently, I'm particularly excited about:
 
 - **Environmental Hazards & Health:** the patterns, causes, and impacts of heat, air pollution, flooding, wildfire, and compound hazards...
