@@ -48,7 +48,7 @@ layout: homepage
         .style("display", "block")
         .style("overflow", "hidden");
 
-    const projection = d3.geoMercator()
+    const projection = d3.geoEquirectangular();
     const pathGenerator = d3.geoPath(projection);
 
     const myLocations = [
