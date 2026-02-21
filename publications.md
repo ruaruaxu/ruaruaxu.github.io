@@ -4,7 +4,7 @@ layout: homepage
 
 ## 📖 Full Publications
 
-[All publication PDFs are available for download here.](./publications)<br>
+**Full-text PDFs of all publications are available for download here.**
 †Equal Contribution, *Corresponding Author
 
 <div class="publications">
