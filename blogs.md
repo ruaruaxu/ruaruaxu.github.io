@@ -5,4 +5,4 @@ layout: homepage
 ## 📚 徐徐图之
 Wenrui's Blog. 徐: xú, Chinese surname; adv. slowly, gently, calmly; adj. composed, dignified. 图: tú, v. plan, strive for, picture and understand, draw; n. plan, picture, chart. 之: zhī, pron. it, the goal, the question, the world.
 
-<iframe src="https://ruarua.notion.site/ebd//30e7d637ee44809d90ddec68ca6f181d" width="120%" height="600" frameborder="0" allowfullscreen />
+<iframe src="https://ruarua.notion.site/ebd//30e7d637ee44809d90ddec68ca6f181d" width="150%" height="600" frameborder="0" allowfullscreen />
