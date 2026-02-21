@@ -181,6 +181,11 @@ papertitle {
       width: 8.00em;
     }
 
+/* 让所有级别的标题优先使用思源黑体 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: ‘Noto Sans SC’, sans-serif;
+}
+
 h3, h4, h5, h6 {
   font-weight: 600;
   color:#002676;
