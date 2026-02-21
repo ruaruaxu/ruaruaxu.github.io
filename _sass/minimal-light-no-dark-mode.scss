@@ -379,38 +379,70 @@ footer {
   text-align:center;
 }
 
-@media print, screen and (max-width: 480px) {
-
-  .pub-row {
-    display: block; 
-    align-items: center;}
-
-  body {
-    padding:15px;
-  }
-
-  header ul {
-    width:99%;
-  }
-
-  header li, header ul li + li + li {
-    width:33%;
-  }
-
-  .image.avatar img {
-      border-radius: 100%;
-      width: 95px;
-      padding:20px;
-  }
-  #head1o2 {
-    visibility: hidden;
-  }
+   @media screen and (max-width: 1200px) {
+    body {
+      word-wrap: break-word;
+      padding: 15px;
+    }
   
-  #head2o2 {
-    visibility: hidden;
+    div.wrapper {
+      width: auto; /* 取消电脑端的固定宽度，让其自适应屏幕 */
+      margin: 0;
+    }
+  
+    header, section, footer {
+      float: none; /* 取消左右分栏 */
+      position: static;
+      width: auto;
+    }
+  
+    header {
+      padding: 0; 
+    }
+  
+    section {
+      border: 1px solid #e5e5e5;
+      border-width: 1px 0;
+      padding: 20px 0;
+      margin: 0 0 20px;
+    }
+  
+    /* 导航栏和头像在手机端的适配 */
+    header ul {
+      width: 100%;
+      margin-top: 10px;
+      position: relative; /* 取消绝对定位，防止手机端重叠 */
+    }
+  
+    header li, header ul li + li + li {
+      width: 33.3%; /* 让导航按钮在手机上平分宽度 */
+    }
+  
+    .image.avatar img {
+      border-radius: 100%;
+      width: 95px; /* 手机端使用较小的头像 */
+      padding: 20px;
+    }
+  
+    /* 列表在手机端改为垂直排列 */
+    .pub-row {
+      display: block; 
+      align-items: center;
+    }
+  
+    header a small {
+      display: inline;
+    }
+  
+    #head1o2, #head2o2 {
+      visibility: hidden;
+    }
+  
+    pre, code {
+      word-wrap: normal;
+    }
   }
 
-}
 
 @media print {
   body {
