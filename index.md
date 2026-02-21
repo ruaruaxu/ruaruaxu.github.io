@@ -6,7 +6,7 @@ layout: homepage
 <!-- ⭐blogs（书影音评+摄影超链接）摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面 -->
 <!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
-<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 0; position: relative; min-height: 350px; background: transparent;">
+<div id="world-map-container" style="width: 100%; max-width: 900px; margin: 0; position: relative; min-height: auto; background: transparent;">
     <p id="loading-text" style="text-align:center; color: #999;">Map Loading...</p>
 </div>
 
@@ -32,7 +32,7 @@ layout: homepage
 <script>
 (function() {
     const width = 960;
-    const height = 480; 
+    const height = 400; 
     
     const container = d3.select("#world-map-container");
     const tooltip = d3.select("#map-tooltip");
@@ -75,8 +75,7 @@ layout: homepage
         const countries = topojson.feature(data, data.objects.countries);
         countries.features = countries.features.filter(d => d.id !== "010" && d.id !== 10);
 
-        // ✅ 关键：自动适配到画布（留一点边距 16px）
-        projection.fitExtent([[16, 16], [width - 16, height - 16]], countries);
+        projection.fitExtent([[0, 0], [width, height]], countries);
 
         // --- 绘图逻辑 ---
         svg.selectAll("path")
@@ -85,7 +84,6 @@ layout: homepage
           .attr("class", "country-path")
           .attr("d", pathGenerator);
 
-        // ✅ fit 之后再算点坐标
         const locationMap = {};
         myLocations.forEach(d => {
           const [x, y] = projection(d.coords);
@@ -420,7 +418,6 @@ Please feel free to contact me via Email or WeChat.
 
 - **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
 - **WeChat:** <font color=DeepPink>ruaruaxu</font>
-<!--- **Blog:** <font color=DeepPink>urbanxlab</font> (WeChat Public Account) -->
-<!---<div style="text-align:center;"><img width="120" src="./assets/img/wechat_qrcode.jpg"></div>-->
+
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d3d3d3&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676&cmo=002676&cmn=ff1796'></script>
