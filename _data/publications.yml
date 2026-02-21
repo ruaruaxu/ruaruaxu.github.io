@@ -29,15 +29,6 @@ main:
     bibtex: 
     image: ./assets/img/publication/cities.png
 
-  - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
-    authors: Shiqi Wang, Zhouye Zhao, Yuhang Xie, Mingchuan Ma, Zirui Chen, Zeyu Wang, Bohao Su, <strong>Wenrui Xu</strong>, Tianyi Li
-    journal_short: 2024 Preprint
-    doi: https://doi.org/10.48550/arXiv.2408.10088
-    journal: arXiv Preprint, 2024.
-    pdf: https://arxiv.org/pdf/2408.10088
-    bibtex: ./assets/bibtex/wangRecentSurgePublic2024.txt
-    image: ./assets/img/publication/wangRecentSurgePublic2024.png
-
 all:
 
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"

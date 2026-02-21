@@ -2,6 +2,11 @@
 layout: homepage
 ---
 
+## 📖 Full Publications
+
+[All publication PDFs are available for download here.](./publications)<br>
+†Equal Contribution, *Corresponding Author
+
 <div class="publications">
 <ol class="bibliography">
 
