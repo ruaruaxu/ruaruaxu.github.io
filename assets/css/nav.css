@@ -35,7 +35,7 @@
 
 /* Style the links inside the navigation bar */
 .topnav a.normal {
-  color: #000; 
+  color: rgb(33, 48, 115);; 
   text-align: center;
   padding: 5px 20px;
   text-decoration: none;
