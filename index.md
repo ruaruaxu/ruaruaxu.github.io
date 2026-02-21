@@ -167,7 +167,7 @@ I am passionate about using **GIS, Remote Sensing, and Machine Learning** to und
 <div id='publications'></div>
 ## 📖 Selected Publications
 
-<u>[Full-text PDFs of all publications are available for download here (Link).](./publications)</u><br>
+[<u>Full-text PDFs of all publications are available for download here (Link).</u>](./publications)<br>
 †Equal Contribution, *Corresponding Author
 
 {% include_relative _includes/selected_publications.md %}
