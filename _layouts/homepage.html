@@ -54,7 +54,7 @@
 
     <div class="topnav">
 
-        <a href="https://wenruixu.com/"><img width="150" src="./assets/img/xuyuchenfeng.jpg"></a>
+        <a href="https://wenruixu.com/"><img width="120" src="./assets/img/xuyuchenfeng.jpg"></a>
 
       <div id="myLinks">
         <a class="normal right" href="./#contact">Contact</a>
@@ -170,6 +170,7 @@
         
       </footer>
     </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
@@ -181,5 +182,14 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        // 给菜单增加或移除一个叫 mobile-active 的状态
+        x.classList.toggle("mobile-active");
+      }
+    </script>
+
   </body>
 </html>

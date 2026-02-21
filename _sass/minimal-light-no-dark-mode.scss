@@ -441,6 +441,44 @@ footer {
     pre, code {
       word-wrap: normal;
     }
+
+  /* 1. 汉堡菜单展开后的外框底板 */
+  .topnav #myLinks.mobile-active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* 根据导航栏高度调整这个值，确保菜单紧贴导航栏下方 */
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08); /* 加一层极其柔和的阴影，让菜单具有悬浮的立体感 */
+    border-top: 1px solid #eaeaea; /* 顶部加一条浅色线，与主导航栏彻底割开 */
+    padding: 0;
+  }
+
+  /* 2. 菜单内部每一个选项的排版与分隔线 */
+  .topnav #myLinks.mobile-active a.normal {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 25px; /* 上下留出充足的点击区域，左侧文字缩进 25px 显得更有条理 */
+    text-align: left;
+    color: rgb(33, 48, 115);
+    font-size: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.2s ease;
+  }
+
+  /* 3. 完美主义细节：去掉最后一行多余的底线 */
+  .topnav #myLinks.mobile-active a.normal:last-child {
+    border-bottom: none;
+  }
+
+  /* 4. 点击或悬停时的交互反馈 */
+  .topnav #myLinks.mobile-active a.normal:hover {
+    background-color: #fafafa; /* 按下时背景微微变灰 */
+    color: DeepPink;
+  }
   }
 
 
