@@ -1,17 +1,23 @@
 /* Add a black background color to the top navigation */
 .topnav {
+  display: flex;
   background-color: #fff;
-  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
   position:fixed;
   z-index:999;
   width:100%;
+  box-sizing: border-box;
   border-bottom-color: #999;
-  border-width: 1px;
+  padding: 10px 5%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 
 .topnav #myLinks {
-  display: inline;
+  display: flex;
+  align-items: center;
 }
 
 .topnav a.icon {
@@ -19,14 +25,12 @@
 }
 
 .topnav img {
-  margin-bottom:-16.5pt;
-  margin-top:-12.5pt;
-  margin-left:30%;
+  margin:0;
+  max-height: 50px; /* 控制一下 Logo 高度防溢出 */
 }
 
 /* Style the links inside the navigation bar */
 .topnav a.normal {
-  float: right;
   color: #000; 
   text-align: center;
   padding: 10px 20px;
@@ -41,122 +45,35 @@
 
 /* Add a color to the active/current link */
 .topnav a.right {
-  margin-right:30%;
+  margin-right: 0;
 }
 
-@media print, screen and (max-width: 1000px) { 
 
-  .topnav img {
-      margin-left:3%;
-    }
+@media print, screen and (max-width: 1280px) { 
+.topnav #myLinks {
+  display: none;
+}
 
-  .topnav a.right {
-      margin-right:3%;
-    }
+.topnav a.normal {
+  color: rgb(33, 48, 115); 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: left; /* 手机端菜单靠左对齐更好看 */
+}
 
-  .topnav a.normal {
-      padding: 10px 5px;
-  }
+.topnav a.icon {
+  color: rgb(33, 48, 115); 
+  display: block;
+  padding: 10px 16px;
+  font-size: 17px;
+  position: absolute;
+  right: 5%; /* 让汉堡菜单也贴着右边缘 5% */
+  top: 15px;
+}
 
- }
-
- @media print, screen and (max-width: 1200px) and (min-width: 1001px) { 
-
-  .topnav img {
-      margin-left:6%;
-    }
-  .topnav a.right {
-      margin-right:6%;
-    }
-
- }
-
- @media print, screen and (max-width: 1400px) and (min-width: 1201px) { 
-
-  .topnav img {
-      margin-left:12%;
-    }
-  .topnav a.right {
-      margin-right:12%;
-    }
-
-    }
-
-
- @media print, screen and (max-width: 1600px) and (min-width: 1401px) { 
-
-  .topnav img {
-      margin-left:16%;
-    }
-  .topnav a.right {
-      margin-right:16%;
-    }
-
- }
-
- @media print, screen and (max-width: 1800px) and (min-width: 1601px) { 
-
-  .topnav img {
-      margin-left:19%;
-    }
-  .topnav a.right {
-      margin-right:19%;
-    }
-
- }
-
- @media print, screen and (max-width: 2000px) and (min-width: 1801px) { 
-
-  .topnav img {
-      margin-left:22%;
-    }
-  .topnav a.right {
-      margin-right:22%;
-    }
-
- }
-
-
- @media print, screen and (max-width: 480px) { 
-  .topnav #myLinks {
-      display: none;
-    }
- }
-
- @media print, screen and (max-width: 960px) { 
-  .topnav #myLinks {
-      display: none;
-    }
-
-    .topnav a.normal {
-      color: rgb(33, 48, 115); 
-      float: none;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-    }
-
-    .topnav a.icon {
-      color: rgb(33, 48, 115); 
-      display: block;
-      padding: 10px 16px;
-      font-size: 17px;
-      position: absolute;
-      float: right;
-      right: 0;
-      top: 0;
-      margin-right:5%;
-    }
-
-    .topnav a.right {
-      color: rgb(33, 48, 115); 
-      float: none;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-      margin-right:0;
-    }
- }
- 
+.topnav a.right {
+  margin-right: 0;
+}
+}
