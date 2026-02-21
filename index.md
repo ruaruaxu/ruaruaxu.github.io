@@ -52,9 +52,9 @@ layout: homepage
     const pathGenerator = d3.geoPath(projection);
 
     const myLocations = [
-        { name: "Berkeley", role: "2025-Now|PhD Student", coords: [-122.2585, 37.8719], desc: "<b>UC Berkeley</b><br><span style='color:#666'>2025 - Present</span><br>Environmental Planning." },
-        { name: "Beijing", role: "2023-2025|Master at Tsinghua", coords: [116.4074, 39.9042], desc: "<b>Tsinghua University</b><br><span style='color:#666'>2023 - 2025</span><br>Urban Informatics." },
-        { name: "Shanghai", role: "2019-2023|Bachelor at Tongji", coords: [121.4737, 31.2304], desc: "<b>Tongji University</b><br><span style='color:#666'>2019 - 2023</span><br>Architecture & Urban Planning." },
+        { name: "Berkeley", role: "2025-Now|PhD @Berkeley", coords: [-122.2585, 37.8719], desc: "<b>UC Berkeley</b><br><span style='color:#666'>2025 - Present</span><br>Environmental Planning." },
+        { name: "Beijing", role: "2023-2025|MArch @Tsinghua", coords: [116.4074, 39.9042], desc: "<b>Tsinghua University</b><br><span style='color:#666'>2023 - 2025</span><br>Urban Informatics." },
+        { name: "Shanghai", role: "2019-2023|BEng @Tongji", coords: [121.4737, 31.2304], desc: "<b>Tongji University</b><br><span style='color:#666'>2019 - 2023</span><br>Architecture & Urban Planning." },
         { name: "Hefei", role: "Hometown", coords: [117.2272, 31.8206], desc: "Home sweet home." }
     ];
 
