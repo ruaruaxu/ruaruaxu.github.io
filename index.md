@@ -151,11 +151,11 @@ layout: homepage
 
 👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
-I am passionate about using **GIS, Remote Sensing, and Machine Learning** to understand **human-environment interaction** from global to urban scale to support planning and design for an **environmental and social well-being world**. Currently I'm particularly excited about:
+I am passionate about using **GIS, Remote Sensing, and Machine Learning** to understand human-environment interaction from global to urban scale to support planning and design for an **environmentally + socially well-being world**. Currently, I'm particularly excited about:
 
 - **Environmental Hazards & Health:** the patterns, causes, and impacts of heat, air pollution, flooding, wildfire, and compound hazards...
 - **Social Behavior & Equity:** urban sensing and exposure ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)); human mobility ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)); spatial disparity of urban renewal and medical network...
-- **Geospatial AI:** LLM alignment on spatial understanding and aesthetics ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), interpretation and application of domain foundation models...
+- **Geospatial AI:** LLM alignment on spatial understanding and aesthetics ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), SFT of LLMs for geospatial applications, interpretation of domain foundation models...
 - ***This website is still under construction...***
  <br>
 
@@ -167,7 +167,7 @@ I am passionate about using **GIS, Remote Sensing, and Machine Learning** to und
 <div id='publications'></div>
 ## 📖 Selected Publications
 
-Please see [Google Scholar](https://scholar.google.com/citations?user=wrPOVnkAAAAJ) for full publication list.<br>
+[All publication PDFs are available for download here.](./publications)<br>
 †Equal Contribution, *Corresponding Author
 
 {% include_relative _includes/publications.md %}

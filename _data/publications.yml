@@ -1,5 +1,16 @@
 main:
 
+  - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
+    authors: <strong>Wenrui Xu†</strong>, Dalin Lyu†, Weihang Wang†, Jie Feng, Chen Gao, Yong Li*
+    journal_short: 2025 ACL Main
+    journal: Association of Computational Linguistics (ACL) Main, 2025.
+    doi: https://doi.org/10.18653/v1/2025.acl-long.567
+    pdf: https://aclanthology.org/2025.acl-long.567.pdf
+    bibtex: 
+    code: https://github.com/EmbodiedCity/BasicSpatialAbility.code
+    data: https://huggingface.co/datasets/EmbodiedCity/BasicSpatialAbility
+    image: ./assets/img/publication/xuDefiningEvaluatingVisual2025.png
+
   - title: "Spatiotemporal Impacts of Purpose-Specific Human Mobility on Air Pollution: Evidence from Taxi Trajectories and Interpretable Machine Learning"
     authors: <strong>Wenrui Xu</strong>, Xinyue Gu*
     journal_short: 2025 SCS
@@ -18,6 +29,17 @@ main:
     bibtex: 
     image: ./assets/img/publication/cities.png
 
+  - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
+    authors: Shiqi Wang, Zhouye Zhao, Yuhang Xie, Mingchuan Ma, Zirui Chen, Zeyu Wang, Bohao Su, <strong>Wenrui Xu</strong>, Tianyi Li
+    journal_short: 2024 Preprint
+    doi: https://doi.org/10.48550/arXiv.2408.10088
+    journal: arXiv Preprint, 2024.
+    pdf: https://arxiv.org/pdf/2408.10088
+    bibtex: ./assets/bibtex/wangRecentSurgePublic2024.txt
+    image: ./assets/img/publication/wangRecentSurgePublic2024.png
+
+all:
+
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
     authors: <strong>Wenrui Xu†</strong>, Dalin Lyu†, Weihang Wang†, Jie Feng, Chen Gao, Yong Li*
     journal_short: 2025 ACL Main
@@ -28,6 +50,24 @@ main:
     code: https://github.com/EmbodiedCity/BasicSpatialAbility.code
     data: https://huggingface.co/datasets/EmbodiedCity/BasicSpatialAbility
     image: ./assets/img/publication/xuDefiningEvaluatingVisual2025.png
+  
+  - title: "Spatiotemporal Impacts of Purpose-Specific Human Mobility on Air Pollution: Evidence from Taxi Trajectories and Interpretable Machine Learning"
+    authors: <strong>Wenrui Xu</strong>, Xinyue Gu*
+    journal_short: 2025 SCS
+    journal: Sustainable Cities and Society, 2025.
+    doi: https://doi.org/10.1016/j.scs.2025.106411
+    pdf: ./assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf
+    bibtex: ./assets/bibtex/xuSpatiotemporalImpactsPurposespecific2025.txt
+    image: ./assets/img/publication/scs.png
+
+  - title: "City Centers Really Lived Up to the Hype? Evidence from Human Perceptions of Over 4000 Communities in China"
+    authors: Xinyue Gu, <strong>Wenrui Xu</strong>, Chuanjia Gong, Xintao Liu*
+    journal_short: 2025 Cities
+    journal: Cities, 2025.
+    doi: https://doi.org/10.1016/j.cities.2025.106278
+    pdf: ./assets/files/publication/j.cities.2025.106278.pdf
+    bibtex: 
+    image: ./assets/img/publication/cities.png
 
   - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
     authors: Shiqi Wang, Zhouye Zhao, Yuhang Xie, Mingchuan Ma, Zirui Chen, Zeyu Wang, Bohao Su, <strong>Wenrui Xu</strong>, Tianyi Li
