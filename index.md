@@ -3,10 +3,8 @@ layout: homepage
 ---
 
 <!-- 导航栏手机适配 -->
-<!-- publication，projects做成单独页面 -->
-<!-- 加show more按钮 -->
-<!-- 字体 标题突出-->
-<!-- 摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面-->
+<!-- ⭐blogs（书影音评+摄影超链接）摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面 -->
+<!-- ⭐加show more按钮 -->
 <!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
 <div id="world-map-container" style="width: 100%; max-width: 900px; margin: 0 auto; position: relative; min-height: 350px; background: transparent;">
@@ -153,11 +151,11 @@ layout: homepage
 
 👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home). I received my M.Arch from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
-I mainly use **GIS, Remote Sensing, and Geospatial AI** to understand **human-environment interaction** from global to urban scale to support planning and design for **well-being and sustainable cities**. To study this topic, I utilize large-scale and high-resolution **urban sensing** data and techniques such as LiDAR, streetview, GPS, and social media...
+I am passionate about using **GIS, Remote Sensing, and Machine Learning** to understand **human-environment interaction** from global to urban scale to support planning and design for an **environmental and social well-being world**. Currently I'm particularly excited about:
 
-- **Environmental Sustainability:** Heat, Air Pollution, Flooding...
-- **Human Well-being:** Computational Social Science, Public Health, Human Mobility ...
-- **Geospatial AI:** Vision Language Model, Agent, Spatial Reasoning, Machine Learning...
+- **Environmental Hazards & Health:** the patterns, causes, and impacts of heat, air pollution, flooding, wildfire, and compound hazards...
+- **Social Behavior & Equity:** urban sensing and exposure ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)); human mobility ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)); spatial disparity of urban renewal and medical network...
+- **Geospatial AI:** LLM alignment on spatial understanding and aesthetics ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), interpretation and application of domain foundation models...
 - ***This website is still under construction...***
  <br>
 
