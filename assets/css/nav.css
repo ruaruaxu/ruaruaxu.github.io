@@ -52,14 +52,15 @@
 
 
 @media print, screen and (max-width: 1280px) { 
+.topnav #myLinks {
+  display: none;
+}
+
 .topnav #myLinks.mobile-active {
   display: flex;
   flex-direction: column;
   position: absolute;
-  
-  /* 核心修改：使用 100% 替代 60px */
   top: 100%; 
-  
   left: 0;
   width: 100%;
   background-color: #ffffff;
@@ -70,9 +71,9 @@
 
 .topnav a.normal {
   color: rgb(33, 48, 115); 
-  padding: 14px 16px;
+  padding: 0px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   display: block;
   text-align: left; /* 手机端菜单靠左对齐更好看 */
 }
@@ -81,7 +82,7 @@
   color: rgb(33, 48, 115); 
   display: block;
   padding: 5px 20px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .topnav a.right {
