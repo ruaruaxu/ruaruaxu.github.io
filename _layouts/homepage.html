@@ -118,56 +118,56 @@
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 1px 0 1px" href="{{ site.google_scholar }}">
+        <a style="margin: 0 1px 0 1px" href="{{ site.google_scholar }}" data-tooltip="Google Scholar: A freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
 
         {% if site.researchgate %}
-        <a style="margin: 0 1px 0 1px" href="{{ site.researchgate }}">
+        <a style="margin: 0 1px 0 1px" href="{{ site.researchgate }}" data-tooltip="ResearchGate: A social networking site for scientists and researchers to share papers, ask and answer questions, and find collaborators">
           <i class="fa-brands fa-researchgate"></i>
         </a>
         {% endif %}
 
         {% if site.orcid %}
-        <a style="margin: 0 1px 0 1px" href="{{ site.orcid }}">
+        <a style="margin: 0 1px 0 1px" href="{{ site.orcid }}" data-tooltip="ORCID: A unique identifier for researchers to distinguish their work and connect with their scholarly activities">
           <i class="fa-brands fa-orcid"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 1px 0 1px" href="{{ site.github_link }}">
+        <a style="margin: 0 1px 0 1px" href="{{ site.github_link }}" data-tooltip="GitHub: A platform for hosting and collaborating on code repositories">
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 1px 0 1px" href="{{ site.linkedin }}">
+        <a style="margin: 0 1px 0 1px" href="{{ site.linkedin }}" data-tooltip="LinkedIn: A professional networking platform to connect with colleagues and explore career opportunities">
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
 
-        <a style="margin: 0 1px 0 1px" href="https://www.douban.com/people/xycf">
-          <svg role="img" style="vertical-align: middle;" width="1.15rem" height="1.15rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Douban</title><path fill="currentColor" d="M.51 3.06h22.98V.755H.51V3.06Zm20.976 2.537v9.608h-2.137l-1.669 5.76H24v2.28H0v-2.28h6.32l-1.67-5.76H2.515V5.597h18.972Zm-5.066 9.608H7.58l1.67 5.76h5.501l1.67-5.76ZM18.367 7.9H5.634v5.025h12.733V7.9Z"/></svg>
+        <a style="margin: 0 1px 0 1px" href="https://www.douban.com/people/xycf" data-tooltip="Douban: Chinese social media for books, movies, and music">
+          <svg role="img" style="vertical-align: middle;" width="1.3rem" height="1.3rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M.51 3.06h22.98V.755H.51V3.06Zm20.976 2.537v9.608h-2.137l-1.669 5.76H24v2.28H0v-2.28h6.32l-1.67-5.76H2.515V5.597h18.972Zm-5.066 9.608H7.58l1.67 5.76h5.501l1.67-5.76ZM18.367 7.9H5.634v5.025h12.733V7.9Z"/></svg>
+        </a>
+        
+        <a style="margin: 0 1px 0 1px" href="https://letterboxd.com/ruaruaxu/" data-tooltip="Letterboxd: A social media platform for film lovers to share their reviews and ratings">
+          <svg class="icon" style="vertical-align: middle;" width="1.3rem" height="1.3rem" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M832 64c70.6 0 128 57.4 128 128v640c0 70.6-57.4 128-128 128H192c-70.6 0-128-57.4-128-128V192c0-70.6 57.4-128 128-128h640zM274.2 374C196.8 374 134 436.6 134 514s62.8 140 140.2 140c49.6 0 93-25.6 118-64.4l1-1.4-0.8-1.2c-13-21.2-20.4-46.2-20.4-73 0-27.2 7.8-52.6 21.2-74.2-24.8-39.6-68.8-65.8-119-65.8z m237.8 0c-49.6 0-93 25.6-118 64.4l-1 1.4 0.8 1.2c13 21.2 20.4 46.2 20.4 73 0 27.2-7.8 52.6-21.2 74.2 24.8 39.4 68.8 65.8 119 65.8 49.6 0 93-25.6 118-64.4l1-1.4-0.8-1.2c-13-21.2-20.4-46.2-20.4-73 0-27.2 7.8-52.6 21.2-74.2-24.8-39.4-68.8-65.8-119-65.8z m237.8 0c-49.6 0-93 25.6-118 64.4l-1 1.4 0.8 1.2c13 21.2 20.4 46.2 20.4 73 0 27.2-7.8 52.6-21.2 74.2 24.8 39.6 68.8 65.8 119 65.8 77.4 0 140.2-62.6 140.2-140s-62.8-140-140.2-140z"></path></svg>
         </a>
 
-        <a style="margin: 0 1px 0 1px" href="https://letterboxd.com/ruaruaxu/">
-          <svg class="icon" style="vertical-align: middle;" width="1.15rem" height="1.15rem" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M832 64c70.6 0 128 57.4 128 128v640c0 70.6-57.4 128-128 128H192c-70.6 0-128-57.4-128-128V192c0-70.6 57.4-128 128-128h640zM274.2 374C196.8 374 134 436.6 134 514s62.8 140 140.2 140c49.6 0 93-25.6 118-64.4l1-1.4-0.8-1.2c-13-21.2-20.4-46.2-20.4-73 0-27.2 7.8-52.6 21.2-74.2-24.8-39.6-68.8-65.8-119-65.8z m237.8 0c-49.6 0-93 25.6-118 64.4l-1 1.4 0.8 1.2c13 21.2 20.4 46.2 20.4 73 0 27.2-7.8 52.6-21.2 74.2 24.8 39.4 68.8 65.8 119 65.8 49.6 0 93-25.6 118-64.4l1-1.4-0.8-1.2c-13-21.2-20.4-46.2-20.4-73 0-27.2 7.8-52.6 21.2-74.2-24.8-39.4-68.8-65.8-119-65.8z m237.8 0c-49.6 0-93 25.6-118 64.4l-1 1.4 0.8 1.2c13 21.2 20.4 46.2 20.4 73 0 27.2-7.8 52.6-21.2 74.2 24.8 39.6 68.8 65.8 119 65.8 77.4 0 140.2-62.6 140.2-140s-62.8-140-140.2-140z"></path></svg>
-        </a>
-
-        <a style="margin: 0 1px 0 1px" href="https://www.goodreads.com/user/show/199102413-wenrui-xu">
+        <a style="margin: 0 1px 0 1px" href="https://www.goodreads.com/user/show/199102413-wenrui-xu" data-tooltip="Goodreads: A social media platform for book lovers to share their reviews and ratings">
           <i class="fa-brands fa-goodreads"></i>
         </a>
 
-        <a style="margin: 0 1px 0 1px" href="https://rateyourmusic.com/~ruaruaxu">
+        <a style="margin: 0 1px 0 1px" href="https://rateyourmusic.com/~ruaruaxu" data-tooltip="RateYourMusic: A social media platform for music lovers to share their reviews and ratings">
           <i class="fa-solid fa-music"></i>
         </a>
 
-        <a style="margin: 0 1px 0 1px" href="https://500px.com/p/ruaruaxu">
+        <a style="margin: 0 1px 0 1px" href="https://500px.com/p/ruaruaxu" data-tooltip="500px: A social media platform for photographers to share their work and connect with other photographers">
           <i class="fa-brands fa-500px"></i>
         </a>
 
-        <a style="margin: 0 1px 0 1px" href="{{ site.cv_link }}">
+        <a style="margin: 0 1px 0 1px" href="{{ site.cv_link }}" data-tooltip="Curriculum Vitae">
           <i class="ai ai-cv" style="font-size:1.3rem;color:DeepPink"></i>
         </a>
 
@@ -231,5 +231,41 @@
     }
     </script>
 
+
+  <div id="icon-tooltip" style="position: absolute; opacity: 0; pointer-events: none; background: rgba(255, 255, 255, 0.98); padding: 6px 12px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-family: sans-serif; font-size: 13px; font-weight: 500; color: #333; border: 1px solid #eee; z-index: 1000; transition: opacity 0.2s; white-space: nowrap;">
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const tooltip = document.getElementById('icon-tooltip');
+        
+        // 选中社交图标区域内的所有链接
+        const socialLinks = document.querySelectorAll('.social-icons a');
+    
+        socialLinks.forEach(link => {
+            // 当鼠标进入图标
+            link.addEventListener('mouseenter', function(event) {
+                const text = this.getAttribute('data-tooltip');
+                // 只有当图标配置了 data-tooltip 属性时，才显示气泡
+                if (text) {
+                    tooltip.innerHTML = text;
+                    tooltip.style.opacity = '1';
+                }
+            });
+    
+            // 当鼠标在图标上移动，气泡跟随鼠标
+            link.addEventListener('mousemove', function(event) {
+                // 右下方偏移 15px，防止气泡挡住鼠标指针
+                tooltip.style.left = (event.pageX + 15) + 'px';
+                tooltip.style.top = (event.pageY + 15) + 'px';
+            });
+    
+            // 当鼠标离开图标
+            link.addEventListener('mouseleave', function() {
+                tooltip.style.opacity = '0';
+            });
+        });
+    });
+    </script>
+    
   </body>
 </html>
