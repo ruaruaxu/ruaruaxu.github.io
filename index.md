@@ -401,7 +401,7 @@ I am passionate about using **GIS, Remote Sensing, and Machine Learning** to und
 
 ## 🎾 Misc
 
-- I love the 90s Alternative Rock, Britpop, Citypop, and Classicals (especially in Romanticism and Impressionism Eras). My favorite contemporary artists include: Blur, Big Thief, Radiohead, 万能青年旅店, Neutral Milk Hotel, The Velvet Underground, Pink Floyd, My Bloody Valentine, My Little Airport, Cheer Chen, Coldplay... So hard to name them all!
+- I love the 90s Alternative Rock, Britpop, Citypop, and Classicals (especially in Romanticism and Impressionism Eras). My favorite contemporary artists include: Blur, Big Thief, Radiohead, 万能青年旅店, Neutral Milk Hotel, The Velvet Underground, Pink Floyd, My Bloody Valentine, My Little Airport, Cheer Chen, Coldplay... So hard to name them all! Here are my collections on [RateYourMusic](https://rateyourmusic.com/~ruaruaxu) or [Douban](https://www.douban.com/people/xycf/)!
 - I watch about 200+ movies each year. Sometimes I write something. We can talk on [Letterboxd](https://letterboxd.com/ruaruaxu/) or [Douban](https://www.douban.com/people/xycf/)! My favorite directors are Quentin Tarantino, Woody Allen, David Fincher, Sofia Coppola... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV by now is "ロングバケーション"(Long Vacation).
 - Unfortunately I don't read as many books each year, but I'd love to get any recommendations on [Goodreads](https://goodreads.com/ruaruaxu) or [Douban](https://www.douban.com/people/xycf/)!
 - I enjoy "city walking" and photography. You can find my photos in my blogs and on [500px](https://500px.com.cn/ruaruaxu).
