@@ -383,15 +383,17 @@ I am passionate about using **GIS, Remote Sensing, and Machine Learning** to und
 - **[2023]** **Distinct Graduate of Shanghai**: Graduation with the highest distinction (Top 0.1%).
 - **[2022]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
 - **[2021]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
-- **[2021]** **Outstanding Student Model**: Top 7 of 4300+ undergraduates at Tongji University.
+- **[2021]** **Outstanding Student Model**: Top 7/4300+ undergraduates at Tongji University.
 - **[2020]** **National Scholarship**: Highest honor for undergraduate (Top 1%).
 
 ### Competitions
 
 - **[2022]** **Exhibition of Architectural Design in Developing Countries**: Bronze Award.
 - **[2021]** **National Real Estate Innovation & Entrepreneurship Competition**: Top Prize.
-- **[2021]** **National Computer Design Competition for College Students**: Second Prize.
-- **[2020]** **National English Competition for College Students**: Top Prize.
+- **[2021]** **National Computer Design Competition for College Students**: Second Prize (Top 1294/100,000+).
+- **[2020]** **National English Competition for College Students**: Top Prize (Top 23/43000+).
+- **[2018]** **China High School Mathematics League**: Second Prize in Anhui (Top 681/499,000+).
+
 
 ## 🪪 Certificates & Skills
 
