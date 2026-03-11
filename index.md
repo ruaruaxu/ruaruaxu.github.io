@@ -392,7 +392,7 @@ I am passionate about using **GIS, Remote Sensing, and Machine Learning** to und
 - **[2021]** **National Real Estate Innovation & Entrepreneurship Competition**: Top Prize.
 - **[2021]** **National Computer Design Competition for College Students**: Second Prize (Top 1294/100,000+).
 - **[2020]** **National English Competition for College Students**: Top Prize (Top 23/43000+).
-- **[2018]** **China High School Mathematics League**: Second Prize in Anhui (Top 681/499,000+).
+- **[2018]** **China High School Mathematics League**: Second Prize in Anhui (Top 681/60,000+).
 
 
 ## 🪪 Certificates & Skills
