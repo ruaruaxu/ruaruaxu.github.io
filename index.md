@@ -358,8 +358,8 @@ I am passionate about using **GIS, Remote Sensing, and Machine Learning** to und
 ### Academic Services
 
 **Peer Reviewer:**<br>
-- **[Journal]** GIScience & Remote Sensing; Building and Environment; Computational Urban Science; Architectural Engineering and Design Management
-- **[Conference]** ICLR 2025 EmbodiedAI Workshop
+- **[Journal]** GIScience & Remote Sensing(1); Cities(1); Building and Environment(4); Computational Urban Science(4); Architectural Engineering and Design Management(1)
+- **[Conference]** ICLR 2025
 
 ### Organization
 
