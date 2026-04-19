@@ -145,9 +145,9 @@ layout: homepage
 })();
 </script>
 
-👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/) in the [Geospatial 3M(Monitoring-Mapping-Modeling) Lab](https://sites.google.com/site/liang3mlab/home), advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang). I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
-<!-- I also work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (Berkeley EECS) -->
-I am passionate about using **Geospatial AI and Remote Sensing** to understand the environment and human-envir. interaction from global to local scale to support planning and design for an **environmentally + socially well-being world**. Currently, I'm particularly excited about:
+👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) (LAEP). <!-- I also work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (EECS). --> I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+
+I am passionate about using **Geospatial AI** to understand the **built environment and human-envir. interaction** from global to local scale to support **Environmental+Social equitable urban planning and policies**. Currently, I'm focusing on:
 
 - **Environmental Hazards & Health:** the patterns, causes, and impacts of heat, air pollution, flooding, wildfire, and compound hazards...
 - **Social Behavior & Equity:** urban sensing and exposure ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)); human mobility ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)); spatial disparity of urban renewal and medical network (ongoing work)...
