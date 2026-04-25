@@ -145,7 +145,7 @@ layout: homepage
 })();
 </script>
 
-👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) (LAEP). <!-- I also work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (EECS). --> I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/). I am fortunate to be advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) (LAEP) and work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (EECS). I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
 I am passionate about using **Geospatial AI** to understand the **built environment and human-envir. interaction** from global to local scale to support **Environmental+Social equitable urban planning and policies**. Currently, I'm focusing on:
 
