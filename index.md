@@ -147,12 +147,14 @@ layout: homepage
 
 👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/). I am fortunate to be advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) (LAEP) and work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (EECS). I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. (Architecture) from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
-I am passionate about using **Geospatial AI** to understand the **built environment and human-envir. interaction** from global to local scale to support **Environmental+Social equitable urban planning and policies**. Currently, I'm focusing on:
+My research develops **spatial data science and machine learning** methods to study **how environmental risks, urban environments, and social systems interact to shape inequities**, with the goal of supporting **more equitable environmental planning and policy**. Current directions I am particularly excited about include:
 
-- **Environmental Hazards & Health:** the patterns, causes, and impacts of heat, air pollution, flooding, wildfire, and compound hazards...
-- **Social Behavior & Equity:** urban sensing and exposure ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)); human mobility ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)); spatial disparity of urban renewal and medical network (ongoing work)...
-- **Geospatial AI:** LLM alignment on spatial understanding and aesthetics ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), LLMs for geospatial applications (ongoing work), LLM Sparse AutoEncoder (ongoing work)...
-- ***This website is still under construction...***
+- **Environmental Risks & Health:** measuring human exposure to and health impacts of heat, air pollution, flooding, wildfire, and compound hazards (ongoing work).
+
+- **Urban Environments & Social Systems:** using urban sensing, mobility, and network data to study how urban environments and social systems shape inequities, including perception disparity ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)), air pollution ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)), urban renewal, and healthcare networks.
+
+- **Geospatial AI & Spatial Measurement:** developing and evaluating LLM and foundation models for spatial understanding, environmental sensing, and interpretable measurement, including LLM alignment for spatial reasoning and aesthetics ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), LLMs for geospatial applications, and sparse autoencoders for interpreting learned representations (ongoing work).
+
  <br>
 
 
