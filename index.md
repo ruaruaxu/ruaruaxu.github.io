@@ -149,12 +149,11 @@ layout: homepage
 
 My research develops **spatial data science and machine learning** methods to study **how environmental risks, urban environments, and social systems interact to shape inequities**, with the goal of supporting **more equitable environmental planning and policy**. Current directions I am particularly excited about include:
 
-- **Environmental Risks & Health:** measuring human exposure to and health impacts of heat, air pollution, flooding, wildfire, and compound hazards (ongoing work).
+- **Environmental Risks & Health:** measuring human exposure to and health impacts of heat, air pollution, flooding, wildfire, and compound hazards.
 
-- **Urban Environments & Social Systems:** using urban sensing, mobility, and network data to study how urban environments and social systems shape inequities, including perception disparity ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)), air pollution ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)), urban renewal, and healthcare networks.
+- **Urban Environments & Social Systems:** spatial perception disparity ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)), mobility & air pollution ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)), urban renewal, and healthcare networks.
 
-- **Geospatial AI & Spatial Measurement:** developing and evaluating LLM and foundation models for spatial understanding, environmental sensing, and interpretable measurement, including LLM alignment for spatial reasoning and aesthetics ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), LLMs for geospatial applications, and sparse autoencoders for interpreting learned representations (ongoing work).
-
+- **Geospatial AI & Spatial Measurement:** LLM alignment for spatial reasoning and aesthetics ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), LLMs for geospatial applications, and interpretability of foundation models.
  <br>
 
 
