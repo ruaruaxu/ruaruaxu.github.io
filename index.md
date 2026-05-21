@@ -147,9 +147,9 @@ layout: homepage
 
 👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/), where I am fortunate to be advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) (LAEP) and work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (EECS). I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
 
-My research develops **spatial data science and machine learning** methods to study **how environmental risks, urban environments, and social systems interact to shape inequities**, with the goal of supporting **more equitable environmental planning and policy**. Current directions I am particularly excited about include:
+My research develops **spatial data science and machine learning** methods to study **how multiple hazards, urban environments, and social systems interact to impact our lives**, with the goal of supporting **more equitable environmental planning and policy**. Current directions I am particularly excited about include:
 
-- **Environmental Risks & Health:** measuring human exposure to and health impacts of heat, air pollution, flooding, wildfire, and compound hazards.
+- **Environmental Hazards & Health:** measuring human exposure to and health impacts of heat, air pollution, wildfire, flooding, and compound hazards.
 
 - **Urban Environments & Social Equity:** spatial perception disparity ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)), mobility & air pollution ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)), urban renewal, and healthcare networks.
 
