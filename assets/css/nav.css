@@ -10,12 +10,23 @@
   z-index:999;
   width:100%;
   box-sizing: border-box;
-  border-bottom-color: #999;
-  padding: 0px 2%;
+  border-bottom-color: var(--site-border, #d9dde5);
+  padding: 0 max(15px, calc((100% - 1280px) / 2));
   border-bottom-style: solid;
   border-bottom-width: 0.5px;
-  font-family: "Noto Sans SC", sans-serif;
-  font-weight: 300;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.topnav-progress {
+  position: absolute;
+  left: 0;
+  bottom: -0.5px;
+  height: 2px;
+  width: 0;
+  background-color: var(--site-pink, #d81b72);
+  pointer-events: none;
+  transition: width 0.08s linear;
 }
 
 
@@ -35,16 +46,17 @@
 
 /* Style the links inside the navigation bar */
 .topnav a.normal {
-  color: rgb(33, 48, 115);; 
+  color: var(--site-blue, #17315f);
   text-align: center;
   padding: 5px 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
+  letter-spacing: 0;
 }
 
 /* Change the color of links on hover */
 .topnav a.normal:hover {
-  color: DeepPink
+  color: var(--site-pink, #d81b72)
 }
 
 /* Add a color to the active/current link */
@@ -53,7 +65,7 @@
 }
 
 
-@media print, screen and (max-width: 1280px) { 
+@media print, screen and (max-width: 960px) {
 .topnav #myLinks {
   display: none;
 }
@@ -72,16 +84,16 @@
 }
 
 .topnav a.normal {
-  color: rgb(33, 48, 115); 
+  color: var(--site-blue, #17315f);
   padding: 0px 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   display: block;
   text-align: left; /* 手机端菜单靠左对齐更好看 */
 }
 
 .topnav a.icon {
-  color: rgb(33, 48, 115); 
+  color: var(--site-blue, #17315f);
   display: block;
   padding: 5px 20px;
   font-size: 18px;

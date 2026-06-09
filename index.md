@@ -5,58 +5,331 @@ layout: homepage
 <!-- ⭐blogs（书影音评+摄影超链接）摄影、山地民宿、红莲小学、万里学院等设计项目 notion页面 -->
 <!-- 以后我的地图可以增加lived visited的所有点+图例-->
 
-<div id="world-map-container" style="width: 100%; margin: 0 auto; position: relative; min-height: auto; background: transparent;">
-    <p id="loading-text" style="text-align:center; color: #999;">⏳Fancy Map Loading...</p>
-</div>
-
-<div id="map-tooltip" style="position: absolute; opacity: 0; pointer-events: none; background: rgba(255, 255, 255, 0.98); padding: 10px 12px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-family: sans-serif; font-size: 12px; border: 1px solid #eee; z-index: 100; transition: opacity 0.2s; pointer-events: none; max-width: 200px; line-height: 1.5;">
+<div class="travel-map-shell">
+  <div class="travel-map-layout">
+    <div id="world-map-container" class="travel-map-canvas">
+      <p id="loading-text">Map loading...</p>
+      <div class="map-controls" aria-label="Map controls">
+        <button type="button" data-map-control="zoom-in">+</button>
+        <button type="button" data-map-control="zoom-out">-</button>
+        <button type="button" data-map-control="reset">Reset</button>
+        <button type="button" data-map-control="basemap">Map</button>
+      </div>
+      <div id="map-place-card" class="map-place-card" aria-live="polite"></div>
+    </div>
+    <aside class="travel-timeline" aria-label="Place timeline">
+      <div class="travel-timeline-title">Places</div>
+      <div id="travel-timeline-list"></div>
+    </aside>
+  </div>
+  <p class="travel-map-note">Click a marker or timeline item to explore each place.</p>
 </div>
 
 <style>
-    /* 样式部分保持不变 */
-    .track-line { fill: none; stroke: DeepPink; stroke-width: 1.5px; stroke-opacity: 0.3; stroke-linecap: round; stroke-dasharray: 4, 4; pointer-events: none; }
-    .map-pulse { fill: DeepPink; opacity: 0.5; transform-box: fill-box; transform-origin: center; animation: map-breathe 2s ease-in-out infinite; pointer-events: none; }
-    .map-point { fill: DeepPink; stroke: #fff; stroke-width: 1px; transition: r 0.3s; cursor: pointer; }
-    .location-group:hover .map-point { r: 6px; }
-    .country-path { fill: #e6e6e6; stroke: #ffffff; stroke-width: 0.8px; }
-    @keyframes map-breathe { 0% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(2.5); opacity: 0.3; } 100% { transform: scale(1); opacity: 0.8; } }
-    .location-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; pointer-events: none; }
-    .text-name { font-size: 11px; font-weight: 800; fill: #222; text-shadow: 0 1px 4px rgba(255, 255, 255, 1); }
-    .text-role { font-size: 9px; font-weight: 400; fill: #666; text-shadow: 0 1px 4px rgba(255, 255, 255, 1); }
+    .travel-map-shell {
+      margin: 0 0 28px;
+    }
+
+    .travel-map-note {
+      color: #666;
+      font-size: 13px;
+    }
+
+    .travel-map-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 12px;
+      min-height: 500px;
+    }
+
+    .travel-map-canvas {
+      background: #f7f7f4;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      min-height: 500px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #loading-text {
+      color: #999;
+      left: 50%;
+      margin: 0;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .map-controls {
+      display: grid;
+      gap: 4px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 1000;
+    }
+
+    .leaflet-container {
+      background: #e6e1d7;
+      color: #222;
+      font-family: inherit;
+      min-height: 500px;
+      width: 100%;
+    }
+
+    .leaflet-control-attribution {
+      font-size: 10px;
+    }
+
+    .leaflet-div-icon,
+    .travel-map-marker-icon {
+      background: transparent;
+      border: 0;
+      height: 0 !important;
+      margin: 0 !important;
+      width: 0 !important;
+    }
+
+    .map-marker {
+      display: block;
+      height: 0;
+      position: relative;
+      transform: none;
+      width: 0;
+      white-space: nowrap;
+    }
+
+    .map-marker-dot {
+      background: var(--site-pink);
+      border: 2px solid #fff;
+      border-radius: 999px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+      box-sizing: border-box;
+      height: 14px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transform: translate(-50%, -50%);
+      width: 14px;
+      z-index: 1;
+    }
+
+    .map-marker-dot::after {
+      animation: map-breathe 2.2s ease-in-out infinite;
+      background: var(--site-pink);
+      border-radius: inherit;
+      content: "";
+      inset: -2px;
+      opacity: 0.55;
+      position: absolute;
+      z-index: -1;
+    }
+
+    .map-marker.active .map-marker-dot,
+    .map-marker:hover .map-marker-dot {
+      background: var(--site-blue);
+      box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.72), 0 3px 14px rgba(0, 0, 0, 0.42);
+    }
+
+    .map-marker.active .map-marker-dot::after,
+    .map-marker:hover .map-marker-dot::after {
+      background: var(--site-blue);
+    }
+
+    @keyframes map-breathe {
+      0% { transform: scale(1); opacity: 0.68; }
+      50% { transform: scale(3.4); opacity: 0.14; }
+      100% { transform: scale(1); opacity: 0.68; }
+    }
+
+    .fallback-basemap-active.leaflet-container,
+    .fallback-basemap-active .leaflet-container {
+      background: #f7f7f4;
+    }
+
+    .map-controls button,
+    .map-place-card a {
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid #dcdcdc;
+      border-radius: 6px;
+      color: var(--site-blue);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 5px 8px;
+    }
+
+    .map-place-card {
+      background: rgba(255, 255, 255, 0.97);
+      border: 1px solid #e1e1e1;
+      border-radius: 8px;
+      bottom: 14px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+      left: 14px;
+      max-width: 280px;
+      padding: 12px;
+      position: absolute;
+      z-index: 1000;
+    }
+
+    .map-place-card h3 {
+      color: var(--site-blue);
+      font-size: 16px;
+      margin: 0 0 6px;
+    }
+
+    .map-place-card p {
+      color: #333;
+      font-size: 12px;
+      line-height: 1.5;
+      margin: 0 0 10px;
+    }
+
+    .travel-timeline {
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      max-height: 500px;
+      overflow: auto;
+      padding: 12px;
+    }
+
+    .travel-timeline-title {
+      color: var(--site-blue);
+      font-size: 14px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .timeline-group + .timeline-group {
+      margin-top: 16px;
+    }
+
+    .timeline-group-title {
+      align-items: center;
+      color: var(--site-muted);
+      display: flex;
+      font-size: 12px;
+      font-weight: 700;
+      gap: 6px;
+      letter-spacing: 0;
+      margin: 0 0 8px;
+      text-transform: uppercase;
+    }
+
+    .timeline-group-empty {
+      border: 1px dashed #e4e7ec;
+      border-radius: 8px;
+      color: #7a8492;
+      font-size: 12px;
+      line-height: 1.35;
+      padding: 9px 10px;
+    }
+
+    .timeline-item {
+      background: #fff;
+      border: 1px solid #e7e7e7;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      padding: 10px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .timeline-item:hover,
+    .timeline-item.active {
+      border-color: var(--site-pink);
+      box-shadow: 0 4px 12px var(--site-pink-soft);
+    }
+
+    .timeline-item-date {
+      color: #777;
+      font-size: 11px;
+      margin-bottom: 4px;
+    }
+
+    .timeline-item-name {
+      color: var(--site-blue);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .timeline-item-role {
+      color: #555;
+      font-size: 11px;
+      line-height: 1.35;
+      margin-top: 4px;
+    }
+
+    @media print, screen and (max-width: 700px) {
+      .travel-map-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .travel-map-canvas,
+      .leaflet-container {
+        min-height: 390px;
+      }
+
+      .travel-timeline {
+        max-height: none;
+      }
+    }
+
 </style>
 
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="https://unpkg.com/topojson-client@3"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
 (function() {
-    const width = 960;
-    const height = 320; 
-    
-    const container = d3.select("#world-map-container");
-    const tooltip = d3.select("#map-tooltip");
-    const loadingText = d3.select("#loading-text");
-    
-    // 清空容器
-    container.selectAll("svg").remove();
-    
-    const svg = container.append("svg")
-        .attr("viewBox", `0 0 ${width} ${height}`)
-        .attr("preserveAspectRatio", "xMidYMid meet")
-        .style("width", "100%")
-        .style("height", "auto")
-        .style("display", "block")
-        .style("overflow", "hidden");
+    const defaultPhotoUrl = "https://500px.com/p/ruaruaxu";
 
-    const projection = d3.geoEquirectangular();
-    const pathGenerator = d3.geoPath(projection);
+    const container = document.querySelector("#world-map-container");
+    const loadingText = document.querySelector("#loading-text");
+    const card = document.querySelector("#map-place-card");
+    const timeline = document.querySelector("#travel-timeline-list");
 
-    const myLocations = [
-        { name: "Berkeley", role: "2025-Now|PhD @Berkeley", coords: [-122.2585, 37.8719], desc: "<b>UC Berkeley</b><br><span style='color:#666'>2025 - Present</span><br>Environmental Planning." },
-        { name: "Beijing", role: "2023-2025|MArch @Tsinghua", coords: [116.4074, 39.9042], desc: "<b>Tsinghua University</b><br><span style='color:#666'>2023 - 2025</span><br>Urban Informatics." },
-        { name: "Shanghai", role: "2019-2023|BEng @Tongji", coords: [121.4737, 31.2304], desc: "<b>Tongji University</b><br><span style='color:#666'>2019 - 2023</span><br>Architecture & Urban Planning." },
-        { name: "Hefei", role: "Hometown", coords: [117.2272, 31.8206], desc: "Home sweet home." }
+    const placeGroups = [
+      {
+        id: "lived",
+        title: "Lived",
+        places: [
+          { name: "Hefei", date: "Birth-2019", role: "Hometown", coords: [31.8206, 117.2272], desc: "Home sweet home.", photoUrl: defaultPhotoUrl },
+          { name: "Shanghai", date: "2019 - 2023", role: "B.Eng. @ Tongji", coords: [31.2304, 121.4737], desc: "Architecture and Urban Design at Tongji University.", photoUrl: defaultPhotoUrl },
+          { name: "Beijing", date: "2023 - 2025", role: "M.Arch. @ Tsinghua", coords: [39.9042, 116.4074], desc: "Urban Informatics and Urban Renewal at Tsinghua University.", photoUrl: defaultPhotoUrl },
+          { name: "Berkeley", date: "2025 - Present", role: "PhD @ UC Berkeley", coords: [37.8719, -122.2585], desc: "Environmental Planning at UC Berkeley.", photoUrl: defaultPhotoUrl }
+        ]
+      },
+      {
+        id: "loved",
+        title: "Loved",
+        places: [
+          {
+            name: "Lhatse",
+            date: "2021",
+            role: "Lhatse County, Shigatse, Tibet",
+            coords: [29.0932, 87.6374],
+            desc: "Dream Classroom project at Lhatse County Complete Primary School.",
+            photoUrl: "https://mp.weixin.qq.com/s/Ey6OsoMCLCJfH4P7ziNsDg",
+            linkLabel: "Read story"
+          },
+          {
+            name: "Huocheng",
+            date: "2022",
+            role: "Huocheng County, Ili, Xinjiang",
+            coords: [44.0625, 80.8765],
+            desc: "Dream Classroom project at Huocheng County Middle School.",
+            photoUrl: "https://mp.weixin.qq.com/s/i5wdBYEOpGJl6prYkR5HWg",
+            linkLabel: "Read story"
+          }
+        ]
+      }
     ];
+
+    const myLocations = placeGroups.flatMap(group => (
+      group.places.map(place => ({ ...place, group: group.id }))
+    ));
 
     const tracks = [
         { from: "Hefei", to: "Shanghai" },
@@ -64,363 +337,265 @@ layout: homepage
         { from: "Beijing", to: "Berkeley" }
     ];
 
-    const geoJsonUrl = "/assets/img/countries-110m.json";
+    if (!container || !window.L) {
+      if (loadingText) {
+        loadingText.textContent = "Map failed to load.";
+        loadingText.style.color = "red";
+      }
+      return;
+    }
 
-    d3.json(geoJsonUrl).then(data => {
-        // 1. 数据加载成功，移除“Loading...”文字
-        loadingText.remove();
-        container.style("background", "transparent"); // 移除调试用的背景色
+    function renderCard(d) {
+      card.innerHTML = `
+        <h3>${d.name}</h3>
+        <p><strong>${d.date}</strong><br>${d.role}<br>${d.desc}</p>
+        <a href="${d.photoUrl}" target="_blank" rel="noopener">${d.linkLabel || "View photos"}</a>
+      `;
+    }
 
-        const countries = topojson.feature(data, data.objects.countries);
-        countries.features = countries.features.filter(d => d.id !== "010" && d.id !== 10);
+    loadingText.remove();
 
-        projection.fitExtent([[0, 0], [width, height]], countries);
+    const initialView = { center: [20, 0], zoom: 1 };
+    const satelliteTileUrl = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
+    const satelliteLabelUrl = "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}";
+    const mapTileUrl = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+    const map = L.map(container, {
+      attributionControl: true,
+      maxBounds: [[-85, -180], [85, 180]],
+      maxBoundsViscosity: 0.8,
+      minZoom: 1,
+      scrollWheelZoom: true,
+      worldCopyJump: false,
+      zoomControl: false
+    }).setView(initialView.center, initialView.zoom);
 
-        // --- 绘图逻辑 ---
-        svg.selectAll("path")
-          .data(countries.features)
-          .enter().append("path")
-          .attr("class", "country-path")
-          .attr("d", pathGenerator);
-
-        const locationMap = {};
-        myLocations.forEach(d => {
-          const [x, y] = projection(d.coords);
-          d.x = x; d.y = y;
-          locationMap[d.name] = d;
-        });
-
-        // 连线
-        const drawCurve = (d) => {
-            const start = locationMap[d.from];
-            const end = locationMap[d.to];
-            if (!start || !end) return "";
-            const mx = (start.x + end.x) / 2;
-            const my = (start.y + end.y) / 2;
-            const dist = Math.sqrt((end.x-start.x)**2 + (end.y-start.y)**2);
-            const offset = dist * 0.15; 
-            return `M${start.x},${start.y} Q${mx},${my - offset} ${end.x},${end.y}`;
-        };
-
-        svg.selectAll(".track-line")
-            .data(tracks).enter().append("path")
-            .attr("class", "track-line").attr("d", drawCurve);
-
-        // 点和组
-        const points = svg.selectAll(".location-group")
-            .data(myLocations).enter().append("g")
-            .attr("class", "location-group")
-            .on("mouseover", function(event, d) {
-                tooltip.html(d.desc).style("opacity", 1).style("left", (event.pageX + 15) + "px").style("top", (event.pageY - 15) + "px");
-            })
-            .on("mousemove", function(event) {
-                tooltip.style("left", (event.pageX + 15) + "px").style("top", (event.pageY - 15) + "px");
-            })
-            .on("mouseout", function() { tooltip.style("opacity", 0); });
-
-        points.append("circle").attr("class", "map-pulse").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
-        points.append("circle").attr("class", "map-point").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
-
-        const textGroup = points.append("text")
-            .attr("class", "location-text")
-            .attr("y", d => d.name === "Beijing" ? d.y - 12 : d.y + 4) 
-            .attr("text-anchor", d => d.name === "Hefei" ? "end" : "start");
-
-        textGroup.append("tspan")
-            .attr("class", "text-name")
-            .text(d => d.name)
-            .attr("x", d => d.name === "Hefei" ? d.x - 8 : d.x + 8).attr("dy", "0em");
-
-        textGroup.append("tspan")
-            .attr("class", "text-role")
-            .text(d => d.role)
-            .attr("x", d => d.name === "Hefei" ? d.x - 8 : d.x + 8).attr("dy", "1.2em");
-            
-    }).catch(error => {
-        // --- 错误处理 ---
-        console.error("地图加载失败:", error);
-        loadingText.html("⚠️ Map failed to load.<br>Check console (F12) or Network.");
-        loadingText.style("color", "red");
+    const satelliteBase = L.tileLayer(satelliteTileUrl, {
+      attribution: "Tiles &copy; Esri",
+      maxZoom: 18
     });
+
+    const satelliteLabels = L.tileLayer(satelliteLabelUrl, {
+      attribution: "Labels &copy; Esri",
+      maxZoom: 18
+    });
+
+    const fallbackBasemap = L.tileLayer(mapTileUrl, {
+      attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
+      maxZoom: 18
+    });
+    let currentBasemap = "";
+    let satelliteHasFailed = false;
+    const basemapButton = document.querySelector('[data-map-control="basemap"]');
+
+    function updateBasemapButton() {
+      if (!basemapButton) return;
+      basemapButton.textContent = currentBasemap === "satellite" ? "Map" : "Satellite";
+      basemapButton.setAttribute(
+        "aria-label",
+        currentBasemap === "satellite" ? "Switch to map basemap" : "Switch to satellite basemap"
+      );
+    }
+
+    function setBasemap(type, forcedByError = false) {
+      if (type === currentBasemap) return;
+      [satelliteBase, satelliteLabels, fallbackBasemap].forEach(layer => {
+        if (map.hasLayer(layer)) {
+          map.removeLayer(layer);
+        }
+      });
+
+      if (type === "satellite" && !satelliteHasFailed) {
+        satelliteBase.addTo(map);
+        satelliteLabels.addTo(map);
+        container.classList.remove("fallback-basemap-active");
+        currentBasemap = "satellite";
+      } else {
+        fallbackBasemap.addTo(map);
+        container.classList.add("fallback-basemap-active");
+        currentBasemap = "map";
+      }
+
+      if (forcedByError && basemapButton) {
+        basemapButton.title = "Satellite tiles failed to load, so the map switched to the local basemap.";
+      }
+      updateBasemapButton();
+    }
+
+    function handleSatelliteError() {
+      satelliteHasFailed = true;
+      setBasemap("map", true);
+    }
+
+    satelliteBase.on("tileerror", handleSatelliteError);
+    satelliteLabels.on("tileerror", handleSatelliteError);
+
+    setBasemap("satellite");
+
+    const locationMap = {};
+    myLocations.forEach(d => { locationMap[d.name] = d; });
+
+    tracks.forEach(track => {
+      const start = locationMap[track.from];
+      const end = locationMap[track.to];
+      if (!start || !end) return;
+      L.polyline([start.coords, end.coords], {
+        color: getComputedStyle(document.documentElement).getPropertyValue("--site-pink").trim() || "#d81b72",
+        dashArray: "6, 6",
+        opacity: 0.72,
+        weight: 2
+      }).addTo(map);
+    });
+
+    const markerItems = new Map();
+    const timelineItems = new Map();
+
+    function markerHtml(d) {
+      return `
+        <div class="map-marker" data-location="${d.name}">
+          <span class="map-marker-dot"></span>
+        </div>
+      `;
+    }
+
+    placeGroups.forEach(group => {
+      const groupEl = document.createElement("div");
+      groupEl.className = "timeline-group";
+      groupEl.dataset.group = group.id;
+
+      const groupTitle = document.createElement("div");
+      groupTitle.className = "timeline-group-title";
+      groupTitle.textContent = group.title;
+      groupEl.appendChild(groupTitle);
+
+      if (!group.places.length) {
+        const empty = document.createElement("div");
+        empty.className = "timeline-group-empty";
+        empty.textContent = "Travel places to add later.";
+        groupEl.appendChild(empty);
+      }
+
+      group.places.forEach(d => {
+        const item = document.createElement("button");
+        item.className = "timeline-item";
+        item.type = "button";
+        item.innerHTML = `
+          <div class="timeline-item-date">${d.date}</div>
+          <div class="timeline-item-name">${d.name}</div>
+          <div class="timeline-item-role">${d.role}</div>
+        `;
+        item.addEventListener("click", () => setActiveLocation(locationMap[d.name]));
+        groupEl.appendChild(item);
+        timelineItems.set(d.name, item);
+      });
+
+      timeline.appendChild(groupEl);
+    });
+
+    myLocations.forEach(d => {
+      const marker = L.marker(d.coords, {
+        icon: L.divIcon({
+          className: "travel-map-marker-icon",
+          html: markerHtml(d),
+          iconSize: [1, 1],
+          iconAnchor: [0, 0]
+        })
+      }).addTo(map);
+
+      marker.on("click", () => setActiveLocation(d));
+      markerItems.set(d.name, marker);
+    });
+
+    function setActiveLocation(d, shouldZoom = true) {
+      renderCard(d);
+      markerItems.forEach((marker, name) => {
+        const markerEl = marker.getElement();
+        if (markerEl) {
+          markerEl.querySelector(".map-marker")?.classList.toggle("active", name === d.name);
+        }
+      });
+      timelineItems.forEach((item, name) => {
+        item.classList.toggle("active", name === d.name);
+      });
+      if (shouldZoom) {
+        map.flyTo(d.coords, 5, { duration: 0.8 });
+      }
+    }
+
+    document.querySelector('[data-map-control="zoom-in"]').addEventListener("click", () => {
+      map.zoomIn();
+    });
+    document.querySelector('[data-map-control="zoom-out"]').addEventListener("click", () => {
+      map.zoomOut();
+    });
+    document.querySelector('[data-map-control="reset"]').addEventListener("click", () => {
+      map.flyTo(initialView.center, initialView.zoom, { duration: 0.6 });
+    });
+    if (basemapButton) {
+      basemapButton.addEventListener("click", () => {
+        if (currentBasemap === "satellite") {
+          setBasemap("map");
+        } else {
+          satelliteHasFailed = false;
+          basemapButton.removeAttribute("title");
+          setBasemap("satellite");
+        }
+      });
+    }
+
+    setActiveLocation(myLocations[0], false);
 })();
 </script>
 
-👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at [UC Berkeley](https://www.berkeley.edu/), where I am fortunate to be advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) (LAEP) and work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) (EECS). I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023.
+👋🦁Hi! I am a first-year Ph.D. student in Environmental Planning at UC Berkeley, where I am fortunate to be advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) ([LAEP](https://ced.berkeley.edu/land)) and work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) ([EECS](https://eecs.berkeley.edu/), [BAIR](https://bair.berkeley.edu/)).
 
-My research develops **spatial data science and machine learning** methods to study **how multiple hazards, urban environments, and social systems interact to impact our lives**, with the goal of supporting **more equitable environmental planning and policy**. Current directions I am particularly excited about include:
+My research develops **spatial data science and machine learning** methods to study **how multiple hazards, urban environments, and social systems interact to impact our lives**, with the goal of supporting **more equitable environmental planning and policy**. Broadly, I am interested in **AI for spatial and environmental science**, especially methods that are interpretable, fair, and useful for real-world planning decisions. My recent work includes:
 
 - **Environmental Hazards & Health:** measuring human exposure to and health impacts of heat, air pollution, wildfire, flooding, and compound hazards.
 
 - **Urban Environments & Social Equity:** spatial perception disparity ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)), mobility & air pollution ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)), urban renewal, and healthcare networks.
 
 - **LLM & Geospatial Foundation Model:** LLM alignment for spatial and aesthetical understanding ([ACL, 2025](https://aclanthology.org/2025.acl-long.567/)), geospatial applications and interpretability.
- <br>
+
+Previously, I received my M.Arch. from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2025 and B.Eng. from [Tongji University](https://caup.tongji.edu.cn/caupen/main.htm) with the highest distinction in 2023. I also worked as a researcher intern at Tsinghua [FIB-Lab](https://fi.ee.tsinghua.edu.cn/) ([Department of Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/)), planning and architectural intern at [THUDPI](http://www.thupdi.com/) and [THAD](https://www.thad.com.cn/), contributing to two built projects, and equity research intern at [Kaiyuan Securities Research Institute](https://www.kysec.cn/index.php?m=content&c=index&a=lists&catid=107).
+
+I am so lucky to have learned from and worked with many wonderful people! [[🏅My collaborators & mentors]](./people).
+<br>
 
 
-## 🔥 News
+## News
 
 {% include_relative _includes/news.md %}
 
-<div id='publications'></div>
-## 📖 Selected Publications
+## Selected Work
 
-[<u>Full-text PDFs of all publications are available for download here (Link).</u>](./publications)<br>
+**Full-text PDFs of all publications are available for download [[here]](./publications).**<br>
 †Equal Contribution, *Corresponding Author
 
 {% include_relative _includes/selected_publications.md %}
 
-
-## 🎓 Education
-
-<div style="display: flex;">
-  <div style="flex: 2; padding-right: 10px;">
-  <strong>2025 - Present</strong><br>
-  <br>
-  <a href="https://www.berkeley.edu/"><img width="120" src="./assets/img/institution/ucberkeley.png"></a>
-  </div>
-
-  <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.berkeley.edu/" style="color: #002676">University of California, Berkeley</a></font></strong><br>
-  Doctor of Philosophy (Environmental Studies)<br>
-  Department of Landscape Archi. & Environmental Planning (<a href="https://ced.berkeley.edu/land">Link</a>)<br>
-  Advisor: <a href="https://sites.google.com/site/liang3mlab/people/prof-lu-liang">Dr. Lu Liang</a>
-  </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div style="display: flex;">
-  <div style="flex: 2; padding-right: 10px;">
-  <strong>2023 - 2025</strong><br>
-  <br>
-  <a href="https://www.tsinghua.edu.cn/en/"><img width="120" src="./assets/img/institution/tsinghua.png"></a>
-  </div>
-
-  <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.tsinghua.edu.cn/en/" style="color: #002676">Tsinghua University</a></font></strong><br>
-  Master of Architecture (Urban Informatics and Urban Renewal)<br>
-  School of Architecure (<a href="https://www.arch.tsinghua.edu.cn/column/Home">Link</a>)<br>
-  GPA: 3.93 / 4<br>
-  Comprehensive Excellence Scholarship<br>
-  Advisor: <a href="https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864">Dr. Jinxi Chen</a>
-  </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div style="display: flex;">
-  <div style="flex: 2; padding-right: 10px;">
-  <strong>2019 - 2023</strong><br>
-  <br>
-  <a href="https://www.tongji.edu.cn/eng/"><img width="120" src="./assets/img/institution/tongji.png"></a>
-  </div>
-
-  <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.tongji.edu.cn/eng/" style="color: #002676">Tongji University</a></font></strong><br>
-  Bachelor of Engineering (Architecture and Urban Design)<br>
-  College of Architecture and Urban Planning (<a href="https://caup.tongji.edu.cn/caupen/main.htm">Link</a>)<br>
-  GPA: 4.89 / 5 (Top 1%)<br>
-  Distinct Graduate of Shanghai (<font color=DeepPink>Top 0.1%, Highest Distinction</font>); National Scholarship<br>
-  Minor Degree in Finance @ <strong><a href="https://www.fudan.edu.cn/en/">Fudan University</a></strong>
-  </div>
-</div>
-
-
-## 🏙️ Affiliation
-
-<div style="display: flex;">
-  <div style="flex: 2; padding-right: 10px;">
-  <strong>2024.09 - Present</strong><br>
-  <a href="https://fi.ee.tsinghua.edu.cn/"><img width="80" src="./assets/img/institution/fiblab.svg"></a>
-  </div>
-
-  <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://fi.ee.tsinghua.edu.cn/" style="color: #002676">Future Intelligence LaB (FIB-Lab), Tsinghua University</a></font></strong><br>
-  Research Assistant<br>
-  Department of Electronic Engineering (<a href="https://fi.ee.tsinghua.edu.cn/">Link</a>)<br>
-  Advisor: <a href="https://fi.ee.tsinghua.edu.cn/~gaochen/">Dr. Chen Gao</a>, <a href="https://vonfeng.github.io/">Dr. Jie Feng</a>, <a href="https://fi.ee.tsinghua.edu.cn/~liyong/">Dr. Yong Li</a>
-  </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div style="display: flex;">
-  <div style="flex: 2; padding-right: 10px;">
-  <strong>2024.10 - 2025.03</strong><br>
-  <a href="https://www.thad.com.cn/"><img width="120" src="./assets/img/institution/thad.png"></a>
-  </div>
-
-  <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.thad.com.cn/" style="color: #002676">Tsinghua Architectural Design & Research Institute</a></font></strong><br>
-  Intern Planner & Architect<br>
-  <i>Zhejiang Wanli University Yuyao Campus Project</i><!-- 引用到项目页面 详情可以notion做 -->
-  </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div style="display: flex;">
-  <div style="flex: 2; padding-right: 10px;">
-  <strong>2023.08 - 2024.06</strong><br>
-  <div style="height: 5px;"></div>
-  <a href="http://www.thupdi.com/"><img width="120" src="./assets/img/institution/thupdi.png"></a>
-  </div>
-
-  <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="http://www.thupdi.com/" style="color: #002676">Tsinghua Tongheng Urban Planning Institute</a></font></strong><br>
-  Intern Architect<br>
-  <i>Beijing 1st Experimental Primary School Honglian Branch Renewal Project</i><!-- 引用到项目页面 详情可以notion做 -->
-  </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div style="display: flex;">
-  <div style="flex: 2; padding-right: 10px;">
-  <strong>2021.12 - 2022.02</strong><br>
-  <div style="height: 5px;"></div>
-  <a href="https://www.kysec.cn/"><img width="120" src="./assets/img/institution/kaiyuan.png"></a>
-  </div>
-
-  <div style="flex: 8; padding-left: 10px;">
-  <strong><font size="4"><a href="https://www.kysec.cn/" style="color: #002676">Kaiyuan Securities Research Institute</a></font></strong><br>
-  Intern Equity Researcher<br>
-  <i>In-depth Report on the cosmetics industry and BeiTaiNi (SZ.300957) (<a href="https://www.fxbaogao.com/detail/3015179">Link</a>)</i><!-- 引用到项目页面 详情可以notion做 -->
-  </div>
-</div>
-
-
-<!-- 更多按钮 begins -->
-<script>
-  function togglePublications() {
-    // Select all hidden items
-    const hiddenItems = document.querySelectorAll('.pub-item.hidden');
-    const visibleItems = document.querySelectorAll('.pub-item:not(.hidden)');
-    const showMoreBtn = document.getElementById('show-more-btn');
-
-    if (hiddenItems.length > 0) {
-      // Show all hidden items if there are any
-      hiddenItems.forEach(item => item.classList.remove('hidden'));
-      showMoreBtn.textContent = 'Show less';
-    } else {
-      // Hide all items after the third when "Show less" is clicked
-      visibleItems.forEach((item, index) => {
-        if (index >= 3) {
-          item.classList.add('hidden');
-        }
-      });
-      showMoreBtn.textContent = 'Show more';
-
-      // Scroll back to the top of the publications section for better user experience.
-      window.scrollTo({
-        top: document.getElementById('affiliation').offsetTop,
-        behavior: 'smooth'
-      });
-    }
-  }
-</script>
-<!-- 更多按钮 ends -->
-
-
-<style>
-  .hidden {
-    display: none;
-  }
-
-  .btn.z-depth-0 {
-    background-color: #ffffff; /* Adjust this to match your button color */
-    color: #cccccc;
-    border: #ffffff;
-    padding: 5px 5px;
-    border-radius: 4px;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .btn.z-depth-0:hover {
-    color: "DeepPink"; /* Slightly darker shade for hover */
-  }
-</style>
-
-## 🎉 Activities & Services
-
-### Conference
-
-- **[2025]** [Accepted] The 65th Association of Collegiate Schools of Planning Annual Conference ([ACSP](https://www.acsp.org/)), Minneapolis, US.
-- **[2025]** [Accepted] The 4rd International Conference on Urban Informatics ([GSCS & ICUI](https://www.isocui.org/)), Hong Kong, China.
-- **[2025]** [Poster Presentation] The 19th International Conference on Computational Urban Planning and Urban Management ([CUPUM](https://cupum.co/)), London, UK.
-- **[2025]** [Oral Presentation] The 19th International Association for China Planning Annual Conference ([IACP](https://www.china-planning.org/)), Xiamen, China.
-- **[2025]** [Oral Presentation] The 32nd International Conference on Geoinformatics ([CPGIS](https://www.cpgis.org/)), Jiaozuo, China.
-- **[2025]** [Accepted] Extending Knowledge-based View in Generative AI Era. The 85th Annual Meeting of the Academy of Management ([AOM](https://aom.org/)), Copenhagen, Denmark.
-- **[2025]** [Accepted] Architecting Knowledge Ecosystems: How Generative AI Redraws the Boundaries of Competitive Advantage. Strategic Management Society 45th Annual Conference ([SMS](https://www.strategicmanagement.net/)), San Francisco, US.
-- **[2025]** [Accepted] The 25th COTA International Conference of Transportation Professionals ([CICTP](https://cictp2025.scievent.com/)), Guangzhou, China.
-- **[2024]** [Poster Presentation] [Nature Conference on Air Pollution and Climate Change](https://web.cvent.com/event/06e7aeed-3b2e-4a19-982f-ce28d2a97924/summary), Beijing, China.
-
-### Academic Services
-
-**Peer Reviewer:**<br>
-- **[Journal]** GIScience & Remote Sensing(1); Cities(1); Building and Environment(4); Computational Urban Science(4); Architectural Engineering and Design Management(1)
-- **[Conference]** ICLR 2025
-
-### Organization
-
-- **[2022.01-Present]** Student member of the **Architectural Society of China**.
-- **[2023.12-Present]** Volunteer in **Citipedia** (the #1 volunteer group in promoting sustainable city and transportation in China.
-- **[2022.09-2024.08]** Committee member of the **Student Branch, Architectural Society of China**.
-- **[2021.10-2022.11]** Leader of the Students' Union of College of Architecture and Urban Planning, Tongji University.
-- **[2021.07-2022.08]** Leader of the "Dream Classroom" voluntary teaching & design & construction project (Tibet Lhatse Middle School and Xinjiang Huocheng Middle School), Tongji University.
-
-### Teaching
-
-- **[Tsinghua University] Undergraduate Dissertation Design Studio:** 2023 Fall, 2024 Spring, 2024 Fall, 2025 Spring (TA).
-- **[Tsinghua University] Urban Design Elements:** 2023 Fall (TA).
-
-
-## 🏆 Selected Awards
-
-### Honors & Scholarships
-
-- **[2024]** **Comprehensive Excellence Scholarship**: Awarded by Tsinghua University.
-- **[2023]** **Distinct Graduate of Shanghai**: Graduation with the highest distinction (Top 0.1%).
-- **[2022]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
-- **[2021]** **The First Prize Undergraduate Scholarship**: Awarded by Tongji University.
-- **[2021]** **Outstanding Student Model**: Top 7/4300+ undergraduates at Tongji University.
-- **[2020]** **National Scholarship**: Highest honor for undergraduate (Top 1%).
-
-### Competitions
-
-- **[2022]** **Exhibition of Architectural Design in Developing Countries**: Bronze Award.
-- **[2021]** **National Real Estate Innovation & Entrepreneurship Competition**: Top Prize.
-- **[2021]** **National Computer Design Competition for College Students**: Second Prize (Top 1294/100,000+).
-- **[2020]** **National English Competition for College Students**: Top Prize (Top 23/43000+).
-- **[2018]** **China High School Mathematics League**: Second Prize in Anhui (Top 681/60,000+).
-
-
-## 🪪 Certificates & Skills
-
-- **Language:** English (GRE 336, CET-6 684); Japanese (N5); Chinese (Native)
-- To be updated
-<!-- 考日语N1，考CFA I -->
-
-## 🎾 Misc
+## Misc
 
 - I love the 90s Alternative Rock, Britpop, Citypop, and Classicals (especially in the Impressionism Era). My favorite contemporary artists include: Blur, Big Thief, Radiohead, 万能青年旅店, Neutral Milk Hotel, The Velvet Underground, Pink Floyd, My Bloody Valentine, My Little Airport, Cheer Chen, Coldplay... So hard to name them all! Here are my collections on [RateYourMusic](https://rateyourmusic.com/~ruaruaxu) or [Douban](https://www.douban.com/people/xycf/)!
 - I watch about 200+ movies each year. **Movies let us live three times more lives.** We can talk on [Letterboxd](https://letterboxd.com/ruaruaxu/) or [Douban](https://www.douban.com/people/xycf/)! My favorite directors are Quentin Tarantino, Woody Allen, David Fincher, Sofia Coppola... My life movie is "The Lord of The Rings", "Yi Yi" by Edward Yang, and "The Secret Life of Walter Mitty". My favorite TV by now is "ロングバケーション"(Long Vacation).
 - Unfortunately I don't have time to read as many books each year, but I'd love to get any recommendations on [Goodreads](https://goodreads.com/ruaruaxu) or [Douban](https://www.douban.com/people/xycf/)!
 - I enjoy "city walking" and photography. You can find my photos in my blogs and on [500px](https://500px.com/p/ruaruaxu).
-- I am so addicted to tennis. I was a member of the Tsinghua School of Architecture Tennis Team. I've been learning piano since 22 (I can play Chopin's Waltz in A Minor now! Hope I can play Debussy's La Fille aux Cheveux de Lin and Liszt's Liebesträume one day!).🎾🎹
+- I am so addicted to tennis. I was a member of the Tsinghua School of Architecture Tennis Team. I've been learning piano since 22 (I can play Chopin's Waltz in A Minor now! Hope I can play Debussy's La Fille aux Cheveux de Lin and Liszt's Liebesträume one day!). I also play guitar and have long hoped to start a band, though it still hasn't happened yet.🎾🎹🎸
 - I am a "No spicy, no joy" person, and my "spiritual hometown" is Sichuan.😈
 - My nickname is ruarua or rua.😁
 
 <div id='contact'></div>
 
-## 📫 Contact
+## Contact
 
 I am always excited to meet fellow researchers with shared interests!<br>
 Please feel free to contact me via Email or WeChat.
 
-- **Email:** <font color=DeepPink>wenruixu(at)outlook(dot)com</font>
-- **WeChat:** <font color=DeepPink>ruaruaxu</font>
+- **Email:** <span style="color:var(--site-pink);">wenruixu(at)outlook(dot)com</span>
+- **WeChat:** <span style="color:var(--site-pink);">ruaruaxu</span>
+
+## Guestbook
+
+{% include_relative _includes/giscus.html %}
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d3d3d3&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676&cmo=002676&cmn=ff1796'></script>

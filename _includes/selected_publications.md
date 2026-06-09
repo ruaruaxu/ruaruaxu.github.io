@@ -7,14 +7,14 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1">
     {% if link.journal_short %} 
     <abbr class="badge">{{ link.journal_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.doi }}"><font color="#002676">{{ link.title }}</font></a></div>
+      <div class="title"><a href="{{ link.doi }}"><span style="color:var(--site-blue);">{{ link.title }}</span></a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.journal }}</em>
       </div>
@@ -26,10 +26,10 @@
       <a href="{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">DOI</a>
       {% endif %}
       {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;color:DeepPink;font-weight: bold;border:1px solid DeepPink;">Code</a>
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;color:var(--site-pink);font-weight: bold;border:1px solid var(--site-pink);">Code</a>
       {% endif %}
       {% if link.data %} 
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;color:DeepPink;font-weight: bold;border:1px solid DeepPink;">Data</a>
+      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;color:var(--site-pink);font-weight: bold;border:1px solid var(--site-pink);">Data</a>
       {% endif %}
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>

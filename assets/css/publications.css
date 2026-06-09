@@ -18,15 +18,30 @@
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%), 0 2px 10px 0 rgb(0 0 0 / 10%);
 }
 
-:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
+:root { --site-blue: #17315f; --site-link-blue: #2b6da8; --site-pink: #d81b72; --site-pink-soft: rgba(216, 27, 114, 0.12); --global-bg-color: #ffffff; --global-code-bg-color: rgba(216, 27, 114, 0.06); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: var(--site-link-blue); --global-hover-color: var(--site-pink); --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
 
 @media (prefers-color-scheme: dark) { :root { --global-theme-color: rgb(36, 150, 203);}}
 
 blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
 
-@media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
+@media print, screen and (min-width: 480px) {.col-sm-9 {width: auto;}}
 
 .publications { margin-top: 2rem; }
+
+.publications .pub-row {
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.publications .col-sm-3.abbr {
+    flex: 0 0 290px;
+    max-width: 290px;
+}
+
+.publications .col-sm-9 {
+    flex: 1 1 auto;
+    min-width: 0;
+}
 
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 
@@ -80,3 +95,23 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+@media print, screen and (max-width: 700px) {
+    .publications .pub-row {
+        display: block;
+    }
+
+    .publications .col-sm-3.abbr {
+        max-width: 100%;
+    }
+
+    .publications ol.bibliography li .abbr {
+        height: auto;
+    }
+
+    .publications ol.bibliography li .teaser {
+        width: 100%;
+        height: auto;
+        max-height: 180px;
+    }
+}

@@ -2,12 +2,31 @@
   display: flex; 
   align-items: center;}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --site-blue: #17315f;
+  --site-link-blue: #2b6da8;
+  --site-pink: #d81b72;
+  --site-pink-soft: rgba(216, 27, 114, 0.12);
+  --site-border: #d9dde5;
+  --site-muted: #667085;
+}
+
 .social-icons a{
   display:inline-block;
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#002676!important;
+  color:var(--site-blue)!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -119,6 +138,17 @@ autocolor{
   color:#000;
 }
 
+.profile-meta {
+  color: #3f4652;
+  display: inline-block;
+  font-size: 1.10rem;
+  font-weight: 500;
+}
+
+.profile-affiliation:hover {
+  color: var(--site-pink);
+}
+
 lightonly {
   visibility: visible;
 }
@@ -169,8 +199,8 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
-        padding: 20px;
+        width: 62%;
+        padding: 10px;
         // border: 1px solid #ddd;
         // padding: 3px;
         // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
@@ -181,49 +211,49 @@ papertitle {
       width: 8.00em;
     }
 
-/* 让所有级别的标题优先使用思源黑体 */
 h1, h2, h3, h4, h5, h6 {
-  font-family: ‘Noto Sans SC’, sans-serif;
+  font-family: inherit;
+  letter-spacing: 0;
 }
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#002676;
+  color:var(--site-blue);
   margin:0 0 10px;
 }
 
 h1 {
-  font-weight: 800;
-  color:#002676;
-  margin:0 0 20px;
+  font-weight: 700;
+  color:var(--site-blue);
+  margin:0 0 16px;
 }
 
 h2 {
-  color:#002676;
-  font-weight: 600;
-  margin:40px 0 20px;
-  font-size: 157%;
+  color:var(--site-blue);
+  font-weight: 700;
+  margin:38px 0 16px;
+  font-size: 24px;
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 18px;
 }
 
 h1, h2, h3 {
-  line-height:1.1;
+  line-height:1.22;
 }
 
 h1 {
-  font-size:28px;
+  font-size:26px;
 }
 
 a {
-  color:#000; //#39c
+  color:var(--site-link-blue);
   text-decoration:none;
 }
 
 a:hover {
-  color:DeepPink;
+  color:var(--site-pink);
 }
 
 a small {
@@ -239,6 +269,7 @@ a:hover small {
 
 .wrapper {
   width:1280px;
+  max-width:calc(100% - 30px);
   margin:0 auto;
 }
 
@@ -342,8 +373,8 @@ header ul a:active {
 }
 
 strong {
-  color:#000;
-  font-weight:500;
+  color:var(--site-blue);
+  font-weight:700;
 }
 
 header ul li + li + li {
@@ -358,7 +389,8 @@ header ul a strong {
 }
 
 section {
-  width:900px;
+  width:calc(100% - 300px);
+  max-width:900px;
   float:right;
   padding-top:4.0em;
   padding-bottom:5px;
@@ -384,6 +416,59 @@ footer {
   text-align:center;
 }
 
+.page-outline {
+  margin: 26px auto 0;
+  max-width: 180px;
+  text-align: left;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.page-outline ul,
+header .page-outline ul {
+  background: transparent;
+  border: 0;
+  border-left: 1px solid #e5e5e5;
+  border-radius: 0;
+  height: auto;
+  list-style: none;
+  margin: 0;
+  padding: 2px 0 2px 11px;
+  width: auto;
+}
+
+.page-outline li,
+header .page-outline li,
+header .page-outline ul li + li + li {
+  border: 0;
+  float: none;
+  height: auto;
+  margin: 0;
+  width: auto;
+}
+
+.page-outline a,
+header .page-outline ul a {
+  border-radius: 4px;
+  color: #666;
+  display: block;
+  font-size: 12px;
+  height: auto;
+  line-height: 1.35;
+  margin: 0 0 3px;
+  padding: 5px 7px;
+  text-decoration: none;
+}
+
+.page-outline a:hover,
+.page-outline a.active,
+header .page-outline ul a:hover,
+header .page-outline ul a.active {
+  background: #fafafa;
+  color: var(--site-pink);
+}
+
 /* 手机端显示 */
    @media screen and (max-width: 960px) {
     body {
@@ -393,6 +478,7 @@ footer {
   
     div.wrapper {
       width: auto; 
+      max-width: none;
       margin: 0;
     }
   
@@ -404,6 +490,10 @@ footer {
   
     header {
       padding-top: 20px; 
+    }
+
+    .page-outline {
+      display: none;
     }
   
     section {
@@ -426,8 +516,8 @@ footer {
   
     .image.avatar img {
       border-radius: 100%;
-      width: 95px; /* 手机端使用较小的头像 */
-      padding: 20px;
+      width: 118px; /* 手机端使用稍大的头像 */
+      padding: 10px;
     }
   
     /* 列表在手机端改为垂直排列 */
@@ -469,8 +559,8 @@ footer {
     box-sizing: border-box;
     padding: 16px 25px; /* 上下留出充足的点击区域，左侧文字缩进 25px 显得更有条理 */
     text-align: left;
-    color: rgb(33, 48, 115);
-    font-size: 16px;
+    color: var(--site-blue);
+    font-size: 17px;
     border-bottom: 1px solid #f0f0f0;
     transition: background-color 0.2s ease;
   }
@@ -483,7 +573,7 @@ footer {
   /* 4. 点击或悬停时的交互反馈 */
   .topnav #myLinks.mobile-active a.normal:hover {
     background-color: #fafafa; /* 按下时背景微微变灰 */
-    color: DeepPink;
+    color: var(--site-pink);
   }
   }
 
