@@ -24,7 +24,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 @media print, screen and (min-width: 480px) {.col-sm-9 {width: auto;}}
 
-.publications { margin-top: 2rem; }
+.publications { margin-top: 1rem; }
 
 .publications .pub-row {
     align-items: flex-start;
@@ -71,9 +71,34 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
-.publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
+.publications ol.bibliography li .links {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 5px;
+}
 
-.publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+.publications ol.bibliography li .links a.btn {
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--site-border);
+    border-radius: 5px;
+    color: var(--site-link-blue);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: inherit;
+    line-height: 1;
+    padding: 3px 8px;
+    transition: border-color 0.18s ease, color 0.18s ease;
+}
+
+.publications ol.bibliography li .links a.btn:hover {
+    border-color: var(--site-pink);
+    color: var(--site-pink);
+}
 
 .publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
 
