@@ -1,20 +1,146 @@
-- title: Personal Notes
-  date: Ongoing
-  category: Writing
+- title: CS 189/C289A Introduction to Machine Learning Highlights
+  date: 2026.06.08
+  date_sort: 2026-06-08
+  category: Course Notes
   source: Notion
-  summary: Essays, reading notes, film and music reflections, and scattered thoughts.
-  url: https://ruarua.notion.site/ebd//30e7d637ee44809d90ddec68ca6f181d
+  summary: Highlights and references for UC Berkeley's machine learning course, organized around lectures, discussions, worksheets, and assignments.
+  url: https://ruarua.notion.site/3117d637ee44801181acc72cf8ee2a8c
+  tags:
+    - Course Notes
+    - Machine Learning
 
-- title: Photography
-  date: Ongoing
-  category: Photography
-  source: 500px
-  summary: City walks, travel fragments, and visual notes from places I have lived in or loved.
-  url: https://500px.com/p/ruaruaxu
-
-- title: Design Projects
-  date: Archive
-  category: Design
+- title: DATA/STAT/CS 100/C200 Principles and Techniques of Data Science Highlights
+  date: 2026.05.18
+  date_sort: 2026-05-18
+  category: Course Notes
   source: Notion
-  summary: Selected architecture, planning, and design project documentation.
-  url: https://ruarua.notion.site/ebd//30e7d637ee44809d90ddec68ca6f181d
+  summary: Notes on data science foundations, including pandas, data cleaning, exploratory analysis, regular expressions, visualization, and sampling.
+  url: https://ruarua.notion.site/3147d637ee44803e8972f7890e932b53
+  tags:
+    - Course Notes
+    - Data Science
+
+- title: Math Knowledge Index
+  date: 2026.04.27
+  date_sort: 2026-04-27
+  category: Notes
+  source: Notion
+  summary: A working index of math knowledge for machine learning, calculus, linear algebra, probability, optimization, and related foundations.
+  url: https://ruarua.notion.site/f30c8ca0445847f98fc4a63afdad0f9a
+  tags:
+    - Notes
+    - Math
+
+- title: INFO 290 Fundamentals of Generative AI Summary
+  date: 2026.04.23
+  date_sort: 2026-04-23
+  category: Course Notes
+  source: Notion
+  summary: Summary notes on generative AI foundations, data representations, language models, and related course modules.
+  url: https://ruarua.notion.site/30e7d637ee4480b98aa2ff7c2617098b
+  tags:
+    - Course Notes
+    - Generative AI
+
+- title: MATH 53 Multivariable Calculus Summary
+  date: 2026.04.11
+  date_sort: 2026-04-11
+  category: Course Notes
+  source: Notion
+  summary: A structured summary of multivariable calculus topics, including parametric equations, polar coordinates, and course-note references.
+  url: https://ruarua.notion.site/30e7d637ee44806ab00bee653c74e794
+  tags:
+    - Course Notes
+    - Math
+
+- title: MATH 54 Linear Algebra and Differential Equations Summary
+  date: 2026.04.11
+  date_sort: 2026-04-11
+  category: Course Notes
+  source: Notion
+  summary: Notes on linear algebra and differential equations, with links to course notes and visual references.
+  url: https://ruarua.notion.site/30e7d637ee448023989cc32454110c31
+  tags:
+    - Course Notes
+    - Math
+
+- title: 科研的术法道
+  date: 2026.03.16
+  date_sort: 2026-03-16
+  category: Notes
+  source: Notion
+  summary: Notes on research practice, collaboration, machine learning workflows, and the deeper methods behind research.
+  url: https://ruarua.notion.site/3257d637ee448008a1d6f4a49fc97a1b
+  tags:
+    - Notes
+    - Research
+
+- title: CS 70 Discrete Math and Probability Theory Summary
+  date: 2026.03.16
+  date_sort: 2026-03-16
+  category: Course Notes
+  source: Notion
+  summary: Summary notes on discrete mathematics and probability, including logic, proof, counting, and probability foundations.
+  url: https://ruarua.notion.site/30e7d637ee44809a8addc6f2a2d4eebd
+  tags:
+    - Course Notes
+    - Math
+
+- title: My Favorite Movie/Music Collections
+  date: 2026.02.28
+  date_sort: 2026-02-28
+  category: Beautiful Things
+  source: Notion
+  summary: A personal collection of favorite films, albums, genres, and cultural notes, including indie rock, dreampop, and shoegaze.
+  url: https://ruarua.notion.site/3117d637ee44802c9c37ef922b433da5
+  tags:
+    - Beautiful Things
+    - Music
+    - Movies
+
+- title: Defining and Evaluating Visual Language Models' Basic Spatial Abilities
+  date: 2026.02.28
+  date_sort: 2026-02-28
+  category: Research Project
+  source: Notion
+  summary: Project materials for the ACL 2025 paper on evaluating visual language models' basic spatial abilities from a psychometrics perspective.
+  url: https://ruarua.notion.site/30e7d637ee44809e826ecd1fd8c61216
+  tags:
+    - Research Project
+    - VLM
+    - Spatial AI
+
+- title: ESPM/CEE C172 Remote Sensing of the Environment Summary
+  date: 2026.02.28
+  date_sort: 2026-02-28
+  category: Course Notes
+  source: Notion
+  summary: Notes on environmental remote sensing, large-scale observation, and spatial variation in environmental phenomena.
+  url: https://ruarua.notion.site/5e57d637ee4483e5a96c01e46dec2cab
+  tags:
+    - Course Notes
+    - Remote Sensing
+
+- title: Reading and Analyzing Financial Statements Summary [Chinese]
+  date: 2026.02.21
+  date_sort: 2026-02-21
+  category: Course Notes
+  source: Notion
+  summary: Chinese notes on financial statements, assets, liabilities, measurement methods, and balance-sheet analysis.
+  url: https://ruarua.notion.site/30e7d637ee4480e2b8e0ea06f3dcc4d2
+  tags:
+    - Course Notes
+    - Finance
+    - Chinese
+
+- title: My Movie/Music Diary 2026
+  date: 2026.02.21
+  date_sort: 2026-02-21
+  category: Beautiful Things
+  source: Notion
+  summary: A growing diary for music and movie notes in 2026.
+  url: https://ruarua.notion.site/30e7d637ee44805d82d4f6bb62ddd4a9
+  tags:
+    - Beautiful Things
+    - Music
+    - Movies

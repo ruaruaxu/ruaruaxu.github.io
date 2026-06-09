@@ -754,6 +754,13 @@ layout: homepage
     const markerItems = new Map();
     const timelineItems = new Map();
 
+    function timelineSortValue(date) {
+      const text = String(date || "");
+      if (/present/i.test(text)) return 9999;
+      const years = text.match(/\d{4}/g);
+      return years ? parseInt(years[years.length - 1], 10) : -Infinity;
+    }
+
     function getTimelineEntries(group) {
       const entries = [];
       const journeyEntries = new Map();
@@ -787,8 +794,8 @@ layout: homepage
         journeyEntries.get(d.journey.id).places.push(d);
       });
 
-      if (group.id === "loved") {
-        entries.sort((a, b) => parseInt(b.date, 10) - parseInt(a.date, 10));
+      if (group.id === "loved" || group.id === "lived") {
+        entries.sort((a, b) => timelineSortValue(b.date) - timelineSortValue(a.date));
       }
 
       return entries;

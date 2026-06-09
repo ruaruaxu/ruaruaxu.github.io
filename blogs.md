@@ -1,5 +1,6 @@
 ---
 layout: homepage
+permalink: /blog/
 ---
 
 <style>
@@ -7,179 +8,182 @@ layout: homepage
     margin-bottom: 44px;
   }
 
-  .blog-intro {
+  .blog-header {
+    margin-bottom: 24px;
     max-width: 760px;
-    margin-bottom: 26px;
   }
 
-  .blog-intro h2 {
+  .blog-header h2 {
+    margin: 0 0 8px;
+  }
+
+  .blog-header p {
+    color: var(--site-muted, #6b7280);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .blog-cover {
+    margin: 0 0 24px;
+  }
+
+  .blog-cover img {
+    aspect-ratio: 3 / 1;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+  .blog-cover figcaption {
+    color: var(--site-muted, #6b7280);
+    font-size: 12px;
+    margin-top: 6px;
+  }
+
+  .blog-directory {
+    margin-top: 28px;
+  }
+
+  .blog-category {
+    margin-top: 34px;
+  }
+
+  .blog-category:first-child {
     margin-top: 0;
   }
 
-  .blog-intro p {
-    color: #4b5563;
-    font-size: 17px;
-    line-height: 1.65;
-    margin-bottom: 0;
-  }
-
-  .blog-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 0 0 20px;
-  }
-
-  .blog-filter {
-    background: #fff;
-    border: 1px solid var(--site-border);
-    border-radius: 6px;
-    color: var(--site-blue);
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 14px;
-    line-height: 1;
-    padding: 8px 12px;
-  }
-
-  .blog-filter:hover,
-  .blog-filter.active {
-    border-color: var(--site-pink);
-    color: var(--site-pink);
-  }
-
-  .blog-grid {
-    display: grid;
-    gap: 14px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .blog-card {
-    border: 1px solid var(--site-border);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    min-height: 188px;
-    padding: 18px;
-    transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
-  }
-
-  .blog-card:hover {
-    border-color: rgba(216, 27, 114, 0.42);
-    box-shadow: 0 10px 24px rgba(23, 49, 95, 0.08);
-    transform: translateY(-2px);
-  }
-
-  .blog-card-meta {
-    color: var(--site-muted);
-    display: flex;
-    font-size: 12px;
-    gap: 8px;
-    letter-spacing: 0;
-    margin-bottom: 10px;
-  }
-
-  .blog-card h3 {
-    color: var(--site-blue);
-    font-size: 21px;
+  .blog-category-title {
+    border-bottom: 1px solid var(--site-border, #d9dde5);
+    font-size: 22px;
     line-height: 1.25;
-    margin: 0 0 10px;
+    margin: 0;
+    padding-bottom: 8px;
   }
 
-  .blog-card p {
-    color: #4b5563;
-    flex: 1;
+  .blog-entry {
+    border-bottom: 1px solid var(--site-border, #d9dde5);
+    display: grid;
+    gap: 18px;
+    grid-template-columns: 96px minmax(0, 1fr);
+    padding: 18px 0;
+  }
+
+  .blog-entry-date {
+    color: var(--site-muted, #6b7280);
+    font-size: 14px;
+    line-height: 1.35;
+    padding-top: 2px;
+  }
+
+  .blog-entry-title {
+    font-size: 19px;
+    line-height: 1.3;
+    margin: 0 0 5px;
+  }
+
+  .blog-entry-title a {
+    color: var(--site-blue, #17315f);
+  }
+
+  .blog-entry-title a:hover {
+    color: var(--site-pink, #d81b72);
+  }
+
+  .blog-entry-summary {
+    color: #374151;
     font-size: 15px;
     line-height: 1.55;
-    margin-bottom: 18px;
+    margin: 0;
   }
 
-  .blog-card-link {
-    align-self: flex-start;
-    border-bottom: 1px solid rgba(43, 109, 168, 0.35);
-    color: var(--site-link-blue);
-    font-size: 14px;
-    line-height: 1.2;
+  .blog-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 9px;
   }
 
-  .blog-card-link:hover {
-    border-color: var(--site-pink);
-    color: var(--site-pink);
+  .blog-tag {
+    border: 1px solid var(--site-border, #d9dde5);
+    border-radius: 5px;
+    color: var(--site-link-blue, #2b6da8);
+    font-size: 11px;
+    line-height: 1;
+    padding: 3px 8px;
   }
 
-  .blog-empty {
-    border: 1px solid var(--site-border);
-    border-radius: 8px;
-    color: var(--site-muted);
-    display: none;
-    padding: 18px;
+  .blog-footer-note {
+    border-top: 1px solid var(--site-border, #d9dde5);
+    color: var(--site-muted, #6b7280);
+    font-size: 13px;
+    line-height: 1.55;
+    margin-top: 24px;
+    padding-top: 14px;
   }
 
   @media print, screen and (max-width: 720px) {
-    .blog-grid {
+    .blog-entry {
+      gap: 6px;
       grid-template-columns: 1fr;
-    }
-
-    .blog-intro p {
-      font-size: 16px;
+      padding: 16px 0;
     }
   }
 </style>
 
 <div class="blog-page">
-  <div class="blog-intro">
-    <h2>Blogs</h2>
-    <p>Notes on cities, design, photography, music, films, and everyday wandering.</p>
+  <div class="blog-header">
+    <h2>Blog</h2>
+    <p>Welcome to my blog “徐徐图之”, where I share my travels, photography, thoughts about music and movies, and of course also research projects.</p>
   </div>
 
-  <div class="blog-filters" aria-label="Blog categories">
-    <button class="blog-filter active" type="button" data-filter="All">All</button>
-    {% assign categories = site.data.blogs | map: "category" | uniq | sort %}
-    {% for category in categories %}
-    <button class="blog-filter" type="button" data-filter="{{ category }}">{{ category }}</button>
+  <figure class="blog-cover">
+    <img src="{{ '/assets/img/blog/yosemite.jpg' | relative_url }}" alt="Yosemite landscape photographed by Wenrui">
+    <figcaption>cover image: Yosemite 📷 Wenrui</figcaption>
+  </figure>
+
+  <div class="blog-directory">
+    {% assign posts = site.data.blogs | sort: "date_sort" | reverse %}
+    {% assign category_order = "Course Notes|Research Project|Notes|Beautiful Things" | split: "|" %}
+    {% for category in category_order %}
+      {% assign category_posts = posts | where: "category", category %}
+      {% if category_posts.size > 0 %}
+        {% case category %}
+        {% when "Research Project" %}
+          {% assign category_title = "Research Projects" %}
+        {% when "Notes" %}
+          {% assign category_title = "Research & Learning Notes" %}
+        {% else %}
+          {% assign category_title = category %}
+        {% endcase %}
+        <div class="blog-category">
+          <h2 id="{{ category_title | slugify }}" class="blog-category-title">{{ category_title }}</h2>
+          {% for post in category_posts %}
+          <article class="blog-entry">
+            <div class="blog-entry-date">{{ post.date }}</div>
+            <div class="blog-entry-body">
+              <h3 class="blog-entry-title">
+                <a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+              </h3>
+              <p class="blog-entry-summary">{{ post.summary }}</p>
+              {% if post.tags %}
+              <div class="blog-tags" aria-label="Tags">
+                {% for tag in post.tags %}
+                <span class="blog-tag">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+        {% endif %}
     {% endfor %}
   </div>
 
-  <div class="blog-grid" id="blog-grid">
-    {% for post in site.data.blogs %}
-    <article class="blog-card" data-category="{{ post.category }}">
-      <div class="blog-card-meta">
-        <span>{{ post.date }}</span>
-        <span>{{ post.category }}</span>
-        <span>{{ post.source }}</span>
-      </div>
-      <h3>{{ post.title }}</h3>
-      <p>{{ post.summary }}</p>
-      <a class="blog-card-link" href="{{ post.url }}" target="_blank" rel="noopener">Open {{ post.source }}</a>
-    </article>
-    {% endfor %}
+  <div class="blog-footer-note">
+    徐徐图之 © Wenrui's Blog. 徐: xú, Chinese surname; adv. slowly, gently, calmly; adj. composed, dignified. 图: tú, v. plan, strive for, picture and understand, draw; n. plan, picture, chart. 之: zhī, pron. it, the goal, the question, the world.
   </div>
-
-  <div class="blog-empty" id="blog-empty">No entries in this category yet.</div>
 </div>
-
-<script>
-  (function() {
-    const filters = Array.from(document.querySelectorAll(".blog-filter"));
-    const cards = Array.from(document.querySelectorAll(".blog-card"));
-    const emptyState = document.querySelector("#blog-empty");
-
-    filters.forEach((filter) => {
-      filter.addEventListener("click", () => {
-        const category = filter.dataset.filter;
-        let visibleCount = 0;
-
-        filters.forEach((item) => item.classList.toggle("active", item === filter));
-        cards.forEach((card) => {
-          const shouldShow = category === "All" || card.dataset.category === category;
-          card.hidden = !shouldShow;
-          if (shouldShow) visibleCount += 1;
-        });
-
-        if (emptyState) {
-          emptyState.style.display = visibleCount ? "none" : "block";
-        }
-      });
-    });
-  })();
-</script>
