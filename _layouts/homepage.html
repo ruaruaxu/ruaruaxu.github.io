@@ -32,17 +32,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     {% if site.font == "Sans Serif" %} <!--如果选择非衬线字体 -->
-    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/font.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="./assets/css/style.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+    <link rel="stylesheet" href="./assets/css/publications.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
-    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+    <link rel="stylesheet" href="./assets/css/nav.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% endif %}
 
   </head>
