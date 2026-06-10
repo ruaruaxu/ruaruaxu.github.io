@@ -670,7 +670,7 @@ layout: homepage
     satelliteBase.on("tileerror", handleSatelliteError);
     satelliteLabels.on("tileerror", handleSatelliteError);
 
-    setBasemap("satellite");
+    setBasemap("map");
 
     const locationMap = {};
     myLocations.forEach(d => { locationMap[d.name] = d; });
