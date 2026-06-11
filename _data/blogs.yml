@@ -1,6 +1,19 @@
+- title: One Math to Master Them All
+  date: 2026.04.27
+  date_sort: 2026-04-27
+  order: 1
+  category: Course Notes
+  source: Notion
+  summary: An evolving open study text on the mathematical foundations of machine learning and scientific computing, covering multivariable calculus, linear algebra and differential equations, discrete mathematics and probability theory, probability and random processes, optimization models in engineering, and related topics.
+  url: https://ruarua.notion.site/f30c8ca0445847f98fc4a63afdad0f9a
+  tags:
+    - Course Notes
+    - Math
+
 - title: DATA/STAT/CS 100/200 Principles and Techniques of Data Science Highlights
   date: 2026.05.18
   date_sort: 2026-05-18
+  order: 2
   category: Course Notes
   source: Notion
   summary: Notes on data science foundations, including pandas, data cleaning, exploratory analysis, regular expressions, visualization, and sampling.
@@ -9,20 +22,10 @@
     - Course Notes
     - Data Science
 
-- title: One Math to Master Them All
-  date: 2026.04.27
-  date_sort: 2026-04-27
-  category: Course Notes
-  source: Notion
-  summary: A working index of math knowledge for machine learning, calculus, linear algebra, probability, optimization, and related foundations.
-  url: https://ruarua.notion.site/f30c8ca0445847f98fc4a63afdad0f9a
-  tags:
-    - Course Notes
-    - Math
-
 - title: INFO 290 Fundamentals of Generative AI Summary
   date: 2026.04.23
   date_sort: 2026-04-23
+  order: 3
   category: Course Notes
   source: Notion
   summary: Summary notes on generative AI foundations, data representations, language models, and related course modules.
@@ -34,6 +37,7 @@
 - title: ESPM/CEE C172 Remote Sensing of the Environment Summary
   date: 2026.02.28
   date_sort: 2026-02-28
+  order: 4
   category: Course Notes
   source: Notion
   summary: Notes on environmental remote sensing, large-scale observation, and spatial variation in environmental phenomena.
@@ -45,6 +49,7 @@
 - title: Reading and Analyzing Financial Statements Summary [Chinese]
   date: 2026.02.21
   date_sort: 2026-02-21
+  order: 5
   category: Course Notes
   source: Notion
   summary: Chinese notes on financial statements, assets, liabilities, measurement methods, and balance-sheet analysis.
@@ -57,6 +62,7 @@
 - title: My Favorite Movie/Music Collections
   date: 2026.02.28
   date_sort: 2026-02-28
+  order: 6
   category: Beautiful Things
   source: Notion
   summary: A personal collection of favorite films, albums, genres, and cultural notes, including indie rock, dreampop, and shoegaze.
@@ -69,6 +75,7 @@
 - title: My Movie/Music Diary 2026
   date: 2026.02.21
   date_sort: 2026-02-21
+  order: 7
   category: Beautiful Things
   source: Notion
   summary: A growing diary for music and movie notes in 2026.

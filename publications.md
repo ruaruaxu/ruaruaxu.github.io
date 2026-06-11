@@ -12,7 +12,7 @@ layout: homepage
     border-radius: 8px;
     display: block;
     object-fit: cover;
-    object-position: center;
+    object-position: center 76%;
     width: 100%;
   }
 

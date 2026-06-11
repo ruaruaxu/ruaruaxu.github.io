@@ -151,6 +151,7 @@ permalink: /blog/
       {% assign category_posts = posts | where: "category", category %}
       {% if category_posts.size > 0 %}
         {% assign category_title = category %}
+        {% assign category_posts = category_posts | sort: "order" %}
         <div class="blog-category">
           <h2 id="{{ category_title | slugify }}" class="blog-category-title">{{ category_title }}</h2>
           {% for post in category_posts %}
