@@ -7,6 +7,10 @@ layout: homepage
     margin: 0 0 24px;
   }
 
+  .publications-page-title {
+    margin-top: 0;
+  }
+
   .publication-cover img {
     aspect-ratio: 3 / 1;
     border-radius: 8px;
@@ -23,7 +27,7 @@ layout: homepage
   }
 </style>
 
-## Full Publications
+<h2 class="publications-page-title">Full Publications</h2>
 
 <figure class="publication-cover">
   <img src="{{ '/assets/img/publication/como-lake.jpg' | relative_url }}" alt="Como Lake photographed by Wenrui">
