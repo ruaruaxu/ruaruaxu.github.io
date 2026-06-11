@@ -39,8 +39,17 @@
   display: none;
 }
 
+.topnav > a:first-child {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  width: 232px;
+}
+
 .topnav img {
-  margin:0;
+  display: block;
+  margin: 0;
   max-height: 50px; /* 控制一下 Logo 高度防溢出 */
 }
 
@@ -66,6 +75,15 @@
 
 
 @media print, screen and (max-width: 960px) {
+.topnav {
+  padding: 0 15px;
+}
+
+.topnav > a:first-child {
+  justify-content: flex-start;
+  width: auto;
+}
+
 .topnav #myLinks {
   display: none;
 }

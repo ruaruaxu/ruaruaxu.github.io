@@ -7,6 +7,10 @@ layout: homepage
     margin: 0 0 24px;
   }
 
+  .people-page-title {
+    margin-top: 0;
+  }
+
   .people-cover img {
     aspect-ratio: 3 / 1;
     border-radius: 8px;
@@ -23,7 +27,7 @@ layout: homepage
   }
 </style>
 
-## Collaborators & Mentors
+<h2 class="people-page-title">Collaborators & Mentors</h2>
 
 <figure class="people-cover">
   <img src="{{ '/assets/img/people/hong-kong.jpg' | relative_url }}" alt="Hong Kong photographed by Wenrui">
