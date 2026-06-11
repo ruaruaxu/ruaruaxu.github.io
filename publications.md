@@ -2,7 +2,33 @@
 layout: homepage
 ---
 
+<style>
+  .publication-cover {
+    margin: 0 0 24px;
+  }
+
+  .publication-cover img {
+    aspect-ratio: 3 / 1;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+  .publication-cover figcaption {
+    color: var(--site-muted, #6b7280);
+    font-size: 12px;
+    margin-top: 6px;
+  }
+</style>
+
 ## Full Publications
+
+<figure class="publication-cover">
+  <img src="{{ '/assets/img/publication/como-lake.jpg' | relative_url }}" alt="Como Lake photographed by Wenrui">
+  <figcaption>cover image: Como Lake 📷 Wenrui</figcaption>
+</figure>
 
 Full-text PDFs of all publications are available for download **[here]**.<br>
 †Equal Contribution, *Corresponding Author

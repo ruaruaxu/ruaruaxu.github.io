@@ -2,7 +2,33 @@
 layout: homepage
 ---
 
+<style>
+  .people-cover {
+    margin: 0 0 24px;
+  }
+
+  .people-cover img {
+    aspect-ratio: 3 / 1;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+  .people-cover figcaption {
+    color: var(--site-muted, #6b7280);
+    font-size: 12px;
+    margin-top: 6px;
+  }
+</style>
+
 ## Collaborators & Mentors
+
+<figure class="people-cover">
+  <img src="{{ '/assets/img/people/hong-kong.jpg' | relative_url }}" alt="Hong Kong photographed by Wenrui">
+  <figcaption>cover image: Hong Kong 📷 Wenrui</figcaption>
+</figure>
 
 I am so lucky to have learned from and worked with many wonderful people. Each of them has shaped how I think as a researcher and person; feel free to ask me about any of them if you are considering working with them.
 

@@ -146,18 +146,11 @@ permalink: /blog/
 
   <div class="blog-directory">
     {% assign posts = site.data.blogs | sort: "date_sort" | reverse %}
-    {% assign category_order = "Course Notes|Research Project|Notes|Beautiful Things" | split: "|" %}
+    {% assign category_order = "Course Notes|Beautiful Things" | split: "|" %}
     {% for category in category_order %}
       {% assign category_posts = posts | where: "category", category %}
       {% if category_posts.size > 0 %}
-        {% case category %}
-        {% when "Research Project" %}
-          {% assign category_title = "Research Projects" %}
-        {% when "Notes" %}
-          {% assign category_title = "Research & Learning Notes" %}
-        {% else %}
-          {% assign category_title = category %}
-        {% endcase %}
+        {% assign category_title = category %}
         <div class="blog-category">
           <h2 id="{{ category_title | slugify }}" class="blog-category-title">{{ category_title }}</h2>
           {% for post in category_posts %}
