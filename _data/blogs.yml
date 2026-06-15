@@ -13,7 +13,7 @@
 - title: DATA/STAT/CS 100/200 Principles and Techniques of Data Science Highlights
   date: 2026.05.18
   date_sort: 2026-05-18
-  order: 2
+  order: 3
   category: Course Notes
   source: Notion
   summary: Notes on data science foundations, including pandas, data cleaning, exploratory analysis, regular expressions, visualization, and sampling.
@@ -22,10 +22,22 @@
     - Course Notes
     - Data Science
 
+- title: Introduction to Machine Learning
+  date: 2026.06.14
+  date_sort: 2026-06-14
+  order: 2
+  category: Course Notes
+  source: Feishu
+  summary: Course notes on machine learning foundations, including supervised learning, model evaluation, optimization, regression, classification, and core algorithms.
+  url: https://my.feishu.cn/wiki/FcAcwSMoniyjxHkq7vecvj97n9d
+  tags:
+    - Course Notes
+    - Machine Learning
+
 - title: INFO 290 Fundamentals of Generative AI Summary
   date: 2026.04.23
   date_sort: 2026-04-23
-  order: 3
+  order: 4
   category: Course Notes
   source: Notion
   summary: Summary notes on generative AI foundations, data representations, language models, and related course modules.
@@ -37,7 +49,7 @@
 - title: ESPM/CEE C172 Remote Sensing of the Environment Summary
   date: 2026.02.28
   date_sort: 2026-02-28
-  order: 4
+  order: 5
   category: Course Notes
   source: Notion
   summary: Notes on environmental remote sensing, large-scale observation, and spatial variation in environmental phenomena.
@@ -49,7 +61,7 @@
 - title: Reading and Analyzing Financial Statements Summary [Chinese]
   date: 2026.02.21
   date_sort: 2026-02-21
-  order: 5
+  order: 6
   category: Course Notes
   source: Notion
   summary: Chinese notes on financial statements, assets, liabilities, measurement methods, and balance-sheet analysis.
@@ -62,7 +74,7 @@
 - title: My Favorite Movie/Music Collections
   date: 2026.02.28
   date_sort: 2026-02-28
-  order: 6
+  order: 7
   category: Beautiful Things
   source: Notion
   summary: A personal collection of favorite films, albums, genres, and cultural notes, including indie rock, dreampop, and shoegaze.
@@ -75,7 +87,7 @@
 - title: My Movie/Music Diary 2026
   date: 2026.02.21
   date_sort: 2026-02-21
-  order: 7
+  order: 8
   category: Beautiful Things
   source: Notion
   summary: A growing diary for music and movie notes in 2026.

@@ -135,7 +135,7 @@ permalink: /blog/
 
 <div class="blog-page">
   <div class="blog-header">
-    <h2>Blog</h2>
+    <h2 class="no-outline">Blog</h2>
     <p>Welcome to my blog “徐徐图之”, where I share my travels, photography, thoughts about music and movies, and of course also research projects.</p>
   </div>
 
@@ -162,13 +162,6 @@ permalink: /blog/
                 <a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
               </h3>
               <p class="blog-entry-summary">{{ post.summary }}</p>
-              {% if post.tags %}
-              <div class="blog-tags" aria-label="Tags">
-                {% for tag in post.tags %}
-                <span class="blog-tag">{{ tag }}</span>
-                {% endfor %}
-              </div>
-              {% endif %}
             </div>
           </article>
           {% endfor %}

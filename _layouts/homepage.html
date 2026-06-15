@@ -201,7 +201,9 @@
     window.addEventListener('resize', updateNavProgress);
 
     const pageOutline = document.querySelector('.page-outline');
-    const outlineHeadings = Array.from(document.querySelectorAll('section h2'));
+    const outlineHeadings = Array.from(document.querySelectorAll('section h2')).filter((heading) => {
+      return !heading.classList.contains('no-outline') && heading.dataset.outline !== 'false';
+    });
     if (pageOutline) {
       const outlineList = document.createElement('ul');
       const outlineLinks = [];
