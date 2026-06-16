@@ -190,7 +190,7 @@ papertitle {
     }
 
     .image.avatar {
-      border-radius: 100%;
+      border-radius: 16px;
     }
 
       .image.avatar:before {
@@ -198,9 +198,9 @@ papertitle {
       }
 
       .image.avatar img {
-        border-radius: 100%;
+        border-radius: 16px;
         width: 62%;
-        padding: 10px;
+        padding: 0;
         // border: 1px solid #ddd;
         // padding: 3px;
         // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
@@ -516,9 +516,9 @@ header .page-outline ul a.active {
     }
   
     .image.avatar img {
-      border-radius: 100%;
+      border-radius: 16px;
       width: 118px; /* 手机端使用稍大的头像 */
-      padding: 10px;
+      padding: 0;
     }
   
     /* 列表在手机端改为垂直排列 */
