@@ -974,4 +974,4 @@ Please feel free to contact me via Email or WeChat.
 {% include_relative _includes/giscus.html %}
 
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d3d3d3&w=a&t=tt&d=rb3p-HLpB7vIKlMArS_N1cPimHsZnd9RNzFFiMPkdw8&co=ffffff&ct=002676&cmo=002676&cmn=ff1796'></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?cl=d3d3d3&w=a&t=tt&d=iaPASPcQ0WjfLyPGayaBeBgN2nSY7KSUDzXe9V881tc&co=ffffff&ct=002676&cmo=002676&cmn=ff1796"></script>
