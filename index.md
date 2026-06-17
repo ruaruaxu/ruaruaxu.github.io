@@ -37,17 +37,22 @@ layout: homepage
     }
 
     .visitor-map-widget {
-      display: inline-block;
-      line-height: 1;
-      max-width: 100%;
-      transform-origin: left top;
-      zoom: 0.5;
+      line-height: 1.2;
+      margin-top: 18px;
+      max-width: 260px;
+      width: 50%;
     }
 
-    @supports not (zoom: 0.5) {
-      .visitor-map-widget {
-        transform: scale(0.5);
-      }
+    .visitor-map-widget a,
+    .visitor-map-widget img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .visitor-map-caption {
+      color: #666;
+      font-size: 11px;
+      margin-top: 4px;
     }
 
     .travel-map-note {
@@ -988,31 +993,9 @@ Please feel free to contact me via Email or WeChat.
 {% include_relative _includes/giscus.html %}
 
 
-<div class="visitor-map-widget" id="visitor-map-widget">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?cl=d3d3d3&w=a&t=tt&d=iaPASPcQ0WjfLyPGayaBeBgN2nSY7KSUDzXe9V881tc&co=ffffff&ct=002676&cmo=002676&cmn=ff1796"></script>
+<div class="visitor-map-widget">
+  <a href="https://mapmyvisitors.com/web/1c5jo" title="Visit tracker">
+    <img src="https://mapmyvisitors.com/map.png?d=iaPASPcQ0WjfLyPGayaBeBgN2nSY7KSUDzXe9V881tc&cl=ffffff" alt="Visitor map">
+  </a>
+  <div class="visitor-map-caption">Total pageview since Jun 2026</div>
 </div>
-<script>
-  (function () {
-    const widget = document.getElementById("visitor-map-widget");
-    const replacement = "Total pageview since Jun 2026";
-    const labelPattern = /\btotal\s+page\s*views\b/i;
-
-    function relabelPageviewText(node) {
-      if (!node) return;
-      if (node.nodeType === Node.TEXT_NODE) {
-        if (labelPattern.test(node.nodeValue) && !node.nodeValue.includes(replacement)) {
-          node.nodeValue = node.nodeValue.replace(labelPattern, replacement);
-        }
-        return;
-      }
-      node.childNodes.forEach(relabelPageviewText);
-    }
-
-    if (widget) {
-      relabelPageviewText(widget);
-      new MutationObserver(function () {
-        relabelPageviewText(widget);
-      }).observe(widget, { childList: true, subtree: true, characterData: true });
-    }
-  })();
-</script>
