@@ -995,12 +995,12 @@ Please feel free to contact me via Email or WeChat.
   (function () {
     const widget = document.getElementById("visitor-map-widget");
     const replacement = "Total pageview since Jun 2026";
-    const labelPattern = /total\s+page\s*views?/i;
+    const labelPattern = /\btotal\s+page\s*views\b/i;
 
     function relabelPageviewText(node) {
       if (!node) return;
       if (node.nodeType === Node.TEXT_NODE) {
-        if (labelPattern.test(node.nodeValue)) {
+        if (labelPattern.test(node.nodeValue) && !node.nodeValue.includes(replacement)) {
           node.nodeValue = node.nodeValue.replace(labelPattern, replacement);
         }
         return;
