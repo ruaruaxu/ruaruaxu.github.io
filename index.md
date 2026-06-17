@@ -36,6 +36,20 @@ layout: homepage
       margin: 0 0 28px;
     }
 
+    .visitor-map-widget {
+      display: inline-block;
+      line-height: 1;
+      max-width: 100%;
+      transform-origin: left top;
+      zoom: 0.5;
+    }
+
+    @supports not (zoom: 0.5) {
+      .visitor-map-widget {
+        transform: scale(0.5);
+      }
+    }
+
     .travel-map-note {
       color: #666;
       font-size: 13px;
@@ -974,4 +988,31 @@ Please feel free to contact me via Email or WeChat.
 {% include_relative _includes/giscus.html %}
 
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?cl=d3d3d3&w=a&t=tt&d=iaPASPcQ0WjfLyPGayaBeBgN2nSY7KSUDzXe9V881tc&co=ffffff&ct=002676&cmo=002676&cmn=ff1796"></script>
+<div class="visitor-map-widget" id="visitor-map-widget">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?cl=d3d3d3&w=a&t=tt&d=iaPASPcQ0WjfLyPGayaBeBgN2nSY7KSUDzXe9V881tc&co=ffffff&ct=002676&cmo=002676&cmn=ff1796"></script>
+</div>
+<script>
+  (function () {
+    const widget = document.getElementById("visitor-map-widget");
+    const replacement = "Total pageview since Jun 2026";
+    const labelPattern = /total\s+page\s*views?/i;
+
+    function relabelPageviewText(node) {
+      if (!node) return;
+      if (node.nodeType === Node.TEXT_NODE) {
+        if (labelPattern.test(node.nodeValue)) {
+          node.nodeValue = node.nodeValue.replace(labelPattern, replacement);
+        }
+        return;
+      }
+      node.childNodes.forEach(relabelPageviewText);
+    }
+
+    if (widget) {
+      relabelPageviewText(widget);
+      new MutationObserver(function () {
+        relabelPageviewText(widget);
+      }).observe(widget, { childList: true, subtree: true, characterData: true });
+    }
+  })();
+</script>
