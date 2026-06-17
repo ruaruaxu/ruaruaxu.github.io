@@ -36,23 +36,21 @@ layout: homepage
       margin: 0 0 28px;
     }
 
-    .visitor-map-widget {
-      line-height: 1.2;
-      margin-top: 18px;
-      max-width: 260px;
-      width: 50%;
+    .visitor-tracker {
+      height: 1px;
+      left: -9999px;
+      opacity: 0;
+      overflow: hidden;
+      pointer-events: none;
+      position: absolute;
+      top: auto;
+      width: 1px;
     }
 
-    .visitor-map-widget a,
-    .visitor-map-widget img {
+    .visitor-tracker img {
       display: block;
-      max-width: 100%;
-    }
-
-    .visitor-map-caption {
-      color: #666;
-      font-size: 11px;
-      margin-top: 4px;
+      height: 1px;
+      width: 1px;
     }
 
     .travel-map-note {
@@ -992,10 +990,6 @@ Please feel free to contact me via Email or WeChat.
 
 {% include_relative _includes/giscus.html %}
 
-
-<div class="visitor-map-widget">
-  <a href="https://mapmyvisitors.com/web/1c5jo" title="Visit tracker">
-    <img src="https://mapmyvisitors.com/map.png?d=iaPASPcQ0WjfLyPGayaBeBgN2nSY7KSUDzXe9V881tc&cl=ffffff" alt="Visitor map">
-  </a>
-  <div class="visitor-map-caption">Total pageview since Jun 2026</div>
+<div class="visitor-tracker" aria-hidden="true">
+  <img src="https://mapmyvisitors.com/map.png?d=iaPASPcQ0WjfLyPGayaBeBgN2nSY7KSUDzXe9V881tc&cl=ffffff" alt="">
 </div>
