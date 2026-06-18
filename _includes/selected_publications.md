@@ -22,20 +22,20 @@
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       {% endif %}
-      {% if link.doi %} 
-      <a href="{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
+      {% if link.page %}
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
       {% endif %}
       {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0 pub-link-code" role="button" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
       {% endif %}
       {% if link.data %} 
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Data</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Project Page</a>
+      <a href="{{ link.data }}" class="btn btn-sm z-depth-0 pub-link-data" role="button" target="_blank"><span aria-hidden="true">🤗</span> Data</a>
       {% endif %}
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank">BibTex</a>
+      {% endif %}
+      {% if link.doi %}
+      <a href="{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>

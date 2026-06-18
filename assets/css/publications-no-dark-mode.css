@@ -89,10 +89,24 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     display: inline-flex;
     font-family: inherit;
     font-size: 11px;
+    gap: 3px;
     font-weight: inherit;
     line-height: 1;
     padding: 3px 8px;
     transition: border-color 0.18s ease, color 0.18s ease;
+}
+
+.publications ol.bibliography li .links a.btn.pub-link-data {
+    background: var(--site-pink-soft);
+    border-color: var(--site-pink);
+    color: var(--site-pink);
+    font-weight: 700;
+}
+
+.publications ol.bibliography li .links a.btn.pub-link-data:hover {
+    background: rgba(216, 27, 114, 0.18);
+    border-color: var(--site-pink);
+    color: var(--site-pink);
 }
 
 .publications ol.bibliography li .links a.btn:hover {
