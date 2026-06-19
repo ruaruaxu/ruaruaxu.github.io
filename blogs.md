@@ -13,6 +13,10 @@ permalink: /blog/
     max-width: 760px;
   }
 
+  .blog-title-header {
+    margin-bottom: 0;
+  }
+
   .blog-header h2 {
     margin: 0 0 8px;
   }
@@ -134,7 +138,7 @@ permalink: /blog/
 </style>
 
 <div class="blog-page">
-  <div class="blog-header">
+  <div class="blog-header blog-title-header">
     <h2 class="no-outline">Blog</h2>
   </div>
 
