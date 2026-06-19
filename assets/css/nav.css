@@ -63,9 +63,21 @@
   letter-spacing: 0;
 }
 
+.topnav a.normal.active {
+  color: var(--site-blue, #17315f);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: currentColor;
+  text-underline-offset: 6px;
+}
+
 /* Change the color of links on hover */
 .topnav a.normal:hover {
-  color: var(--site-pink, #d81b72)
+  color: var(--site-pink, #d81b72);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: currentColor;
+  text-underline-offset: 6px;
 }
 
 /* Add a color to the active/current link */
