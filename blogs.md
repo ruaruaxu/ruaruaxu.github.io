@@ -136,13 +136,16 @@ permalink: /blog/
 <div class="blog-page">
   <div class="blog-header">
     <h2 class="no-outline">Blog</h2>
-    <p>Welcome to my blog “徐徐图之”, where I share my travels, photography, thoughts about music and movies, and of course also research projects.</p>
   </div>
 
   <figure class="blog-cover">
     <img src="{{ '/assets/img/blog/yosemite.jpg' | relative_url }}" alt="Yosemite landscape photographed by Wenrui">
     <figcaption>cover image: Yosemite 📷 Wenrui</figcaption>
   </figure>
+
+  <div class="blog-header">
+    <p>Welcome to my blog “徐徐图之”, where I share my travels, photography, thoughts about music and movies, and of course also research projects.</p>
+  </div>
 
   <div class="blog-directory">
     {% assign posts = site.data.blogs | sort: "date_sort" | reverse %}
