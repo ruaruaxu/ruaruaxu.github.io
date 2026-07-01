@@ -69,6 +69,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 
+.publications ol.bibliography li .author strong { color: inherit; }
+
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
 .publications ol.bibliography li .links {

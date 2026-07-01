@@ -69,7 +69,13 @@ Full-text PDFs of all publications are available for download **here**.<br>
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.doi }}"><span style="color:var(--site-blue);">{{ link.title }}</span></a></div>
+      <div class="title">
+        {% if link.doi %}
+        <a href="{{ link.doi }}"><span style="color:var(--site-blue);">{{ link.title }}</span></a>
+        {% else %}
+        <span style="color:var(--site-blue);">{{ link.title }}</span>
+        {% endif %}
+      </div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.journal }}</em>
       </div>
@@ -111,11 +117,10 @@ Full-text PDFs of all publications are available for download **here**.<br>
 ## Working Papers
 
 <ol class="working-papers">
-  <li>Gu, X., Liu, Y*., <strong>Xu, W.</strong>, Qiu, W., Li, X., Chen, X., Lu, S., Qiu, W.* (2025-). <span class="working-paper-title">Scalable quantification of 3D material albedo reveals consistent cooling mechanisms and unequal mitigation potential.</span> <em>Communications Earth &amp; Environment</em> (1st Revision).</li>
-  <li><strong>Xu, W.</strong>, Lan, Y., Yang, T., Chen, J.*, Chen, J., Qian, J., Han, W., Edle von Schickh, A. (2025-). <span class="working-paper-title">Campus squares are significantly associated with students' emotions: A multimodal field experiment approach.</span> <em>Frontiers of Architectural Research</em> (1st Revision).</li>
-  <li><strong>Xu, W.</strong>, Liang, L.* (2025-). <span class="working-paper-title">Compound heatwave-air pollution hazards across the United States.</span> Manuscript in Preparation.</li>
+  <li>Gu, X., Liu, Y*., <strong>Xu, W.</strong>, Qiu, W., Li, X., Chen, X., Lu, S., Qiu, W.* (2025-). <span class="working-paper-title">Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential.</span> <em>Communications Earth &amp; Environment</em> (1st Revision).</li>
+  <li><strong>Xu, W.</strong>, Liang, L.* (2025-). <span class="working-paper-title">Compound Heatwave-Air Pollution Hazards Across the United States.</span> Manuscript in Preparation.</li>
   <li><strong>Xu, W.</strong>, Zhang, X., Sun, J., Liang, L.* (2026-). <span class="working-paper-title">Scaling Property-Level Wildfire Risk Assessment in California with Fine-Tuned Vision-Language Models and Prediction-Powered Inference.</span> Manuscript in Preparation.</li>
-  <li><strong>Xu, W.</strong>, Agostini, G., Pierson, E.*, Blumenstock, J., Liang, L. (2026-). <span class="working-paper-title">SAEarth: Can Sparse AutoEncoders expose interpretable features in Geospatial Foundation Models?</span> Manuscript in Preparation.</li>
-  <li>Lyu, D.†, <strong>Xu, W.†</strong>, Wang, W., Gao, C., Zhuang, W.*, Li, Y.* (2025-). <span class="working-paper-title">Aesthetic perception of large language models.</span> Manuscript in Preparation.</li>
-  <li>Lyu, D., Li, J., <strong>Xu, W.</strong>, Li, T.* (2025-). <span class="working-paper-title">Spatial inequities in emergency rescue networks in China.</span> Manuscript in Preparation.</li>
+  <li><strong>Xu, W.</strong>, Agostini, G., Pierson, E.*, Blumenstock, J., Liang, L. (2026-). <span class="working-paper-title">SAEarth: Can Sparse AutoEncoders Expose Interpretable Features in Geospatial Foundation Models?</span> Manuscript in Preparation.</li>
+  <li>Lyu, D.†, <strong>Xu, W.†</strong>, Wang, W., Gao, C., Zhuang, W.*, Li, Y.* (2025-). <span class="working-paper-title">Aesthetic Perception of Large Language Models.</span> Manuscript in Preparation.</li>
+  <li>Lyu, D., Li, J., <strong>Xu, W.</strong>, Li, T.* (2025-). <span class="working-paper-title">Spatial Inequities in Emergency Rescue Networks in China.</span> Manuscript in Preparation.</li>
 </ol>

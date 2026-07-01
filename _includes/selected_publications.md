@@ -14,7 +14,13 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.doi }}"><span style="color:var(--site-blue);">{{ link.title }}</span></a></div>
+      <div class="title">
+        {% if link.doi %}
+        <a href="{{ link.doi }}"><span style="color:var(--site-blue);">{{ link.title }}</span></a>
+        {% else %}
+        <span style="color:var(--site-blue);">{{ link.title }}</span>
+        {% endif %}
+      </div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.journal }}</em>
       </div>

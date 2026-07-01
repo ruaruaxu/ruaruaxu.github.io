@@ -2,7 +2,7 @@ main:
 
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
     authors: <strong>Wenrui Xu†</strong>, Dalin Lyu†, Weihang Wang†, Jie Feng, Chen Gao, Yong Li*
-    journal_short: 2025 ACL Main
+    journal_short: 2025
     journal: Association of Computational Linguistics (ACL) Main, 2025.
     doi: https://doi.org/10.18653/v1/2025.acl-long.567
     pdf: https://aclanthology.org/2025.acl-long.567.pdf
@@ -13,7 +13,7 @@ main:
 
   - title: "Spatiotemporal Impacts of Purpose-Specific Human Mobility on Air Pollution: Evidence from Taxi Trajectories and Interpretable Machine Learning"
     authors: <strong>Wenrui Xu</strong>, Xinyue Gu*
-    journal_short: 2025 SCS
+    journal_short: 2025
     journal: Sustainable Cities and Society, 2025.
     doi: https://doi.org/10.1016/j.scs.2025.106411
     pdf: ./assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf
@@ -22,7 +22,7 @@ main:
 
   - title: "City Centers Really Lived Up to the Hype? Evidence from Human Perceptions of Over 4000 Communities in China"
     authors: Xinyue Gu, <strong>Wenrui Xu</strong>, Chuanjia Gong, Xintao Liu*
-    journal_short: 2025 Cities
+    journal_short: 2025
     journal: Cities, 2025.
     doi: https://doi.org/10.1016/j.cities.2025.106278
     pdf: ./assets/files/publication/j.cities.2025.106278.pdf
@@ -31,9 +31,15 @@ main:
 
 all:
 
+  - title: "Campus Squares Are Significantly Associated with Students' Emotions: A Multimodal Field Experiment Approach"
+    authors: <strong>Wenrui Xu</strong>, Yingqi Lan, Tianxin Yang, Jinxi Chen*, Junheng Chen, Jing Qian, Wentao Han, Annabel Edle Von Schickh
+    journal_short: 2026
+    journal: Frontiers of Architectural Research, 2026. In Press.
+    image: ./assets/img/publication/xuCampusSquares2025.png
+
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
     authors: <strong>Wenrui Xu†</strong>, Dalin Lyu†, Weihang Wang†, Jie Feng, Chen Gao, Yong Li*
-    journal_short: 2025 ACL Main
+    journal_short: 2025
     journal: Association of Computational Linguistics (ACL) Main, 2025.
     doi: https://doi.org/10.18653/v1/2025.acl-long.567
     pdf: https://aclanthology.org/2025.acl-long.567.pdf
@@ -44,7 +50,7 @@ all:
   
   - title: "Spatiotemporal Impacts of Purpose-Specific Human Mobility on Air Pollution: Evidence from Taxi Trajectories and Interpretable Machine Learning"
     authors: <strong>Wenrui Xu</strong>, Xinyue Gu*
-    journal_short: 2025 SCS
+    journal_short: 2025
     journal: Sustainable Cities and Society, 2025.
     doi: https://doi.org/10.1016/j.scs.2025.106411
     pdf: ./assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf
@@ -53,7 +59,7 @@ all:
 
   - title: "City Centers Really Lived Up to the Hype? Evidence from Human Perceptions of Over 4000 Communities in China"
     authors: Xinyue Gu, <strong>Wenrui Xu</strong>, Chuanjia Gong, Xintao Liu*
-    journal_short: 2025 Cities
+    journal_short: 2025
     journal: Cities, 2025.
     doi: https://doi.org/10.1016/j.cities.2025.106278
     pdf: ./assets/files/publication/j.cities.2025.106278.pdf
@@ -62,7 +68,7 @@ all:
 
   - title: "Recent Surge in Public Interest in Transportation: Sentiment Analysis of Baidu Apollo Go Using Weibo Data"
     authors: Shiqi Wang, Zhouye Zhao, Yuhang Xie, Mingchuan Ma, Zirui Chen, Zeyu Wang, Bohao Su, <strong>Wenrui Xu</strong>, Tianyi Li
-    journal_short: 2024 Preprint
+    journal_short: 2024
     doi: https://doi.org/10.48550/arXiv.2408.10088
     journal: arXiv Preprint, 2024.
     pdf: https://arxiv.org/pdf/2408.10088
