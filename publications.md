@@ -117,7 +117,7 @@ Full-text PDFs of all publications are available for download **here**.<br>
 ## Working Papers
 
 <ol class="working-papers">
-  <li>Gu, X., Liu, Y*., <strong>Xu, W.</strong>, Qiu, W., Li, X., Chen, X., Lu, S., Qiu, W.* (2025-). <span class="working-paper-title">Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential.</span> <em>Communications Earth &amp; Environment</em> (1st Revision).</li>
+  <li>Gu, X., Liu, Y*., <strong>Xu, W.</strong>, Qiu, W., Li, X., Chen, X., Lu, S., Qiu, W.* (2025-). <span class="working-paper-title">Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential.</span> <em>Communications Earth &amp; Environment</em> (2nd Revision).</li>
   <li><strong>Xu, W.</strong>, Liang, L.* (2025-). <span class="working-paper-title">Compound Heatwave-Air Pollution Hazards Across the United States.</span> Manuscript in Preparation.</li>
   <li><strong>Xu, W.</strong>, Zhang, X., Sun, J., Liang, L.* (2026-). <span class="working-paper-title">Scaling Property-Level Wildfire Risk Assessment in California with Fine-Tuned Vision-Language Models and Prediction-Powered Inference.</span> Manuscript in Preparation.</li>
   <li><strong>Xu, W.</strong>, Agostini, G., Pierson, E.*, Blumenstock, J., Liang, L. (2026-). <span class="working-paper-title">SAEarth: Can Sparse AutoEncoders Expose Interpretable Features in Geospatial Foundation Models?</span> Manuscript in Preparation.</li>
