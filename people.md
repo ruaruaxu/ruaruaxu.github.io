@@ -51,7 +51,6 @@ I am so lucky to have learned from and worked with many wonderful people. Each o
 - [Xinyue Gu (古心悦)](https://scholar.google.com/citations?user=I7k0-jkAAAAJ) [PolyU]
 - Jiaying Li (李佳莹) [Ph.D. student at NUS]
 - [Yuye Zhou (周钰烨)](https://yuyezhou.com/) [Ph.D. student at UC Berkeley]
-- Yingjie Liu (刘莹婕) [Ph.D. student at University of Washington]
 - [Waishan Qiu (邱外山)](https://www.qiuwaishan.com/aboutme) [HKU]
 - [Xiaojiang Li (李小江)](https://sites.google.com/site/xiaojiangligis/) [UPenn]
 - [Xidong Chen (陈曦东)](https://www.researchgate.net/profile/Xidong-Chen-2) [HKU]
