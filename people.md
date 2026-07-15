@@ -38,8 +38,8 @@ I am so lucky to have learned from and worked with many wonderful people. Each o
 
 ### Advisors
 
-- [Lu Liang (梁璐)](https://sites.google.com/site/liang3mlab/people/prof-lu-liang), Ph.D. advisor [2025-present, UC Berkeley]
-- [Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/), Ph.D. committee [2026-present, UC Berkeley]
+- [Lu Liang (梁璐)](https://sites.google.com/site/liang3mlab/people/prof-lu-liang), Ph.D. advisor [2025-present, Geospatial 3M Lab, UC Berkeley]
+- [Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/), Ph.D. committee [2026-present, EECS, BAIR, CHAI, UC Berkeley]
 - [Chen Gao (高宸)](https://fi.ee.tsinghua.edu.cn/~gaochen/) [2024-present, FIB-Lab, Tsinghua University]
 - [Yong Li (李勇)](https://fi.ee.tsinghua.edu.cn/~liyong/) [2024-present, FIB-Lab, Tsinghua University]
 - [Jinxi Chen (陈瑾羲)](https://www.arch.tsinghua.edu.cn/info/FArchitecture/1864), master's advisor [2023-2025, Tsinghua University]
@@ -47,24 +47,24 @@ I am so lucky to have learned from and worked with many wonderful people. Each o
 
 ### Collaborators
 
-- [Dalin Lyu (吕炟麟)](https://scholar.google.com/citations?user=igAQ0ZsAAAAJ) [Ph.D. student at HKU]
-- [Xinyue Gu (古心悦)](https://scholar.google.com/citations?user=I7k0-jkAAAAJ) [PolyU]
-- Jiaying Li (李佳莹) [Ph.D. student at NUS]
-- [Yuye Zhou (周钰烨)](https://yuyezhou.com/) [Ph.D. student at UC Berkeley]
-- [Waishan Qiu (邱外山)](https://www.qiuwaishan.com/aboutme) [HKU]
-- [Xiaojiang Li (李小江)](https://sites.google.com/site/xiaojiangligis/) [UPenn]
-- [Xidong Chen (陈曦东)](https://www.researchgate.net/profile/Xidong-Chen-2) [HKU]
-- [Tiantian Li (李恬恬)](https://iehs.chinacdc.cn/ywwz/Team/201810/t20181016_195134.html) [China CDC]
-- [Jialin Sun (孙嘉麟)](https://scholar.google.com/citations?user=f57kwGAAAAAJ) [Ph.D. student at UC Berkeley]
-- Sydnie Zhang (张欣怡) [Ph.D. student at UC Berkeley]
-- Di Li (李𬱖) [Ph.D. student at UC Berkeley]
+- [Dalin Lyu (吕炟麟)](https://scholar.google.com/citations?user=igAQ0ZsAAAAJ) [2024-present, Tsinghua University, HKU]
+- [Xinyue Gu (古心悦)](https://scholar.google.com/citations?user=I7k0-jkAAAAJ) [2024-present, Guangzhou Institute of Geography, Guangdong Academy of Sciences]
+- Jiaying Li (李佳莹) [2025-present, NUS]
+- [Yuye Zhou (周钰烨)](https://yuyezhou.com/) [2025-present, Geospatial 3M Lab, UC Berkeley]
+- [Waishan Qiu (邱外山)](https://www.qiuwaishan.com/aboutme) [2025-present, HKU]
+- [Xiaojiang Li (李小江)](https://sites.google.com/site/xiaojiangligis/) [2025-present, UPenn]
+- [Xidong Chen (陈曦东)](https://www.researchgate.net/profile/Xidong-Chen-2) [2025-present, HKU]
+- [Tiantian Li (李恬恬)](https://iehs.chinacdc.cn/ywwz/Team/201810/t20181016_195134.html) [2025-present, China CDC]
+- [Jialin Sun (孙嘉麟)](https://scholar.google.com/citations?user=f57kwGAAAAAJ) [2025-present, Geospatial 3M Lab, UC Berkeley]
+- Sydnie Zhang (张欣怡) [2025-present, Geospatial 3M Lab, UC Berkeley]
+- Di Li (李𬱖) [2025-present, Geospatial 3M Lab, UC Berkeley]
 - [Jie Feng (冯杰)](https://vonfeng.github.io/) [2024-2025, FIB-Lab, Tsinghua University]
 
 ### Mentors
 
 Senior peers who have generously shared guidance and advice on career development, graduate study, and life decisions.
 
-- Yuzhou Shi (施宇宙) [Huaxia Fund]
+- Yuzhou Shi (施宇宙) [Tongji University, Huaxia Fund]
 
 ### Mentees
 
