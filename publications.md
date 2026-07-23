@@ -122,5 +122,5 @@ Full-text PDFs of all publications are available for download **here**.<br>
   <li><strong>Xu, W.</strong>, Zhang, X., Sun, J., Liang, L.* (2026-). <span class="working-paper-title">Scaling Property-Level Wildfire Risk Assessment in California with Fine-Tuned Vision-Language Models and Prediction-Powered Inference.</span> Manuscript in Preparation.</li>
   <li><strong>Xu, W.</strong>, Agostini, G., Pierson, E.*, Blumenstock, J., Liang, L. (2026-). <span class="working-paper-title">SAEarth: Can Sparse AutoEncoders Expose Interpretable Features in Geospatial Foundation Models?</span> Manuscript in Preparation.</li>
   <li>Lyu, D.†, <strong>Xu, W.†</strong>, Wang, W., Gao, C., Zhuang, W.*, Li, Y.* (2025-). <span class="working-paper-title">Aesthetic Perception of Large Language Models.</span> Manuscript in Preparation.</li>
-  <li>Lyu, D., Li, J., <strong>Xu, W.</strong>, Li, T.* (2025-). <span class="working-paper-title">Spatial Inequities in Emergency Rescue Networks in China.</span> Manuscript in Preparation.</li>
+  <li>Lyu, D.†, Li, C.†, Li, J., <strong>Xu, W.</strong>, Guan, X., Wang, Y., Huo, Y.*, &amp; Li, T.\*\* (2026). <span class="working-paper-title">Urban Cardiac Emergency Survival Inequities from Seen Infrastructure and Unseen Operations.</span> Manuscript in Preparation.</li>
 </ol>
