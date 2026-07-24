@@ -343,15 +343,116 @@
 
 - title: Yosemite
   year: 2025
-  hidden: true
-  place: California
+  place: Yosemite National Park, California, USA
   subtitle: California
   country: United States
   kind: Photography
-  image: /assets/img/blog/yosemite.jpg
-  alt: Yosemite Valley landscape photographed by Wenrui
-  description: Yosemite National Park, California, United States.
-  count: 1
+  photo_title: Twilight forest
+  image: https://drscdn.500px.org/photo/1125123032/m%3D900/v2?sig=3cbf952ce5fcc8dd8a5800559574fe7304d3e22f3fd445d90eae2279f0f7ce08
+  image_large: https://drscdn.500px.org/photo/1125123032/m%3D900/v2?sig=3cbf952ce5fcc8dd8a5800559574fe7304d3e22f3fd445d90eae2279f0f7ce08
+  alt: Twilight forest by Wenrui Xu on 500px.com
+  description: Yosemite National Park, California, USA.
+  count: 16
+  aspect: 4672 / 7008
+  source_url: https://500px.com/p/ruaruaxu/galleries/2025-yosemite
+  source_label: View on 500px
+  photos:
+    - title: Twilight forest
+      description: Yosemite National Park, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123032/m%3D900/v2?sig=3cbf952ce5fcc8dd8a5800559574fe7304d3e22f3fd445d90eae2279f0f7ce08
+      embed_url: https://500px.com/photo/1125123032/embed
+      source_url: https://500px.com/photo/1125123032/twilight-forest-by-wenrui-xu
+    - title: Yosemite
+      description: Yosemite National Park, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123034/m%3D900/v2?sig=bf69955823d9bc02e8302cfd593cc17d3a81d0001e852eff4f91670644a74073
+      embed_url: https://500px.com/photo/1125123034/embed
+      source_url: https://500px.com/photo/1125123034/yosemite-by-wenrui-xu
+    - title: Tunnel view day
+      description: Yosemite National Park, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123037/m%3D900/v2?sig=aed427ebc87417d2f2774ccd3564dd67780caf52b3b3461fd30d8027da1962ad
+      embed_url: https://500px.com/photo/1125123037/embed
+      source_url: https://500px.com/photo/1125123037/tunnel-view-day-by-wenrui-xu
+    - title: Tunnel view night
+      description: Yosemite National Park, CA, USA.
+      aspect: 5249 / 3499
+      image: https://drscdn.500px.org/photo/1125123036/m%3D900/v2?sig=b6286fa2cb7933f234fc53abeb86948e3dbce31b6ebc56d6eb2c2743e03af220
+      embed_url: https://500px.com/photo/1125123036/embed
+      source_url: https://500px.com/photo/1125123036/tunnel-view-night-by-wenrui-xu
+    - title: Mirror Lake
+      description: Yosemite National Park, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123040/m%3D900/v2?sig=4ac0ce79a106eb24ed13b1667f403639b4e3ad130c343a2ce8e020165f012ddb
+      embed_url: https://500px.com/photo/1125123040/embed
+      source_url: https://500px.com/photo/1125123040/mirror-lake-by-wenrui-xu
+    - title: Mirror Lake
+      description: Yosemite National Park, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123045/m%3D900/v2?sig=3cd1c4443dc09fa2d29541e5eae924bdbc1972637b35c53fcab2d5f393e88e2a
+      embed_url: https://500px.com/photo/1125123045/embed
+      source_url: https://500px.com/photo/1125123045/mirror-lake-by-wenrui-xu
+    - title: Morning glory
+      description: Yosemite National Park, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123044/m%3D900/v2?sig=5798705ef90c9c3ceaaf4ee5499dc92cbcbb48028bd26f005bd5c5d2f7ebc83f
+      embed_url: https://500px.com/photo/1125123044/embed
+      source_url: https://500px.com/photo/1125123044/morning-glory-by-wenrui-xu
+    - title: Morning glory
+      description: Yosemite National Park, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123038/m%3D900/v2?sig=fcadcd353a3bd7d59ed208893af7b140dd57f0e7d4cfbe74dade0e1203738350
+      embed_url: https://500px.com/photo/1125123038/embed
+      source_url: https://500px.com/photo/1125123038/morning-glory-by-wenrui-xu
+    - title: Waterfall
+      description: Yosemite National Park, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123033/m%3D900/v2?sig=80eff6424abe3d2a17d564c930d53b0afe4e34684f7917d7d301801bc0939696
+      embed_url: https://500px.com/photo/1125123033/embed
+      source_url: https://500px.com/photo/1125123033/waterfall-by-wenrui-xu
+    - title: 疑是银河落九天
+      description: Yosemite National Park, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123046/m%3D900/v2?sig=98652d0184bb9025e936e3657048cea7a483bc7d4fd98e10f8d6ee2ea1e54d4e
+      embed_url: https://500px.com/photo/1125123046/embed
+      source_url: https://500px.com/photo/1125123046
+    - title: Looking back
+      description: Yosemite National Park, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123035/m%3D900/v2?sig=e1a5693d9dbbaff5e7ecb0c9c280833f94566744e0c693d578ae0d45139f5770
+      embed_url: https://500px.com/photo/1125123035/embed
+      source_url: https://500px.com/photo/1125123035/looking-back-by-wenrui-xu
+    - title: Wilderness Fairy
+      description: Yosemite National Park, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123042/m%3D900/v2?sig=d31bae3291a5cde27c73945bedf03d248361feddaceb3ae4ae87a9270d4d4937
+      embed_url: https://500px.com/photo/1125123042/embed
+      source_url: https://500px.com/photo/1125123042/wilderness-fairy-by-wenrui-xu
+    - title: Bus in the wood
+      description: Yosemite National Park, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123043/m%3D900/v2?sig=63b9451664f420011d5efb562418fab9a6d73c08d7ee8ca01c95b46e36405e08
+      embed_url: https://500px.com/photo/1125123043/embed
+      source_url: https://500px.com/photo/1125123043/bus-in-the-wood-by-wenrui-xu
+    - title: The big brother is enjoying the scenery
+      description: Yosemite National Park, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123041/m%3D900/v2?sig=b80a2c062a4762bda6c49ae8f93abbceb67d95775aa947d2c4ce5a38bfcb12c2
+      embed_url: https://500px.com/photo/1125123041/embed
+      source_url: https://500px.com/photo/1125123041/the-big-brother-is-enjoying-the-scenery-by-wenrui-xu
+    - title: Climbing
+      description: Yosemite National Park, CA, USA.
+      aspect: 3504 / 4672
+      image: https://drscdn.500px.org/photo/1125123039/m%3D900/v2?sig=260f2c9fcca79201cb958e1a4cc8e8e9bce1d6b69b21bdf825aa9e83810e4d12
+      embed_url: https://500px.com/photo/1125123039/embed
+      source_url: https://500px.com/photo/1125123039/climbing-by-wenrui-xu
+    - title: Climbing
+      description: Yosemite National Park, CA, USA.
+      aspect: 1071 / 1607
+      image: https://drscdn.500px.org/photo/1125123047/m%3D900/v2?sig=cfee780cdcdb3189d91cd39d170b2b5ca3fedc0d342d4869d4061872a7b0b7a1
+      embed_url: https://500px.com/photo/1125123047/embed
+      source_url: https://500px.com/photo/1125123047/climbing-by-wenrui-xu
   blog_url:
 
 - title: DSC05405
