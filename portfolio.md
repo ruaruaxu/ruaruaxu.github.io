@@ -10,7 +10,7 @@ permalink: /portfolio/
 <style>
   .portfolio-body > .wrapper > section {
     max-width: 980px;
-    padding-top: 4px;
+    padding-top: 64px;
     width: calc(100% - 300px);
   }
 
@@ -36,6 +36,7 @@ permalink: /portfolio/
     float: none;
     margin-top: 8px;
     max-width: none;
+    padding-top: 0;
     width: 100%;
   }
 
