@@ -448,8 +448,8 @@ permalink: /portfolio/
 
 <div class="portfolio-page">
   {% assign items = site.data.portfolio | where_exp: "item", "item.image" %}
-  {% assign items = items | where_exp: "item", "item.hidden != true" | sort: "year" | reverse %}
-  {% assign years = items | map: "year" | uniq %}
+  {% assign items = items | where_exp: "item", "item.hidden != true" %}
+  {% assign years = items | map: "year" | uniq | sort | reverse %}
   {% assign portfolio_index = 0 %}
   {% for year in years %}
     {% assign year_items = items | where: "year", year %}
