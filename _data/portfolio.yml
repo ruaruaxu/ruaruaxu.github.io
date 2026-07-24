@@ -455,6 +455,78 @@
       source_url: https://500px.com/photo/1125123047/climbing-by-wenrui-xu
   blog_url:
 
+- title: San Francisco
+  year: 2025
+  place: San Francisco, California, USA
+  subtitle: California
+  country: United States
+  kind: Photography
+  photo_title: Golden Bridge
+  image: https://drscdn.500px.org/photo/1125123232/m%3D900/v2?sig=ab1b1a233b0ae817a492c1d6e5e412b145a3a5177010219d1dea731c728cbcf7
+  image_large: https://drscdn.500px.org/photo/1125123232/m%3D900/v2?sig=ab1b1a233b0ae817a492c1d6e5e412b145a3a5177010219d1dea731c728cbcf7
+  alt: Golden Bridge by Wenrui Xu on 500px.com
+  description: San Francisco, California, USA.
+  count: 9
+  aspect: 4672 / 7008
+  source_url: https://500px.com/p/ruaruaxu/galleries/2025-san-francisco
+  source_label: View on 500px
+  photos:
+    - title: Golden Bridge
+      description: San Francisco, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123232/m%3D900/v2?sig=ab1b1a233b0ae817a492c1d6e5e412b145a3a5177010219d1dea731c728cbcf7
+      embed_url: https://500px.com/photo/1125123232/embed
+      source_url: https://500px.com/photo/1125123232/golden-bridge-by-wenrui-xu
+    - title: Chinatown
+      description: San Francisco, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123222/m%3D900/v2?sig=c45d5597624c7e9b34c8da71a2aeb321393b1ebf9bd075dbe51aac53dcb18586
+      embed_url: https://500px.com/photo/1125123222/embed
+      source_url: https://500px.com/photo/1125123222/chinatown-by-wenrui-xu
+    - title: If you are going to San Francisco
+      description: San Francisco, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123233/m%3D900/v2?sig=522bb0dfc8b3dad8ddad7f5d14d8a9d6c38381f829d3e1f9a58b861b2a8fbd79
+      embed_url: https://500px.com/photo/1125123233/embed
+      source_url: https://500px.com/photo/1125123233/if-you-are-going-to-san-francisco-by-wenrui-xu
+    - title: Walking on the top
+      description: San Francisco, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123224/m%3D900/v2?sig=2dc6c761e4a1d4aa7bae96436a8909d07339d6ec875bc81d63add25362c66fed
+      embed_url: https://500px.com/photo/1125123224/embed
+      source_url: https://500px.com/photo/1125123224/walking-on-the-top-by-wenrui-xu
+    - title: San Francisco
+      description: San Francisco, CA, USA.
+      aspect: 2600 / 4672
+      image: https://drscdn.500px.org/photo/1125123230/m%3D900/v2?sig=b7bda35320704fea3ef1d381354dd2ca5f1d74cc66507bc919b5a3b39d0a3e19
+      embed_url: https://500px.com/photo/1125123230/embed
+      source_url: https://500px.com/photo/1125123230/san-francisco-by-wenrui-xu
+    - title: San Francisco
+      description: San Francisco, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123229/m%3D900/v2?sig=dfe9659add5a07adf56ecbafd72884ea5fa5225f3dd8cde00b0cf79e8706ea08
+      embed_url: https://500px.com/photo/1125123229/embed
+      source_url: https://500px.com/photo/1125123229/san-francisco-by-wenrui-xu
+    - title: Seals
+      description: San Francisco, CA, USA.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125123226/m%3D900/v2?sig=90ccfde2768ecfa64bd6caff6922a9e87ae7571ad3b566aff45a5b1fc30810de
+      embed_url: https://500px.com/photo/1125123226/embed
+      source_url: https://500px.com/photo/1125123226/seals-by-wenrui-xu
+    - title: Seagull
+      description: San Francisco, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123225/m%3D900/v2?sig=2ed8f83a13a2058d9a9e12230eae610df4a8eec48d3ca540470228ab3bab3408
+      embed_url: https://500px.com/photo/1125123225/embed
+      source_url: https://500px.com/photo/1125123225/seagull-by-wenrui-xu
+    - title: Seagull
+      description: San Francisco, CA, USA.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125123227/m%3D900/v2?sig=aa558e338f5bc925320cbae5608507fd2541973e9876b63f89166525ffe98c34
+      embed_url: https://500px.com/photo/1125123227/embed
+      source_url: https://500px.com/photo/1125123227/seagull-by-wenrui-xu
+  blog_url:
+
 - title: DSC05405
   year: 2025
   hidden: true
