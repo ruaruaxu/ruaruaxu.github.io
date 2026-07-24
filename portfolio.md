@@ -609,6 +609,7 @@ permalink: /portfolio/
       const gap = 12;
       const columnWidth = (grid.clientWidth - gap * (columnCount - 1)) / columnCount;
       const columnHeights = Array(columnCount).fill(0);
+      const placements = [];
       grid.classList.add('is-masonry');
 
       gridCards.forEach(card => {
@@ -640,7 +641,27 @@ permalink: /portfolio/
         for (let index = columnIndex; index < columnIndex + columnSpan; index += 1) {
           columnHeights[index] = nextHeight;
         }
+        placements.push({ card, columnIndex, columnSpan });
       });
+
+      const hasSpanningCards = placements.some(placement => placement.columnSpan > 1);
+      if (!hasSpanningCards) {
+        const columnsByHeight = Array.from(
+          { length: columnCount },
+          (_, index) => index
+        ).sort((left, right) =>
+          columnHeights[right] - columnHeights[left] || left - right
+        );
+        const visualColumnBySource = new Map(
+          columnsByHeight.map((sourceColumn, visualColumn) =>
+            [sourceColumn, visualColumn]
+          )
+        );
+        placements.forEach(({ card, columnIndex }) => {
+          const visualColumn = visualColumnBySource.get(columnIndex);
+          card.style.left = `${visualColumn * (columnWidth + gap)}px`;
+        });
+      }
 
       grid.style.height = `${Math.max(...columnHeights) - gap}px`;
     }
