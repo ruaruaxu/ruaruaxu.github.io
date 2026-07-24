@@ -586,19 +586,18 @@ permalink: /portfolio/
   (function() {
     const allCards = Array.from(document.querySelectorAll('.portfolio-card'));
     const cards = allCards.filter(card => card.dataset.placeholder !== 'true');
-    const compactGrid = document.querySelector('.portfolio-grid[data-year="2024"]');
+    const portfolioGrids = Array.from(document.querySelectorAll('.portfolio-grid'));
     const lightbox = document.querySelector('.portfolio-lightbox');
     if (!cards.length || !lightbox) return;
 
-    function layoutCompactGrid() {
-      if (!compactGrid) return;
-      const compactCards = Array.from(compactGrid.querySelectorAll('.portfolio-card'));
+    function layoutMasonryGrid(grid) {
+      const gridCards = Array.from(grid.querySelectorAll('.portfolio-card'));
       const singleColumn = window.matchMedia('(max-width: 560px)').matches;
 
       if (singleColumn) {
-        compactGrid.classList.remove('is-masonry');
-        compactGrid.style.removeProperty('height');
-        compactCards.forEach(card => {
+        grid.classList.remove('is-masonry');
+        grid.style.removeProperty('height');
+        gridCards.forEach(card => {
           card.style.removeProperty('left');
           card.style.removeProperty('top');
           card.style.removeProperty('width');
@@ -606,37 +605,58 @@ permalink: /portfolio/
         return;
       }
 
-      const columnCount = 3;
+      const columnCount = window.matchMedia('(max-width: 960px)').matches ? 2 : 3;
       const gap = 12;
-      const columnWidth = (compactGrid.clientWidth - gap * (columnCount - 1)) / columnCount;
+      const columnWidth = (grid.clientWidth - gap * (columnCount - 1)) / columnCount;
       const columnHeights = Array(columnCount).fill(0);
-      compactGrid.classList.add('is-masonry');
+      grid.classList.add('is-masonry');
 
-      compactCards.forEach(card => {
-        const shortestHeight = Math.min(...columnHeights);
+      gridCards.forEach(card => {
+        const requestedSpan = card.classList.contains('is-double-wide') ||
+          card.classList.contains('is-split-cover')
+          ? 2
+          : 1;
+        const columnSpan = Math.min(requestedSpan, columnCount);
         const preferredColumn = Number(card.dataset.layoutColumn) - 1;
-        const columnIndex = Number.isInteger(preferredColumn) &&
+        const candidateColumns = Array.from(
+          { length: columnCount - columnSpan + 1 },
+          (_, index) => index
+        );
+        const placementTop = columnIndex =>
+          Math.max(...columnHeights.slice(columnIndex, columnIndex + columnSpan));
+        const hasValidPreference = Number.isInteger(preferredColumn) &&
           preferredColumn >= 0 &&
-          preferredColumn < columnCount
+          preferredColumn + columnSpan <= columnCount;
+        const columnIndex = hasValidPreference
           ? preferredColumn
-          : columnHeights.indexOf(shortestHeight);
-        card.style.width = `${columnWidth}px`;
+          : candidateColumns.reduce((best, candidate) =>
+              placementTop(candidate) < placementTop(best) ? candidate : best
+            );
+        const cardTop = placementTop(columnIndex);
+        card.style.width = `${columnWidth * columnSpan + gap * (columnSpan - 1)}px`;
         card.style.left = `${columnIndex * (columnWidth + gap)}px`;
-        card.style.top = `${shortestHeight}px`;
-        columnHeights[columnIndex] += card.getBoundingClientRect().height + gap;
+        card.style.top = `${cardTop}px`;
+        const nextHeight = cardTop + card.getBoundingClientRect().height + gap;
+        for (let index = columnIndex; index < columnIndex + columnSpan; index += 1) {
+          columnHeights[index] = nextHeight;
+        }
       });
 
-      compactGrid.style.height = `${Math.max(...columnHeights) - gap}px`;
+      grid.style.height = `${Math.max(...columnHeights) - gap}px`;
+    }
+
+    function layoutPortfolioGrids() {
+      portfolioGrids.forEach(layoutMasonryGrid);
     }
 
     let layoutFrame;
-    function scheduleCompactLayout() {
+    function schedulePortfolioLayout() {
       window.cancelAnimationFrame(layoutFrame);
-      layoutFrame = window.requestAnimationFrame(layoutCompactGrid);
+      layoutFrame = window.requestAnimationFrame(layoutPortfolioGrids);
     }
 
-    layoutCompactGrid();
-    window.addEventListener('resize', scheduleCompactLayout);
+    layoutPortfolioGrids();
+    window.addEventListener('resize', schedulePortfolioLayout);
 
     const image = lightbox.querySelector('img');
     const embed = lightbox.querySelector('.portfolio-lightbox-embed');
