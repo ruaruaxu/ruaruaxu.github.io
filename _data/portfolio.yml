@@ -179,6 +179,60 @@
       source_url: https://500px.com/photo/1125113802/beach-park-in-hilo-by-wenrui-xu
   blog_url:
 
+- title: Hong Kong & Macau
+  year: 2025
+  place: Hong Kong & Macau, China
+  subtitle: Hong Kong & Macau
+  country: China
+  kind: Photography
+  photo_title: Senado Square
+  image: https://drscdn.500px.org/photo/1125122424/q%3D90_m%3D2048/v2?sig=643863b2b02ec911b2b08000c88be74d3574f8f15433d384f2fd939efda29435
+  image_large: https://drscdn.500px.org/photo/1125122424/q%3D90_m%3D2048/v2?sig=643863b2b02ec911b2b08000c88be74d3574f8f15433d384f2fd939efda29435
+  alt: Senado Square by Wenrui Xu on 500px.com
+  description: Hong Kong & Macau, China.
+  count: 6
+  aspect: 7008 / 4672
+  source_url: https://500px.com/p/ruaruaxu/galleries/2025-hong-kong-macau
+  source_label: View on 500px
+  photos:
+    - title: Senado Square
+      description: Macau, China.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125122424/q%3D90_m%3D2048/v2?sig=643863b2b02ec911b2b08000c88be74d3574f8f15433d384f2fd939efda29435
+      embed_url: https://500px.com/photo/1125122424/embed
+      source_url: https://500px.com/photo/1125122424/senado-square-by-wenrui-xu
+    - title: Grand Lisboa
+      description: Macau, China.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125122421/q%3D90_m%3D2048/v2?sig=ddfee66e8f0f1da21beee8ca3e5fb6557de09cc1c70b909b7a6b0fc39aa1bbfb
+      embed_url: https://500px.com/photo/1125122421/embed
+      source_url: https://500px.com/photo/1125122421/grand-lisboa-by-wenrui-xu
+    - title: Macau & Zhuhai
+      description: Macau, China.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125122423/q%3D90_m%3D2048/v2?sig=98612e0bf5277ba7ed957fcc23510bf3b4744a0c98fc17e12fda06bb22b80a16
+      embed_url: https://500px.com/photo/1125122423/embed
+      source_url: https://500px.com/photo/1125122423/macau-and-zhuhai-by-wenrui-xu
+    - title: Hong Kong from the top of Taiping Mountain
+      description: Hong Kong, China.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125122418/q%3D90_m%3D2048/v2?sig=30dc5c649689e6f39cc8caf96815f472a24dc095619131703f01974e4d9fdb94
+      embed_url: https://500px.com/photo/1125122418/embed
+      source_url: https://500px.com/photo/1125122418/hong-kong-from-the-top-of-taiping-mountain-by-wenrui-xu
+    - title: The Ruins of Saint Paul's
+      description: Macau, China.
+      aspect: 4672 / 7008
+      image: https://drscdn.500px.org/photo/1125122419/q%3D90_m%3D2048/v2?sig=2bb900a863ac48e9c697926316e0ea0b31435272f9c75831ce669abe1b5d1d29
+      embed_url: https://500px.com/photo/1125122419/embed
+      source_url: https://500px.com/photo/1125122419/the-ruins-of-saint-pauls-by-wenrui-xu
+    - title: Cityscape of Macau
+      description: Macau, China.
+      aspect: 7008 / 4672
+      image: https://drscdn.500px.org/photo/1125122422/q%3D90_m%3D2048/v2?sig=1748e292c53f6e6949c68670cce19f27501e6651ddb3b831954834e884c20b6e
+      embed_url: https://500px.com/photo/1125122422/embed
+      source_url: https://500px.com/photo/1125122422/cityscape-of-macau-by-wenrui-xu
+  blog_url:
+
 - title: Yosemite
   year: 2025
   hidden: true

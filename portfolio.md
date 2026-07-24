@@ -210,6 +210,8 @@ permalink: /portfolio/
   }
 
   .portfolio-lightbox {
+    --portfolio-lightbox-control-offset: 22px;
+    --portfolio-lightbox-horizontal-space: 144px;
     align-items: center;
     background: rgba(13, 22, 20, 0.94);
     display: none;
@@ -228,8 +230,11 @@ permalink: /portfolio/
   .portfolio-lightbox-figure {
     margin: 0;
     max-height: 100%;
-    max-width: min(980px, 100%);
     position: relative;
+    width: min(
+      calc(100vw - var(--portfolio-lightbox-horizontal-space)),
+      calc((100vh - 120px) * var(--portfolio-lightbox-aspect-ratio, 1.3333))
+    );
   }
 
   .portfolio-lightbox-counter {
@@ -268,7 +273,7 @@ permalink: /portfolio/
     border: 0;
     display: none;
     max-height: calc(100vh - 120px);
-    width: min(980px, calc((100vh - 120px) * var(--portfolio-lightbox-aspect-ratio, 1.3333)));
+    width: 100%;
   }
 
   .portfolio-lightbox-embed.is-visible {
@@ -362,20 +367,20 @@ permalink: /portfolio/
   }
 
   .portfolio-lightbox-close {
-    right: 22px;
+    right: var(--portfolio-lightbox-control-offset);
     top: 22px;
   }
 
   .portfolio-lightbox-prev {
-    left: -58px;
-    position: absolute;
+    left: var(--portfolio-lightbox-control-offset);
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
   }
 
   .portfolio-lightbox-next {
-    position: absolute;
-    right: -58px;
+    position: fixed;
+    right: var(--portfolio-lightbox-control-offset);
     top: 50%;
     transform: translateY(-50%);
   }
@@ -403,15 +408,9 @@ permalink: /portfolio/
     }
 
     .portfolio-lightbox {
+      --portfolio-lightbox-control-offset: 10px;
+      --portfolio-lightbox-horizontal-space: 36px;
       padding: 34px 18px;
-    }
-
-    .portfolio-lightbox-prev {
-      left: 10px;
-    }
-
-    .portfolio-lightbox-next {
-      right: 10px;
     }
   }
 
