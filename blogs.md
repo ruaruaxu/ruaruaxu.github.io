@@ -68,11 +68,10 @@ permalink: /blog/
   }
 
   .blog-entry {
-    border-bottom: 1px solid var(--site-border, #d9dde5);
     display: grid;
     gap: 18px;
     grid-template-columns: 96px minmax(0, 1fr);
-    padding: 18px 0;
+    padding: 13px 0;
   }
 
   .blog-entry-date {
@@ -84,12 +83,14 @@ permalink: /blog/
 
   .blog-entry-title {
     font-size: 19px;
+    font-weight: 400;
     line-height: 1.3;
-    margin: 0 0 5px;
+    margin: 0;
   }
 
   .blog-entry-title a {
     color: var(--site-blue, #17315f);
+    font-weight: 400;
   }
 
   .blog-entry-title a:hover {
@@ -168,7 +169,6 @@ permalink: /blog/
               <h3 class="blog-entry-title">
                 <a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
               </h3>
-              <p class="blog-entry-summary">{{ post.summary }}</p>
             </div>
           </article>
           {% endfor %}

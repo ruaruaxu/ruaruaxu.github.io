@@ -327,11 +327,14 @@ layout: homepage
       background: #fff;
       border: 1px solid #e7e7e7;
       border-radius: 8px;
+      box-sizing: border-box;
       cursor: pointer;
+      display: block;
       font-family: inherit;
       margin-bottom: 10px;
       padding: 10px;
       transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      width: 100%;
     }
 
     .timeline-item:hover,
@@ -381,7 +384,7 @@ layout: homepage
 
 <script>
 (function() {
-    const defaultPhotoUrl = "https://500px.com/p/ruaruaxu";
+    const defaultPhotoUrl = "{{ '/portfolio/' | relative_url }}";
 
     const container = document.querySelector("#world-map-container");
     const loadingText = document.querySelector("#loading-text");

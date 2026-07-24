@@ -61,23 +61,34 @@
   text-decoration: none;
   font-size: 17px;
   letter-spacing: 0;
+  position: relative;
+}
+
+.topnav a.normal::after {
+  background-color: currentColor;
+  bottom: 0;
+  content: "";
+  height: 1.5px;
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.22s ease;
 }
 
 .topnav a.normal.active {
   color: var(--site-blue, #17315f);
-  text-decoration-line: underline;
-  text-decoration-thickness: 1.5px;
-  text-decoration-color: currentColor;
-  text-underline-offset: 6px;
+}
+
+.topnav a.normal.active::after,
+.topnav a.normal:hover::after {
+  transform: scaleX(1);
 }
 
 /* Change the color of links on hover */
 .topnav a.normal:hover {
   color: var(--site-pink, #d81b72);
-  text-decoration-line: underline;
-  text-decoration-thickness: 1.5px;
-  text-decoration-color: currentColor;
-  text-underline-offset: 6px;
 }
 
 /* Add a color to the active/current link */

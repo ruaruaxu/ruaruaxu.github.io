@@ -59,6 +59,7 @@
       <div id="myLinks">
         <a class="normal{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">About</a>
         <a class="normal{% if page.url contains '/publications' %} active{% endif %}" href="{{ '/publications' | relative_url }}">Publications</a>
+        <a class="normal{% if page.url contains '/portfolio' %} active{% endif %}" href="{{ '/portfolio' | relative_url }}">Portfolio</a>
         <a class="normal{% if page.url contains '/blog' or page.url contains '/blogs' %} active{% endif %}" href="{{ '/blog' | relative_url }}">Blog</a>
         <a class="normal right" href="{{ site.cv_link | relative_url }}">CV</a>
       </div>
@@ -232,7 +233,7 @@
         const item = document.createElement('li');
         const link = document.createElement('a');
         link.href = `#${heading.id}`;
-        link.textContent = heading.textContent.trim();
+        link.textContent = heading.dataset.outlineTitle || heading.textContent.trim();
         link.addEventListener('click', function(event) {
           event.preventDefault();
           const top = heading.getBoundingClientRect().top + window.pageYOffset - 72;
