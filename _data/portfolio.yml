@@ -134,15 +134,15 @@
     - title: Palazzo Medici Riccardi
       description: Florence, Italy.
       aspect: 3 / 2
-      image: https://drscdn.500px.org/photo/1125105635/m%3D900/v2?sig=81981c2092a16393f7bb060a4a99ef3f43ba81a692922ec9b97f8b09d3b5a904
-      embed_url: https://500px.com/photo/1125105635/embed
-      source_url: https://500px.com/photo/1125105635/palazzo-medici-riccardi-by-wenrui-xu
-    - title: Palazzo Medici Riccardi
-      description: Florence, Italy.
-      aspect: 3 / 2
       image: https://drscdn.500px.org/photo/1125105633/m%3D900/v2?sig=848c96fdc3d60234ba460be05eed8adc0cda0fe30d23852efcab1de4f4407950
       embed_url: https://500px.com/photo/1125105633/embed
       source_url: https://500px.com/photo/1125105633/palazzo-medici-riccardi-by-wenrui-xu
+    - title: Palazzo Medici Riccardi
+      description: Florence, Italy.
+      aspect: 3 / 2
+      image: https://drscdn.500px.org/photo/1125105635/m%3D900/v2?sig=81981c2092a16393f7bb060a4a99ef3f43ba81a692922ec9b97f8b09d3b5a904
+      embed_url: https://500px.com/photo/1125105635/embed
+      source_url: https://500px.com/photo/1125105635/palazzo-medici-riccardi-by-wenrui-xu
     - title: Palazzo Medici Riccardi
       description: Florence, Italy.
       aspect: 3 / 2
@@ -177,6 +177,7 @@
 
 - title: Venice
   year: 2024
+  layout_column: 3
   place: Venice, Italy
   subtitle: Italy
   country: Italy
@@ -198,20 +199,20 @@
       image_large: https://drscdn.500px.org/photo/1125106208/m%3D2048/v2?sig=1250dfcb797c590eead2352b5126f7349c6a7fc138bbd3099508920ba4b76419
       embed_url: https://500px.com/photo/1125106208/embed
       source_url: https://500px.com/photo/1125106208/gondola-in-venice-by-wenrui-xu
-    - title: Couples on the bridge
-      description: Venice, Italy.
-      aspect: 2 / 3
-      image: https://drscdn.500px.org/photo/1125106202/m%3D900/v2?sig=ee1aa70c970432ec969472078445392f03569b4ced0d1819fd49c50662208b35
-      image_large: https://drscdn.500px.org/photo/1125106202/m%3D2048/v2?sig=47ff17aeeb80d4374bfe26271c2ca6d633dda3c6ed3fbd26e43dafa25e5bcb4f
-      embed_url: https://500px.com/photo/1125106202/embed
-      source_url: https://500px.com/photo/1125106202/couples-on-the-bridge-by-wenrui-xu
-    - title: Ciao!
+    - title: Venice
       description: Venice, Italy.
       aspect: 3 / 2
-      image: https://drscdn.500px.org/photo/1125106214/m%3D900/v2?sig=0281dda04b4208739e9ad34148bfb6ec1e23d8e864abec90778312c79ea49b10
-      image_large: https://drscdn.500px.org/photo/1125106214/m%3D2048/v2?sig=f16ce0f1a9c473d4cd5e9e2102eb1c847759453b7989d5079e844462ef8287b3
-      embed_url: https://500px.com/photo/1125106214/embed
-      source_url: https://500px.com/photo/1125106214/ciao-by-wenrui-xu
+      image: https://drscdn.500px.org/photo/1125106204/m%3D900/v2?sig=5ed2612084d19ee1e1d07e8b0fe0de5167d6c05e6bec3c1499645d5a6602360c
+      image_large: https://drscdn.500px.org/photo/1125106204/m%3D2048/v2?sig=a467b8229ba696e68c0eeb7bf0435fa0c86e259b7d449b5abc93d269705d2abd
+      embed_url: https://500px.com/photo/1125106204/embed
+      source_url: https://500px.com/photo/1125106204/venice-by-wenrui-xu
+    - title: Italy on the water
+      description: Venice, Italy.
+      aspect: 2 / 3
+      image: https://drscdn.500px.org/photo/1125106213/m%3D900/v2?sig=47e2bc36c206b9ae78662c4a3da65069bb3f52e3bed6ffde41323bc1465713a8
+      image_large: https://drscdn.500px.org/photo/1125106213/m%3D2048/v2?sig=6ad0bf0d4103db817bb7de9c2bffce220a2c657f50b5089c8dc5ded53c35daa1
+      embed_url: https://500px.com/photo/1125106213/embed
+      source_url: https://500px.com/photo/1125106213/italy-on-the-water-by-wenrui-xu
     - title: Gondola
       description: Venice, Italy.
       aspect: 3 / 2
@@ -219,13 +220,6 @@
       image_large: https://drscdn.500px.org/photo/1125106206/m%3D2048/v2?sig=4f9d559545a24f36aee615e744985682feb133e3ee679cc155b15a920f58d623
       embed_url: https://500px.com/photo/1125106206/embed
       source_url: https://500px.com/photo/1125106206/gondola-by-wenrui-xu
-    - title: Venice
-      description: Venice, Italy.
-      aspect: 2 / 3
-      image: https://drscdn.500px.org/photo/1125106205/m%3D900/v2?sig=db330cfecd81ca76c91b300c59fd3cf828a8d481adf8f3ea68ebb9ea4ac6df62
-      image_large: https://drscdn.500px.org/photo/1125106205/m%3D2048/v2?sig=49348d4f4a30f8b92a8598fb761acd772c0c1871c9c0ddec16b89a81e53a18a8
-      embed_url: https://500px.com/photo/1125106205/embed
-      source_url: https://500px.com/photo/1125106205/venice-by-wenrui-xu
     - title: Basilica di San Giorgio Maggiore
       description: Venice, Italy.
       aspect: 3 / 2
@@ -249,20 +243,6 @@
       source_url: https://500px.com/photo/1125106216/venice-by-wenrui-xu
     - title: Venice
       description: Venice, Italy.
-      aspect: 3 / 2
-      image: https://drscdn.500px.org/photo/1125106204/m%3D900/v2?sig=5ed2612084d19ee1e1d07e8b0fe0de5167d6c05e6bec3c1499645d5a6602360c
-      image_large: https://drscdn.500px.org/photo/1125106204/m%3D2048/v2?sig=a467b8229ba696e68c0eeb7bf0435fa0c86e259b7d449b5abc93d269705d2abd
-      embed_url: https://500px.com/photo/1125106204/embed
-      source_url: https://500px.com/photo/1125106204/venice-by-wenrui-xu
-    - title: Italy on the water
-      description: Venice, Italy.
-      aspect: 2 / 3
-      image: https://drscdn.500px.org/photo/1125106213/m%3D900/v2?sig=47e2bc36c206b9ae78662c4a3da65069bb3f52e3bed6ffde41323bc1465713a8
-      image_large: https://drscdn.500px.org/photo/1125106213/m%3D2048/v2?sig=6ad0bf0d4103db817bb7de9c2bffce220a2c657f50b5089c8dc5ded53c35daa1
-      embed_url: https://500px.com/photo/1125106213/embed
-      source_url: https://500px.com/photo/1125106213/italy-on-the-water-by-wenrui-xu
-    - title: Venice
-      description: Venice, Italy.
       aspect: 2 / 3
       image: https://drscdn.500px.org/photo/1125106210/m%3D900/v2?sig=cb6b3de2f6ae69912f6704e42d6dca3ca1b459984697ae5feb1f0794283e294b
       image_large: https://drscdn.500px.org/photo/1125106210/m%3D2048/v2?sig=0bbe68d3f0ddf0637e2de3fa2e3019788fac0aaa1b10a34bab3f9050e4e4477f
@@ -282,6 +262,27 @@
       image_large: https://drscdn.500px.org/photo/1125106212/m%3D2048/v2?sig=6ec1a4777c30ddf71e2045a299cea9d2ed2664f8911638d23eb965bc9f286f4e
       embed_url: https://500px.com/photo/1125106212/embed
       source_url: https://500px.com/photo/1125106212/piazza-san-marco-by-wenrui-xu
+    - title: Couples on the bridge
+      description: Venice, Italy.
+      aspect: 2 / 3
+      image: https://drscdn.500px.org/photo/1125106202/m%3D900/v2?sig=ee1aa70c970432ec969472078445392f03569b4ced0d1819fd49c50662208b35
+      image_large: https://drscdn.500px.org/photo/1125106202/m%3D2048/v2?sig=47ff17aeeb80d4374bfe26271c2ca6d633dda3c6ed3fbd26e43dafa25e5bcb4f
+      embed_url: https://500px.com/photo/1125106202/embed
+      source_url: https://500px.com/photo/1125106202/couples-on-the-bridge-by-wenrui-xu
+    - title: Ciao!
+      description: Venice, Italy.
+      aspect: 3 / 2
+      image: https://drscdn.500px.org/photo/1125106214/m%3D900/v2?sig=0281dda04b4208739e9ad34148bfb6ec1e23d8e864abec90778312c79ea49b10
+      image_large: https://drscdn.500px.org/photo/1125106214/m%3D2048/v2?sig=f16ce0f1a9c473d4cd5e9e2102eb1c847759453b7989d5079e844462ef8287b3
+      embed_url: https://500px.com/photo/1125106214/embed
+      source_url: https://500px.com/photo/1125106214/ciao-by-wenrui-xu
+    - title: Venice
+      description: Venice, Italy.
+      aspect: 2 / 3
+      image: https://drscdn.500px.org/photo/1125106205/m%3D900/v2?sig=db330cfecd81ca76c91b300c59fd3cf828a8d481adf8f3ea68ebb9ea4ac6df62
+      image_large: https://drscdn.500px.org/photo/1125106205/m%3D2048/v2?sig=49348d4f4a30f8b92a8598fb761acd772c0c1871c9c0ddec16b89a81e53a18a8
+      embed_url: https://500px.com/photo/1125106205/embed
+      source_url: https://500px.com/photo/1125106205/venice-by-wenrui-xu
   blog_url:
 
 - title: Siena & Verona
@@ -290,14 +291,20 @@
   subtitle: Italy
   country: Italy
   kind: Photography
-  image: https://drscdn.500px.org/photo/1125105956/q%3D75_m%3D600/v2?sig=c565b40780fb15402193d375becddd5d466619f5af6ce328636e3c810e549e6a
-  alt: Breathing in the ancient air by Wenrui Xu on 500px.com
+  image: https://drscdn.500px.org/photo/1125105953/q%3D75_m%3D600/v2?sig=49a42896d7c6c6fe90c64871655134d5b0000b98b87895488b706b663aec574b
+  alt: The Street Wall of Siena by Wenrui Xu on 500px.com
   description: Siena, Italy.
   count: 5
   aspect: 2 / 3
   source_url: https://500px.com/p/ruaruaxu/galleries/2024-milan-italy
   source_label: View on 500px
   photos:
+    - title: The Street Wall of Siena
+      description: Siena, Italy.
+      aspect: 2 / 3
+      image: https://drscdn.500px.org/photo/1125105953/q%3D75_m%3D600/v2?sig=49a42896d7c6c6fe90c64871655134d5b0000b98b87895488b706b663aec574b
+      embed_url: https://500px.com/photo/1125105953/embed
+      source_url: https://500px.com/photo/1125105953/the-street-wall-of-siena-by-wenrui-xu
     - title: Breathing in the ancient air
       description: Siena, Italy.
       aspect: 2 / 3
@@ -310,12 +317,6 @@
       image: https://drscdn.500px.org/photo/1125105957/q%3D75_m%3D600/v2?sig=dbf0a34a44c4f0d3dd1e5313fae00298100c4e70ca6befc85db8db7930bc08c1
       embed_url: https://500px.com/photo/1125105957/embed
       source_url: https://500px.com/photo/1125105957/dsc02149-by-wenrui-xu
-    - title: The Street Wall of Siena
-      description: Siena, Italy.
-      aspect: 2 / 3
-      image: https://drscdn.500px.org/photo/1125105953/q%3D75_m%3D600/v2?sig=49a42896d7c6c6fe90c64871655134d5b0000b98b87895488b706b663aec574b
-      embed_url: https://500px.com/photo/1125105953/embed
-      source_url: https://500px.com/photo/1125105953/the-street-wall-of-siena-by-wenrui-xu
     - title: Painterly still life
       description: Siena, Italy.
       aspect: 3 / 2

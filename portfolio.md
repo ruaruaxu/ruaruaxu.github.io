@@ -31,6 +31,10 @@ permalink: /portfolio/
     margin-top: 0;
   }
 
+  .portfolio-year + .portfolio-year {
+    padding-top: 12px;
+  }
+
   .portfolio-year-heading {
     align-items: baseline;
     border-bottom: 1px solid var(--site-border, #d9dde5);
@@ -51,6 +55,15 @@ permalink: /portfolio/
     display: grid;
     gap: 12px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .portfolio-grid.is-masonry {
+    display: block;
+    position: relative;
+  }
+
+  .portfolio-grid.is-masonry .portfolio-card {
+    position: absolute;
   }
 
   .portfolio-card {
@@ -94,7 +107,7 @@ permalink: /portfolio/
     border-radius: 2px;
     display: block;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
   }
 
@@ -213,6 +226,22 @@ permalink: /portfolio/
     max-height: 100%;
     max-width: min(980px, 100%);
     position: relative;
+  }
+
+  .portfolio-lightbox-counter {
+    background: rgba(13, 22, 20, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    color: #fff;
+    font-size: 13px;
+    left: 50%;
+    line-height: 1;
+    padding: 6px 10px;
+    position: absolute;
+    top: -31px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 2;
   }
 
   .portfolio-lightbox-media {
@@ -387,6 +416,18 @@ permalink: /portfolio/
       grid-template-columns: 1fr;
     }
 
+    .portfolio-grid.is-masonry {
+      display: grid;
+      height: auto !important;
+    }
+
+    .portfolio-grid.is-masonry .portfolio-card {
+      left: auto !important;
+      position: relative;
+      top: auto !important;
+      width: 100% !important;
+    }
+
     .portfolio-card.is-split-cover {
       grid-column: 1 / -1;
     }
@@ -407,9 +448,10 @@ permalink: /portfolio/
     {% assign year_items = items | where: "year", year %}
     <section class="portfolio-year">
       <h2 id="portfolio-{{ year }}" class="portfolio-year-heading" data-outline-title="{{ year }}">{{ year }}</h2>
-      <div class="portfolio-grid">
+      <div class="portfolio-grid" data-year="{{ year }}">
         {% for item in year_items %}
           {% assign aspect = item.aspect | default: "4 / 3" %}
+          {% assign card_aspect = item.cover_aspect | default: aspect %}
           {% assign image_url = item.image %}
           {% assign large_image_url = item.image_large | default: item.image %}
           {% if item.image and item.image contains "://" %}
@@ -423,11 +465,11 @@ permalink: /portfolio/
             {% assign large_image_url = large_image_url | relative_url %}
           {% endif %}
           {% assign shape_class = "" %}
-          {% if aspect == "3 / 4" or aspect == "4 / 5" %}
+          {% if card_aspect == "3 / 4" or card_aspect == "4 / 5" %}
             {% assign shape_class = " is-tall" %}
-          {% elsif aspect == "1 / 1" %}
+          {% elsif card_aspect == "1 / 1" %}
             {% assign shape_class = " is-square" %}
-          {% elsif aspect == "16 / 10" or aspect == "16 / 9" %}
+          {% elsif card_aspect == "16 / 10" or card_aspect == "16 / 9" %}
             {% assign shape_class = " is-wide" %}
           {% endif %}
           {% assign raw_card_title = item.card_title | default: item.title %}
@@ -468,6 +510,7 @@ permalink: /portfolio/
             data-place="{{ item.place | escape }}"
             data-subtitle="{{ card_subtitle | escape }}"
             data-year="{{ item.year }}"
+            data-layout-column="{{ item.layout_column }}"
             data-kind="{{ item.kind | escape }}"
             data-description="{{ item.description | escape }}"
             data-blog-url="{{ item.blog_url }}"
@@ -475,7 +518,7 @@ permalink: /portfolio/
             data-source-url="{{ item.source_url }}"
             data-source-label="{{ item.source_label | default: 'View on 500px' | escape }}"
             data-aspect-ratio="{{ aspect | replace: ' ', '' }}"
-            style="--portfolio-aspect: {{ aspect }};{% if use_split_cover %} --portfolio-cover-aspect: {{ item.cover_aspect | default: '13 / 6' }}; --portfolio-cover-columns: {{ item.cover_columns | default: '4fr 9fr' }};{% endif %}">
+            style="--portfolio-aspect: {{ card_aspect }};{% if use_split_cover %} --portfolio-cover-aspect: {{ item.cover_aspect | default: '13 / 6' }}; --portfolio-cover-columns: {{ item.cover_columns | default: '4fr 9fr' }};{% endif %}">
             {% if use_split_cover %}
               <span class="portfolio-card-split" aria-hidden="true">
                 {% for photo in item.photos %}
@@ -511,6 +554,7 @@ permalink: /portfolio/
 <div class="portfolio-lightbox" aria-hidden="true" role="dialog" aria-label="Portfolio image viewer">
   <button class="portfolio-lightbox-button portfolio-lightbox-close" type="button" aria-label="Close">×</button>
   <figure class="portfolio-lightbox-figure">
+    <span class="portfolio-lightbox-counter" aria-live="polite"></span>
     <button class="portfolio-lightbox-button portfolio-lightbox-prev" type="button" aria-label="Previous">‹</button>
     <span class="portfolio-lightbox-media">
       <img src="" alt="">
@@ -535,14 +579,64 @@ permalink: /portfolio/
   (function() {
     const allCards = Array.from(document.querySelectorAll('.portfolio-card'));
     const cards = allCards.filter(card => card.dataset.placeholder !== 'true');
+    const compactGrid = document.querySelector('.portfolio-grid[data-year="2024"]');
     const lightbox = document.querySelector('.portfolio-lightbox');
     if (!cards.length || !lightbox) return;
+
+    function layoutCompactGrid() {
+      if (!compactGrid) return;
+      const compactCards = Array.from(compactGrid.querySelectorAll('.portfolio-card'));
+      const singleColumn = window.matchMedia('(max-width: 560px)').matches;
+
+      if (singleColumn) {
+        compactGrid.classList.remove('is-masonry');
+        compactGrid.style.removeProperty('height');
+        compactCards.forEach(card => {
+          card.style.removeProperty('left');
+          card.style.removeProperty('top');
+          card.style.removeProperty('width');
+        });
+        return;
+      }
+
+      const columnCount = 3;
+      const gap = 12;
+      const columnWidth = (compactGrid.clientWidth - gap * (columnCount - 1)) / columnCount;
+      const columnHeights = Array(columnCount).fill(0);
+      compactGrid.classList.add('is-masonry');
+
+      compactCards.forEach(card => {
+        const shortestHeight = Math.min(...columnHeights);
+        const preferredColumn = Number(card.dataset.layoutColumn) - 1;
+        const columnIndex = Number.isInteger(preferredColumn) &&
+          preferredColumn >= 0 &&
+          preferredColumn < columnCount
+          ? preferredColumn
+          : columnHeights.indexOf(shortestHeight);
+        card.style.width = `${columnWidth}px`;
+        card.style.left = `${columnIndex * (columnWidth + gap)}px`;
+        card.style.top = `${shortestHeight}px`;
+        columnHeights[columnIndex] += card.getBoundingClientRect().height + gap;
+      });
+
+      compactGrid.style.height = `${Math.max(...columnHeights) - gap}px`;
+    }
+
+    let layoutFrame;
+    function scheduleCompactLayout() {
+      window.cancelAnimationFrame(layoutFrame);
+      layoutFrame = window.requestAnimationFrame(layoutCompactGrid);
+    }
+
+    layoutCompactGrid();
+    window.addEventListener('resize', scheduleCompactLayout);
 
     const image = lightbox.querySelector('img');
     const embed = lightbox.querySelector('.portfolio-lightbox-embed');
     const title = lightbox.querySelector('.portfolio-lightbox-title');
     const subtitle = lightbox.querySelector('.portfolio-lightbox-subtitle');
     const description = lightbox.querySelector('.portfolio-lightbox-description');
+    const counter = lightbox.querySelector('.portfolio-lightbox-counter');
     const blogLink = lightbox.querySelector('.portfolio-lightbox-link');
     const sourceLink = lightbox.querySelector('.portfolio-lightbox-source');
     const closeButton = lightbox.querySelector('.portfolio-lightbox-close');
@@ -635,6 +729,7 @@ permalink: /portfolio/
       activeGallery = getGallery(card);
       activePhotoIndex = (photoIndex + activeGallery.length) % activeGallery.length;
       const activePhoto = activeGallery[activePhotoIndex];
+      counter.textContent = `${activePhotoIndex + 1} / ${activeGallery.length}`;
       const activeAspect = activePhoto.aspect || card.dataset.aspectRatio || "4/3";
       const aspectParts = activeAspect.split("/");
       const aspectRatio = Number(aspectParts[0]) / Number(aspectParts[1]);
