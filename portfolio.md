@@ -99,6 +99,10 @@ permalink: /portfolio/
     grid-column: span 2;
   }
 
+  .portfolio-card.is-double-wide {
+    grid-column: span 2;
+  }
+
   .portfolio-card.is-placeholder {
     cursor: default;
   }
@@ -432,6 +436,10 @@ permalink: /portfolio/
       grid-column: 1 / -1;
     }
 
+    .portfolio-card.is-double-wide {
+      grid-column: span 1;
+    }
+
     .portfolio-lightbox figcaption {
       align-items: flex-start;
       flex-direction: column;
@@ -492,7 +500,7 @@ permalink: /portfolio/
           {% if item.photos %}
             {% assign display_count = item.photos.size %}
           {% endif %}
-          <button class="portfolio-card{% if item.image %}{{ shape_class }}{% else %} is-placeholder{{ shape_class }}{% endif %}{% if use_split_cover %} is-split-cover{% endif %}"
+          <button class="portfolio-card{% if item.image %}{{ shape_class }}{% else %} is-placeholder{{ shape_class }}{% endif %}{% if use_split_cover %} is-split-cover{% endif %}{% if item.layout_span == 2 %} is-double-wide{% endif %}"
             type="button"
             data-index="{{ portfolio_index }}"
             data-image="{{ image_url }}"
