@@ -20,6 +20,18 @@ permalink: /portfolio/
     margin-bottom: 44px;
   }
 
+  .portfolio-intro {
+    margin: 0 0 18px;
+  }
+
+  .portfolio-intro h1 {
+    margin: 0 0 6px;
+  }
+
+  .portfolio-intro p {
+    margin: 0;
+  }
+
   .portfolio-year {
     float: none;
     margin-top: 8px;
@@ -447,6 +459,10 @@ permalink: /portfolio/
 </style>
 
 <div class="portfolio-page">
+  <header class="portfolio-intro">
+    <h1>Portfolio</h1>
+    <p>Visit 500px for my <strong><a href="https://500px.com/manager?view=galleries&amp;user=ruaruaxu&amp;slug=personal-best">personal best</a></strong> photographies.</p>
+  </header>
   {% assign items = site.data.portfolio | where_exp: "item", "item.image" %}
   {% assign items = items | where_exp: "item", "item.hidden != true" %}
   {% assign years = items | map: "year" | uniq | sort | reverse %}
