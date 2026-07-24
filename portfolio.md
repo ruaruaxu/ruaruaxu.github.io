@@ -459,10 +459,10 @@ permalink: /portfolio/
 </style>
 
 <div class="portfolio-page">
-  <header class="portfolio-intro">
+  <div class="portfolio-intro">
     <h1>Portfolio</h1>
     <p>Visit 500px for my <strong><a href="https://500px.com/manager?view=galleries&amp;user=ruaruaxu&amp;slug=personal-best">personal best</a></strong> photographies.</p>
-  </header>
+  </div>
   {% assign items = site.data.portfolio | where_exp: "item", "item.image" %}
   {% assign items = items | where_exp: "item", "item.hidden != true" %}
   {% assign years = items | map: "year" | uniq | sort | reverse %}
