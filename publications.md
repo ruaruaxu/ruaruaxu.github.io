@@ -38,6 +38,11 @@ layout: homepage
   .working-paper-title {
     color: var(--site-blue);
     font-weight: 700;
+    transition: color 0.18s ease;
+  }
+
+  .working-paper-title:hover {
+    color: var(--site-pink);
   }
 </style>
 
@@ -71,9 +76,9 @@ Full-text PDFs of all publications are available for download **here**.<br>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">
         {% if link.doi %}
-        <a href="{{ link.doi }}"><span style="color:var(--site-blue);">{{ link.title }}</span></a>
+        <a href="{{ link.doi }}"><span class="publication-title">{{ link.title }}</span></a>
         {% else %}
-        <span style="color:var(--site-blue);">{{ link.title }}</span>
+        <span class="publication-title">{{ link.title }}</span>
         {% endif %}
       </div>
       <div class="author">{{ link.authors }}</div>
@@ -122,5 +127,5 @@ Full-text PDFs of all publications are available for download **here**.<br>
   <li><strong>Xu, W.</strong>, Zhang, X., Sun, J., Liang, L.* (2026-). <span class="working-paper-title">Scaling Property-Level Wildfire Risk Assessment in California with Fine-Tuned Vision-Language Models and Prediction-Powered Inference.</span> Manuscript in Preparation.</li>
   <li><strong>Xu, W.</strong>, Agostini, G., Pierson, E.*, Blumenstock, J., Liang, L. (2026-). <span class="working-paper-title">SAEarth: Can Sparse AutoEncoders Expose Interpretable Features in Geospatial Foundation Models?</span> Manuscript in Preparation.</li>
   <li>Lyu, D.†, <strong>Xu, W.†</strong>, Wang, W., Gao, C., Zhuang, W.*, Li, Y.* (2025-). <span class="working-paper-title">Aesthetic Perception of Large Language Models.</span> Manuscript in Preparation.</li>
-  <li>Lyu, D.†, Li, C.†, Li, J., <strong>Xu, W.</strong>, Guan, X., Wang, Y., Huo, Y., &amp; Li, T.* (2025-). <span class="working-paper-title">Urban Cardiac Emergency Survival Inequities from Seen Infrastructure and Unseen Operations.</span> <em>Nature Cities</em> (Under Review).</li>
+  <li>Lyu, D.†, Li, C.†, Li, J., <strong>Xu, W.</strong>, Guan, X., Wang, Y., Huo, Y., &amp; Li, T.* (2025-). <span class="working-paper-title">Urban Cardiac Emergency Survival Inequities from Seen Infrastructure and Unseen Operations.</span> <em>Nature Cities</em> (1st Review).</li>
 </ol>

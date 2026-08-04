@@ -67,7 +67,15 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .title { font-weight: bolder; }
 
-.publications ol.bibliography li .title a:hover span { color: var(--site-pink); }
+.publications ol.bibliography li .title .publication-title {
+    color: var(--site-blue);
+    transition: color 0.18s ease;
+}
+
+.publications ol.bibliography li .title a:hover .publication-title,
+.publications ol.bibliography li .title .publication-title:hover {
+    color: var(--site-pink);
+}
 
 .publications ol.bibliography li .author a { border-bottom: 1px var(--global-theme-color); }
 
