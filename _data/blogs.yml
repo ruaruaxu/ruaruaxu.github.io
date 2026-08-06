@@ -1,15 +1,3 @@
-- title: One Math to Master Them All
-  date: 2026.04.27
-  date_sort: 2026-04-27
-  order: 1
-  category: Course Notes
-  source: Feishu
-  summary: An evolving open study text on the mathematical foundations of machine learning and scientific computing, covering multivariable calculus, linear algebra and differential equations, discrete mathematics and probability theory, probability and random processes, optimization models in engineering, and related topics.
-  url: https://my.feishu.cn/wiki/K7eywJKX5ilzXZkAwCmchU5Mnbf
-  tags:
-    - Course Notes
-    - Math
-
 - title: DATA/STAT/CS 100/200 Principles and Techniques of Data Science Highlights
   date: 2026.05.18
   date_sort: 2026-05-18
