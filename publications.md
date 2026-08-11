@@ -117,7 +117,6 @@ Full-text PDFs of all publications are available for download **here**.<br>
 ## Working Papers
 
 <ol class="working-papers">
-  <li>Gu, X., Liu, Y*., <strong>Xu, W.</strong>, Qiu, W., Li, X., Chen, X., Lu, S., Qiu, W.* (2025-). <span class="working-paper-title">Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential.</span> <em>Communications Earth &amp; Environment</em> (3rd Revision).</li>
   <li>Lyu, D.†, Li, C.†, Li, J., <strong>Xu, W.</strong>, Guan, X., Wang, Y., Huo, Y., &amp; Li, T.* (2025-). <span class="working-paper-title">Urban Cardiac Emergency Survival Inequities from Seen Infrastructure and Unseen Operations.</span> <em>Nature Cities</em> (1st Review).</li>
   <li><strong>Xu, W.</strong>, Liang, L.* (2025-). <span class="working-paper-title">Compound Heatwave-Air Pollution Hazards Across the United States.</span> Manuscript in Preparation.</li>
   <li><strong>Xu, W.</strong>, Zhang, X., Sun, J., Liang, L.* (2026-). <span class="working-paper-title">Scaling Property-Level Wildfire Risk Assessment in California with Fine-Tuned Vision-Language Models and Prediction-Powered Inference.</span> Manuscript in Preparation.</li>

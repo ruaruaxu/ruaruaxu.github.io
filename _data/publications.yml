@@ -31,6 +31,12 @@ main:
 
 all:
 
+  - title: "Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential"
+    authors: Gu, X., Liu, Y*., <strong>Xu, W.</strong>, Qiu, W., Li, X., Chen, X., Lu, S., Qiu, W.*
+    journal_short: 2025
+    journal: "Communications Earth & Environment, 2025. In Press."
+    image: ./assets/img/publication/guScalableMaterialAlbedo2025.png
+
   - title: "Campus Squares Are Significantly Associated with Students' Emotions: A Multimodal Field Experiment Approach"
     authors: <strong>Wenrui Xu</strong>, Yingqi Lan, Tianxin Yang, Jinxi Chen*, Junheng Chen, Jing Qian, Wentao Han, Annabel Edle Von Schickh
     journal_short: 2026
