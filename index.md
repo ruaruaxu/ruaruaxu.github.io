@@ -946,7 +946,7 @@ layout: homepage
 
 I use geospatial data and artificial intelligence to study **environmental hazards, public health, and socioeconomic conditions across places and populations**. My current work focuses on *adapting, interpreting, and evaluating* **geospatial foundation models** and **vision-language models** for these domains, with particular attention to their reliability and alignment with human and societal needs. Broadly, my research connects *geospatial AI* and *trustworthy AI* with *urban, environmental, and socioeconomic research*, with the goal of advancing scientific understanding and informing planning and policy in support of human well-being.
 
-- **Environmental Hazards & Health:** human exposure to and health impacts of heat, air pollution, wildfire, flooding, and compound hazards ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)).
+- **Environmental Hazards & Health:** human exposure to and health impacts of heat (Commun. Earth Environ., 2026), air pollution, wildfire, flooding, and compound hazards ([SCS, 2025](https://wenruixu.com/assets/files/publication/xuSpatiotemporalImpactsPurposespecific2025.pdf)).
 
 - **Urban & Socioeconomic Conditions:** spatial disparities in urban perception ([Cities, 2025](https://wenruixu.com/assets/files/publication/j.cities.2025.106278.pdf)), poverty and wealth, urban renewal, and access to healthcare and public services.
 
