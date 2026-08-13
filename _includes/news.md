@@ -9,7 +9,8 @@
   }
 
   .news-list li.news-highlight,
-  .news-list li.news-highlight .news-date {
+  .news-list li.news-highlight .news-date,
+  .news-list li.news-highlight strong {
     color: var(--site-pink);
   }
 
