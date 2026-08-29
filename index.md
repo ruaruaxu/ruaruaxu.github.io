@@ -618,7 +618,8 @@ layout: homepage
     const initialView = { center: [20, 0], zoom: 1 };
     const satelliteTileUrl = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
     const satelliteLabelUrl = "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}";
-    const mapTileUrl = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+    const mapTileUrl = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}";
+    const mapLabelUrl = "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}";
     const map = L.map(container, {
       attributionControl: true,
       maxBounds: [[-85, -180], [85, 180]],
@@ -639,8 +640,13 @@ layout: homepage
       maxZoom: 18
     });
 
-    const fallbackBasemap = L.tileLayer(mapTileUrl, {
-      attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
+    const mapBase = L.tileLayer(mapTileUrl, {
+      attribution: "Tiles &copy; Esri",
+      maxZoom: 18
+    });
+
+    const mapLabels = L.tileLayer(mapLabelUrl, {
+      attribution: "Labels &copy; Esri",
       maxZoom: 18
     });
     let currentBasemap = "";
@@ -657,7 +663,7 @@ layout: homepage
 
     function setBasemap(type, forcedByError = false) {
       if (type === currentBasemap) return;
-      [satelliteBase, satelliteLabels, fallbackBasemap].forEach(layer => {
+      [satelliteBase, satelliteLabels, mapBase, mapLabels].forEach(layer => {
         if (map.hasLayer(layer)) {
           map.removeLayer(layer);
         }
@@ -669,7 +675,8 @@ layout: homepage
         container.classList.remove("fallback-basemap-active");
         currentBasemap = "satellite";
       } else {
-        fallbackBasemap.addTo(map);
+        mapBase.addTo(map);
+        mapLabels.addTo(map);
         container.classList.add("fallback-basemap-active");
         currentBasemap = "map";
       }
