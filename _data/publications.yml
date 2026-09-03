@@ -32,15 +32,17 @@ main:
 all:
 
   - title: "Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential"
-    authors: Xinyue Gu, Yingjie Liu*, <strong>Wenrui Xu</strong>, Xiaojiang Li, Xidong Chen, Shanlong Lu, Waishan Qiu*
+    authors: Xinyue Gu, Yingjie Liu*, <strong>Wenrui Xu</strong>, Xiaojiang Li, Xidong Chen*, Shanlong Lu, Waishan Qiu*
     journal_short: 2026
     journal: "Communications Earth & Environment, 2026. In Press."
+    doi: https://doi.org/10.1038/s43247-026-03952-8
     image: ./assets/img/publication/guScalableMaterialAlbedo2025.png
 
   - title: "Campus Squares Are Significantly Associated with Students' Emotions: A Multimodal Field Experiment Approach"
     authors: <strong>Wenrui Xu</strong>, Yingqi Lan, Tianxin Yang, Jinxi Chen*, Junheng Chen, Jing Qian, Wentao Han, Annabel Edle Von Schickh
     journal_short: 2026
     journal: Frontiers of Architectural Research, 2026. In Press.
+    doi: https://doi.org/10.1016/j.foar.2026.06.009
     image: ./assets/img/publication/xuCampusSquares2025.png
 
   - title: "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics"
