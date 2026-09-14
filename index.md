@@ -971,7 +971,7 @@ I am so lucky to have learned from and worked with many wonderful people! **[[ðŸ
 
 ## Selected Work
 
-Full-text PDFs of all publications are available for download **[[here]](./publications)**.<br>
+Full-text PDFs of all publications are available for download **[[link]](./publications)**.<br>
 â€ Equal Contribution, *Corresponding Author
 
 {% include_relative _includes/selected_publications.md %}
