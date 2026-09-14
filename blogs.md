@@ -154,7 +154,7 @@ permalink: /blog/
 
   <div class="blog-directory">
     {% assign posts = site.data.blogs | sort: "date_sort" | reverse %}
-    {% assign category_order = "Course Notes|Beautiful Things" | split: "|" %}
+    {% assign category_order = "Beautiful Things" | split: "|" %}
     {% for category in category_order %}
       {% assign category_posts = posts | where: "category", category %}
       {% if category_posts.size > 0 %}
