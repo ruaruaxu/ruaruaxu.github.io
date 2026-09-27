@@ -9,7 +9,7 @@ main:
   - title: "Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential"
     authors: Xinyue Gu, Yingjie Liu*, <strong>Wenrui Xu</strong>, Xiaojiang Li, Xidong Chen*, Shanlong Lu, Waishan Qiu*
     journal_short: 2026
-    journal: "Communications Earth & Environment, 2026. In Press."
+    journal: "Communications Earth & Environment, 2026."
     doi: https://doi.org/10.1038/s43247-026-03952-8
     image: ./assets/img/publication/guScalableMaterialAlbedo2025.png
 
@@ -47,7 +47,7 @@ all:
   - title: "Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential"
     authors: Xinyue Gu, Yingjie Liu*, <strong>Wenrui Xu</strong>, Xiaojiang Li, Xidong Chen*, Shanlong Lu, Waishan Qiu*
     journal_short: 2026
-    journal: "Communications Earth & Environment, 2026. In Press."
+    journal: "Communications Earth & Environment, 2026."
     doi: https://doi.org/10.1038/s43247-026-03952-8
     image: ./assets/img/publication/guScalableMaterialAlbedo2025.png
 
