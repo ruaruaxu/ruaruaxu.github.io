@@ -53,6 +53,8 @@ I am so lucky to have learned from and worked with many wonderful people. Each o
 - [Tiantian Li (李恬恬)](https://iehs.chinacdc.cn/ywwz/Team/201810/t20181016_195134.html) [2025-present, China CDC]
 - [Jialin Sun (孙嘉麟)](https://scholar.google.com/citations?user=f57kwGAAAAAJ) [2025-present, Geospatial 3M Lab, UC Berkeley]
 - Sydnie Zhang (张欣怡) [2025-present, Geospatial 3M Lab, UC Berkeley]
+- [Ce Hou (侯策)](https://www.ce-hou.com/) [2026-present, PKU]
+- [Dongwei Liu (刘栋玮)](https://ddwliu.github.io/) [Geospatial 3M Lab, UC Berkeley]
 
 ### Mentors
 
