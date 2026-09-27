@@ -949,7 +949,7 @@ layout: homepage
 })();
 </script>
 
-👋🦁Hi! I am a second-year Ph.D. student in Environmental Planning at UC Berkeley, where I am fortunate to be advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/people/prof-lu-liang) ([LAEP](https://ced.berkeley.edu/land)) and work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) ([EECS](https://eecs.berkeley.edu/), [BAIR](https://bair.berkeley.edu/)).
+👋🦁Hi! I am a second-year Ph.D. student in Environmental Planning at UC Berkeley, where I am fortunate to be advised by [Prof. Lu Liang](https://sites.google.com/site/liang3mlab/) ([LAEP](https://ced.berkeley.edu/land)) and work closely with [Prof. Emma Pierson](https://people.eecs.berkeley.edu/~emmapierson/) ([EECS](https://eecs.berkeley.edu/), [BAIR](https://bair.berkeley.edu/)).
 
 I use geospatial data and artificial intelligence to study **environmental hazards, public health, and socioeconomic conditions across places and populations**. My current work focuses on *adapting, interpreting, and evaluating* **geospatial foundation models** and **vision-language models** for these domains, with particular attention to their reliability and alignment with human and societal needs. Broadly, my research connects *geospatial AI* and *trustworthy AI* with *urban, environmental, and socioeconomic research*, with the goal of advancing scientific understanding and informing planning and policy in support of human well-being.
 
