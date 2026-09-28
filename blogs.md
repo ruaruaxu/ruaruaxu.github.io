@@ -1,5 +1,6 @@
 ---
 layout: homepage
+title: Blog
 permalink: /blog/
 ---
 
