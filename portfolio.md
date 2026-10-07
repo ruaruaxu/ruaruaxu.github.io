@@ -801,7 +801,7 @@ permalink: /portfolio/
       const aspectRatio = Number(aspectParts[0]) / Number(aspectParts[1]);
       lightbox.style.setProperty("--portfolio-lightbox-aspect", activeAspect);
       lightbox.style.setProperty("--portfolio-lightbox-aspect-ratio", Number.isFinite(aspectRatio) ? aspectRatio : 1.3333);
-      if (activePhoto.embedUrl) {
+      if (activePhoto.embedUrl && activePhoto.image.includes('://')) {
         image.removeAttribute('src');
         image.style.display = "none";
         embed.src = activePhoto.embedUrl;

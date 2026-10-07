@@ -1,3 +1,7 @@
-This folder stores compressed display images for the portfolio page.
+# Portfolio 展示图
 
-Do not commit original-resolution photos here. Keep originals offline or on portfolio platforms such as 500px, and use `source_url` in `_data/portfolio.yml` to link to the original photo page.
+此目录保存网站自托管的压缩展示图。封面和相册直接使用这些本地文件，并保留 `_data/portfolio.yml` 中的 500px 作品链接。原始分辨率照片继续保存在网站仓库之外。
+
+`500px-<原照片ID>.webp` 来自 500px 公开作品页面返回的展示图，以 WebP quality=85 保存，不放大。当前恢复图的最长边为 1024 px，受源站提供的展示版本限制。不要把带有 `expiry` 和 `sig` 的临时图片 URL 写回网站配置。
+
+`source-manifest.json` 记录每张图片的作品页面、作者、尺寸、大小和本地路径，以及仍无法从 500px 恢复的 19 个照片 ID。新增照片需要同时更新图片文件、Portfolio 配置和来源记录。
