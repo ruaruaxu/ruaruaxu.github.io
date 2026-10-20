@@ -47,7 +47,7 @@ I am so lucky to have learned from and worked with many wonderful people. Each o
 
 ### Collaborators
 
-- [Dalin Lyu (吕炟麟)](https://scholar.google.com/citations?user=igAQ0ZsAAAAJ) [2024-present, Tsinghua University, HKU]
+- [Dalin Lyu (吕炟麟)](https://dalinlyu.com/) [2024-present, Tsinghua University, HKU]
 - [Xinyue Gu (古心悦)](https://scholar.google.com/citations?user=I7k0-jkAAAAJ) [2024-present, Guangzhou Institute of Geography, Guangdong Academy of Sciences]
 - Jiaying Li (李佳莹) [2025-present, NUS]
 - [Yuye Zhou (周钰烨)](https://yuyezhou.com/) [2025-present, Geospatial 3M Lab, UC Berkeley]
