@@ -8,7 +8,9 @@
 
 17 个地点的文字、原始经纬度、行程分组及三条迁移路线定义保持原样。地点、路线、点击定位和行程范围均使用同一投影。浏览器按视图分辨率加载并重投影瓦片。
 
-验证：`git diff --check` 通过。临时 Node smoke 检查通过，包括内联 JavaScript 语法、17 个地点的投影往返、与原版本地点及路线定义的一致性、三条 97 点连续曲线的端点与标记对齐，以及仅一个共用 View。基于公开首页布局替换地图区块的本地预览已检查普通图、卫星图、Berkeley/Beijing 定位、日本行程、放大、缩小、重置和桌面/窄屏布局。全图预览中未观察到太平洋中央竖缝或重复世界，浏览器未报告地图 JavaScript 错误。尚未执行完整 Jekyll 构建，构建及上线验证待 GitHub Pages。
+验证：`git diff --check` 通过。临时 Node smoke 检查通过，包括内联 JavaScript 语法、17 个地点的投影往返、与原版本地点及路线定义的一致性、三条 97 点连续曲线的端点与标记对齐，以及仅一个共用 View。基于公开首页布局替换地图区块的本地预览已检查普通图、卫星图、Berkeley/Beijing 定位、日本行程、放大、缩小、重置和桌面/窄屏布局。全图预览中未观察到太平洋中央竖缝或重复世界，浏览器未报告地图 JavaScript 错误。完整 Jekyll 构建由 [GitHub Pages run 39501894957](https://github.com/ruaruaxu/ruaruaxu.github.io/actions/runs/39501894957) 执行，2026-10-20 14:38 PDT 已观察到 `Build with Jekyll` 通过，最终构建及部署状态以该 run 为准。
+
+交付代码：实现提交 `9c1221c161de8960c56a0b18cd5f099a710b5bf1`，经 [PR #3](https://github.com/ruaruaxu/ruaruaxu.github.io/pull/3) 于 2026-10-20 14:37 PDT squash merge 为 `892d0ad42b5c84d2fdf4cf78d5ddf58117e36ce4`。合并后已 fetch 并在唯一 canonical checkout 执行 `git pull --ff-only`，当时 `main` 与 `origin/main` 均为该合并提交且工作区干净。后续维护记录提交不改变地图实现。
 
 ## Portfolio 图片恢复
 
@@ -29,4 +31,4 @@
 | 分支 | Owner / 用途 | Base / HEAD / upstream | 状态、证据与下一步 |
 | --- | --- | --- | --- |
 | `codex/restore-portfolio-photos` | Portfolio 修复任务 / 自托管展示图 | base `c3ce071`，HEAD `38b3cb07d51f38fbf20f6b1371f84e6347e6509d`，upstream `origin/codex/restore-portfolio-photos` | 2026-10-20 已复核 [PR #2](https://github.com/ruaruaxu/ruaruaxu.github.io/pull/2) 为 MERGED，合并提交 `eb2f0ca9025ae414db0bb5871c6e30c0381fe22d` 位于 main。无运行依赖，released - awaiting cleanup approval，负责人为网站维护任务，收到删除批准时重查。 |
-| `codex/pacific-equal-earth-map` | 当前首页地图任务 / 同投影普通地图与卫星图 | base `eb2f0ca9025ae414db0bb5871c6e30c0381fe22d`，HEAD 待本次 coherent commit，计划 upstream `origin/codex/pacific-equal-earth-map` | 当前在唯一 canonical 路径实施，in use。下一步提交和 PR 审查，通过后合并并同步回 main，核实 Pages 发布。精确交付 HEAD 和 PR 以任务交付记录为准。 |
+| `codex/pacific-equal-earth-map` | 当前首页地图任务 / 同投影普通地图与卫星图 | base `eb2f0ca9025ae414db0bb5871c6e30c0381fe22d`，HEAD `9c1221c161de8960c56a0b18cd5f099a710b5bf1`，upstream `origin/codex/pacific-equal-earth-map` | [PR #3](https://github.com/ruaruaxu/ruaruaxu.github.io/pull/3) 已合并，`892d0ad42b5c84d2fdf4cf78d5ddf58117e36ce4` 已进入 main 并同步 canonical。无临时 checkout、作业、controller、automation 或恢复入口依赖该分支，owner 已释放，released - awaiting cleanup approval。负责人为网站维护任务，收到分支删除批准时重查。 |
