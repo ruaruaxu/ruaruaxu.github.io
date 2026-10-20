@@ -379,7 +379,6 @@ layout: homepage
 </style>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@10.11.0/ol.css">
-<script src="https://cdn.jsdelivr.net/npm/proj4@2.20.9/dist/proj4.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/ol@10.11.0/dist/ol.js"></script>
 
 <script>
@@ -588,7 +587,7 @@ layout: homepage
         { from: "Beijing", to: "Berkeley" }
     ];
 
-    if (!container || !window.ol || !window.proj4) {
+    if (!container || !window.ol) {
       if (loadingText) {
         loadingText.textContent = "Map failed to load.";
         loadingText.style.color = "red";
@@ -615,37 +614,28 @@ layout: homepage
 
     loadingText.remove();
 
-    const projectionCode = "WENRUI:EqualEarthPacific";
-    proj4.defs(projectionCode, "+proj=eqearth +lon_0=180 +datum=WGS84 +units=m +no_defs");
-    ol.proj.proj4.register(proj4);
-    const projection = ol.proj.get(projectionCode);
+    const projection = ol.proj.get("EPSG:3857");
+    const mapSeamLongitude = -30;
+    const initialCenter = [-10, mapSeamLongitude + 180];
 
     function mapCoords([lat, lng]) {
-      return proj4("EPSG:4326", projectionCode, [lng, lat]);
+      const displayLng = ((lng - mapSeamLongitude + 360) % 360) + mapSeamLongitude;
+      return ol.proj.fromLonLat([displayLng, lat], projection);
     }
 
-    // Match the latitude coverage of the existing Web Mercator tile sources.
-    const latitudeLimit = 85.0511287798066;
-    const worldEdge = [];
-    for (let lat = -latitudeLimit; lat < latitudeLimit; lat += 1) {
-      worldEdge.push(mapCoords([lat, 0]));
-    }
-    worldEdge.push(mapCoords([latitudeLimit, 0]));
-    for (let lat = latitudeLimit; lat > -latitudeLimit; lat -= 1) {
-      worldEdge.push(mapCoords([lat, 360]));
-    }
-    worldEdge.push(mapCoords([-latitudeLimit, 360]));
-    const worldExtent = ol.extent.boundingExtent(worldEdge);
-    projection.setExtent(worldExtent);
-    projection.setWorldExtent([0, -latitudeLimit, 360, latitudeLimit]);
+    // Reset to an Atlantic cut between South America and Africa.
+    const halfWorld = projection.getExtent()[2];
+    const worldWidth = 2 * halfWorld;
+    const worldLeft = ol.proj.fromLonLat([mapSeamLongitude, 0], projection)[0];
+    const worldExtent = [worldLeft, -halfWorld, worldLeft + worldWidth, halfWorld];
 
     const view = new ol.View({
       projection,
-      center: [0, 0],
+      center: mapCoords(initialCenter),
       zoom: 0,
       maxZoom: 18,
-      extent: worldExtent,
-      showFullExtent: true,
+      extent: [-Infinity, -halfWorld, Infinity, halfWorld],
+      multiWorld: true,
       enableRotation: false
     });
     const map = new ol.Map({
@@ -656,11 +646,14 @@ layout: homepage
     });
 
     function resetMap(duration = 0) {
+      // Fill the canvas with one world at reset, allowing continuous panning.
+      const resolution = Math.min(
+        ol.extent.getWidth(worldExtent) / container.clientWidth,
+        ol.extent.getHeight(worldExtent) / container.clientHeight
+      );
       view.setMinZoom(0);
-      view.fit(worldExtent, { padding: [24, 20, 24, 20], duration });
-      view.setMinZoom(view.getZoomForResolution(view.getResolutionForExtent(
-        worldExtent, [container.clientWidth - 40, container.clientHeight - 48]
-      )));
+      view.animate({ center: mapCoords(initialCenter), resolution, duration });
+      view.setMinZoom(view.getZoomForResolution(resolution));
     }
     resetMap();
     const resizeObserver = new ResizeObserver(() => {
@@ -671,7 +664,6 @@ layout: homepage
 
     function tileLayer(url, attribution) {
       const layer = new ol.layer.Tile({
-        extent: worldExtent,
         source: new ol.source.XYZ({
           url,
           projection: "EPSG:3857",
@@ -681,20 +673,6 @@ layout: homepage
         }),
         visible: false
       });
-      // Clip to one projected world, including its curved Equal Earth edges.
-      layer.on("prerender", event => {
-        const context = event.context;
-        context.save();
-        context.beginPath();
-        worldEdge.forEach((coordinate, index) => {
-          const pixel = ol.render.getRenderPixel(event, map.getPixelFromCoordinate(coordinate));
-          if (index === 0) context.moveTo(...pixel);
-          else context.lineTo(...pixel);
-        });
-        context.closePath();
-        context.clip();
-      });
-      layer.on("postrender", event => event.context.restore());
       map.addLayer(layer);
       return layer;
     }
@@ -758,7 +736,7 @@ layout: homepage
       geometry: new ol.geom.LineString(curvedTrackCoords(locationMap[track.from], locationMap[track.to]))
     }));
     map.addLayer(new ol.layer.Vector({
-      source: new ol.source.Vector({ features: trackFeatures, wrapX: false }),
+      source: new ol.source.Vector({ features: trackFeatures, wrapX: true }),
       style: [
         new ol.style.Style({ stroke: new ol.style.Stroke({ color: "rgba(255,255,255,0.78)", width: 4 }) }),
         new ol.style.Style({ stroke: new ol.style.Stroke({
@@ -769,6 +747,18 @@ layout: homepage
 
     const markerItems = new Map();
     const timelineItems = new Map();
+
+    function nearestMapCoords(coords) {
+      const point = mapCoords(coords);
+      const worldOffset = Math.round((view.getCenter()[0] - point[0]) / worldWidth);
+      return [point[0] + worldOffset * worldWidth, point[1]];
+    }
+
+    function updateMarkerWorlds() {
+      markerItems.forEach((marker, name) => {
+        marker.setPosition(nearestMapCoords(locationMap[name].coords));
+      });
+    }
 
     function timelineSortValue(date) {
       const text = String(date || "");
@@ -874,7 +864,7 @@ layout: homepage
       element.addEventListener("click", () => setActiveLocation(d));
       const marker = new ol.Overlay({
         element,
-        position: mapCoords(d.coords),
+        position: nearestMapCoords(d.coords),
         positioning: "center-center",
         stopEvent: true
       });
@@ -882,6 +872,7 @@ layout: homepage
       element.parentElement.style.zIndex = d.group === "lived" ? "10" : "0";
       markerItems.set(d.name, marker);
     });
+    view.on("change:center", updateMarkerWorlds);
 
     function setActiveLocation(d, shouldZoom = true) {
       const activeTimelineKey = d.journey ? `journey:${d.journey.id}` : `place:${d.name}`;
@@ -896,7 +887,7 @@ layout: homepage
         item.classList.toggle("active", key === activeTimelineKey);
       });
       if (shouldZoom) {
-        view.animate({ center: mapCoords(d.coords), zoom: 5, duration: 800 });
+        view.animate({ center: nearestMapCoords(d.coords), zoom: 5, duration: 800 });
       }
     }
 
@@ -912,7 +903,11 @@ layout: homepage
       timelineItems.forEach((item, key) => {
         item.classList.toggle("active", key === entry.key);
       });
-      view.fit(ol.extent.boundingExtent(entry.places.map(place => mapCoords(place.coords))), {
+      const journeyExtent = ol.extent.boundingExtent(entry.places.map(place => mapCoords(place.coords)));
+      const worldOffset = Math.round((view.getCenter()[0] - ol.extent.getCenter(journeyExtent)[0]) / worldWidth);
+      journeyExtent[0] += worldOffset * worldWidth;
+      journeyExtent[2] += worldOffset * worldWidth;
+      view.fit(journeyExtent, {
         maxZoom: 5,
         padding: [48, 48, 48, 48],
         duration: 800
