@@ -616,7 +616,7 @@ layout: homepage
 
     const projection = ol.proj.get("EPSG:3857");
     const mapSeamLongitude = -30;
-    const initialCenter = [-10, mapSeamLongitude + 180];
+    const initialCenter = [20, mapSeamLongitude + 180];
 
     function mapCoords([lat, lng]) {
       const displayLng = ((lng - mapSeamLongitude + 360) % 360) + mapSeamLongitude;
@@ -651,9 +651,9 @@ layout: homepage
         ol.extent.getWidth(worldExtent) / container.clientWidth,
         ol.extent.getHeight(worldExtent) / container.clientHeight
       );
-      view.setMinZoom(0);
-      view.animate({ center: mapCoords(initialCenter), resolution, duration });
+      view.cancelAnimations();
       view.setMinZoom(view.getZoomForResolution(resolution));
+      view.animate({ center: mapCoords(initialCenter), resolution, duration });
     }
     resetMap();
     const resizeObserver = new ResizeObserver(() => {
