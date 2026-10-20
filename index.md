@@ -69,7 +69,7 @@ layout: homepage
       background: #f7f7f4;
       border: 1px solid #e5e5e5;
       border-radius: 8px;
-      min-height: 500px;
+      height: 500px;
       overflow: hidden;
       position: relative;
     }
@@ -95,25 +95,30 @@ layout: homepage
       z-index: 1000;
     }
 
-    .leaflet-container {
-      background: #e6e1d7;
-      color: #222;
+    .travel-map-canvas .ol-viewport {
       font-family: inherit;
-      min-height: 500px;
-      width: 100%;
     }
 
-    .leaflet-control-attribution {
+    .travel-map-canvas .ol-attribution {
+      bottom: 0;
       font-size: 10px;
+      right: 0;
     }
 
-    .leaflet-div-icon,
     .travel-map-marker-icon {
       background: transparent;
       border: 0;
+      cursor: pointer;
       height: 0 !important;
       margin: 0 !important;
+      overflow: visible;
+      padding: 0;
       width: 0 !important;
+    }
+
+    .travel-map-marker-icon:focus-visible .map-marker-dot {
+      outline: 2px solid var(--site-blue);
+      outline-offset: 3px;
     }
 
     .map-marker {
@@ -178,11 +183,6 @@ layout: homepage
       0% { transform: scale(1); opacity: 0.68; }
       50% { transform: scale(3.4); opacity: 0.14; }
       100% { transform: scale(1); opacity: 0.68; }
-    }
-
-    .fallback-basemap-active.leaflet-container,
-    .fallback-basemap-active .leaflet-container {
-      background: #f7f7f4;
     }
 
     .map-place-card a {
@@ -367,9 +367,8 @@ layout: homepage
         grid-template-columns: 1fr;
       }
 
-      .travel-map-canvas,
-      .leaflet-container {
-        min-height: 390px;
+      .travel-map-canvas {
+        height: 390px;
       }
 
       .travel-timeline {
@@ -379,8 +378,9 @@ layout: homepage
 
 </style>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@10.11.0/ol.css">
+<script src="https://cdn.jsdelivr.net/npm/proj4@2.20.9/dist/proj4.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ol@10.11.0/dist/ol.js"></script>
 
 <script>
 (function() {
@@ -588,7 +588,7 @@ layout: homepage
         { from: "Beijing", to: "Berkeley" }
     ];
 
-    if (!container || !window.L) {
+    if (!container || !window.ol || !window.proj4) {
       if (loadingText) {
         loadingText.textContent = "Map failed to load.";
         loadingText.style.color = "red";
@@ -615,168 +615,157 @@ layout: homepage
 
     loadingText.remove();
 
-    const initialView = { center: [20, 0], zoom: 1 };
-    const satelliteTileUrl = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
-    const satelliteLabelUrl = "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}";
-    const mapTileUrl = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}";
-    const mapLabelUrl = "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}";
-    const map = L.map(container, {
-      attributionControl: true,
-      maxBounds: [[-85, -180], [85, 180]],
-      maxBoundsViscosity: 0.8,
-      minZoom: 1,
-      scrollWheelZoom: true,
-      worldCopyJump: false,
-      zoomControl: false
-    }).setView(initialView.center, initialView.zoom);
+    const projectionCode = "WENRUI:EqualEarthPacific";
+    proj4.defs(projectionCode, "+proj=eqearth +lon_0=180 +datum=WGS84 +units=m +no_defs");
+    ol.proj.proj4.register(proj4);
+    const projection = ol.proj.get(projectionCode);
 
-    const satelliteBase = L.tileLayer(satelliteTileUrl, {
-      attribution: "Tiles &copy; Esri",
-      maxZoom: 18
+    function mapCoords([lat, lng]) {
+      return proj4("EPSG:4326", projectionCode, [lng, lat]);
+    }
+
+    // Match the latitude coverage of the existing Web Mercator tile sources.
+    const latitudeLimit = 85.0511287798066;
+    const worldEdge = [];
+    for (let lat = -latitudeLimit; lat < latitudeLimit; lat += 1) {
+      worldEdge.push(mapCoords([lat, 0]));
+    }
+    worldEdge.push(mapCoords([latitudeLimit, 0]));
+    for (let lat = latitudeLimit; lat > -latitudeLimit; lat -= 1) {
+      worldEdge.push(mapCoords([lat, 360]));
+    }
+    worldEdge.push(mapCoords([-latitudeLimit, 360]));
+    const worldExtent = ol.extent.boundingExtent(worldEdge);
+    projection.setExtent(worldExtent);
+    projection.setWorldExtent([0, -latitudeLimit, 360, latitudeLimit]);
+
+    const view = new ol.View({
+      projection,
+      center: [0, 0],
+      zoom: 0,
+      maxZoom: 18,
+      extent: worldExtent,
+      showFullExtent: true,
+      enableRotation: false
+    });
+    const map = new ol.Map({
+      target: container,
+      view,
+      controls: [new ol.control.Attribution({ collapsible: false })],
+      layers: []
     });
 
-    const satelliteLabels = L.tileLayer(satelliteLabelUrl, {
-      attribution: "Labels &copy; Esri",
-      maxZoom: 18
+    function resetMap(duration = 0) {
+      view.setMinZoom(0);
+      view.fit(worldExtent, { padding: [24, 20, 24, 20], duration });
+      view.setMinZoom(view.getZoomForResolution(view.getResolutionForExtent(
+        worldExtent, [container.clientWidth - 40, container.clientHeight - 48]
+      )));
+    }
+    resetMap();
+    const resizeObserver = new ResizeObserver(() => {
+      map.updateSize();
+      resetMap();
     });
+    resizeObserver.observe(container);
 
-    const mapBase = L.tileLayer(mapTileUrl, {
-      attribution: "Tiles &copy; Esri",
-      maxZoom: 18
-    });
+    function tileLayer(url, attribution) {
+      const layer = new ol.layer.Tile({
+        extent: worldExtent,
+        source: new ol.source.XYZ({
+          url,
+          projection: "EPSG:3857",
+          crossOrigin: "anonymous",
+          attributions: attribution,
+          maxZoom: 18
+        }),
+        visible: false
+      });
+      // Clip to one projected world, including its curved Equal Earth edges.
+      layer.on("prerender", event => {
+        const context = event.context;
+        context.save();
+        context.beginPath();
+        worldEdge.forEach((coordinate, index) => {
+          const pixel = ol.render.getRenderPixel(event, map.getPixelFromCoordinate(coordinate));
+          if (index === 0) context.moveTo(...pixel);
+          else context.lineTo(...pixel);
+        });
+        context.closePath();
+        context.clip();
+      });
+      layer.on("postrender", event => event.context.restore());
+      map.addLayer(layer);
+      return layer;
+    }
 
-    const mapLabels = L.tileLayer(mapLabelUrl, {
-      attribution: "Labels &copy; Esri",
-      maxZoom: 18
-    });
+    const satelliteBase = tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "Tiles &copy; Esri"
+    );
+    const satelliteLabels = tileLayer(
+      "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+      "Labels &copy; Esri"
+    );
+    const mapBase = tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+      "Tiles &copy; Esri"
+    );
+    const mapLabels = tileLayer(
+      "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+      "Labels &copy; Esri"
+    );
     let currentBasemap = "";
-    let satelliteHasFailed = false;
     const basemapButtons = Array.from(document.querySelectorAll("[data-basemap]"));
 
-    function updateBasemapButton() {
+    function setBasemap(type) {
+      satelliteBase.setVisible(type === "satellite");
+      satelliteLabels.setVisible(type === "satellite");
+      mapBase.setVisible(type === "map");
+      mapLabels.setVisible(type === "map");
+      currentBasemap = type;
       basemapButtons.forEach(button => {
         const isActive = button.dataset.basemap === currentBasemap;
         button.classList.toggle("active", isActive);
         button.setAttribute("aria-pressed", String(isActive));
       });
     }
-
-    function setBasemap(type, forcedByError = false) {
-      if (type === currentBasemap) return;
-      [satelliteBase, satelliteLabels, mapBase, mapLabels].forEach(layer => {
-        if (map.hasLayer(layer)) {
-          map.removeLayer(layer);
-        }
-      });
-
-      if (type === "satellite" && !satelliteHasFailed) {
-        satelliteBase.addTo(map);
-        satelliteLabels.addTo(map);
-        container.classList.remove("fallback-basemap-active");
-        currentBasemap = "satellite";
-      } else {
-        mapBase.addTo(map);
-        mapLabels.addTo(map);
-        container.classList.add("fallback-basemap-active");
-        currentBasemap = "map";
-      }
-
-      if (forcedByError) {
-        basemapButtons.forEach(button => {
-          button.title = "Satellite tiles failed to load, so the map switched to the local basemap.";
-        });
-      }
-      updateBasemapButton();
-    }
-
-    function handleSatelliteError() {
-      satelliteHasFailed = true;
-      setBasemap("map", true);
-    }
-
-    satelliteBase.on("tileerror", handleSatelliteError);
-    satelliteLabels.on("tileerror", handleSatelliteError);
-
     setBasemap("map");
 
     const locationMap = {};
     myLocations.forEach(d => { locationMap[d.name] = d; });
 
-    function curvedTrackSegments(start, end) {
+    function curvedTrackCoords(start, end) {
       const pointCount = 96;
-      const startLat = start.coords[0];
-      const startLng = start.coords[1];
-      const endLat = end.coords[0];
-      let endLng = end.coords[1];
-      let lngDelta = endLng - startLng;
-
-      if (Math.abs(lngDelta) > 180) {
-        endLng += lngDelta > 0 ? -360 : 360;
-        lngDelta = endLng - startLng;
-      }
-
-      const distance = Math.hypot(endLat - startLat, lngDelta);
+      const [startLat, startLng] = start.coords;
+      const [endLat, rawEndLng] = end.coords;
+      const endLng = startLng + ((rawEndLng - startLng + 540) % 360) - 180;
+      const distance = Math.hypot(endLat - startLat, endLng - startLng);
       const lift = Math.min(Math.max(distance * 0.16, 4), 22);
       const controlLat = Math.min(Math.max((startLat + endLat) / 2 + lift, -70), 78);
       const controlLng = (startLng + endLng) / 2;
-      const unwrappedCoords = [];
-
+      const coords = [];
       for (let i = 0; i <= pointCount; i += 1) {
         const t = i / pointCount;
         const lat = ((1 - t) ** 2 * startLat) + (2 * (1 - t) * t * controlLat) + (t ** 2 * endLat);
         const lng = ((1 - t) ** 2 * startLng) + (2 * (1 - t) * t * controlLng) + (t ** 2 * endLng);
-        unwrappedCoords.push([lat, lng]);
+        coords.push(mapCoords([lat, lng]));
       }
-
-      const segments = [[]];
-      unwrappedCoords.forEach((coord, index) => {
-        const [lat, lng] = coord;
-        const previous = unwrappedCoords[index - 1];
-
-        if (previous && ((previous[1] <= 180 && lng > 180) || (previous[1] >= -180 && lng < -180))) {
-          const boundary = lng > 180 ? 180 : -180;
-          const previousLat = previous[0];
-          const previousLng = previous[1];
-          const ratio = (boundary - previousLng) / (lng - previousLng);
-          const boundaryLat = previousLat + ratio * (lat - previousLat);
-          const currentSegment = segments[segments.length - 1];
-
-          currentSegment.push([boundaryLat, boundary]);
-          segments.push([[boundaryLat, boundary === 180 ? -180 : 180]]);
-        }
-
-        const normalizedLng = lng > 180 ? lng - 360 : (lng < -180 ? lng + 360 : lng);
-        segments[segments.length - 1].push([lat, normalizedLng]);
-      });
-
-      return segments.filter(segment => segment.length > 1);
+      return coords;
     }
 
-    function drawTrack(trackCoords) {
-      L.polyline(trackCoords, {
-        color: "#ffffff",
-        lineCap: "round",
-        lineJoin: "round",
-        opacity: 0.78,
-        smoothFactor: 0,
-        weight: 4
-      }).addTo(map);
-      L.polyline(trackCoords, {
-        color: getComputedStyle(document.documentElement).getPropertyValue("--site-pink").trim() || "#d81b72",
-        lineCap: "round",
-        lineJoin: "round",
-        opacity: 0.96,
-        smoothFactor: 0,
-        weight: 2
-      }).addTo(map);
-    }
-
-    tracks.forEach(track => {
-      const start = locationMap[track.from];
-      const end = locationMap[track.to];
-      if (!start || !end) return;
-      curvedTrackSegments(start, end).forEach(drawTrack);
-    });
+    const trackFeatures = tracks.map(track => new ol.Feature({
+      geometry: new ol.geom.LineString(curvedTrackCoords(locationMap[track.from], locationMap[track.to]))
+    }));
+    map.addLayer(new ol.layer.Vector({
+      source: new ol.source.Vector({ features: trackFeatures, wrapX: false }),
+      style: [
+        new ol.style.Style({ stroke: new ol.style.Stroke({ color: "rgba(255,255,255,0.78)", width: 4 }) }),
+        new ol.style.Style({ stroke: new ol.style.Stroke({
+          color: getComputedStyle(document.documentElement).getPropertyValue("--site-pink").trim(), width: 2
+        }) })
+      ]
+    }));
 
     const markerItems = new Map();
     const timelineItems = new Map();
@@ -877,17 +866,20 @@ layout: homepage
     });
 
     myLocations.forEach(d => {
-      const marker = L.marker(d.coords, {
-        icon: L.divIcon({
-          className: "travel-map-marker-icon",
-          html: markerHtml(d),
-          iconSize: [1, 1],
-          iconAnchor: [0, 0]
-        }),
-        zIndexOffset: d.group === "lived" ? 1000 : 0
-      }).addTo(map);
-
-      marker.on("click", () => setActiveLocation(d));
+      const element = document.createElement("button");
+      element.type = "button";
+      element.className = "travel-map-marker-icon";
+      element.setAttribute("aria-label", d.name);
+      element.innerHTML = markerHtml(d);
+      element.addEventListener("click", () => setActiveLocation(d));
+      const marker = new ol.Overlay({
+        element,
+        position: mapCoords(d.coords),
+        positioning: "center-center",
+        stopEvent: true
+      });
+      map.addOverlay(marker);
+      element.parentElement.style.zIndex = d.group === "lived" ? "10" : "0";
       markerItems.set(d.name, marker);
     });
 
@@ -904,7 +896,7 @@ layout: homepage
         item.classList.toggle("active", key === activeTimelineKey);
       });
       if (shouldZoom) {
-        map.flyTo(d.coords, 5, { duration: 0.8 });
+        view.animate({ center: mapCoords(d.coords), zoom: 5, duration: 800 });
       }
     }
 
@@ -920,27 +912,24 @@ layout: homepage
       timelineItems.forEach((item, key) => {
         item.classList.toggle("active", key === entry.key);
       });
-      map.fitBounds(entry.places.map(place => place.coords), {
+      view.fit(ol.extent.boundingExtent(entry.places.map(place => mapCoords(place.coords))), {
         maxZoom: 5,
-        padding: [32, 32]
+        padding: [48, 48, 48, 48],
+        duration: 800
       });
     }
 
     document.querySelector('[data-map-control="zoom-in"]').addEventListener("click", () => {
-      map.zoomIn();
+      view.animate({ zoom: view.getZoom() + 1, duration: 250 });
     });
     document.querySelector('[data-map-control="zoom-out"]').addEventListener("click", () => {
-      map.zoomOut();
+      view.animate({ zoom: view.getZoom() - 1, duration: 250 });
     });
     document.querySelector('[data-map-control="reset"]').addEventListener("click", () => {
-      map.flyTo(initialView.center, initialView.zoom, { duration: 0.6 });
+      resetMap(600);
     });
     basemapButtons.forEach(button => {
       button.addEventListener("click", () => {
-        if (button.dataset.basemap === "satellite") {
-          satelliteHasFailed = false;
-          basemapButtons.forEach(item => item.removeAttribute("title"));
-        }
         setBasemap(button.dataset.basemap);
       });
     });
