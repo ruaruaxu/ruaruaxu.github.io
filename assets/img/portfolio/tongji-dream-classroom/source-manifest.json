@@ -1,0 +1,98 @@
+{
+  "prepared_at": "2026-11-01T17:32:17-08:00",
+  "project": "同济梦想教室 / Tongji Dream Classroom",
+  "portfolio_year": 2022,
+  "year_basis": "User-specified portfolio year",
+  "role": "Dream Classroom Volunteer",
+  "role_and_location_basis": "Existing homepage Huocheng entry in index.md",
+  "story_url": "https://mp.weixin.qq.com/s/i5wdBYEOpGJl6prYkR5HWg",
+  "story_link_basis": "Reused verbatim from the existing homepage Huocheng entry. Article content was not independently read.",
+  "cover": {
+    "source_filename": "P1013488.JPG",
+    "basis": "User-selected group photograph, confirmed with a thumbnail screenshot. The full-resolution original is used.",
+    "gallery_position": 1
+  },
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "longest_edge_max": 2560,
+    "upscaled": false,
+    "cropped": false,
+    "adjustments": "EXIF orientation applied. No retouching or new imagery.",
+    "metadata": "Source EXIF not copied."
+  },
+  "originals_published": false,
+  "files": [
+    {
+      "source_filename": "P1013488.JPG",
+      "file": "students-and-volunteers.webp",
+      "original_dimensions": [
+        5184,
+        2920
+      ],
+      "width": 2560,
+      "height": 1442,
+      "bytes": 315194,
+      "cropped": false,
+      "title": "Tongji Dream Classroom — Students and Volunteers",
+      "description": "Huocheng, Ili, Xinjiang, China.\nVolunteer participation in the Tongji Dream Classroom project at Huocheng County Middle School. These photographs document the completed classroom and activities with students."
+    },
+    {
+      "source_filename": "P1013929.JPG",
+      "file": "classroom-interior.webp",
+      "original_dimensions": [
+        5184,
+        2920
+      ],
+      "width": 2560,
+      "height": 1442,
+      "bytes": 190086,
+      "cropped": false,
+      "title": "Classroom — Color and Shared Space",
+      "description": "Huocheng, Ili, Xinjiang, China.\nA mountain mural and a continuous, undulating bookcase give the classroom a shared visual identity. Modular tables occupy the center of the room."
+    },
+    {
+      "source_filename": "P1013937.JPG",
+      "file": "window-seating.webp",
+      "original_dimensions": [
+        5184,
+        2920
+      ],
+      "width": 2560,
+      "height": 1442,
+      "bytes": 212122,
+      "cropped": false,
+      "title": "Classroom — A Place by the Window",
+      "description": "Huocheng, Ili, Xinjiang, China.\nStepped seating follows the windows, adding a place to sit and gather alongside the classroom tables."
+    },
+    {
+      "source_filename": "P1014009.JPG",
+      "file": "dream-wall.webp",
+      "original_dimensions": [
+        5184,
+        2920
+      ],
+      "width": 2560,
+      "height": 1442,
+      "bytes": 268822,
+      "cropped": false,
+      "title": "Dream Wall — Students’ Aspirations",
+      "description": "Huocheng, Ili, Xinjiang, China.\nHandwritten aspirations surround the Tongji Dream Classroom sign, bringing students’ own voices into the space."
+    },
+    {
+      "source_filename": "P1012048.JPG",
+      "file": "volunteer-team.webp",
+      "original_dimensions": [
+        5184,
+        2920
+      ],
+      "width": 2560,
+      "height": 1442,
+      "bytes": 258520,
+      "cropped": false,
+      "title": "Volunteer Team — Shared Memories",
+      "description": "Huocheng, Ili, Xinjiang, China.\nA team photograph records a shared moment during the volunteer experience."
+    }
+  ]
+}
