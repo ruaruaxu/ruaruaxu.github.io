@@ -398,7 +398,7 @@
   image_large: "/assets/img/portfolio/wanli-university/courtyard-pool.webp"
   alt: "Reflecting pool and colonnade in the Zhejiang Wanli University Yuyao campus landscape design"
   description: "Yuyao, Zhejiang, China.\nCompleted project. Design-stage renderings shown.\nCampus landscape and teaching-building design studies. Campus planning refinement, landscape planning, and spatial design of key landscape nodes."
-  count: 6
+  count: 4
   aspect: "1800 / 1041"
   layout_span: 2
   photos:
@@ -410,14 +410,6 @@
       description: "Yuyao, Zhejiang, China.\nThe landscape masterplan organizes named public spaces, planted routes, and water edges across the campus, connecting the entrance plazas with the central green."
       image: "/assets/img/portfolio/wanli-university/landscape-masterplan.webp"
       aspect: "2560 / 1569"
-    - title: "South Entrance — A Shaded Tree Court"
-      description: "Yuyao, Zhejiang, China.\nA regular tree canopy defines an outdoor room with loose seating, providing a setting for informal conversation beside the south entrance plaza."
-      image: "/assets/img/portfolio/wanli-university/tree-court.webp"
-      aspect: "2096 / 1181"
-    - title: "Bamboo Court — A Quiet Campus Room"
-      description: "Yuyao, Zhejiang, China.\nA bamboo grove, curving path, and integrated seating create an intimate space beside the teaching buildings."
-      image: "/assets/img/portfolio/wanli-university/bamboo-court.webp"
-      aspect: "1800 / 1014"
     - title: "Architecture — Intelligent Manufacturing Teaching Building"
       description: "Yuyao, Zhejiang, China.\nThe teaching-building concept uses a glazed central volume and warm-toned facade elements to define its public frontage and entrance."
       image: "/assets/img/portfolio/wanli-university/teaching-building.webp"

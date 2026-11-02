@@ -74,52 +74,6 @@
     },
     {
       "order": 3,
-      "source_pdf_page": 60,
-      "pdf_object_id": 4814,
-      "pdf_xobject_name": "IM4814",
-      "source_bbox_points": [
-        699.12,
-        273.6,
-        950.64,
-        415.32
-      ],
-      "source_dimensions": [
-        2096,
-        1181
-      ],
-      "display_dimensions": [
-        2096,
-        1181
-      ],
-      "output": "/assets/img/portfolio/wanli-university/tree-court.webp",
-      "bytes": 760554,
-      "credit": "自绘, as labeled in the defense PDF"
-    },
-    {
-      "order": 4,
-      "source_pdf_page": 61,
-      "pdf_object_id": 5185,
-      "pdf_xobject_name": "IM5185",
-      "source_bbox_points": [
-        673.8,
-        362.64,
-        889.8,
-        484.32
-      ],
-      "source_dimensions": [
-        1800,
-        1014
-      ],
-      "display_dimensions": [
-        1800,
-        1014
-      ],
-      "output": "/assets/img/portfolio/wanli-university/bamboo-court.webp",
-      "bytes": 439682,
-      "credit": "自绘, as labeled in the defense PDF"
-    },
-    {
-      "order": 5,
       "source_pdf_page": 63,
       "pdf_object_id": 5528,
       "pdf_xobject_name": "IM5528",
@@ -142,7 +96,7 @@
       "credit": "Building concept studies presented on defense PDF page 63"
     },
     {
-      "order": 6,
+      "order": 4,
       "source_pdf_page": 63,
       "pdf_object_id": 5531,
       "pdf_xobject_name": "IM5531",
@@ -303,9 +257,57 @@
       "output": "/assets/img/portfolio/wanli-university/engineering-building.webp",
       "bytes": 356738,
       "credit": "Building concept studies presented on defense PDF page 63"
+    },
+    {
+      "order": 3,
+      "source_pdf_page": 60,
+      "pdf_object_id": 4814,
+      "pdf_xobject_name": "IM4814",
+      "source_bbox_points": [
+        699.12,
+        273.6,
+        950.64,
+        415.32
+      ],
+      "source_dimensions": [
+        2096,
+        1181
+      ],
+      "display_dimensions": [
+        2096,
+        1181
+      ],
+      "output": "/assets/img/portfolio/wanli-university/tree-court.webp",
+      "bytes": 760554,
+      "credit": "自绘, as labeled in the defense PDF",
+      "omission_reason": "User requested removing gallery positions 3 and 4 (tree court and bamboo court) on 2026-11-01."
+    },
+    {
+      "order": 4,
+      "source_pdf_page": 61,
+      "pdf_object_id": 5185,
+      "pdf_xobject_name": "IM5185",
+      "source_bbox_points": [
+        673.8,
+        362.64,
+        889.8,
+        484.32
+      ],
+      "source_dimensions": [
+        1800,
+        1014
+      ],
+      "display_dimensions": [
+        1800,
+        1014
+      ],
+      "output": "/assets/img/portfolio/wanli-university/bamboo-court.webp",
+      "bytes": 439682,
+      "credit": "自绘, as labeled in the defense PDF",
+      "omission_reason": "User requested removing gallery positions 3 and 4 (tree court and bamboo court) on 2026-11-01."
     }
   ],
-  "curation": "Refined to six existing images at user request: pool and colonnade, landscape masterplan, tree court, bamboo court, teaching-building exterior, and atrium. Original image files retained unchanged for provenance and stable URLs.",
+  "curation": "Refined to four existing images at user request: pool and colonnade, landscape masterplan, teaching-building exterior, and atrium. Former gallery positions 3 and 4 (tree court and bamboo court) removed from display. Original image files retained unchanged for provenance and stable URLs.",
   "completion_status": {
     "status": "Completed project",
     "evidence": "User explicitly stated completed construction in this conversation on 2026-11-01. Completion date and exact project phase were not independently verified. The 2025 defense PDF contained a future construction schedule, so it is not used as evidence of current completion.",
