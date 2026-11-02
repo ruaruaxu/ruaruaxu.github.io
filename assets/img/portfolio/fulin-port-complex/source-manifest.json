@@ -1,0 +1,126 @@
+{
+  "project": "高线驿站 / Fulin Port Complex",
+  "portfolio_year": 2023,
+  "source_pdf": "1953424-徐文睿-建筑学(四)-展览展板.pdf",
+  "source_bytes": 37713388,
+  "source_page_count": 1,
+  "source_credit": "设计人：徐文睿；指导教师：陈泳、谭峥",
+  "selection": "Curated after user requested a higher visual and information standard. Planning: one aerial plus functional and transport systems (3). Architecture: overall axonometric, ground-floor plan, section perspective, and four distinct spatial experiences (7).",
+  "omissions": "Exclude the repetitive lower-resolution aerial, four basic massing/strategy diagrams, repetitive second-to-fourth floor plans, low-contrast basement-plan overlays, exhibition header, and original poster layout. No full-poster image or PDF is published.",
+  "randomness": "No randomized operations",
+  "images": [
+    {
+      "order": 1,
+      "source_pdf_page": 1,
+      "pdfimages_index": 21,
+      "source_image_dimensions": [
+        9439,
+        4331
+      ],
+      "display_dimensions": [
+        2560,
+        1175
+      ],
+      "output": "/assets/img/portfolio/fulin-port-complex/overall-axonometric.webp",
+      "bytes": 468904,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 2,
+      "source_pdf_page": 1,
+      "pdfimages_index": 12,
+      "source_image_dimensions": [
+        7045,
+        3788
+      ],
+      "display_dimensions": [
+        2560,
+        1376
+      ],
+      "output": "/assets/img/portfolio/fulin-port-complex/ground-floor-plan.webp",
+      "bytes": 189826,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 3,
+      "source_pdf_page": 1,
+      "pdfimages_index": 0,
+      "source_image_dimensions": [
+        7178,
+        3334
+      ],
+      "display_dimensions": [
+        2560,
+        1189
+      ],
+      "output": "/assets/img/portfolio/fulin-port-complex/section-perspective.webp",
+      "bytes": 304674,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 4,
+      "source_pdf_page": 1,
+      "pdfimages_index": 5,
+      "source_image_dimensions": [
+        4882,
+        2552
+      ],
+      "display_dimensions": [
+        2560,
+        1338
+      ],
+      "output": "/assets/img/portfolio/fulin-port-complex/street-interface.webp",
+      "bytes": 405666,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 5,
+      "source_pdf_page": 1,
+      "pdfimages_index": 6,
+      "source_image_dimensions": [
+        4193,
+        2552
+      ],
+      "display_dimensions": [
+        2560,
+        1558
+      ],
+      "output": "/assets/img/portfolio/fulin-port-complex/sunken-street.webp",
+      "bytes": 557454,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 6,
+      "source_pdf_page": 1,
+      "pdfimages_index": 7,
+      "source_image_dimensions": [
+        4537,
+        2552
+      ],
+      "display_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "/assets/img/portfolio/fulin-port-complex/shuttle-station.webp",
+      "bytes": 320852,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 7,
+      "source_pdf_page": 1,
+      "pdfimages_index": 8,
+      "source_image_dimensions": [
+        4172,
+        4320
+      ],
+      "display_dimensions": [
+        2472,
+        2560
+      ],
+      "output": "/assets/img/portfolio/fulin-port-complex/education-atrium.webp",
+      "bytes": 677800,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    }
+  ],
+  "cover_confirmation": "User confirmed on 2026-11-01 that the supplied Fulin axonometric screenshot refers to this existing cover, not the Wanli campus project. Existing high-resolution extracted cover remains unchanged."
+}

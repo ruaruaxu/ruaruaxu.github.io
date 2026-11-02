@@ -1,3 +1,102 @@
+- title: New Mexico
+  year: 2026
+  layout_span: 2
+  place: New Mexico, USA
+  subtitle: New Mexico
+  country: United States
+  kind: Photography
+  photo_title: Untitled
+  image: /assets/img/portfolio/500px-3001241600.webp
+  image_large: /assets/img/portfolio/500px-3001241600.webp
+  alt: New Mexico by Wenrui Xu on 500px.com
+  description: New Mexico, USA.
+  count: 16
+  aspect: 1024 / 683
+  source_url: https://500px.com/gallery/azrKStBezvH
+  source_label: View on 500px
+  photos:
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241615.webp
+      source_url: https://500px.com/photo/F0ggKGB3RAC
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241614.webp
+      source_url: https://500px.com/photo/Zivp6cVfwF5
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241611.webp
+      source_url: https://500px.com/photo/8KR3Mrv8U1j
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241610.webp
+      source_url: https://500px.com/photo/ohKBZzjVYKd
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241609.webp
+      source_url: https://500px.com/photo/R6dN3xWZLGm
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241608.webp
+      source_url: https://500px.com/photo/MFeHAVhcyIk
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241601.webp
+      source_url: https://500px.com/photo/TVFytFYtTEp
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241600.webp
+      source_url: https://500px.com/photo/7GwHTEsTj19
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241594.webp
+      source_url: https://500px.com/photo/eg11zjhzEoD
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241593.webp
+      source_url: https://500px.com/photo/YB9Kpdep1Lf
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241592.webp
+      source_url: https://500px.com/photo/yYJI90c9mQ3
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241591.webp
+      source_url: https://500px.com/photo/3o88M1EMkPn
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 683 / 1024
+      image: /assets/img/portfolio/500px-3001241588.webp
+      source_url: https://500px.com/photo/SDjF7Ll70rn
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241587.webp
+      source_url: https://500px.com/photo/6e4QvNovNO8
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 653
+      image: /assets/img/portfolio/500px-3001241575.webp
+      source_url: https://500px.com/photo/41TdOnhOgyh
+    - title: Untitled
+      description: New Mexico, USA.
+      aspect: 1024 / 683
+      image: /assets/img/portfolio/500px-3001241574.webp
+      source_url: https://500px.com/photo/9QXrq7Nqql6
+  blog_url:
+
 - title: Hawaii
   year: 2026
   layout_span: 2
@@ -285,6 +384,113 @@
       image: /assets/img/portfolio/500px-1125122671.webp
       embed_url: https://500px.com/photo/1125122671/embed
       source_url: https://500px.com/photo/1125122671/rock-and-sea-by-wenrui-xu
+  blog_url:
+
+- title: "浙江万里学院余姚校区 / Zhejiang Wanli University"
+  card_title: "Zhejiang Wanli University"
+  year: 2025
+  place: "Yuyao, Zhejiang, China"
+  subtitle: "Zhejiang"
+  country: "China"
+  kind: "Landscape and Architectural Design"
+  photo_title: "Landscape — Water, Lawn, and Colonnade"
+  image: "/assets/img/portfolio/wanli-university/courtyard-pool.webp"
+  image_large: "/assets/img/portfolio/wanli-university/courtyard-pool.webp"
+  alt: "Reflecting pool and colonnade in the Zhejiang Wanli University Yuyao campus landscape design"
+  description: "Yuyao, Zhejiang, China.\nCampus landscape and teaching-building design studies. Campus planning refinement, landscape planning, and spatial design of key landscape nodes."
+  count: 12
+  aspect: "1800 / 1041"
+  layout_span: 2
+  photos:
+    - title: "Landscape — Water, Lawn, and Colonnade"
+      description: "Yuyao, Zhejiang, China.\nA reflecting pool and curved colonnade form the edge of the central lawn, connecting teaching buildings with outdoor gathering spaces. Wenrui Xu participated in campus planning refinement and landscape planning and led the spatial design of key landscape nodes."
+      image: "/assets/img/portfolio/wanli-university/courtyard-pool.webp"
+      aspect: "1800 / 1041"
+    - title: "Campus — A Connected Landscape Framework"
+      description: "Yuyao, Zhejiang, China.\nThe first-phase campus aerial places the central green, entrance spaces, teaching buildings, and waterways within one landscape framework."
+      image: "/assets/img/portfolio/wanli-university/campus-aerial.webp"
+      aspect: "2560 / 1441"
+    - title: "Landscape — Campus Masterplan"
+      description: "Yuyao, Zhejiang, China.\nThe landscape masterplan organizes named public spaces, planted routes, and water edges across the campus, connecting the entrance plazas with the central green."
+      image: "/assets/img/portfolio/wanli-university/landscape-masterplan.webp"
+      aspect: "2560 / 1569"
+    - title: "West Entrance — From Gateway to Campus"
+      description: "Yuyao, Zhejiang, China.\nThe west entrance unfolds through a gateway, lawns, and a planted pedestrian axis, forming a sequence from the campus threshold to its interior."
+      image: "/assets/img/portfolio/wanli-university/west-entrance.webp"
+      aspect: "2560 / 1479"
+    - title: "Gewu Plaza — A Place to Pause"
+      description: "Yuyao, Zhejiang, China.\nFlowering trees, low planting, and seating give the west entrance plaza a pedestrian scale and frame views toward the teaching buildings."
+      image: "/assets/img/portfolio/wanli-university/gewu-plaza.webp"
+      aspect: "1895 / 1067"
+    - title: "South Entrance — A Shaded Tree Court"
+      description: "Yuyao, Zhejiang, China.\nA regular tree canopy defines an outdoor room with loose seating, providing a setting for informal conversation beside the south entrance plaza."
+      image: "/assets/img/portfolio/wanli-university/tree-court.webp"
+      aspect: "2096 / 1181"
+    - title: "Central Green — Landscape and Building Edges"
+      description: "Yuyao, Zhejiang, China.\nThe central green brings lawn, water, and curving building edges together. Paths and planted pockets connect the surrounding academic spaces."
+      image: "/assets/img/portfolio/wanli-university/central-green.webp"
+      aspect: "2560 / 1672"
+    - title: "Yingyue Pond — A Shared Water Edge"
+      description: "Yuyao, Zhejiang, China.\nSeating terraces and planted edges make the pond a place to gather, while reflections and views connect the surrounding buildings."
+      image: "/assets/img/portfolio/wanli-university/moon-pond.webp"
+      aspect: "1656 / 931"
+    - title: "Bamboo Court — A Quiet Campus Room"
+      description: "Yuyao, Zhejiang, China.\nA bamboo grove, curving path, and integrated seating create an intimate space beside the teaching buildings."
+      image: "/assets/img/portfolio/wanli-university/bamboo-court.webp"
+      aspect: "1800 / 1014"
+    - title: "Architecture — Intelligent Manufacturing Teaching Building"
+      description: "Yuyao, Zhejiang, China.\nThe teaching-building concept uses a glazed central volume and warm-toned facade elements to define its public frontage and entrance."
+      image: "/assets/img/portfolio/wanli-university/teaching-building.webp"
+      aspect: "1834 / 1046"
+    - title: "Architecture — A Daylit Teaching Atrium"
+      description: "Yuyao, Zhejiang, China.\nThe interior concept organizes circulation around a skylit atrium with planted edges and shared space at ground level."
+      image: "/assets/img/portfolio/wanli-university/teaching-atrium.webp"
+      aspect: "1907 / 1046"
+    - title: "Architecture — Industry Engineering College"
+      description: "Yuyao, Zhejiang, China.\nThe academic-building concept combines a layered facade, transparent ground-floor frontage, and a landscaped pedestrian approach."
+      image: "/assets/img/portfolio/wanli-university/engineering-building.webp"
+      aspect: "1890 / 1063"
+
+- title: Honglian Primary School Renovation
+  card_title: Honglian Primary School
+  year: 2025
+  place: Xicheng, Beijing, China
+  subtitle: Beijing
+  country: China
+  kind: Architectural Design
+  photo_title: Honglian Primary School Renovation
+  image: /assets/img/portfolio/honglian-primary-school/cover.webp
+  image_large: /assets/img/portfolio/honglian-primary-school/page-1.webp
+  alt: Physical model of the Honglian Primary School renovation
+  description: Xicheng, Beijing, China.
+  count: 4
+  aspect: 2242 / 1495
+  photos:
+    - title: Campus Courtyards
+      description: |
+        Xicheng, Beijing, China.
+        Honglian Primary School renovation based on the spatial type of campus courtyards. Site research in December 2022 and design proposal in November 2023.
+      aspect: 1920 / 1080
+      image: /assets/img/portfolio/honglian-primary-school/cover.webp
+      image_large: /assets/img/portfolio/honglian-primary-school/page-1.webp
+    - title: Street Interface and Physical Model
+      description: |
+        Xicheng, Beijing, China.
+        Study of the relationships between the street-facing buildings, boundary walls, and urban street space.
+      aspect: 1920 / 1080
+      image: /assets/img/portfolio/honglian-primary-school/page-2.webp
+    - title: South Elevation
+      description: |
+        Xicheng, Beijing, China.
+        Before-renovation photograph, design rendering, and south elevation photograph from August 2024.
+      aspect: 1920 / 1080
+      image: /assets/img/portfolio/honglian-primary-school/page-3.webp
+    - title: South Courtyard
+      description: |
+        Xicheng, Beijing, China.
+        Opening ceremony held in the south playground courtyard on September 1, 2024.
+      aspect: 1920 / 1080
+      image: /assets/img/portfolio/honglian-primary-school/page-4.webp
   blog_url:
 
 - title: Hong Kong & Macau
@@ -1066,6 +1272,108 @@
   source_label: View on 500px
   blog_url:
 
+- title: "赏徽栖乡 — Jinzhai Housing and Wellness"
+  card_title: "赏徽栖乡"
+  year: 2024
+  place: "Jinzhai, Anhui, China"
+  subtitle: "Anhui"
+  country: "China"
+  kind: "Real Estate Competition"
+  photo_title: "赏徽栖乡 — Commercial Strategy"
+  image: "/assets/img/portfolio/shang-hui-qi-xiang/vision.webp"
+  image_large: "/assets/img/portfolio/shang-hui-qi-xiang/vision.webp"
+  alt: "Courtyard visualization from the Shang Hui Qi Xiang competition proposal"
+  description: "Jinzhai, Anhui, China.\n特等奖 / Grand Prize — 第三届全国高校房地产创新创业邀请赛. Team leader: Wenrui Xu. Team: Wondernova. The competition proposal connects market positioning, pricing, financial feasibility, and phased development."
+  count: 8
+  aspect: "16 / 9"
+  photos:
+    - title: "赏徽栖乡 — Commercial Strategy"
+      description: "Jinzhai, Anhui, China.\n特等奖 / Grand Prize — 第三届全国高校房地产创新创业邀请赛. Team leader: Wenrui Xu. Team: Wondernova. The competition proposal connects market positioning, pricing, financial feasibility, and phased development."
+      aspect: "864 / 486"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/vision.webp"
+    - title: "Positioning — Match Customers with Products"
+      description: "Jinzhai, Anhui, China.\nThe original proposal links target customer groups with the recommended housing mix and primary apartment types."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/product-positioning.webp"
+    - title: "Pricing — Comparable Projects and Adjustments"
+      description: "Jinzhai, Anhui, China.\nComparable projects and valuation-date adjustments establish the proposed pricing basis for the financial forecast."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/pricing-analysis.webp"
+    - title: "Finance — Discount Rate, Costs, and Revenue"
+      description: "Jinzhai, Anhui, China.\nThe original financial analysis sets out the discount-rate assumption, cost framework, sales absorption, and projected revenue."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/financial-assumptions.webp"
+    - title: "Finance — Cash Flow and Sensitivity"
+      description: "Jinzhai, Anhui, China.\nThe submitted cash-flow schedule examines the timing of investment recovery and identifies sale pricing as a key sensitivity. Figures shown are forecasts in the competition proposal."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/cash-flow-analysis.webp"
+    - title: "Finance — Capital Structure and Funding Costs"
+      description: "Jinzhai, Anhui, China.\nThe original financing proposal sets out the mix of equity, bank loans, and shareholder loans alongside the funding-cost schedule."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/financing-analysis.webp"
+    - title: "Risk — Market and Cash-Flow Management"
+      description: "Jinzhai, Anhui, China.\nThe proposal connects market research, financial early-warning mechanisms, funding diversification, and development management to the identified risks."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/risk-management.webp"
+    - title: "Strategy — Phased Development and Operations"
+      description: "Jinzhai, Anhui, China.\nThe original development strategy moves from housing-led delivery toward wellness, leisure, cultural, and tourism operations."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/shang-hui-qi-xiang/development-phasing.webp"
+
+- title: Shangsheng Xinsuo Case Study
+  card_title: Shangsheng Xinsuo
+  year: 2024
+  place: Changning, Shanghai, China
+  subtitle: Shanghai
+  country: China
+  kind: Urban Design Case Study
+  photo_title: Shangsheng Xinsuo Entrance Plaza
+  image: /assets/img/portfolio/shangsheng-xinsuo/cover.webp
+  image_large: /assets/img/portfolio/shangsheng-xinsuo/page-2.webp
+  alt: Entrance plaza plan from the Shangsheng Xinsuo case study
+  description: Changning, Shanghai, China.
+  count: 6
+  aspect: 1600 / 1800
+  photos:
+    - title: Overview and Urban Context
+      description: |
+        Changning, Shanghai, China.
+        Shangsheng Xinsuo entrance plaza case study. Drawings and analysis by Wenrui Xu.
+      aspect: 2560 / 1616
+      image: /assets/img/portfolio/shangsheng-xinsuo/cover.webp
+      image_large: /assets/img/portfolio/shangsheng-xinsuo/page-2.webp
+    - title: Neighborhood Context
+      description: |
+        Changning, Shanghai, China.
+        Shangsheng Xinsuo entrance plaza case study. Drawings and analysis by Wenrui Xu.
+      aspect: 2560 / 1616
+      image: /assets/img/portfolio/shangsheng-xinsuo/page-3.webp
+    - title: Entrance Plaza
+      description: |
+        Changning, Shanghai, China.
+        Shangsheng Xinsuo entrance plaza case study. Drawings and analysis by Wenrui Xu.
+      aspect: 2560 / 1616
+      image: /assets/img/portfolio/shangsheng-xinsuo/page-4.webp
+    - title: Building Edges
+      description: |
+        Changning, Shanghai, China.
+        Shangsheng Xinsuo entrance plaza case study. Drawings and analysis by Wenrui Xu.
+      aspect: 2560 / 1616
+      image: /assets/img/portfolio/shangsheng-xinsuo/page-5.webp
+    - title: Detail Plan and Section
+      description: |
+        Changning, Shanghai, China.
+        Shangsheng Xinsuo entrance plaza case study. Drawings and analysis by Wenrui Xu.
+      aspect: 2560 / 1616
+      image: /assets/img/portfolio/shangsheng-xinsuo/page-6.webp
+    - title: Detail Elevation and References
+      description: |
+        Changning, Shanghai, China.
+        Shangsheng Xinsuo entrance plaza case study. Drawings and analysis by Wenrui Xu.
+      aspect: 2560 / 1616
+      image: /assets/img/portfolio/shangsheng-xinsuo/page-7.webp
+  blog_url:
+
 - title: Lake Como
   year: 2024
   place: Lake Como, Italy
@@ -1370,6 +1678,150 @@
       embed_url: https://500px.com/photo/1125106042/embed
       source_url: https://500px.com/photo/1125106042/piazza-delle-erbe-by-wenrui-xu
   blog_url:
+
+- title: "跨界融城 / Huanggang Border Planning"
+  card_title: "跨界融城 · Border Planning"
+  year: 2023
+  place: "Shenzhen–Hong Kong border, China"
+  subtitle: "Shenzhen–Hong Kong"
+  country: "China"
+  kind: "Urban Planning and Design"
+  photo_title: "跨界融城 — A Connected Riverfront"
+  image: "/assets/img/portfolio/huanggang-border-planning/riverfront-aerial.webp"
+  image_large: "/assets/img/portfolio/huanggang-border-planning/riverfront-aerial.webp"
+  alt: "Riverfront aerial of the Huanggang border planning proposal by Wenrui Xu"
+  description: "Shenzhen–Hong Kong border, China.\n2023 graduation design by Wenrui Xu. District-scale functional structure, mobility, and riverfront urban form."
+  count: 3
+  aspect: "2560 / 1191"
+  layout_span: 2
+  photos:
+    - title: "跨界融城 — A Connected Riverfront"
+      description: "Shenzhen–Hong Kong border, China.\nThe planning proposal reorganizes the Huanggang border area as a connected riverfront district. Functional zoning and a layered transport network link the development areas to shared open space."
+      aspect: "2560 / 1191"
+      image: "/assets/img/portfolio/huanggang-border-planning/riverfront-aerial.webp"
+    - title: "Functional Structure"
+      description: "Shenzhen–Hong Kong border, China.\nResidential, medical technology, information technology, port, comprehensive-service, and small-scale R&D areas are organized around a shared border landscape."
+      aspect: "1839 / 1080"
+      image: "/assets/img/portfolio/huanggang-border-planning/functional-structure.webp"
+    - title: "Layered Transport Systems"
+      description: "Shenzhen–Hong Kong border, China.\nThe transport analysis separates and connects movement at multiple levels, linking the cross-border district, interchange points, and urban circulation."
+      aspect: "1765 / 2560"
+      image: "/assets/img/portfolio/huanggang-border-planning/transport-systems.webp"
+
+- title: "高线驿站 / Fulin Port Complex"
+  card_title: "高线驿站 · Port Complex"
+  year: 2023
+  place: "Shenzhen–Hong Kong border, China"
+  subtitle: "Shenzhen–Hong Kong"
+  country: "China"
+  kind: "Architectural Design"
+  photo_title: "高线驿站 — Fulin Port Complex"
+  image: "/assets/img/portfolio/fulin-port-complex/overall-axonometric.webp"
+  image_large: "/assets/img/portfolio/fulin-port-complex/overall-axonometric.webp"
+  alt: "Axonometric rendering of the Fulin port, hotel, and education complex by Wenrui Xu"
+  description: "Shenzhen–Hong Kong border, China.\n2023 graduation design by Wenrui Xu. Fulin port, cross-border hotel, and education complex."
+  count: 7
+  aspect: "2560 / 1175"
+  layout_span: 2
+  photos:
+    - title: "高线驿站 — Fulin Port Complex"
+      description: "Shenzhen–Hong Kong border, China.\nThe Fulin port, cross-border hotel, and education complex brings border crossing, hospitality, and teaching into a layered building. An elevated autonomous-shuttle loop connects the raised volumes and the port below."
+      aspect: "2560 / 1175"
+      image: "/assets/img/portfolio/fulin-port-complex/overall-axonometric.webp"
+    - title: "Ground Floor — Port and Public Connections"
+      description: "Shenzhen–Hong Kong border, China.\nThe ground-floor plan coordinates the port, education center, hotel access, and outdoor circulation across the site."
+      aspect: "2560 / 1376"
+      image: "/assets/img/portfolio/fulin-port-complex/ground-floor-plan.webp"
+    - title: "Section — A Vertical Public Realm"
+      description: "Shenzhen–Hong Kong border, China.\nThe section perspective brings the raised hotel, daylit education atrium, sunken street, and two basement levels into one spatial argument."
+      aspect: "2560 / 1189"
+      image: "/assets/img/portfolio/fulin-port-complex/section-perspective.webp"
+    - title: "Street Corner — Overlapping Sheltered Spaces"
+      description: "Shenzhen–Hong Kong border, China.\nThe elevated hotel and apartment volume creates layered sheltered spaces. The autonomous-shuttle loop attaches to the hotel and passes through the education-center volume."
+      aspect: "2560 / 1338"
+      image: "/assets/img/portfolio/fulin-port-complex/street-interface.webp"
+    - title: "Sunken Street — Connecting Below Ground"
+      description: "Shenzhen–Hong Kong border, China.\nThe second basement connects to the industrial park across the road. A continuous commercial frontage at the first basement leads toward Fulin metro station by the Shenzhen River."
+      aspect: "2560 / 1558"
+      image: "/assets/img/portfolio/fulin-port-complex/sunken-street.webp"
+    - title: "Shuttle Station — A Visible Transfer Point"
+      description: "Shenzhen–Hong Kong border, China.\nThe suspended loop becomes a continuous visual element within the education center and makes the transfer connection legible."
+      aspect: "2560 / 1440"
+      image: "/assets/img/portfolio/fulin-port-complex/shuttle-station.webp"
+    - title: "Education Atrium — Daylight and Movement"
+      description: "Shenzhen–Hong Kong border, China.\nSkylight and a continuous climbing route organize the cross-border education atrium. The shuttle loop marks the connection to the ground-floor port inspection starting point."
+      aspect: "2472 / 2560"
+      image: "/assets/img/portfolio/fulin-port-complex/education-atrium.webp"
+
+- title: '屋中屋 / Room Within "Room"'
+  card_title: 'Room Within "Room"'
+  year: 2023
+  place: China
+  subtitle: China
+  country: China
+  kind: Architectural Design
+  photo_title: 'Room Within "Room"'
+  image: /assets/img/portfolio/room-within-room/model-01.webp
+  image_large: /assets/img/portfolio/room-within-room/model-01.webp
+  alt: Overall physical model of Room Within Room by Wenrui Xu
+  description: |
+    China.
+    Village guesthouse studio design (2021), organized by terrain, distinct circulation routes, and layered rooms.
+    Selected for 胡滨《建筑设计教学档案》(2024) and featured in 胡滨’s article in 建筑学报 / Architectural Journal (2023).
+  count: 8
+  aspect: 3 / 2
+  blog_url: https://doi.org/10.19819/j.cnki.ISSN0529-1399.2023030007
+  blog_label: View journal article
+  photos:
+    - title: "Room Within \"Room\" — Terrain and Village"
+      description: |
+        China.
+        Terrain organizes the guesthouse. The slope separates public and private domains while stepped roofs relate the building to the village.
+        Selected for 胡滨《建筑设计教学档案》(2024) and featured in 胡滨’s article in 建筑学报 / Architectural Journal (2023).
+      aspect: 1920 / 1280
+      image: /assets/img/portfolio/room-within-room/model-01.webp
+    - title: "Concept — Public and Private Routes"
+      description: |
+        China.
+        Public and guest routes meet at the village book bar. The concept diagrams connect circulation, terrain, and different ways of inhabiting the guesthouse.
+      aspect: 2560 / 1207
+      image: /assets/img/portfolio/room-within-room/drawing-01.webp
+    - title: "Plan — A Shared Point Between Two Routes"
+      description: |
+        China.
+        The ground-floor plan makes the circulation strategy explicit. Public spaces and guest accommodation follow distinct routes, with the book bar as their shared point.
+      aspect: 2560 / 1809
+      image: /assets/img/portfolio/room-within-room/drawing-04.webp
+    - title: "Section — Rooms Across the Slope"
+      description: |
+        China.
+        Sections test the design across the slope. They show how changes in level connect enclosed rooms, outdoor circulation, and the cliffside plaza.
+      aspect: 2560 / 1809
+      image: /assets/img/portfolio/room-within-room/drawing-03.webp
+    - title: "Spatial Model — A Room Within a Room"
+      description: |
+        China.
+        A room within a room gives the attic its spatial identity. The cutaway model tests nested volumes and the stair as part of the inhabitable interior.
+      aspect: 1920 / 1280
+      image: /assets/img/portfolio/room-within-room/model-21.webp
+    - title: "Spatial Model — A Shared Interior Below Ground"
+      description: |
+        China.
+        A shared interior extends below ground. The cutaway model reveals the relationship between the village book bar and the subterranean communal living room.
+      aspect: 1920 / 1280
+      image: /assets/img/portfolio/room-within-room/model-17.webp
+    - title: "Atmosphere — The Cliffside Plaza"
+      description: |
+        China.
+        The cliffside plaza becomes a public edge for the guesthouse. The rendering brings together covered circulation, retained trees, and places to pause.
+      aspect: 2560 / 1809
+      image: /assets/img/portfolio/room-within-room/drawing-07.webp
+    - title: "Atmosphere — The Village Book Bar"
+      description: |
+        China.
+        The village book bar is the meeting point of the two circulation systems. The interior rendering conveys its height, daylight, and connection between levels.
+      aspect: 2560 / 1809
+      image: /assets/img/portfolio/room-within-room/drawing-08.webp
 
 - title: Morphological types of Chinese urban space
   year: 2023

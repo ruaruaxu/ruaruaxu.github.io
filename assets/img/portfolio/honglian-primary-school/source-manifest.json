@@ -1,0 +1,68 @@
+{
+  "prepared_at": "2026-11-01T15:15:47-08:00",
+  "source_filename": "红莲小学.pdf",
+  "source_pages": 4,
+  "source_pdf": "honglian-primary-school.pdf",
+  "portfolio_year": 2025,
+  "project_dates_in_source": [
+    "2022.12 site research",
+    "2023.11 design proposal",
+    "2024.08 south elevation photograph",
+    "2024.09.01 opening ceremony"
+  ],
+  "cover": {
+    "source_page": 1,
+    "source_object": "7 0",
+    "extraction": "pdfimages -f 1 -l 1 -j",
+    "extracted_image": "extracted-002.jpg",
+    "original_width": 2242,
+    "original_height": 1495,
+    "cropped": false
+  },
+  "pages": {
+    "rendering": "pdftoppm -scale-to 1920 -png",
+    "width": 1920,
+    "height": 1080
+  },
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "upscaled": false
+  },
+  "files": [
+    {
+      "file": "cover.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 109694
+    },
+    {
+      "file": "page-1.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 192694
+    },
+    {
+      "file": "page-2.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 150856
+    },
+    {
+      "file": "page-3.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 257332
+    },
+    {
+      "file": "page-4.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 507372
+    }
+  ],
+  "random_seed": 42,
+  "public_source_files": false,
+  "source_distribution": "Original PDF links removed at user request. Assistant-created website copy withdrawn; source images remain unchanged."
+}

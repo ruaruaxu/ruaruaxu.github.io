@@ -1,0 +1,94 @@
+{
+  "prepared_at": "2026-11-01T15:30:14-08:00",
+  "source_archive": "上生新所-徐文睿.zip",
+  "source_pdf_member": "“上生新所入口广场_20230807”文件夹/上生新所入口广场_20230807.pdf",
+  "source_pdf": "shangsheng-xinsuo-case-study.pdf",
+  "source_pdf_bytes": 11917307,
+  "source_pdf_pages": 7,
+  "displayed_pdf_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "omitted_pdf_pages": [
+    {
+      "page": 1,
+      "reason": "Blank page"
+    }
+  ],
+  "portfolio_year": 2024,
+  "source_document_date": "2023-08-14",
+  "cover_source_member": "“上生新所入口广场_20230807”文件夹/Links/4 建筑尺度-平面.jpg",
+  "cover_cropped": false,
+  "page_rendering": "pdftoppm -f 2 -l 7 -scale-to 2560 -png",
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "upscaled": false
+  },
+  "files": [
+    {
+      "file": "cover.webp",
+      "width": 1600,
+      "height": 1800,
+      "bytes": 335568,
+      "source_width": 9448,
+      "source_height": 10629
+    },
+    {
+      "file": "page-2.webp",
+      "width": 2560,
+      "height": 1616,
+      "bytes": 531024,
+      "source_width": 2560,
+      "source_height": 1616
+    },
+    {
+      "file": "page-3.webp",
+      "width": 2560,
+      "height": 1616,
+      "bytes": 287836,
+      "source_width": 2560,
+      "source_height": 1616
+    },
+    {
+      "file": "page-4.webp",
+      "width": 2560,
+      "height": 1616,
+      "bytes": 450642,
+      "source_width": 2560,
+      "source_height": 1616
+    },
+    {
+      "file": "page-5.webp",
+      "width": 2560,
+      "height": 1616,
+      "bytes": 350278,
+      "source_width": 2560,
+      "source_height": 1616
+    },
+    {
+      "file": "page-6.webp",
+      "width": 2560,
+      "height": 1616,
+      "bytes": 494292,
+      "source_width": 2560,
+      "source_height": 1616
+    },
+    {
+      "file": "page-7.webp",
+      "width": 2560,
+      "height": 1616,
+      "bytes": 274714,
+      "source_width": 2560,
+      "source_height": 1616
+    }
+  ],
+  "random_seed": 42,
+  "public_source_files": false,
+  "source_distribution": "Original PDF links removed at user request. Assistant-created website copy withdrawn; source images remain unchanged."
+}
