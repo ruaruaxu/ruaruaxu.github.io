@@ -122,5 +122,7 @@
       "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
     }
   ],
-  "cover_confirmation": "User confirmed on 2026-11-01 that the supplied Fulin axonometric screenshot refers to this existing cover, not the Wanli campus project. Existing high-resolution extracted cover remains unchanged."
+  "cover_confirmation": "Superseded by user request to merge both components: the riverfront planning aerial is now the combined cover and first image, and this component's original overall axonometric is the second image.",
+  "gallery_membership": "Component of the combined 2023 gallery 跨界融城 · 高线驿站. This folder and its image paths remain unchanged; there is no separate gallery card.",
+  "gallery_manifest": "../huanggang-border-planning/source-manifest.json"
 }
