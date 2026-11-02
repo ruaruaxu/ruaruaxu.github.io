@@ -64,5 +64,9 @@
   ],
   "random_seed": 42,
   "public_source_files": false,
-  "source_distribution": "Original PDF links removed at user request. Assistant-created website copy withdrawn; source images remain unchanged."
+  "source_distribution": "Original PDF links removed at user request. Assistant-created website copy withdrawn; source images remain unchanged.",
+  "completion_status": {
+    "status": "Completed renovation (2024)",
+    "evidence": "User requested completed-project wording. Supplied PDF page 3 contains the south-elevation photograph dated August 2024; page 4 identifies the opening ceremony on 2024-09-01."
+  }
 }
