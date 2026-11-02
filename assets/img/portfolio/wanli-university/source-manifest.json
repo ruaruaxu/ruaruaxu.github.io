@@ -1,0 +1,306 @@
+{
+  "project": "浙江万里学院余姚校区 / Zhejiang Wanli University",
+  "portfolio_year": 2025,
+  "source_pdf": "硕士学位论文答辩PPT_徐文睿 2023210060(1).pdf",
+  "source_bytes": 50159881,
+  "source_page_count": 70,
+  "source_date": "2025-05-18",
+  "scope": "One design portfolio entry, curated from the landscape and architectural-design material only. No research slides, full-slide screenshots, or full defense PDF are published.",
+  "role_evidence": {
+    "page": 44,
+    "text": [
+      "配合项目组进行校园规划调整深化",
+      "参与景观规划和专项设计",
+      "负责主要景观节点空间塑造"
+    ]
+  },
+  "credit_notes": "Pages 55, 56, 59, 60, and 61 label selected drawings 自绘. Page 63 contains the building concept studies requested by the user. The team-sourced overall aerial on page 51 and external landscape precedents on page 55 are excluded. No claim of sole authorship of the overall campus or of completed construction is added.",
+  "cover": "Page 61, architectural colonnade beside the courtyard pool, object 5183. Selected after user clarified that the supplied Fulin image confirms the previous project cover.",
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "max_dimension": 2560,
+    "upscale": false,
+    "crop": false
+  },
+  "randomness": "No randomized operations",
+  "images": [
+    {
+      "order": 1,
+      "source_pdf_page": 61,
+      "pdf_object_id": 5183,
+      "pdf_xobject_name": "IM5183",
+      "source_bbox_points": [
+        673.8,
+        235.92,
+        889.8,
+        356.76
+      ],
+      "source_dimensions": [
+        1800,
+        1041
+      ],
+      "display_dimensions": [
+        1800,
+        1041
+      ],
+      "output": "/assets/img/portfolio/wanli-university/courtyard-pool.webp",
+      "bytes": 410322,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 2,
+      "source_pdf_page": 55,
+      "pdf_object_id": 4160,
+      "pdf_xobject_name": "IM4160",
+      "source_bbox_points": [
+        422.76,
+        164.88,
+        911.88,
+        440.28
+      ],
+      "source_dimensions": [
+        3840,
+        2162
+      ],
+      "display_dimensions": [
+        2560,
+        1441
+      ],
+      "output": "/assets/img/portfolio/wanli-university/campus-aerial.webp",
+      "bytes": 972166,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 3,
+      "source_pdf_page": 56,
+      "pdf_object_id": 4163,
+      "pdf_xobject_name": "IM4163",
+      "source_bbox_points": [
+        21.36,
+        94.8,
+        681.6,
+        499.56
+      ],
+      "source_dimensions": [
+        3524,
+        2160
+      ],
+      "display_dimensions": [
+        2560,
+        1569
+      ],
+      "output": "/assets/img/portfolio/wanli-university/landscape-masterplan.webp",
+      "bytes": 835878,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 4,
+      "source_pdf_page": 59,
+      "pdf_object_id": 4382,
+      "pdf_xobject_name": "IM4382",
+      "source_bbox_points": [
+        38.16,
+        114.72,
+        482.52,
+        371.4
+      ],
+      "source_dimensions": [
+        3338,
+        1928
+      ],
+      "display_dimensions": [
+        2560,
+        1479
+      ],
+      "output": "/assets/img/portfolio/wanli-university/west-entrance.webp",
+      "bytes": 805150,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 5,
+      "source_pdf_page": 59,
+      "pdf_object_id": 4387,
+      "pdf_xobject_name": "IM4387",
+      "source_bbox_points": [
+        38.16,
+        378.72,
+        259.56,
+        506.76
+      ],
+      "source_dimensions": [
+        1895,
+        1067
+      ],
+      "display_dimensions": [
+        1895,
+        1067
+      ],
+      "output": "/assets/img/portfolio/wanli-university/gewu-plaza.webp",
+      "bytes": 388568,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 6,
+      "source_pdf_page": 60,
+      "pdf_object_id": 4814,
+      "pdf_xobject_name": "IM4814",
+      "source_bbox_points": [
+        699.12,
+        273.6,
+        950.64,
+        415.32
+      ],
+      "source_dimensions": [
+        2096,
+        1181
+      ],
+      "display_dimensions": [
+        2096,
+        1181
+      ],
+      "output": "/assets/img/portfolio/wanli-university/tree-court.webp",
+      "bytes": 760554,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 7,
+      "source_pdf_page": 61,
+      "pdf_object_id": 5177,
+      "pdf_xobject_name": "IM5177",
+      "source_bbox_points": [
+        53.04,
+        114.36,
+        442.68,
+        368.64
+      ],
+      "source_dimensions": [
+        3043,
+        1987
+      ],
+      "display_dimensions": [
+        2560,
+        1672
+      ],
+      "output": "/assets/img/portfolio/wanli-university/central-green.webp",
+      "bytes": 532132,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 8,
+      "source_pdf_page": 61,
+      "pdf_object_id": 5179,
+      "pdf_xobject_name": "IM5179",
+      "source_bbox_points": [
+        244.2,
+        372.6,
+        442.8,
+        484.32
+      ],
+      "source_dimensions": [
+        1656,
+        931
+      ],
+      "display_dimensions": [
+        1656,
+        931
+      ],
+      "output": "/assets/img/portfolio/wanli-university/moon-pond.webp",
+      "bytes": 330652,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 9,
+      "source_pdf_page": 61,
+      "pdf_object_id": 5185,
+      "pdf_xobject_name": "IM5185",
+      "source_bbox_points": [
+        673.8,
+        362.64,
+        889.8,
+        484.32
+      ],
+      "source_dimensions": [
+        1800,
+        1014
+      ],
+      "display_dimensions": [
+        1800,
+        1014
+      ],
+      "output": "/assets/img/portfolio/wanli-university/bamboo-court.webp",
+      "bytes": 439682,
+      "credit": "自绘, as labeled in the defense PDF"
+    },
+    {
+      "order": 10,
+      "source_pdf_page": 63,
+      "pdf_object_id": 5528,
+      "pdf_xobject_name": "IM5528",
+      "source_bbox_points": [
+        51.96,
+        114.72,
+        271.92,
+        240.24
+      ],
+      "source_dimensions": [
+        1834,
+        1046
+      ],
+      "display_dimensions": [
+        1834,
+        1046
+      ],
+      "output": "/assets/img/portfolio/wanli-university/teaching-building.webp",
+      "bytes": 366690,
+      "credit": "Building concept studies presented on defense PDF page 63"
+    },
+    {
+      "order": 11,
+      "source_pdf_page": 63,
+      "pdf_object_id": 5531,
+      "pdf_xobject_name": "IM5531",
+      "source_bbox_points": [
+        355.68,
+        113.88,
+        575.64,
+        239.4
+      ],
+      "source_dimensions": [
+        1907,
+        1046
+      ],
+      "display_dimensions": [
+        1907,
+        1046
+      ],
+      "output": "/assets/img/portfolio/wanli-university/teaching-atrium.webp",
+      "bytes": 186314,
+      "credit": "Building concept studies presented on defense PDF page 63"
+    },
+    {
+      "order": 12,
+      "source_pdf_page": 63,
+      "pdf_object_id": 5534,
+      "pdf_xobject_name": "IM5534",
+      "source_bbox_points": [
+        638.52,
+        114.72,
+        865.2,
+        242.28
+      ],
+      "source_dimensions": [
+        1890,
+        1063
+      ],
+      "display_dimensions": [
+        1890,
+        1063
+      ],
+      "output": "/assets/img/portfolio/wanli-university/engineering-building.webp",
+      "bytes": 356738,
+      "credit": "Building concept studies presented on defense PDF page 63"
+    }
+  ]
+}

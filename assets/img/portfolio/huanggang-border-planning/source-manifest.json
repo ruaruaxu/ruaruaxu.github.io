@@ -1,0 +1,61 @@
+{
+  "project": "跨界融城 / Huanggang Border Planning",
+  "portfolio_year": 2023,
+  "source_pdf": "1953424-徐文睿-建筑学(四)-展览展板.pdf",
+  "source_bytes": 37713388,
+  "source_page_count": 1,
+  "source_credit": "设计人：徐文睿；指导教师：陈泳、谭峥",
+  "selection": "Curated after user requested a higher visual and information standard. Planning: one aerial plus functional and transport systems (3). Architecture: overall axonometric, ground-floor plan, section perspective, and four distinct spatial experiences (7).",
+  "omissions": "Exclude the repetitive lower-resolution aerial, four basic massing/strategy diagrams, repetitive second-to-fourth floor plans, low-contrast basement-plan overlays, exhibition header, and original poster layout. No full-poster image or PDF is published.",
+  "randomness": "No randomized operations",
+  "images": [
+    {
+      "order": 1,
+      "source_pdf_page": 1,
+      "pdfimages_index": 1,
+      "source_image_dimensions": [
+        3626,
+        1687
+      ],
+      "display_dimensions": [
+        2560,
+        1191
+      ],
+      "output": "/assets/img/portfolio/huanggang-border-planning/riverfront-aerial.webp",
+      "bytes": 580222,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 2,
+      "source_pdf_page": 1,
+      "pdfimages_index": 4,
+      "source_image_dimensions": [
+        1839,
+        1080
+      ],
+      "display_dimensions": [
+        1839,
+        1080
+      ],
+      "output": "/assets/img/portfolio/huanggang-border-planning/functional-structure.webp",
+      "bytes": 297830,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    },
+    {
+      "order": 3,
+      "source_pdf_page": 1,
+      "pdfimages_index": 3,
+      "source_image_dimensions": [
+        2981,
+        4324
+      ],
+      "display_dimensions": [
+        1765,
+        2560
+      ],
+      "output": "/assets/img/portfolio/huanggang-border-planning/transport-systems.webp",
+      "bytes": 339688,
+      "transform": "Extract embedded image with pdfimages; retain full image; resize without upscaling; WebP quality 85 method 6"
+    }
+  ]
+}

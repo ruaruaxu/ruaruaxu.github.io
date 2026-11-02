@@ -1,0 +1,140 @@
+{
+  "prepared_at": "2026-11-01T15:44:00-08:00",
+  "title": "赏徽栖乡",
+  "portfolio_year": 2024,
+  "competition": "第三届全国高校房地产创新创业邀请赛",
+  "team": "Wondernova",
+  "role": {
+    "name": "Wenrui Xu",
+    "role": "Team leader",
+    "evidence": "User explicitly identified himself as team leader and requested no detailed division of responsibilities."
+  },
+  "source_filename": "房地产大赛终稿PPT.ppt",
+  "source_format": "PowerPoint 97–2003 (.ppt)",
+  "source_bytes": 90562560,
+  "source_last_saved_date": "2021-10-22 (embedded legacy-file metadata)",
+  "source_slides": 49,
+  "source_pdf": "房地产大赛终稿PPT.pdf",
+  "source_pdf_bytes": 13443318,
+  "conversion": "LibreOffice 26.2.2.2, headless impress_pdf_Export",
+  "selected_source_slides": [
+    25,
+    20,
+    36,
+    39,
+    41,
+    42,
+    44,
+    46
+  ],
+  "image_extraction": "pdfimages -f <slide> -l <slide> -j",
+  "slide_rendering": "pdftoppm -f <slide> -l <slide> -scale-to 2560 -singlefile -png",
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "upscaled": false
+  },
+  "scope": "Team competition proposal. Award appears only in the opened gallery caption. Financial numbers remain original submitted forecasts and have not been independently audited or recalculated.",
+  "files": [
+    {
+      "file": "vision.webp",
+      "source_slide": 25,
+      "source_preview_asset": "extract-25-014.jpg",
+      "source_type": "Original embedded image",
+      "width": 864,
+      "height": 486,
+      "bytes": 73518,
+      "title": "赏徽栖乡 — Commercial Strategy",
+      "caption": "特等奖 / Grand Prize — 第三届全国高校房地产创新创业邀请赛. Team leader: Wenrui Xu. Team: Wondernova. The competition proposal connects market positioning, pricing, financial feasibility, and phased development."
+    },
+    {
+      "file": "product-positioning.webp",
+      "source_slide": 20,
+      "source_preview_asset": "product-mix.png",
+      "source_type": "Full original slide rendered from the PPT conversion; no re-layout, cropping, redrawing, or data changes",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 296812,
+      "title": "Positioning — Match Customers with Products",
+      "caption": "The original proposal links target customer groups with the recommended housing mix and primary apartment types."
+    },
+    {
+      "file": "pricing-analysis.webp",
+      "source_slide": 36,
+      "source_preview_asset": "full-slide-36.png",
+      "source_type": "Full original slide rendered from the PPT conversion; no re-layout, cropping, redrawing, or data changes",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 318792,
+      "title": "Pricing — Comparable Projects and Adjustments",
+      "caption": "Comparable projects and valuation-date adjustments establish the proposed pricing basis for the financial forecast."
+    },
+    {
+      "file": "financial-assumptions.webp",
+      "source_slide": 39,
+      "source_preview_asset": "slide-39.png",
+      "source_type": "Full original slide rendered from the PPT conversion; no re-layout, cropping, redrawing, or data changes",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 327776,
+      "title": "Finance — Discount Rate, Costs, and Revenue",
+      "caption": "The original financial analysis sets out the discount-rate assumption, cost framework, sales absorption, and projected revenue."
+    },
+    {
+      "file": "cash-flow-analysis.webp",
+      "source_slide": 41,
+      "source_preview_asset": "slide-41.png",
+      "source_type": "Full original slide rendered from the PPT conversion; no re-layout, cropping, redrawing, or data changes",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 268444,
+      "title": "Finance — Cash Flow and Sensitivity",
+      "caption": "The submitted cash-flow schedule examines the timing of investment recovery and identifies sale pricing as a key sensitivity. Figures shown are forecasts in the competition proposal."
+    },
+    {
+      "file": "financing-analysis.webp",
+      "source_slide": 42,
+      "source_preview_asset": "slide-42.png",
+      "source_type": "Full original slide rendered from the PPT conversion; no re-layout, cropping, redrawing, or data changes",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 247390,
+      "title": "Finance — Capital Structure and Funding Costs",
+      "caption": "The original financing proposal sets out the mix of equity, bank loans, and shareholder loans alongside the funding-cost schedule."
+    },
+    {
+      "file": "risk-management.webp",
+      "source_slide": 44,
+      "source_preview_asset": "slide-44.png",
+      "source_type": "Full original slide rendered from the PPT conversion; no re-layout, cropping, redrawing, or data changes",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 243424,
+      "title": "Risk — Market and Cash-Flow Management",
+      "caption": "The proposal connects market research, financial early-warning mechanisms, funding diversification, and development management to the identified risks."
+    },
+    {
+      "file": "development-phasing.webp",
+      "source_slide": 46,
+      "source_preview_asset": "full-slide-46.png",
+      "source_type": "Full original slide rendered from the PPT conversion; no re-layout, cropping, redrawing, or data changes",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 272316,
+      "title": "Strategy — Phased Development and Operations",
+      "caption": "The original development strategy moves from housing-led delivery toward wellness, leisure, cultural, and tourism operations."
+    }
+  ],
+  "random_seed": 42,
+  "updated_at": "2026-11-01T16:27:35-08:00",
+  "award": {
+    "name_zh": "特等奖",
+    "name_en": "Grand Prize",
+    "evidence": "User explicitly stated the competition award in this chat. No independent award certificate inspected."
+  },
+  "presentation_mode": "Selected original competition work. One original rendering as cover, followed by unchanged original PPT slide images emphasizing commercial and financial analysis. No newly authored charts or slides.",
+  "source_ppt": "房地产大赛终稿PPT.ppt",
+  "public_source_files": false,
+  "original_format_note": "Some text wraps in the LibreOffice conversion. Original values and layout are retained. No newly authored visuals are used."
+}

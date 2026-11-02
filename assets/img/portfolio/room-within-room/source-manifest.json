@@ -1,0 +1,168 @@
+{
+  "prepared_at": "2026-11-01T15:36:20-08:00",
+  "title": "屋中屋 / Room Within \"Room\"",
+  "portfolio_year": 2023,
+  "design_year": 2021,
+  "source_model_directory": "最终模型照片",
+  "source_drawings_filename": "徐文睿 1953424.pdf",
+  "source_pdf": "room-within-room-drawings.pdf",
+  "cover_source": "1：100/总体2.jpg",
+  "cover_cropped": false,
+  "model_photos": 3,
+  "drawing_boards": 5,
+  "page_rendering": "pdftoppm -scale-to 2560 -png",
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "upscaled": false
+  },
+  "publications": {
+    "book": {
+      "author": "胡滨",
+      "title": "建筑设计教学档案：以议题开启的设计教学实践",
+      "publisher": "同济大学出版社",
+      "year": 2024,
+      "isbn": "9787576513462",
+      "metadata_source": "https://jp.tfswufe.edu.cn/opac/book/554aad2951af3fed9c6830982fcb5376",
+      "inclusion_evidence": "User explicitly stated the project is included in this book. Book pages not independently inspected.",
+      "page_numbers": "Omitted at user request"
+    },
+    "journal": {
+      "author": "胡滨",
+      "title": "以议题启动的设计教学法研究",
+      "journal": "建筑学报 / Architectural Journal",
+      "year": 2023,
+      "issue": "03",
+      "pages": "32–40",
+      "doi": "10.19819/j.cnki.ISSN0529-1399.2023030007",
+      "project_evidence": "Figure 10 on printed page 39 names 徐文睿，2021年 and reproduces the supplied overall model, plan, rendering, and section.",
+      "source_pdf_filename": "202303_Special issue 胡滨.pdf",
+      "source_pdf_page": 8,
+      "article_authorship": "Hu Bin. The project is featured as student work, not a journal article authored by Wenrui Xu."
+    }
+  },
+  "files": [
+    {
+      "file": "model-01.webp",
+      "source": "1：100/总体2.jpg",
+      "type": "model photograph",
+      "width": 1920,
+      "height": 1280,
+      "source_width": 6000,
+      "source_height": 4000,
+      "bytes": 55484
+    },
+    {
+      "file": "drawing-01.webp",
+      "source_pdf_page": 1,
+      "type": "drawing board",
+      "width": 2560,
+      "height": 1207,
+      "bytes": 183778
+    },
+    {
+      "file": "drawing-04.webp",
+      "source_pdf_page": 4,
+      "type": "drawing board",
+      "width": 2560,
+      "height": 1809,
+      "bytes": 298238
+    },
+    {
+      "file": "drawing-03.webp",
+      "source_pdf_page": 3,
+      "type": "drawing board",
+      "width": 2560,
+      "height": 1809,
+      "bytes": 166920
+    },
+    {
+      "file": "model-21.webp",
+      "source": "1：50 剖切/剖面 楼梯间与阁楼的家.jpg",
+      "type": "model photograph",
+      "width": 1920,
+      "height": 1280,
+      "source_width": 6000,
+      "source_height": 4000,
+      "bytes": 349732
+    },
+    {
+      "file": "model-17.webp",
+      "source": "1：50 剖切/剖面 局部 乡村书吧、地穴公共客厅.jpg",
+      "type": "model photograph",
+      "width": 1920,
+      "height": 1280,
+      "source_width": 5853,
+      "source_height": 3902,
+      "bytes": 191214
+    },
+    {
+      "file": "drawing-07.webp",
+      "source_pdf_page": 7,
+      "type": "drawing board",
+      "width": 2560,
+      "height": 1809,
+      "bytes": 438634
+    },
+    {
+      "file": "drawing-08.webp",
+      "source_pdf_page": 8,
+      "type": "drawing board",
+      "width": 2560,
+      "height": 1809,
+      "bytes": 175022
+    }
+  ],
+  "random_seed": 42,
+  "curation": {
+    "requested_by_user": "Select strong images, tell a coherent design story, and foreground design capabilities.",
+    "story": [
+      "Site and terrain",
+      "Circulation strategy",
+      "Spatial organization in section",
+      "Physical model exploration",
+      "Atmospheric communication"
+    ],
+    "selected_images": 8,
+    "original_model_photos_available": 30,
+    "original_drawing_boards_available": 10,
+    "full_drawings_pdf_retained_as_supplement": true,
+    "removed_generated_preview_files": [
+      "model-02.webp",
+      "model-03.webp",
+      "model-04.webp",
+      "model-05.webp",
+      "model-06.webp",
+      "model-07.webp",
+      "model-08.webp",
+      "model-09.webp",
+      "model-10.webp",
+      "model-11.webp",
+      "model-12.webp",
+      "model-13.webp",
+      "model-14.webp",
+      "model-15.webp",
+      "model-16.webp",
+      "model-18.webp",
+      "model-19.webp",
+      "model-20.webp",
+      "model-22.webp",
+      "model-23.webp",
+      "model-24.webp",
+      "model-25.webp",
+      "model-26.webp",
+      "model-27.webp",
+      "model-28.webp",
+      "model-29.webp",
+      "model-30.webp",
+      "drawing-02.webp",
+      "drawing-05.webp",
+      "drawing-06.webp",
+      "drawing-09.webp",
+      "drawing-10.webp"
+    ]
+  },
+  "public_source_files": false,
+  "source_distribution": "Original PDF links removed at user request. Assistant-created website copy withdrawn; source images remain unchanged."
+}

@@ -242,6 +242,8 @@ permalink: /portfolio/
   }
 
   .portfolio-lightbox-figure {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
     margin: 0;
     max-height: 100%;
     position: relative;
@@ -268,25 +270,33 @@ permalink: /portfolio/
   }
 
   .portfolio-lightbox-media {
+    align-self: stretch;
     align-items: center;
+    aspect-ratio: var(--portfolio-lightbox-aspect, 4 / 3);
     display: flex;
     justify-content: center;
-    max-height: calc(100vh - 120px);
+    min-height: 0;
+    position: relative;
     width: 100%;
   }
 
   .portfolio-lightbox img {
     display: block;
-    max-height: calc(100vh - 120px);
+    height: 100%;
+    max-height: 100%;
     max-width: 100%;
     object-fit: contain;
+    position: absolute;
+    width: 100%;
   }
 
   .portfolio-lightbox-embed {
     aspect-ratio: var(--portfolio-lightbox-aspect, 4 / 3);
     border: 0;
     display: none;
-    max-height: calc(100vh - 120px);
+    height: 100%;
+    max-height: 100%;
+    position: absolute;
     width: 100%;
   }
 
@@ -539,6 +549,7 @@ permalink: /portfolio/
             data-kind="{{ item.kind | escape }}"
             data-description="{{ item.description | escape }}"
             data-blog-url="{{ item.blog_url }}"
+            data-blog-label="{{ item.blog_label | default: 'Read blog' | escape }}"
             data-embed-url="{{ item.embed_url }}"
             data-source-url="{{ item.source_url }}"
             data-source-label="{{ item.source_label | default: 'View on 500px' | escape }}"
@@ -801,6 +812,7 @@ permalink: /portfolio/
       const aspectRatio = Number(aspectParts[0]) / Number(aspectParts[1]);
       lightbox.style.setProperty("--portfolio-lightbox-aspect", activeAspect);
       lightbox.style.setProperty("--portfolio-lightbox-aspect-ratio", Number.isFinite(aspectRatio) ? aspectRatio : 1.3333);
+      embed.title = "500px embedded photo";
       if (activePhoto.embedUrl && activePhoto.image.includes('://')) {
         image.removeAttribute('src');
         image.style.display = "none";
@@ -824,6 +836,7 @@ permalink: /portfolio/
       nextButton.disabled = !hasMultiplePhotos;
       if (card.dataset.blogUrl) {
         blogLink.href = card.dataset.blogUrl;
+        blogLink.textContent = card.dataset.blogLabel || "Read blog";
         blogLink.classList.add('is-visible');
       } else {
         blogLink.removeAttribute('href');
@@ -849,6 +862,7 @@ permalink: /portfolio/
     }
 
     function closeLightbox() {
+      embed.removeAttribute('src');
       lightbox.classList.remove('is-open');
       lightbox.setAttribute('aria-hidden', 'true');
       document.body.style.overflow = '';
