@@ -1,0 +1,47 @@
+{
+  "prepared_at": "2026-11-01T17:39:06-08:00",
+  "project": "拉孜梦想教室 / Lhatse Dream Classroom",
+  "portfolio_year": 2021,
+  "source_files": [
+    "拉孜梦想教室改造方案(1).pdf",
+    "“两路照我行” 同济梦想教室在日喀则拉孜县顺利落成！(1).docx"
+  ],
+  "selection": "Completed interior from DOCX as cover and first image; original PDF page 4 intact as the before-renovation comparison. No ceremony, teaching, medical, or other activity photographs included.",
+  "completion_basis": "User-supplied DOCX paragraphs 1 and 8 describe the 2021 summer practice and classroom completion after 12 days of construction, furnishing, and mural painting.",
+  "spatial_claims_basis": "PDF page 4 gives approximately 67 m² and school requirements; DOCX paragraph 6 describes six spatial zones and stepped bookshelves.",
+  "attribution": "Team project. Existing homepage identifies Wenrui Xu as a Dream Classroom Volunteer. No individual design responsibility asserted.",
+  "school_location_note": "Homepage names a primary school while the supplied article also mentions Lhatse County Middle School. The website caption uses county-level location without resolving the institution.",
+  "story_url": "https://mp.weixin.qq.com/s/Ey6OsoMCLCJfH4P7ziNsDg",
+  "story_link_basis": "Reused verbatim from the existing homepage Lhatse entry. Remote article content not independently read.",
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "photo_upscaled": false,
+    "cropped": false,
+    "retouched": false,
+    "pdf_page_render_longest_edge": 1600,
+    "source_exif_copied": false
+  },
+  "original_documents_published": false,
+  "files": [
+    {
+      "file": "completed-classroom.webp",
+      "width": 767,
+      "height": 511,
+      "bytes": 38418,
+      "title": "Lhatse Dream Classroom — Completed Interior",
+      "description": "Lhatse, Shigatse, Tibet, China.\nCompleted in 2021. The renovated classroom brings reading, teaching, independent study, and group discussion into one shared space. Stepped bookshelves, flexible tables, and a landscape mural connect the room’s activities and spatial identity.",
+      "source": "DOCX word/media/image2.jpeg; paragraph 7 follows the spatial-design description and precedes the completion account."
+    },
+    {
+      "file": "before-renovation.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 189960,
+      "title": "Before Renovation — Existing Space and School Requirements",
+      "description": "Lhatse, Shigatse, Tibet, China.\nPage 4 of the original proposal records the existing classroom and the school’s requirements. The approximately 67 m² room was to accommodate independent study, lessons, reading, and discussion.",
+      "source": "PDF page 4 rendered intact with pdftoppm -f 4 -l 4 -scale-to 1600 -png -singlefile."
+    }
+  ]
+}

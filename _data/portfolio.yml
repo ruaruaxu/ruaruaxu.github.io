@@ -1817,3 +1817,69 @@
       embed_url: https://500px.com/photo/1125105315/embed
       source_url: https://500px.com/photo/1125105315/may-fourth-square-by-wenrui-xu
   blog_url:
+
+- title: "同济梦想教室 / Tongji Dream Classroom"
+  card_title: "Tongji Dream Classroom"
+  year: 2022
+  place: "Huocheng, Ili, Xinjiang, China"
+  subtitle: "Huocheng, Xinjiang"
+  country: "China"
+  kind: "Community Design and Volunteer Practice"
+  photo_title: "Tongji Dream Classroom — Students and Volunteers"
+  image: "/assets/img/portfolio/tongji-dream-classroom/students-and-volunteers.webp"
+  image_large: "/assets/img/portfolio/tongji-dream-classroom/students-and-volunteers.webp"
+  alt: "Students and volunteers in the completed Tongji Dream Classroom in Huocheng, Xinjiang"
+  description: "Huocheng, Ili, Xinjiang, China.\nVolunteer participation in the Tongji Dream Classroom project at Huocheng County Middle School. These photographs document the completed classroom and activities with students."
+  count: 5
+  aspect: "2560 / 1442"
+  layout_span: 2
+  blog_url: "https://mp.weixin.qq.com/s/i5wdBYEOpGJl6prYkR5HWg"
+  blog_label: "Read project story"
+  photos:
+    - title: "Tongji Dream Classroom — Students and Volunteers"
+      description: "Huocheng, Ili, Xinjiang, China.\nVolunteer participation in the Tongji Dream Classroom project at Huocheng County Middle School. These photographs document the completed classroom and activities with students."
+      aspect: "2560 / 1442"
+      image: "/assets/img/portfolio/tongji-dream-classroom/students-and-volunteers.webp"
+    - title: "Classroom — Color and Shared Space"
+      description: "Huocheng, Ili, Xinjiang, China.\nA mountain mural and a continuous, undulating bookcase give the classroom a shared visual identity. Modular tables occupy the center of the room."
+      aspect: "2560 / 1442"
+      image: "/assets/img/portfolio/tongji-dream-classroom/classroom-interior.webp"
+    - title: "Classroom — A Place by the Window"
+      description: "Huocheng, Ili, Xinjiang, China.\nStepped seating follows the windows, adding a place to sit and gather alongside the classroom tables."
+      aspect: "2560 / 1442"
+      image: "/assets/img/portfolio/tongji-dream-classroom/window-seating.webp"
+    - title: "Dream Wall — Students’ Aspirations"
+      description: "Huocheng, Ili, Xinjiang, China.\nHandwritten aspirations surround the Tongji Dream Classroom sign, bringing students’ own voices into the space."
+      aspect: "2560 / 1442"
+      image: "/assets/img/portfolio/tongji-dream-classroom/dream-wall.webp"
+    - title: "Volunteer Team — Shared Memories"
+      description: "Huocheng, Ili, Xinjiang, China.\nA team photograph records a shared moment during the volunteer experience."
+      aspect: "2560 / 1442"
+      image: "/assets/img/portfolio/tongji-dream-classroom/volunteer-team.webp"
+
+- title: "拉孜梦想教室 / Lhatse Dream Classroom"
+  card_title: "Lhatse Dream Classroom"
+  year: 2021
+  place: "Lhatse, Shigatse, Tibet, China"
+  subtitle: "Lhatse, Tibet"
+  country: "China"
+  kind: "Classroom Renovation and Volunteer Practice"
+  photo_title: "Lhatse Dream Classroom — Completed Interior"
+  image: "/assets/img/portfolio/lhatse-dream-classroom/completed-classroom.webp"
+  image_large: "/assets/img/portfolio/lhatse-dream-classroom/completed-classroom.webp"
+  alt: "Completed Lhatse Dream Classroom with stepped bookshelves, white tables, and a colorful landscape mural"
+  description: "Lhatse, Shigatse, Tibet, China.\nCompleted in 2021. The renovated classroom brings reading, teaching, independent study, and group discussion into one shared space. Stepped bookshelves, flexible tables, and a landscape mural connect the room’s activities and spatial identity."
+  count: 2
+  aspect: "767 / 511"
+  layout_span: 2
+  blog_url: "https://mp.weixin.qq.com/s/Ey6OsoMCLCJfH4P7ziNsDg"
+  blog_label: "Read project story"
+  photos:
+    - title: "Lhatse Dream Classroom — Completed Interior"
+      description: "Lhatse, Shigatse, Tibet, China.\nCompleted in 2021. The renovated classroom brings reading, teaching, independent study, and group discussion into one shared space. Stepped bookshelves, flexible tables, and a landscape mural connect the room’s activities and spatial identity."
+      aspect: "767 / 511"
+      image: "/assets/img/portfolio/lhatse-dream-classroom/completed-classroom.webp"
+    - title: "Before Renovation — Existing Space and School Requirements"
+      description: "Lhatse, Shigatse, Tibet, China.\nPage 4 of the original proposal records the existing classroom and the school’s requirements. The approximately 67 m² room was to accommodate independent study, lessons, reading, and discussion."
+      aspect: "1600 / 900"
+      image: "/assets/img/portfolio/lhatse-dream-classroom/before-renovation.webp"
