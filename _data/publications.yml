@@ -1,5 +1,12 @@
 main:
 
+  - title: "SAEarth: Can Sparse AutoEncoders Expose Interpretable Features in Geospatial Foundation Models?"
+    authors: <strong>Xu, W.</strong>, Agostini, G., Pierson, E.*, Blumenstock, J., Liang, L.
+    journal_short: 2026-
+    journal: Manuscript in Preparation.
+    image: ./assets/img/publication/saearth.png
+    image_alt: Satellite image examples and geographic distributions of landscape concepts identified by SAEarth
+
   - title: "Urban Cardiac Emergency Survival Inequities from Seen Infrastructure and Unseen Operations"
     authors: Lyu, D.†, Li, C.†, Li, J., <strong>Xu, W.</strong>, Guan, X., Wang, Y., Huo, Y., &amp; Li, T.*
     journal_short: 2025-

@@ -7,7 +7,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1">
+    <img src="{{ link.image }}" alt="{{ link.image_alt | escape }}" class="teaser img-fluid z-depth-1">
     {% if link.journal_short %} 
     <abbr class="badge">{{ link.journal_short }}</abbr>
     {% endif %}
