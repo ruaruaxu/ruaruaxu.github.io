@@ -1,16 +1,16 @@
 main:
 
-  - title: "SAEarth: Can Sparse AutoEncoders Expose Interpretable Features in Geospatial Foundation Models?"
-    authors: <strong>Xu, W.</strong>, Agostini, G., Pierson, E.*, Blumenstock, J., Liang, L.
+  - title: "SAEarth: Creating Interpretable Earth Embeddings with Sparse Autoencoders and LLM Agents"
+    authors: <strong>Wenrui Xu</strong>, Gabriel Agostini, Joshua Blumenstock, Lu Liang, Emma Pierson*
     journal_short: 2026-
-    journal: Manuscript in Preparation.
+    journal: Preprint forthcoming
     image: ./assets/img/publication/saearth.png
     image_alt: Satellite image examples and geographic distributions of landscape concepts identified by SAEarth
 
   - title: "Urban Cardiac Emergency Survival Inequities from Seen Infrastructure and Unseen Operations"
     authors: Lyu, D.†, Li, C.†, Li, J., <strong>Xu, W.</strong>, Guan, X., Wang, Y., Huo, Y., &amp; Li, T.*
     journal_short: 2025-
-    journal: Nature Cities (In revision).
+    journal: Revised manuscript under review at Nature Cities
     image: ./assets/img/publication/lyuUrbanCardiacEmergency2025.png
 
   - title: "Scalable Quantification of 3D Material Albedo Reveals Consistent Cooling Mechanisms and Unequal Mitigation Potential"
