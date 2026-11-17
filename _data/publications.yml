@@ -5,7 +5,7 @@ main:
     journal_short: 2026-
     journal: Preprint forthcoming
     image: ./assets/img/publication/saearth.png
-    image_alt: Satellite image examples and geographic distributions of landscape concepts identified by SAEarth
+    image_alt: SAEarth workflow showing sparse decomposition of Earth embeddings and interpretation of the resulting features by an LLM agent
 
   - title: "Urban Cardiac Emergency Survival Inequities from Seen Infrastructure and Unseen Operations"
     authors: Lyu, D.†, Li, C.†, Li, J., <strong>Xu, W.</strong>, Guan, X., Wang, Y., Huo, Y., &amp; Li, T.*
